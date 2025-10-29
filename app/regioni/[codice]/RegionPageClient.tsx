@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { ReactNode, useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 
 interface Metadata {
@@ -48,6 +48,64 @@ const FAMIGLIE_NORMATIVE: Record<string, { nome: string; colore: string }> = {
   'FN-L112': { nome: 'L.112/2016 Dopo di Noi', colore: 'bg-teal-100 text-teal-800' },
   'FN-REG': { nome: 'Normativa Regionale', colore: 'bg-gray-100 text-gray-800' },
   'FN-LEA': { nome: 'LEA', colore: 'bg-cyan-100 text-cyan-800' },
+}
+
+const formatLabel = (label: string) =>
+  label
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, (char) => char.toUpperCase())
+    .replace(/\bIsee\b/gi, 'ISEE')
+    .replace(/\bUvmd\b/gi, 'UVMD')
+    .replace(/\bAsl\b/gi, 'ASL')
+    .replace(/\bPec\b/gi, 'PEC')
+
+const renderValue = (value: unknown): ReactNode => {
+  if (value === null || value === undefined) {
+    return <span className="text-sm text-gray-500">Non disponibile</span>
+  }
+
+  if (typeof value === 'string') {
+    return <span className="text-sm text-gray-600 leading-relaxed">{value}</span>
+  }
+
+  if (typeof value === 'number') {
+    return <span className="text-sm text-gray-600">{value.toLocaleString('it-IT')}</span>
+  }
+
+  if (typeof value === 'boolean') {
+    return <span className="text-sm text-gray-600">{value ? 'Sì' : 'No'}</span>
+  }
+
+  if (Array.isArray(value)) {
+    if (value.length === 0) {
+      return <span className="text-sm text-gray-500">Nessun elemento</span>
+    }
+
+    return (
+      <ul className="list-disc list-inside space-y-1 text-sm text-gray-600">
+        {value.map((item, index) => (
+          <li key={`${index}-${typeof item}`} className="leading-relaxed">
+            {renderValue(item)}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+
+  if (typeof value === 'object') {
+    return (
+      <div className="space-y-3">
+        {Object.entries(value).map(([key, val]) => (
+          <div key={key}>
+            <p className="text-sm font-semibold text-gray-900">{formatLabel(key)}</p>
+            <div className="mt-1 ml-2">{renderValue(val)}</div>
+          </div>
+        ))}
+      </div>
+    )
+  }
+
+  return <span className="text-sm text-gray-600">{String(value)}</span>
 }
 
 type Props = {
@@ -271,6 +329,11 @@ export default function RegionPageClient({ codice }: Props) {
                     </span>
                   ))}
                 </div>
+                {selectedPrestazione.alias && selectedPrestazione.alias.length > 0 && (
+                  <p className="text-xs text-gray-500 mt-3">
+                    Conosciuta anche come: {selectedPrestazione.alias.join(', ')}
+                  </p>
+                )}
               </div>
               <button
                 onClick={() => setSelectedPrestazione(null)}
@@ -284,51 +347,41 @@ export default function RegionPageClient({ codice }: Props) {
             <div className="p-6 space-y-6">
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">Descrizione</h3>
-                <p className="text-gray-600">{selectedPrestazione.descrizione_breve}</p>
+                <p className="text-gray-600 leading-relaxed">{selectedPrestazione.descrizione_breve}</p>
               </section>
 
               {selectedPrestazione.requisiti && (
                 <section>
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Requisiti</h3>
-                  <pre className="bg-gray-50 p-4 rounded-lg text-sm text-gray-700 whitespace-pre-wrap">
-                    {JSON.stringify(selectedPrestazione.requisiti, null, 2)}
-                  </pre>
+                  <div className="bg-gray-50 p-4 rounded-lg space-y-2">{renderValue(selectedPrestazione.requisiti)}</div>
                 </section>
               )}
 
               {selectedPrestazione.benefit && (
                 <section>
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Benefit</h3>
-                  <pre className="bg-gray-50 p-4 rounded-lg text-sm text-gray-700 whitespace-pre-wrap">
-                    {JSON.stringify(selectedPrestazione.benefit, null, 2)}
-                  </pre>
+                  <div className="bg-gray-50 p-4 rounded-lg space-y-2">{renderValue(selectedPrestazione.benefit)}</div>
                 </section>
               )}
 
               {selectedPrestazione.accesso && (
                 <section>
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Accesso</h3>
-                  <pre className="bg-gray-50 p-4 rounded-lg text-sm text-gray-700 whitespace-pre-wrap">
-                    {JSON.stringify(selectedPrestazione.accesso, null, 2)}
-                  </pre>
+                  <div className="bg-gray-50 p-4 rounded-lg space-y-2">{renderValue(selectedPrestazione.accesso)}</div>
                 </section>
               )}
 
               {selectedPrestazione.governance && (
                 <section>
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Governance</h3>
-                  <pre className="bg-gray-50 p-4 rounded-lg text-sm text-gray-700 whitespace-pre-wrap">
-                    {JSON.stringify(selectedPrestazione.governance, null, 2)}
-                  </pre>
+                  <div className="bg-gray-50 p-4 rounded-lg space-y-2">{renderValue(selectedPrestazione.governance)}</div>
                 </section>
               )}
 
               {selectedPrestazione.stato && (
                 <section>
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Stato</h3>
-                  <pre className="bg-gray-50 p-4 rounded-lg text-sm text-gray-700 whitespace-pre-wrap">
-                    {JSON.stringify(selectedPrestazione.stato, null, 2)}
-                  </pre>
+                  <div className="bg-gray-50 p-4 rounded-lg space-y-2">{renderValue(selectedPrestazione.stato)}</div>
                 </section>
               )}
             </div>
