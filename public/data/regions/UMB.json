@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "nome_regione": "Umbria",
+    "codice_regione": "UMB",
+    "ultimo_aggiornamento": "2023-11-08",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://www.fidaldo.it/atlante/lavoratori-domestici/umbria-assegni-di-cura/",
+      "https://www.aisla.it/disabilita-e-non-autosufficienza-regione-umbria-amplia-il-fondo-45-milioni-di-euro/"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "UMB-assegno-cura-gravissimi-v2025",
+      "nome_ufficiale": "Assegni di cura per disabilit� gravissima e malattie rare",
+      "alias": [
+        "Contributi indiretti FNA Umbria"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-AC",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Contributi economici destinati a persone con **disabilit� gravissima** assistite a domicilio, introdotti in via sperimentale per sostenere la cura familiare e l'assunzione di assistenti personali:contentReference[oaicite:70]{index=70}. L'Umbria ha riservato importi differenziati in base alla tipologia di condizione: **1.200 �** al mese per persone con gravissima disabilit� associata a malattia rara; **800 �** al mese per persone con patologie del motoneurone, in particolare Sclerosi Laterale Amiotrofica (SLA); **600 �** al mese per le altre disabilit� gravissime non rare:contentReference[oaicite:71]{index=71}. Possono beneficiarne sia minori che adulti in condizione di dipendenza vitale (es. necessit� di ventilazione, nutrizione assistita) o con disturbi cognitivi-comportamentali gravissimi (es. Alzheimer avanzato):contentReference[oaicite:72]{index=72}:contentReference[oaicite:73]{index=73}. � richiesta la residenza in Umbria e la permanenza al domicilio con un piano assistenziale concordato con i servizi; sono esclusi i soggetti ospiti in strutture residenziali:contentReference[oaicite:74]{index=74}.",
+      "benefit": {
+        "periodicita": "mensile (con verifiche periodiche)",
+        "importo_min": 600,
+        "importo_max": 1200,
+        "equivalente_mensile": 1200,
+        "note": "Soglia ISEE **50.000 �** (adulti/anziani) o **65.000 �** (minori) per l�accesso al contributo:contentReference[oaicite:75]{index=75}. Entro tale soglia l'importo � fisso in base alla categoria (600/800/1200 �); nessun contributo oltre ISEE 50k/65k:contentReference[oaicite:76]{index=76}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� gravissima (ai sensi del DM 26/09/2016) domiciliate in Umbria, incluse persone affette da Sclerosi Laterale Amiotrofica (SLA) e altre malattie del motoneurone, soggetti con demenza gravissima (es. Alzheimer avanzato), e disabilit� gravissime con malattie rare:contentReference[oaicite:77]{index=77}:contentReference[oaicite:78]{index=78}"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione preliminare effettuata dall�Unit� multidisciplinare di valutazione (UMV) del Centro di Salute territorialmente competente, con redazione di un progetto assistenziale individualizzato:contentReference[oaicite:79]{index=79}. Necessaria certificazione di handicap grave (L.104/92 art.3 c.3) e � se del caso � certificazione di malattia rara/SLA rilasciata dai centri specialistici."
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Aziende USL umbre (Distretti sanitari) in collaborazione con Comuni capofila di Zona Sociale"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "Avviso pubblico annuale FNA tramite i Comuni capofila",
+          "Sportello del Centro di Salute (ASL) per modulistica e informazioni"
+        ],
+        "documenti_chiave": [
+          "Certificazione disabilit� gravissima (verbale commissione sanitaria)",
+          "Attestazione ISEE socio-sanitario",
+          "Certificato specialistico (diagnosi SLA/malattia rara se ricorre)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Nazionale Non Autosufficienza (quota disabili gravissimi)",
+          "Cofinanziamento regionale (Fondo regionale non autosufficienza):contentReference[oaicite:80]{index=80}"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Umbria n. 454/2017",
+            "url": "https://www.regione.umbria.it/documents/20174/506998/DGR+454-2017.pdf"
+          },
+          {
+            "atto": "DGR Umbria n. 993/2020 (PRINA 2019-21)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2017-04-21",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le USL e i Comuni di ciascun Ambito territoriale gestiscono gli avvisi e le graduatorie in base alle risorse assegnate e ai criteri regionali; pu� variare il numero di beneficiari ammessi per zona in funzione del fabbisogno e budget."
+      },
+      "ux": {
+        "priorita_contatto": 0.85,
+        "messaggio_consulenza": "Contatta il servizio sociale della USL di appartenenza o il tuo Comune per sapere come presentare domanda per l�assegno di cura disabilit� gravissima e avere supporto nella compilazione."
+      }
+    },
+    {
+      "prestazione_id": "UMB-progetti-vita-indipendente-v2025",
+      "nome_ufficiale": "Progetti di vita indipendente (Sperimentazione regionale)",
+      "alias": [
+        "Vita indipendente Umbria",
+        "Budget di salute sperimentale"
+      ],
+      "macro_categoria_id": "MC-SC",
+      "sotto_categoria_id": "SC-VI",
+      "famiglie_normative_ids": [
+        "FN-REG",
+        "FN-FNA"
+      ],
+      "descrizione_breve": "A partire dal 2023 la Regione Umbria ha avviato una sperimentazione di **progetti personalizzati** per l�assistenza indiretta a un pi� ampio numero di disabili gravi, come previsto dal PRINA (Piano regionale Non Autosufficienza). Questo approccio, in linea con il concetto di 'budget di salute', mira a superare la distinzione tra disabilit� grave e gravissima garantendo ad ogni persona un **progetto individuale di assistenza** costruito sui propri bisogni, con libert� di scelta tra servizi diretti o contributi economici:contentReference[oaicite:81]{index=81}:contentReference[oaicite:82]{index=82}. Nella bozza di intervento 2024 erano ipotizzati contributi mensili di **500 �** per minori con disabilit� e **300 �** per maggiorenni non autosufficienti:contentReference[oaicite:83]{index=83}, come sostegno aggiuntivo alle famiglie oltre i servizi forniti da ASL e cooperative. Tuttavia, l�attuazione completa di questi contributi � stata sospesa nel 2024 in favore della partecipazione dell�Umbria al progetto ministeriale di \"vita indipendente\" (sperimentazione nazionale ex D.Lgs 3/2024):contentReference[oaicite:84]{index=84}:contentReference[oaicite:85]{index=85}. Attualmente, l�Umbria sta riorientando le risorse verso tale sperimentazione, coinvolgendo un tavolo regionale sulla disabilit� e selezionando un campione di utenti per l�avvio nel **2025** della nuova gestione dei progetti personalizzati.",
+      "benefit": {
+        "periodicita": "mensile (previsto)",
+        "importo_min": 300,
+        "importo_max": 500,
+        "equivalente_mensile": 500,
+        "note": "Importi indicativi discussi nel 2024 (500 �/mese minori, 300 �/mese adulti) non attivati formalmente:contentReference[oaicite:86]{index=86}. Il beneficio � pensato come contributo integrativo e flessibile nell�ambito di un progetto personalizzato, soggetto a rendicontazione delle spese di cura."
+      },
+      "requisiti": {
+        "target": [
+          "Minori con disabilit� grave e adulti/anziani non autosufficienti assistiti al domicilio, attualmente privi di assegno di cura regionale (Umbria era una delle ultime regioni italiane a non erogare tale contributo):contentReference[oaicite:87]{index=87}"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione multidisciplinare da parte dell�UVMD dell�ASL e definizione di un piano personalizzato di assistenza. I progetti pilota di 'vita indipendente' 2025 verranno valutati da un coordinamento regionale in collaborazione col Ministero."
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Regione Umbria (coordinamento sperimentazione)",
+          "Aziende USL (presa in carico utenti)"
+        ],
+        "modalita": "non_definita",
+        "canali": [
+          "-"
+        ],
+        "documenti_chiave": [
+          "-"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Risorse FNA regionali 2022-2024 (oltre 4 milioni �) non utilizzate per assegni di cura:contentReference[oaicite:88]{index=88}",
+          "Finanziamenti sperimentazione Ministero Disabilit� 2025"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Umbria 95/2021 (Atto di indirizzo Assemblea legislativa)",
+            "url": ""
+          },
+          {
+            "atto": "Piano regionale non autosufficienza (PRINA) 2022-2024",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": false,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "In attesa di attuazione uniforme a livello regionale; prevista sperimentazione iniziale in un territorio pilota (es. Perugia) dal 2025:contentReference[oaicite:89]{index=89}:contentReference[oaicite:90]{index=90}."
+      },
+      "ux": {
+        "priorita_contatto": 0.3,
+        "messaggio_consulenza": "Mantieniti aggiornato attraverso le associazioni di categoria o i comunicati regionali: la Regione potrebbe riaprire i termini per progetti di assistenza indiretta personalizzata non appena definita la sperimentazione con il Ministero."
+      }
+    },
+    {
+      "prestazione_id": "UMB-ADI-sociosanitario-v2025",
+      "nome_ufficiale": "Servizi sociosanitari: Assistenza domiciliare integrata (ADI) e strutture residenziali",
+      "alias": [
+        "ADI Umbria",
+        "RSA Umbria"
+      ],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "SD-AD",
+      "famiglie_normative_ids": [
+        "FN-LEA",
+        "FN-SSR"
+      ],
+      "descrizione_breve": "L'Umbria garantisce l'**Assistenza Domiciliare Integrata (ADI)** come livello essenziale: tramite le USL vengono fornite cure domiciliari mediche, infermieristiche e riabilitative ai non autosufficienti, sulla base della valutazione UVM. In parallelo, i Comuni, spesso tramite le Zone Sociali, organizzano servizi di **assistenza domiciliare socio-assistenziale** (SAD) per interventi di sollievo e supporto domestico, con compartecipazione alla spesa modulata per reddito. L'inserimento in **Residenze Protette/RSA** per anziani non autosufficienti e disabili avviene secondo la programmazione territoriale: la Regione Umbria integra le rette di ricovero attraverso il Fondo regionale non autosufficienza, assicurando una compartecipazione sostenibile da parte dell'utente (con ISEE fino ~35.000 � l'anziano paga una quota ridotta, oltre interviene il Comune):contentReference[oaicite:91]{index=91}. Nel 2020 la Regione ha destinato risorse aggiuntive (4,5 milioni) per innalzare i livelli di assistenza domiciliare e residenziale, con particolare attenzione ai malati di SLA (cui si continuano ad applicare contributi dedicati di 800-1200 � mensili a seconda della fase della malattia):contentReference[oaicite:92]{index=92}:contentReference[oaicite:93]{index=93}.",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "ADI a carico SSN (nessun costo per l�assistito); SAD con tariffa oraria secondo regolamenti comunali; rette RSA calmierate con intervento pubblico: la Regione garantisce risorse FNA per mantenere retta a carico famiglia entro soglie accessibili."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti",
+          "Persone con disabilit� grave e gravissima"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione Unit� Multidisciplinare (UVM/UVMD) per definire il Piano Assistenziale Individuale (PAI) e l�eventuale punteggio di gravit� (SVaMA) per graduatorie di strutture."
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "USL Umbria (distretti sanitari)",
+          "Zone Sociali (Comuni capofila)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Medico di base (attivazione ADI)",
+          "Punti unici di accesso socio-sanitari (Distretti)",
+          "Servizi Sociali comunali (domiciliare sociale)"
+        ],
+        "documenti_chiave": [
+          "Scheda di valutazione UVM/SVAMA",
+          "Attestazione ISEE (per SAD/RSA)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Sanitario Regionale (ADI, quota sanitaria RSA)",
+          "Fondo regionale non autosufficienza (quota sociale RSA, progetti domiciliari)",
+          "Bilanci comunali (SAD, integrazione rette)"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. Umbria 9/2004 (sistema integrato servizi sociali)",
+            "url": ""
+          },
+          {
+            "atto": "PRINA Umbria 2019-2021",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "La gestione operativa � affidata a 12 Zone Sociali; possono differire le modalit� di accesso e il regolamento di compartecipazione economica per SAD e strutture, pur nell'ambito degli indirizzi regionali."
+      },
+      "ux": {
+        "priorita_contatto": 0.95,
+        "messaggio_consulenza": "Per attivare servizi domiciliari o richiedere ingresso in struttura, rivolgiti al tuo Distretto socio-sanitario (Sportello di Cittadinanza) dove potrai effettuare la valutazione multidisciplinare e ricevere orientamento sulle misure disponibili."
+      }
+    }
+  ]
+}

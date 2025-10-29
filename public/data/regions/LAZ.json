@@ -1,0 +1,688 @@
+{
+  "metadata": {
+    "nome_regione": "Lazio",
+    "codice_regione": "LAZ",
+    "ultimo_aggiornamento": "2025-10-28",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://www.vitaindipendenteroma.it/schede/assegno-di-cura-e-contributo-di-cura-caregiver/",
+      "https://www.aisla.it/rocca-priora-agevolazioni-per-lassistenza-alle-persone-non-autosufficienti-2024-2025/",
+      "https://www.paesesera.it/bonus-assistenza-disabili-lazio-arriva-sostegno-caregiver-familiari/"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "LAZ-ACgravissimi-v2025",
+      "nome_ufficiale": "Assegno di cura per disabilit� gravissima",
+      "alias": [],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-DIS-GRAV",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Buono economico mensile destinato alle persone in condizione di disabilit� gravissima per compensare le spese di assistenza a domicilio svolta da personale qualificato assunto privatamente dall�assistito o dalla famiglia:contentReference[oaicite:27]{index=27}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 500,
+        "importo_max": 800,
+        "equivalente_mensile": null,
+        "note": "Importo graduato in base all�ISEE sociosanitario e alla presenza di altri servizi attivi; varia indicativamente da �500 a �800 al mese se l�assistenza � garantita da personale con contratto regolare:contentReference[oaicite:28]{index=28}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� gravissima assistite a domicilio da personale qualificato (badante, OSS)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Disabilit� gravissima certificata da UVMD (criteri DM 26/09/2016)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Distretto sociosanitario (ASL e Comuni)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "presentazione domanda al Distretto"
+        ],
+        "documenti_chiave": [
+          "Certificazione disabilit� gravissima",
+          "ISEE sociosanitario",
+          "Contratto assistente domiciliare"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 897/2021 Lazio (criteri FNA gravissimi)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 622/2024 Lazio (riparto FNA 2023-2024)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2022-07-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Misura attuata dai Distretti sociosanitari secondo linee guida regionali uniformi:contentReference[oaicite:29]{index=29}:contentReference[oaicite:30]{index=30}"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Per l�assegno di cura contatta l�Ufficio di Piano del tuo Distretto sociosanitario o il tuo Comune: la domanda � aperta tutto l�anno in modalit� sportello."
+      }
+    },
+    {
+      "prestazione_id": "LAZ-CCgravissimi-v2025",
+      "nome_ufficiale": "Contributo di cura al caregiver familiare (disabilit� gravissima)",
+      "alias": [
+        "Buono caregiver familiare gravissimi"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-CAREGIVER",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Buono mensile riconosciuto alle persone con disabilit� gravissima assistite dal proprio caregiver familiare, in forma di contributo economico indiretto per il sostegno della cura in ambito domestico:contentReference[oaicite:31]{index=31}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 400,
+        "importo_max": 700,
+        "equivalente_mensile": null,
+        "note": "Importo graduato in base all�ISEE sociosanitario e alla fruizione di altri servizi; varia indicativamente da �400 a �700 al mese se l�assistenza � garantita interamente dal caregiver familiare:contentReference[oaicite:32]{index=32}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� gravissima assistite in via principale da un caregiver familiare convivente"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Disabilit� gravissima certificata (DM 2016)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Distretto sociosanitario"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "presentazione domanda continua"
+        ],
+        "documenti_chiave": [
+          "Certificazione disabilit� gravissima",
+          "ISEE sociosanitario",
+          "Dichiarazione caregiver convivente"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 897/2021 Lazio",
+            "url": ""
+          },
+          {
+            "atto": "L. 205/2017 art.1 c.254-255 (riconoscimento caregiver)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2022-07-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Misura complementare all�assegno di cura; non cumulabile con esso per lo stesso assistito (il Distretto valuta la forma pi� idonea):contentReference[oaicite:33]{index=33}:contentReference[oaicite:34]{index=34}"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Rivolgiti al tuo Municipio/Comune di residenza per richiedere il contributo caregiver: a Roma, ad esempio, la domanda � sempre aperta presso gli sportelli dedicati."
+      }
+    },
+    {
+      "prestazione_id": "LAZ-BuoniNonAutosuff-v2024",
+      "nome_ufficiale": "Buoni servizio per persone non autosufficienti (FSE+ 2021-27)",
+      "alias": [
+        "Voucher servizi di cura a domicilio"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-SERV-DOM",
+      "famiglie_normative_ids": [
+        "FN-FSE"
+      ],
+      "descrizione_breve": "Agevolazione economica (voucher) per coprire fino al 100% dei costi di servizi di assistenza socio-sanitaria a favore di persone non autosufficienti, finanziata con risorse europee (FSE+):contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": null,
+        "importo_max": 700,
+        "equivalente_mensile": 700,
+        "note": "Buono servizio del valore massimo di �700 al mese, erogato per un periodo continuativo fino a 12 mesi:contentReference[oaicite:37]{index=37}. I buoni coprono spese per assistenza domiciliare, centro diurno o assistenza da personale qualificato:contentReference[oaicite:38]{index=38}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone (o nuclei) con a carico una persona non autosufficiente che necessita di assistenza"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Certificazione di non autosufficienza (indennit� di accompagnamento o L.104/92 art.3 c.3)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Regione (assessorato politiche sociali)"
+        ],
+        "modalita": "bando",
+        "canali": [
+          "portale online dedicato (e.g. efamilysg.it)"
+        ],
+        "documenti_chiave": [
+          "ISEE",
+          "Certificazione invalidit� 100% con indennit� di accompagnamento"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FSE+",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "Avviso pubblico Regione Lazio 28/11/2024 (POR FSE+)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-11-28",
+        "scadenza": "2025-01-31"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Bando regionale unico, gestione domande tramite piattaforma; utilizzo buoni per servizi fruiti dal 1/7/2024 al 12/2025:contentReference[oaicite:39]{index=39}."
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Visita il portale regionale (efamilysg) nelle date di apertura del bando per richiedere i voucher assistenza; se necessiti di aiuto, contatta i patronati o l�AISLA Lazio:contentReference[oaicite:40]{index=40}."
+      }
+    },
+    {
+      "prestazione_id": "LAZ-SollievoCaregiver-v2025",
+      "nome_ufficiale": "Servizi di sollievo per caregiver familiari",
+      "alias": [
+        "Sostituzione temporanea del caregiver"
+      ],
+      "macro_categoria_id": "MC-SC",
+      "sotto_categoria_id": "SC-CAREGIVER",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Interventi domiciliari o residenziali temporanei volti a sostituire il caregiver familiare nell�assistenza quotidiana, permettendogli periodi di riposo. Il servizio pu� essere erogato mediante operatori professionali al domicilio o ricoveri temporanei in strutture socio-sanitarie:contentReference[oaicite:41]{index=41}.",
+      "benefit": {
+        "periodicita": "a progetto",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Copertura integrale (a carico della Regione) del costo di operatori domiciliari accreditati oppure del ricovero di sollievo in struttura per un periodo limitato, secondo il progetto personalizzato del caregiver."
+      },
+      "requisiti": {
+        "target": [
+          "Caregiver familiare riconosciuto (con Card Caregiver) che assiste persona non autosufficiente, in situazione di necessit� di sollievo"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD distrettuale (valuta bisogni assistito e caregiver)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Distretto sociosanitario"
+        ],
+        "modalita": "presa_in_carico_sociale",
+        "canali": [
+          "PUA distrettuale"
+        ],
+        "documenti_chiave": [
+          "Domanda Card Caregiver",
+          "Piano personalizzato assistenza (con scheda caregiver)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. 11/04/2024 n.5 art.11 (Interventi di sollievo caregiver)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 751/2024 (Linee guida attuative sollievo caregiver)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Servizi attivati dal Distretto su richiesta del caregiver, nei limiti delle risorse disponibili; priorit� ai caregiver mai beneficiari di sostegni e con ISEE pi� basso:contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}."
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Una volta ottenuta la Card Caregiver, potrai concordare col tuo Distretto servizi di sollievo (es. badante a domicilio per alcune settimane o degenza temporanea assistita) per avere tempo di riposo:contentReference[oaicite:44]{index=44}."
+      }
+    },
+    {
+      "prestazione_id": "LAZ-BudgetCaregiver-v2025",
+      "nome_ufficiale": "Budget personale del caregiver familiare",
+      "alias": [],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-CAREGIVER",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Contributo economico �personal budget� erogato direttamente al caregiver familiare formalmente riconosciuto, per sostenere spese legate al suo benessere personale, al sollievo e alla formazione/aggiornamento:contentReference[oaicite:45]{index=45}.",
+      "benefit": {
+        "periodicita": "una_tantum",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Importo a fondo perduto determinato dal Distretto (fino a esaurimento del budget regionale); utilizzabile per spese di cura della persona del caregiver, tempo libero, formazione professionale, ecc.:contentReference[oaicite:46]{index=46}."
+      },
+      "requisiti": {
+        "target": [
+          "Caregiver familiare riconosciuto con Card Caregiver"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Scheda caregiver nel Piano personalizzato (UVMD)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Distretto sociosanitario"
+        ],
+        "modalita": "presa_in_carico_sociale",
+        "canali": [
+          "PUA distrettuale"
+        ],
+        "documenti_chiave": [
+          "Scheda di riconoscimento caregiver",
+          "Domanda budget caregiver"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. 11/04/2024 n.5 art.12 (Budget personale caregiver)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 285/2025 (Programmazione risorse caregiver 2024)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": false,
+        "apertura": "2025-09-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Fondo limitato (1 milione � per il 2024); entit� del contributo e numero di beneficiari definiti dai Distretti in base alle domande e alle risorse:contentReference[oaicite:47]{index=47}:contentReference[oaicite:48]{index=48}."
+      },
+      "ux": {
+        "priorita_contatto": 0.5,
+        "messaggio_consulenza": "Informa l�assistente sociale del tuo Distretto se, come caregiver riconosciuto, intendi usufruire del budget personale per la tua formazione o benessere: verrai guidato nelle opportunit� disponibili."
+      }
+    },
+    {
+      "prestazione_id": "LAZ-DopoNoi-v2025",
+      "nome_ufficiale": "Interventi a favore di disabili gravi senza sostegno familiare (Dopo di Noi)",
+      "alias": [],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "SC-DSA",
+      "famiglie_normative_ids": [
+        "FN-L112"
+      ],
+      "descrizione_breve": "Programmi e progetti finanziati dal Fondo �Dopo di Noi� per garantire assistenza, soluzioni abitative e percorsi di autonomia alle persone con disabilit� grave prive del sostegno familiare, in attuazione della legge 112/2016:contentReference[oaicite:49]{index=49}.",
+      "benefit": {
+        "periodicita": "una_tantum",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Risorse assegnate a enti del Terzo Settore, Ambiti e ASL per realizzare interventi (es. gruppi appartamento, programmi di accrescimento competenze, ristrutturazione di abitazioni) destinati ai beneficiari."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave (18-64 anni) senza sostegno familiare presente o in vista del venir meno dei genitori/tutori"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Progetto individuale approvato dal servizio sociale competente"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Territoriale Sociale",
+          "ASL"
+        ],
+        "modalita": "manifestazione_interesse",
+        "canali": [
+          "avvisi pubblici locali (Ambiti)"
+        ],
+        "documenti_chiave": [
+          "Progetto individuale L.112/2016",
+          "Documentazione stato familiare (assenza sostegno)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo statale Dopo di Noi",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "L. 112/2016 (Dopo di Noi)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 589/2024 Lazio (riparto Fondo 2023)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2017-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "I progetti sono presentati dagli Ambiti territoriali e co-progettati con ASL e Terzo Settore; la Regione approva il finanziamento e monitora l�attuazione:contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}."
+      },
+      "ux": {
+        "priorita_contatto": 0.5,
+        "messaggio_consulenza": "Se sei un potenziale beneficiario del �Dopo di Noi�, contatta il tuo Comune/Ambito o associazioni di disabili: potrai essere inserito in progetti di autonomia abitativa finanziati dal Fondo."
+      }
+    },
+    {
+      "prestazione_id": "LAZ-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [
+        "Cure domiciliari integrate"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SC-SAN-DOM",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio di assistenza domiciliare integrata, erogato dalla ASL, che fornisce prestazioni sanitarie (infermieristiche, riabilitative, mediche) e socio-assistenziali a domicilio di persone non autosufficienti o con patologie croniche, evitando o riducendo i ricoveri ospedalieri.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Prestazioni domiciliari programmate secondo un Piano Assistenziale Individuale (visite infermieristiche, fisioterapia, aiuto nell�igiene personale, consegna presidi, ecc.)."
+      },
+      "requisiti": {
+        "target": [
+          "Persone non autosufficienti o con bisogno sanitario a lungo termine gestibile a domicilio"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione geriatrica o specialistica ASL, UVI (Unit� Valutativa Integrata)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (Distretto sanitario)"
+        ],
+        "modalita": "presa_in_carico_sanitaria",
+        "canali": [
+          "richiesta del medico di famiglia",
+          "PUA distrettuale"
+        ],
+        "documenti_chiave": [
+          "Impegnativa del medico curante",
+          "Scheda di valutazione UVMD"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR (Fondo Sanitario Regionale)"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 136/2022 Lazio (Piano Assistenza Domiciliare)",
+            "url": ""
+          },
+          {
+            "atto": "LEA DPCM 12/01/2017 (Assistenza domiciliare)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Attiva in tutti i Distretti socio-sanitari; livelli di intensit� (ADI I, ADI II, ADI III) in base alla complessit� del caso."
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Se tu o un tuo caro avete bisogno di assistenza sanitaria a domicilio, contatta il medico di base o il PUA della ASL: potrai accedere all�ADI con un piano personalizzato di cure."
+      }
+    },
+    {
+      "prestazione_id": "LAZ-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [
+        "Assistenza domiciliare comunale"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SC-SOC-DOM",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Servizio sociale comunale che fornisce assistenza domiciliare a persone anziane o disabili con limitata autonomia, supportandole nelle attivit� giornaliere (cura della persona, pulizia della casa, pasti, accompagnamento) per prevenire l�istituzionalizzazione.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Interventi domiciliari a ore, secondo un piano settimanale stabilito dall�assistente sociale; eventuale compartecipazione economica dell�utente in base all�ISEE e al regolamento comunale."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti o parzialmente autosufficienti",
+          "Persone con disabilit� bisognose di aiuto domestico"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione servizio sociale comunale (eventuale UVI)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune/Ambito Territoriale (Municipio a Roma)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Ufficio Servizi Sociali del Comune/Municipio"
+        ],
+        "documenti_chiave": [
+          "Domanda SAD",
+          "ISEE",
+          "Certificazioni mediche se richieste"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Comuni",
+          "Fondo Sociale Regionale"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. 11/2016 Lazio (sistema servizi sociali)",
+            "url": ""
+          },
+          {
+            "atto": "Atto di Indirizzo regionale SAD 2017",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ciascun Distretto/Ambito stabilisce criteri di accesso e quote di compartecipazione; a Roma il SAD � articolato in SAISA (anziani) e SAISH (disabili) gestiti dai Municipi."
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Per attivare l�assistenza domiciliare comunale, rivolgiti al tuo Comune (o Municipio): un assistente sociale valuter� i bisogni tuoi o del tuo familiare e definir� un piano di intervento a domicilio."
+      }
+    },
+    {
+      "prestazione_id": "LAZ-RSA-v2025",
+      "nome_ufficiale": "Residenza Sanitaria Assistenziale (RSA) e strutture sociosanitarie",
+      "alias": [
+        "Assistenza residenziale per non autosufficienti"
+      ],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SC-STR-RES",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Ospitalit� in strutture residenziali accreditate (RSA per anziani, strutture per disabili) che garantiscono assistenza medico-infermieristica, riabilitativa e alberghiera h24 a persone non autosufficienti, quando l�assistenza domiciliare non � pi� possibile o adeguata.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Posto in RSA con quota sanitaria coperta dal SSR (secondo il minutaggio di assistenza) e quota sociale a carico dell�utente (o del Comune se l�utente non pu� pagare). Possibili ricoveri temporanei di sollievo con oneri a carico SSR per un periodo limitato."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti",
+          "Persone con disabilit� grave senza adeguante supporto a domicilio"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "UVMD (Unit� Valutativa Multidimensionale Distrettuale) per ammissione in struttura"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (commissione valutazione e autorizzazione)",
+          "Ente gestore struttura"
+        ],
+        "modalita": "lista_d�attesa",
+        "canali": [
+          "PUA/ASL di residenza",
+          "Servizi Sociali comunali"
+        ],
+        "documenti_chiave": [
+          "Scheda UVMD con punteggio di gravit�",
+          "Domanda di ingresso in RSA",
+          "ISEE sociosanitario"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Utente/Comune"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 124/2015 Lazio (accreditamento RSA)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 130/2022 Lazio (adeguamento tariffe RSA)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "La Regione definisce requisiti e tariffe standard; le ASL gestiscono le graduatorie e l�assegnazione dei posti RSA sul territorio."
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Se necessiti di ricovero in RSA, fatti valutare dall�UVMD tramite la ASL: ti verr� attribuito un punteggio in base al quale potrai accedere a una struttura convenzionata. Informati anche presso il tuo Comune sui contributi per la retta."
+      }
+    }
+  ]
+}

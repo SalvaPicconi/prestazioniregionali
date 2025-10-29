@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "nome_regione": "Campania",
+    "codice_regione": "CAM",
+    "ultimo_aggiornamento": "2025-10-28",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://comune.pianadimonteverna.ce.it/novita/3411273/erogazione-assegno-cura-voucher-disabili",
+      "https://www.regione.campania.it",
+      "https://www.pianodizonas2.it/assegni-di-cura"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "CAM-assegno-gravissimi-v2025",
+      "nome_ufficiale": "Assegni di cura e voucher per persone con disabilit� gravissima",
+      "alias": [],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-disabilita-gravissima",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Misura regionale che prevede l�erogazione di un assegno mensile o voucher servizi alle persone in condizioni di disabilit� gravissima, per favorirne l�assistenza domiciliare:contentReference[oaicite:39]{index=39}",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 720,
+        "importo_max": 1320,
+        "equivalente_mensile": 1200,
+        "note": "Importo massimo �1200/mese:contentReference[oaicite:40]{index=40}. Riduzione 40% (a �720) se ISEE > �20.000 (o >�35.000 se minore) o se usufruisce di altri servizi domiciliari:contentReference[oaicite:41]{index=41}. Possibile maggiorazione +10% (fino �1320) per casi di supporto vitale (es. ventilati) senza altri aiuti:contentReference[oaicite:42]{index=42}"
+      },
+      "requisiti": {
+        "target": [
+          "persone con disabilit� gravissima (ogni et�)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVI (Unit� Valutativa Integrata) distrettuale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Territoriale Sociale"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello sociale comunale"
+        ],
+        "documenti_chiave": [
+          "verbale UVI (gravissima)",
+          "ISEE sociosanitario",
+          "certificato invalidit� con indennit� di accompagnamento"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Campania n.121/2023 � Piano regionale non autosufficienza 2022-24",
+            "url": ""
+          },
+          {
+            "atto": "DGR Campania n.70/2024 � Criteri erogazione assegni di cura FNA",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-05-01",
+        "scadenza": "2025-11-30"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ambiti e Distretti Sanitari attuano il programma: valutazioni UVI e graduatorie locali; l'assegno pu� essere erogato direttamente al caregiver o sotto forma di voucher servizi equivalenti"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Contatta il tuo Ambito sociale di residenza per ottenere modulistica e assistenza per la domanda di assegno di cura"
+      }
+    },
+    {
+      "prestazione_id": "CAM-assegno-gravi-v2025",
+      "nome_ufficiale": "Assegni di cura e voucher per persone con disabilit� grave",
+      "alias": [],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-disabilita-grave",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Contributi economici o titoli di acquisto servizi domiciliari destinati a persone con disabilit� grave (non autosufficienti ma non classificabili come gravissime)",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 360,
+        "importo_max": 720,
+        "equivalente_mensile": 600,
+        "note": "Importo indicativo circa la met� dell�assegno gravissimi; modulabile in base a ISEE e altri servizi fruiti. In molti Ambiti, l�erogazione per disabili gravi avviene solo dopo aver coperto tutti i gravissimi"
+      },
+      "requisiti": {
+        "target": [
+          "persone con disabilit� grave (L.104 art.3 c.3)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 20000,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "UVI distrettuale",
+          "scheda di valutazione sociale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Territoriale"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello comunale"
+        ],
+        "documenti_chiave": [
+          "certificato L.104 art.3 c.3",
+          "ISEE sociosanitario"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione",
+          "Comuni"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Campania n.325/2020 � Programma assegni di cura disabili gravi/gravissimi",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-06-01",
+        "scadenza": "2024-11-30"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Molti Ambiti destinano eventuali risorse residue (dopo aver assistito tutti i gravissimi) all�erogazione di assegni o servizi per i disabili gravi"
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Verifica presso i servizi sociali se, a seguito della graduatoria gravissimi, il tuo Ambito eroga contributi per disabili gravi e come presentare richiesta"
+      }
+    },
+    {
+      "prestazione_id": "CAM-sostegno-caregiver-v2025",
+      "nome_ufficiale": "Programma di supporto ai caregiver familiari",
+      "alias": [],
+      "macro_categoria_id": "MC-SC",
+      "sotto_categoria_id": "SC-caregiver",
+      "famiglie_normative_ids": [
+        "FN-FCF"
+      ],
+      "descrizione_breve": "Azioni finanziate tramite il Fondo caregiver per riconoscere il ruolo dei caregiver (es. bonus economici, formazione, assistenza sostitutiva temporanea)",
+      "benefit": {
+        "periodicita": "una tantum/progetti",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "La Regione Campania utilizza il Fondo caregiver prevalentemente per servizi di sollievo (assistenza domiciliare aggiuntiva nei weekend, accoglienza diurna/residenziale di breve termine) e per interventi formativi e psicologici rivolti ai caregiver, pi� che per bonus monetari diretti"
+      },
+      "requisiti": {
+        "target": [
+          "caregiver di persone non autosufficienti (priorit� a disabilit� gravissima)"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "valutazione sociale del bisogno di sollievo"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Territoriale",
+          "ASL"
+        ],
+        "modalita": "progetto",
+        "canali": [
+          "servizi sociali comunali"
+        ],
+        "documenti_chiave": [
+          "richiesta di intervento di sollievo",
+          "scheda valutazione sociale"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Caregiver nazionale"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Campania n.534/2022 � Programmazione risorse caregiver 2021-22",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "A seconda dei piani di zona, i fondi caregiver possono essere tradotti in assistenza domiciliare aggiuntiva, sportelli di supporto psicologico o piccoli contributi economici una tantum per i caregiver"
+      },
+      "ux": {
+        "priorita_contatto": 0.4,
+        "messaggio_consulenza": "Chiedi al tuo Ambito se esistono progetti di sollievo o iniziative dedicate ai caregiver (ad es. voucher per assistenti familiari temporanei)"
+      }
+    },
+    {
+      "prestazione_id": "CAM-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-sociosanitario-domiciliare",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio di assistenza domiciliare integrata offerto dal SSR Campano per pazienti non autosufficienti (prestazioni infermieristiche, riabilitative, mediche a domicilio)",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "ADI attivata tramite l�ASL di competenza; gratuita per l�utente. Copre cure a domicilio secondo un livello di intensit� (ADI base o ADI complessa) definito dall�UVMD"
+      },
+      "requisiti": {
+        "target": [
+          "persone non autosufficienti con necessit� di cure domiciliari"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD ASL"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (Distretto Sanitario)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "richiesta del MMG",
+          "PUA distrettuale"
+        ],
+        "documenti_chiave": [
+          "impegnativa medica",
+          "valutazione geriatrica/interna"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR Campania"
+        ],
+        "normativa": [
+          {
+            "atto": "Piano Regionale Sanitario 2020-2022 (sviluppo ADI e cure domiciliari)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le ASL organizzano l�ADI in base ai distretti; esistono differenze nelle dotazioni (es. team ADI pi� o meno estesi a seconda dell�ASL)"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Contatta il PUA della tua ASL per richiedere una visita UVI domiciliare finalizzata all�attivazione dell�ADI"
+      }
+    },
+    {
+      "prestazione_id": "CAM-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-assistenza-domiciliare",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Interventi domiciliari di natura socio-assistenziale erogati dai Comuni (igiene personale, spesa, compagnia), rivolti prevalentemente ad anziani non autosufficienti",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Il SAD viene fornito attraverso operatori OSS o assistenti domiciliari per alcune ore settimanali. L�utente pu� essere tenuto a pagare una quota oraria secondo il proprio ISEE (esenzione per fasce deboli)"
+      },
+      "requisiti": {
+        "target": [
+          "anziani non autosufficienti",
+          "persone con limitazioni funzionali senza adeguato aiuto familiare"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Assistente sociale comunale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune/Ambito"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "ufficio servizi sociali"
+        ],
+        "documenti_chiave": [
+          "ISEE",
+          "scheda sociale del Comune"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Comuni",
+          "FNA (quota servizi)"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. Campania 11/2007 � Legge per la dignit� sociale (sistema integrato)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ogni Ambito territoriale ha un proprio regolamento per l�accesso al SAD, definendo priorit� (solitudine, assenza rete familiare, ecc.) e contributi utente differenziati per scaglioni ISEE"
+      },
+      "ux": {
+        "priorita_contatto": 0.75,
+        "messaggio_consulenza": "Presenta domanda di SAD presso il tuo Comune; un assistente sociale valuter� a domicilio la situazione e ti informer� sul contributo eventuale a tuo carico"
+      }
+    },
+    {
+      "prestazione_id": "CAM-RSA-v2025",
+      "nome_ufficiale": "RSA e strutture residenziali socio-sanitarie accreditate",
+      "alias": [],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SR-residenziale",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Strutture residenziali per anziani non autosufficienti (RSA) e per disabili (es. comunit� alloggio con assistenza h24) convenzionate con la Regione, in grado di fornire cure di lungo termine",
+      "benefit": {
+        "periodicita": "residenziale continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "La retta � coperta per una quota sanitaria (circa 50%) dal SSR e per la quota sociale dall�utente/famiglia (in base all�ISEE) o dal Comune. L�inserimento richiede valutazione e autorizzazione dell�ASL (UVI)"
+      },
+      "requisiti": {
+        "target": [
+          "anziani con gravi non autosufficienze",
+          "persone con grave disabilit� prive di sostegno familiare adeguato"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVI distrettuale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL",
+          "Ente gestore struttura"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Ufficio UVMD ASL",
+          "servizi sociali comunali"
+        ],
+        "documenti_chiave": [
+          "verbale UVI",
+          "certificato medico",
+          "ISEE residenze"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Comuni",
+          "utente/famiglia"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Campania n.787/2019 � Accreditamento unit� di offerta residenziali",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "La rete di RSA in Campania � in via di potenziamento; la disponibilit� di posti convenzionati varia tra ASL. Possibili contributi regionali (Progetto \"Ritorno a casa\") per favorire il reinserimento domiciliare vs ricovero"
+      },
+      "ux": {
+        "priorita_contatto": 0.65,
+        "messaggio_consulenza": "Rivolgiti ai servizi sociali o all�assistente sociale di distretto per avviare la pratica di valutazione multidimensionale finalizzata all�ingresso in RSA"
+      }
+    }
+  ]
+}

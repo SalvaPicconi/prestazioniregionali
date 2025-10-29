@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "nome_regione": "Basilicata",
+    "codice_regione": "BAS",
+    "ultimo_aggiornamento": "2025-10-28",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://gravissimi.regione.basilicata.it/",
+      "https://www.welforum.it/segnalazioni/regione-basilicata-dgr-654-2024-documento-di-programmazione-regionale-esecutiva-per-la-regolazione-degli-assegni-di-cura-e-voucher/",
+      "https://www.policoro.basilicata.it/files/docs/17/45/56/DOCUMENT_FILE_174556.pdf",
+      "https://giornalemio.it/cronaca/un-aiuto-concreto-ai-caregiver-familiari-pubblicato-lavviso-pubblico-per-il-contributo-economico-2022/"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "BAS-contributo-gravissimi-v2025",
+      "nome_ufficiale": "Contributo economico per l�assistenza a domicilio delle persone con disabilit� gravissima",
+      "alias": [
+        "Assegno di cura disabilit� gravissima Basilicata"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-disabilita-gravissima",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Assegno mensile per sostenere la cura a domicilio di persone non autosufficienti con disabilit� gravissima (art.3 DM 26/09/2016):contentReference[oaicite:23]{index=23}",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 400,
+        "importo_max": 800,
+        "equivalente_mensile": 600,
+        "note": "Importo variabile in base all�intensit� assistenziale; contributo non frazionabile per periodi inferiori a 15 giorni:contentReference[oaicite:24]{index=24}"
+      },
+      "requisiti": {
+        "target": [
+          "persone con disabilit� gravissima in assistenza domiciliare continuativa"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD (SVaMA)",
+          "L.104/92 art.3 c.3"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito socio-territoriale",
+          "Comune capofila Ambito"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "piattaforma regionale online",
+          "sportello sociale comunale"
+        ],
+        "documenti_chiave": [
+          "certificato invalidit� 100% con indennit� accompagnamento",
+          "ISEE sociosanitario",
+          "verbale UVMD"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Basilicata n.654/2024 � Programma regionale Assegni di cura 2022-24",
+            "url": ""
+          },
+          {
+            "atto": "DGR Basilicata n.229/2024 � Riparto FNA 2023 (Disabilit� gravissima)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-06-01",
+        "scadenza": "2024-06-30"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Bando e gestione unificata a livello regionale tramite piattaforma; istruttoria affidata agli Ambiti territoriali"
+      },
+      "ux": {
+        "priorita_contatto": 0.85,
+        "messaggio_consulenza": "Per informazioni contatta il Numero Verde regionale dedicato al bando disabilit� gravissime"
+      }
+    },
+    {
+      "prestazione_id": "BAS-assegni-voucher-nonautosuff-v2025",
+      "nome_ufficiale": "Assegni di cura e voucher per anziani non autosufficienti e persone con disabilit� grave",
+      "alias": [
+        "Programma assegni di cura e voucher FNA Basilicata"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-nonautosufficienza",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Sistema di sostegni economici o titoli di acquisto servizi rivolto a persone non autosufficienti (anziani e disabili), alternativo al ricovero in strutture:contentReference[oaicite:25]{index=25}",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 300,
+        "importo_max": 600,
+        "equivalente_mensile": 500,
+        "note": "Assegno o voucher calibrato al bisogno: entit� definita dall�UVM (es. intensit� �moderata� ~�400/mese; �intensiva� ~�600/mese):contentReference[oaicite:26]{index=26}"
+      },
+      "requisiti": {
+        "target": [
+          "anziani non autosufficienti",
+          "persone con disabilit� grave"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "SVaMA (Scheda Valutazione Multidimensionale)",
+          "UVMD distrettuale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito socio-territoriale"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello sociale comunale"
+        ],
+        "documenti_chiave": [
+          "scheda SVaMA compilata",
+          "certificato L.104 art.3 c.3",
+          "ISEE sociosanitario"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione",
+          "Comuni"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Basilicata n.654/2024 � Regolazione assegni di cura e voucher",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-05-05",
+        "scadenza": "2025-06-04"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Gli Ambiti ripartiscono le risorse in assegni o voucher a seconda delle preferenze dell�utente e del PAI"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Rivolgiti al tuo Comune per presentare domanda di accesso agli assegni di cura/voucher non autosufficienza"
+      }
+    },
+    {
+      "prestazione_id": "BAS-bonus-caregiver-v2025",
+      "nome_ufficiale": "Contributo per il sostegno del ruolo di cura del caregiver familiare",
+      "alias": [
+        "Bonus caregiver Basilicata"
+      ],
+      "macro_categoria_id": "MC-SC",
+      "sotto_categoria_id": "SC-caregiver",
+      "famiglie_normative_ids": [
+        "FN-FCF"
+      ],
+      "descrizione_breve": "Erogazione di un contributo economico una tantum a favore di familiari caregiver di persone con disabilit� grave o gravissima, finanziato con il Fondo nazionale caregiver familiare:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}",
+      "benefit": {
+        "periodicita": "una tantum",
+        "importo_min": 400,
+        "importo_max": 500,
+        "equivalente_mensile": null,
+        "note": "Importo una tantum: �500 per caregiver di persona con disabilit� gravissima, �400 se disabilit� grave; +50% se assiste due o pi� familiari (es. �750 se due gravissimi):contentReference[oaicite:29]{index=29}:contentReference[oaicite:30]{index=30}"
+      },
+      "requisiti": {
+        "target": [
+          "caregiver familiare convivente di persona con disabilit� grave o gravissima"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "certificazione disabilit� assistito (grave/gravissima)",
+          "criteri punteggio sociale per condizioni caregiver"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune capofila Ambito (es. Matera)"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "modulo cartaceo",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "stato di famiglia",
+          "documento identit� caregiver",
+          "certificato L.104 art.3 c.3 assistito"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Caregiver nazionale"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Basilicata n.273/2024 � Indirizzi programmazione Fondo Caregiver 2023",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-10-20",
+        "scadenza": "2025-11-13"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ogni Ambito territoriale pubblica il proprio avviso; graduatorie stilate in base a punteggi sociali (carico assistenziale, situazione lavorativa, ecc.):contentReference[oaicite:31]{index=31}:contentReference[oaicite:32]{index=32}"
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Informati presso il tuo Comune capofila di Ambito sulla disponibilit� di contributi caregiver e sulle scadenze"
+      }
+    },
+    {
+      "prestazione_id": "BAS-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-sociosanitario-domiciliare",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio di cure domiciliari integrate socio-sanitarie rivolto a persone non autosufficienti (assistenza infermieristica, riabilitativa e interventi socioassistenziali a domicilio)",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "L�ADI � fornita dall�ASP (Azienda Sanitaria Provinciale) senza costi per l�utente, secondo un piano personalizzato; intensit� variabile da accessi settimanali fino a assistenza quotidiana"
+      },
+      "requisiti": {
+        "target": [
+          "persone non autosufficienti con bisogni sanitari domiciliari"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD sanitaria della ASP"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASP (Distretto sanitario)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "segnalazione medico curante",
+          "PUA distrettuale"
+        ],
+        "documenti_chiave": [
+          "impegnativa medica",
+          "verbale UVMD"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR Basilicata"
+        ],
+        "normativa": [
+          {
+            "atto": "Programma Attuativo Locale (PAL) Cure Domiciliari � ASP Basilicata",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le ASP di Potenza e Matera organizzano l�ADI in base ai PAL; tempi di attivazione e disponibilit� possono variare per territorio"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Chiedi al medico di base di attivare la valutazione UVM dell�ASP per usufruire dell�ADI"
+      }
+    },
+    {
+      "prestazione_id": "BAS-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-assistenza-domiciliare",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Servizio di assistenza domiciliare socio-assistenziale (aiuto per l�igiene personale, governo della casa, pasti) rivolto ad anziani e disabili in condizioni di parziale non autosufficienza",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Erogazione in ore di servizio a domicilio (in genere 2�6 ore/settimana secondo il bisogno); l�utente pu� dover contribuire al costo in base all�ISEE"
+      },
+      "requisiti": {
+        "target": [
+          "anziani parzialmente non autosufficienti",
+          "persone con disabilit� non totalmente autosufficienti"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "servizio sociale professionale comunale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune",
+          "Consorzio/Ambito"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "ufficio servizi sociali comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE",
+          "scheda sociale del Comune"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Comuni",
+          "FNA (integrazione)"
+        ],
+        "normativa": [
+          {
+            "atto": "Regolamento regionale integrazione socio-sanitaria Basilicata (DGR 691/2010)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ogni Ambito ha un proprio regolamento SAD che definisce criteri di accesso, tariffe e priorit�"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Contatta l�Assistente Sociale del tuo Comune per richiedere l�attivazione del SAD"
+      }
+    },
+    {
+      "prestazione_id": "BAS-residenze-v2025",
+      "nome_ufficiale": "Strutture residenziali socio-sanitarie (RSA e strutture per disabili)",
+      "alias": [],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SR-residenziale",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Accoglienza presso RSA (per anziani non autosufficienti) o strutture residenziali per disabili adulti, con assistenza continua e interventi sanitari di base",
+      "benefit": {
+        "periodicita": "residenziale continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "La retta � coperta in parte dal SSR (quota sanitaria) e in parte dall�utente/Comune (quota sociale). Possibili integrazioni economiche comunali per utenti indigenti"
+      },
+      "requisiti": {
+        "target": [
+          "anziani non autosufficienti gravi",
+          "disabili adulti privi di adeguato supporto familiare"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "UVMD (ASP)",
+          "progetto di inserimento condiviso con Servizi sociali"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASP (per inserimento in RSA sanitaria)",
+          "Comune/Ambito (per strutture socioassistenziali)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "PUA distrettuale",
+          "servizi sociali comunali"
+        ],
+        "documenti_chiave": [
+          "verbale UVMD",
+          "ISEE residenze"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Comuni",
+          "utente/famiglia"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Basilicata 691/2010 � Requisiti strutture residenziali socio-sanitarie",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Accreditamento regionale delle RSA; il fabbisogno posti � programmato a livello regionale. Inserimenti autorizzati dall�ASP competente"
+      },
+      "ux": {
+        "priorita_contatto": 0.65,
+        "messaggio_consulenza": "Rivolgiti al Punto Unico di Accesso dell�ASP per conoscere le strutture residenziali e sulle procedure di ingresso"
+      }
+    }
+  ]
+}

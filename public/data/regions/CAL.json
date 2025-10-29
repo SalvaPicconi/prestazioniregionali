@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "nome_regione": "Calabria",
+    "codice_regione": "CAL",
+    "ultimo_aggiornamento": "2025-10-28",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://bagaladi.comune.digital/news/avviso-pubblico-asp-reggio-calabria-assegno-di-cura-disabilita-gravissima",
+      "https://www.regione.calabria.it",
+      "https://www.aisla.it/tag/assegno-di-cura/"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "CAL-assegno-gravissima-v2025",
+      "nome_ufficiale": "Assegno di cura per disabilit� gravissima",
+      "alias": [],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-disabilita-gravissima",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Contributo economico mensile per persone con disabilit� gravissima che necessitano di assistenza 24/7, erogato per favorire la permanenza al domicilio:contentReference[oaicite:34]{index=34}",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 600,
+        "importo_max": 1000,
+        "equivalente_mensile": 600,
+        "note": "�1000/mese per persone in dipendenza vitale (es. ventilazione meccanica), �600/mese per altri casi di disabilit� gravissima:contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}"
+      },
+      "requisiti": {
+        "target": [
+          "persone con disabilit� gravissima (DM 26/09/2016)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD (ASP)",
+          "L.104/92 art.3 c.3"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASP (Azienda Sanitaria Provinciale)"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "PEC ASP",
+          "sportello ASP"
+        ],
+        "documenti_chiave": [
+          "verbale L.104 art.3 c.3",
+          "certificato accompagnamento INPS",
+          "ISEE sociosanitario"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Calabria n.590/2022 � Piano regionale non autosufficienza 2022-24",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-09-12",
+        "scadenza": "2025-10-12"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le ASP provinciali pubblicano bandi e graduatorie; l�importo pu� variare in base ai fondi disponibili per ciascuna ASP"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Contatta l�ASP di residenza (Ufficio Piano Non Autosufficienza) per presentare domanda di assegno di cura"
+      }
+    },
+    {
+      "prestazione_id": "CAL-sollievo-caregiver-v2025",
+      "nome_ufficiale": "Interventi di sollievo e supporto per caregiver familiari",
+      "alias": [
+        "Fondo Caregiver Calabria"
+      ],
+      "macro_categoria_id": "MC-SC",
+      "sotto_categoria_id": "SC-caregiver",
+      "famiglie_normative_ids": [
+        "FN-FCF"
+      ],
+      "descrizione_breve": "Iniziative a sostegno dei caregiver (bonus economici, servizi di sollievo a domicilio, assistenza temporanea) finanziate con il Fondo caregiver familiare:contentReference[oaicite:37]{index=37}:contentReference[oaicite:38]{index=38}",
+      "benefit": {
+        "periodicita": "una tantum/progetti",
+        "importo_min": 500,
+        "importo_max": 1000,
+        "equivalente_mensile": null,
+        "note": "Previsti contributi economici una tantum (in media �600) per riconoscere il lavoro di cura, e servizi gratuiti di sollievo (ore di assistenza domiciliare aggiuntive, ricoveri temporanei) come supporto al caregiver"
+      },
+      "requisiti": {
+        "target": [
+          "caregiver di persone con disabilit� gravissima"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "valutazione sociale dell�Ambito",
+          "certificazione disabilit� assistito"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Territoriale",
+          "ASP (in coordinamento)"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello comunale",
+          "PEC Comune capofila"
+        ],
+        "documenti_chiave": [
+          "dichiarazione attivit� di cura",
+          "documenti assistito (verbali invalidit�)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Caregiver nazionale"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Calabria n.425/2025 � Linee guida UVMD e PUA (include caregiver)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-02-21",
+        "scadenza": "2025-03-31"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Gli Ambiti decidono la combinazione di bonus e servizi di sollievo da erogare, in base ai bisogni locali e alle risorse disponibili"
+      },
+      "ux": {
+        "priorita_contatto": 0.5,
+        "messaggio_consulenza": "Verifica presso il tuo Comune/Ambito se vi sono bonus caregiver o servizi di sollievo attivi e come fare richiesta"
+      }
+    },
+    {
+      "prestazione_id": "CAL-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-sociosanitario-domiciliare",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio di assistenza domiciliare integrata fornito dal Servizio Sanitario Regionale, per garantire cure sanitarie e socio-assistenziali a casa a persone non autosufficienti",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Servizio gratuito erogato dall�ASP: include visite infermieristiche, fisioterapia, aiuto ADL, secondo un piano definito dall�UVMD; intensit� variabile (ADI di base o ADI intensiva) in base ai bisogni"
+      },
+      "requisiti": {
+        "target": [
+          "persone non autosufficienti con bisogni sanitari a domicilio"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD dell�ASP"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASP (Distretto sanitario)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "richiesta MMG/medico specialista",
+          "PUA distrettuale"
+        ],
+        "documenti_chiave": [
+          "richiesta del medico",
+          "verbale UVMD"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR Calabria (ASP)"
+        ],
+        "normativa": [
+          {
+            "atto": "Piano sanitario regionale Calabria 2022-2024 � sviluppo ADI",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "L�offerta ADI pu� differire tra ASP (es. percentuale di popolazione servita, servizi esternalizzati a cooperative accreditate)"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Rivolgiti al tuo medico di famiglia per attivare la procedura di valutazione per l�ADI"
+      }
+    },
+    {
+      "prestazione_id": "CAL-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-assistenza-domiciliare",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Servizio di assistenza domiciliare gestito dai Comuni, rivolto ad anziani e disabili per aiuto nelle attivit� quotidiane (igiene personale, pulizia della casa, pasti)",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Erogazione di prestazioni domiciliari tramite operatori socio-assistenziali. Possibile compartecipazione economica in base all�ISEE dell�assistito"
+      },
+      "requisiti": {
+        "target": [
+          "anziani non autosufficienti",
+          "persone con limitazioni funzionali senza adeguato aiuto familiare"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "servizi sociali comunali"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune (Ambito)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "ufficio servizi sociali comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE",
+          "scheda sociale"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Comuni",
+          "Regione (quota FNA)"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. Calabria 23/2003 n.11 � Sistema integrato interventi e servizi sociali",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Disponibilit� e intensit� del SAD variano a seconda delle risorse di bilancio dei Comuni; zone interne possono avere minore copertura"
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Contatta i servizi sociali del tuo Comune per richiedere il SAD; potresti essere inserito in lista d�attesa data l�elevata domanda"
+      }
+    },
+    {
+      "prestazione_id": "CAL-RSA-v2025",
+      "nome_ufficiale": "Residenze socio-sanitarie per anziani e disabili (RSA e RSSD)",
+      "alias": [],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SR-residenziale",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Ospitalit� in strutture residenziali accreditate per persone non autosufficienti (anziani in RSA; persone con disabilit� in RSSD) con assistenza continua e prestazioni sanitarie di base",
+      "benefit": {
+        "periodicita": "residenziale continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "La retta giornaliera viene coperta per una quota sanitaria (circa 50%) dal SSR e per la quota sociale dall�utente (in base all�ISEE) o dal Comune. L�inserimento richiede autorizzazione dell�ASL (UVI)"
+      },
+      "requisiti": {
+        "target": [
+          "anziani ultra65enni non autosufficienti",
+          "disabili adulti non gestibili a domicilio"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD distrettuale",
+          "scheda sociale (Comune)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL",
+          "Ente gestore struttura accreditata"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "PUA ASP",
+          "ufficio servizi sociali"
+        ],
+        "documenti_chiave": [
+          "verbale UVMD",
+          "certificato medico",
+          "ISEE residenze"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Comuni",
+          "utente/famiglia"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Calabria n. 464/2017 � Requisiti autorizzativi strutture socio-sanitarie",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Capacit� ricettiva RSA insufficiente rispetto domanda: presenti liste d�attesa; la Commissione UVMD valuta priorit� d�ingresso in base a gravit� e condizioni familiari"
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Rivolgiti al PUA della tua ASP per conoscere le strutture disponibili e avviare l�iter per l�ingresso in RSA o struttura per disabili"
+      }
+    }
+  ]
+}

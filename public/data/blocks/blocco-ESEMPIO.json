@@ -1,0 +1,238 @@
+[
+  {
+    "metadata": {
+      "nome_regione": "Sardegna",
+      "codice_regione": "SAR",
+      "ultimo_aggiornamento": "2025-01-15",
+      "versione_schema": "2.0",
+      "fonti": [
+        {
+          "nome": "Delibera GR 63/12 del 11/12/2020",
+          "url": "https://www.regione.sardegna.it/..."
+        },
+        {
+          "nome": "Legge Regionale n. 23/2005"
+        }
+      ]
+    },
+    "prestazioni": [
+      {
+        "id": "SAR-001",
+        "nome_ufficiale": "Ritornare a Casa PLUS - Livello Assistenziale Base A",
+        "alias": ["RAC Plus Base A", "RAC PLUS Livello A"],
+        "descrizione_breve": "Contributo regionale fino a €4.800 per 12 mensilità a favore di persone che non beneficiano di piano personalizzato L.162/98 o ultrasessantacinquenni con punteggio scheda salute >40",
+        "macro_categoria_id": "MC-CE",
+        "famiglie_normative_ids": ["FN-FNA", "FN-REG"],
+        "requisiti": {
+          "target": ["anziani_65+", "persone_disabilita_grave"],
+          "residenza": "Sardegna",
+          "certificazioni": ["disabilita_grave_L104"],
+          "altro": ["non_beneficiari_L162", "punteggio_scheda_salute_>40"]
+        },
+        "isee": {
+          "richiesto": true,
+          "tipo": "sociosanitario",
+          "soglia": null,
+          "decurtazione": "0-80% in base a soglie"
+        },
+        "benefit": {
+          "tipo": "contributo_economico",
+          "importo_max": 4800,
+          "importo_min": null,
+          "periodicita": "annuale",
+          "durata": "12 mesi",
+          "modalita_erogazione": "tramite_comune",
+          "rendicontazione_richiesta": true,
+          "dettagli": "Possibile attività di cura da parte del caregiver familiare per l'intero contributo"
+        },
+        "accesso": {
+          "ente_gestore": "Comune di residenza",
+          "modalita": ["domanda_cartacea", "domanda_online"],
+          "documenti_necessari": [
+            "ISEE sociosanitario",
+            "Certificazione disabilità grave L.104/92",
+            "Piano assistenziale personalizzato"
+          ],
+          "scadenze": "Verificare con il proprio Comune",
+          "link_domanda": null
+        },
+        "governance": {
+          "livello": "regionale",
+          "ente_responsabile": "Regione Sardegna - Direzione Generale Politiche Sociali",
+          "finanziamento": ["fondi_regionali", "FNA"],
+          "normativa": [
+            {
+              "tipo": "delibera_regionale",
+              "numero": "DGR 63/12",
+              "data": "2020-12-11",
+              "titolo": "Ritornare a casa PLUS",
+              "url": "https://www.regione.sardegna.it/..."
+            },
+            {
+              "tipo": "legge_regionale",
+              "numero": "L.R. 23/2005",
+              "titolo": "Sistema integrato dei servizi alla persona"
+            }
+          ]
+        },
+        "stato": {
+          "attiva": true,
+          "data_inizio": "2021-01-01",
+          "data_scadenza": null,
+          "note": "Misura strutturale, verificare disponibilità fondi con il Comune"
+        },
+        "ux": {
+          "messaggio_consulenza": "Per supporto nella compilazione della domanda, contatta il Dott. Picconi - Consulente per la non autosufficienza",
+          "faq_url": null,
+          "contatti_assistenza": ["Servizi sociali del Comune di residenza", "Ambiti PLUS"]
+        }
+      },
+      {
+        "id": "SAR-002",
+        "nome_ufficiale": "Piano Personalizzato L.162/98",
+        "alias": ["Piani personalizzati disabilità grave", "L.162"],
+        "descrizione_breve": "Piani personalizzati di sostegno per persone con disabilità grave, finanziati con Fondo regionale non autosufficienza",
+        "macro_categoria_id": "MC-CE",
+        "famiglie_normative_ids": ["FN-L162", "FN-FNA", "FN-REG"],
+        "requisiti": {
+          "target": ["persone_disabilita_grave"],
+          "residenza": "Sardegna",
+          "certificazioni": ["disabilita_grave_L104_comma3"],
+          "altro": []
+        },
+        "isee": {
+          "richiesto": true,
+          "tipo": "ordinario",
+          "soglia": 9000,
+          "decurtazione": "Sì, per ISEE >€9.000"
+        },
+        "benefit": {
+          "tipo": "contributo_economico",
+          "importo_max": null,
+          "importo_min": null,
+          "periodicita": "annuale",
+          "durata": "12 mesi rinnovabili",
+          "modalita_erogazione": "tramite_comune",
+          "rendicontazione_richiesta": true,
+          "dettagli": "Importo determinato in base a punteggio e ISEE"
+        },
+        "accesso": {
+          "ente_gestore": "Comune di residenza",
+          "modalita": ["domanda_tramite_comune"],
+          "documenti_necessari": [
+            "Certificazione art.3 comma 3 L.104/92",
+            "ISEE",
+            "Scheda di valutazione"
+          ],
+          "scadenze": "Verificare bando comunale",
+          "link_domanda": null
+        },
+        "governance": {
+          "livello": "regionale",
+          "ente_responsabile": "Regione Sardegna",
+          "finanziamento": ["FNA", "fondi_regionali"],
+          "normativa": [
+            {
+              "tipo": "legge_nazionale",
+              "numero": "L. 162/1998",
+              "titolo": "Modifiche alla legge 5 febbraio 1992, n. 104"
+            },
+            {
+              "tipo": "delibera_regionale",
+              "numero": "DGR 50/44 del 28/12/2021"
+            }
+          ]
+        },
+        "stato": {
+          "attiva": true,
+          "data_inizio": "1998-01-01",
+          "data_scadenza": null,
+          "note": "Misura strutturale"
+        },
+        "ux": {
+          "messaggio_consulenza": "Per assistenza nella domanda e valutazione dei requisiti, contatta il Dott. Picconi",
+          "faq_url": null,
+          "contatti_assistenza": ["Comune di residenza", "Servizio sociale territoriale"]
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "nome_regione": "Lombardia",
+      "codice_regione": "LOM",
+      "ultimo_aggiornamento": "2025-01-20",
+      "versione_schema": "2.0",
+      "fonti": [
+        {
+          "nome": "DGR XII/3719 del 30/12/2024",
+          "url": "https://www.regione.lombardia.it/..."
+        }
+      ]
+    },
+    "prestazioni": [
+      {
+        "id": "LOM-001",
+        "nome_ufficiale": "Misura B2 - Sostegno disabilità grave",
+        "alias": ["B2 Lombardia", "Bonus B2"],
+        "descrizione_breve": "Sostegno per persone in condizione di disabilità grave o non autosufficienza per garantire permanenza al domicilio",
+        "macro_categoria_id": "MC-CE",
+        "famiglie_normative_ids": ["FN-FNA", "FN-REG"],
+        "requisiti": {
+          "target": ["persone_disabilita_grave", "anziani_non_autosufficienti"],
+          "residenza": "Lombardia",
+          "certificazioni": ["handicap_grave_L104_art3_comma3", "indennita_accompagnamento"],
+          "altro": []
+        },
+        "isee": {
+          "richiesto": true,
+          "tipo": "sociosanitario",
+          "soglia": 25000,
+          "note": "ISEE ordinario €40.000 per minorenni; €30.000 per vita indipendente"
+        },
+        "benefit": {
+          "tipo": "multiplo",
+          "importo_max": 800,
+          "periodicita": "mensile",
+          "durata": "12 mesi",
+          "modalita_erogazione": "ambito_territoriale",
+          "dettagli": "Buono €100/mese per caregiver + fino a €800/mese per assistente personale + interventi integrativi"
+        },
+        "accesso": {
+          "ente_gestore": "Ambito Territoriale / Comune",
+          "modalita": ["avviso_pubblico"],
+          "documenti_necessari": [
+            "ISEE sociosanitario o ordinario",
+            "Certificazione L.104/92 art.3 comma 3",
+            "Documentazione sanitaria"
+          ],
+          "scadenze": "Secondo avvisi territoriali",
+          "link_domanda": null
+        },
+        "governance": {
+          "livello": "regionale",
+          "ente_responsabile": "Regione Lombardia",
+          "finanziamento": ["FNA"],
+          "normativa": [
+            {
+              "tipo": "delibera_regionale",
+              "numero": "DGR XII/3719",
+              "data": "2024-12-30",
+              "titolo": "Programma operativo FNA 2024 esercizio 2025"
+            }
+          ]
+        },
+        "stato": {
+          "attiva": true,
+          "data_inizio": "2025-01-01",
+          "data_scadenza": "2025-12-31",
+          "note": "Annualità 2025"
+        },
+        "ux": {
+          "messaggio_consulenza": "Per informazioni dettagliate contatta lo Spazio Disabilità di Regione Lombardia o il Dott. Picconi",
+          "contatti_assistenza": ["Spazio Disabilità: 02 6765 6955", "Servizi sociali comunali"]
+        }
+      }
+    ]
+  }
+]

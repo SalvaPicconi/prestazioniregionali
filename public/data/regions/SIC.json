@@ -1,0 +1,488 @@
+{
+  "metadata": {
+    "nome_regione": "Sicilia",
+    "codice_regione": "SIC",
+    "ultimo_aggiornamento": "2025-10-29",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "Legge Regionale Sicilia 9/2021 art. 13 (Fondo regionale disabilit� gravissima)",
+      "Comunicati stampa Regione Siciliana 24/02/2025 e 07/12/2023 (erogazioni fondo disabilit� e caregiver)",
+      "GURS e Decreti Ass.to Famiglia (Avvisi Dopo di Noi 2024, Bonus Caregiver 2024)"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "SIC-assegno-gravissimi-v2025",
+      "nome_ufficiale": "Beneficio economico per disabilit� gravissima",
+      "alias": [
+        "assegno di cura disabili gravissimi"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-Gravissimi",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Contributo mensile erogato dalla Regione tramite le ASP a favore di persone in condizione di disabilit� gravissima (come definita dal D.M. 26/09/2016). L�assegno serve a sostenere la cura a domicilio e compensare le famiglie/caregiver. L�importo � uniformato a livello regionale (circa �1.100 mensili nel 2025).",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 1100,
+        "importo_max": 1100,
+        "equivalente_mensile": 1100,
+        "note": "Importo standard ~�1.120,00 al mese (parametrato su base annua per 12 mensilit�). Pagamento erogato bimestralmente anticipato dall�ASP competente. L�assegno � destinato al pagamento di assistenti e ai costi di assistenza domiciliare continua."
+      },
+      "requisiti": {
+        "target": [
+          "Persone di qualsiasi et� in condizione di disabilit� gravissima (dipendenti totale da terzi per funzioni vitali) residenti in Sicilia"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": 0,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Accertamento da parte dell�Unit� di Valutazione Multidisciplinare dell�ASP dello status di �disabilit� gravissima� ai sensi della normativa nazionale",
+          "Certificato di indennit� di accompagnamento INPS o di riconoscimento art.3 co.3 L.104, utilizzato come base per l�istruttoria"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASP (Azienda Sanitaria Provinciale)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Presentazione istanza presso l�ASP di residenza (Ufficio Disabili Gravissimi)",
+          "Avviso pubblico annuale emanato dall�ASP"
+        ],
+        "documenti_chiave": [
+          "Certificazione sanitaria disabilit� gravissima (modello nazionale)",
+          "Verbale L.104/92 art.3 c.3 e certificato accompagnamento",
+          "Documento d�identit� e codice fiscale del beneficiario e del caregiver referente"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Nazionale Non Autosufficienze",
+          "Bilancio Regionale"
+        ],
+        "normativa": [
+          {
+            "atto": "D.P.Reg. 532/2017 (attuazione FNA disabili gravissimi in Sicilia)",
+            "url": ""
+          },
+          {
+            "atto": "L.R. 9/2021 art.13 (Fondo regionale per la disabilit�)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "",
+        "scadenza": ""
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Procedura uniforme: tutte le ASP adottano gli stessi criteri e modulistica definiti a livello regionale. L�entit� del contributo � uguale in tutta l�Isola, salvo eventuali adeguamenti annuali in base ai fondi disponibili."
+      },
+      "ux": {
+        "priorita_contatto": 0.95,
+        "messaggio_consulenza": "Se assisti una persona con disabilit� gravissima in Sicilia, rivolgiti all�ASP (Ufficio disabili gravissimi) per presentare domanda di assegno. Le graduatorie sono aperte tutto l�anno, ma la presa in carico avviene secondo l�ordine di arrivo delle istanze e la verifica dei requisiti."
+      }
+    },
+    {
+      "prestazione_id": "SIC-bonus-caregiver-v2025",
+      "nome_ufficiale": "Bonus Caregiver familiare (una tantum)",
+      "alias": [
+        "contributo regionale caregiver 2024"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-Caregiver",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Contributo economico straordinario destinato ai caregiver familiari di persone con disabilit� grave o gravissima. Finanziato con risorse statali dedicate (Fondo caregiver) e regionali, viene erogato tramite i Comuni a titolo di riconoscimento e sollievo per chi assiste continuativamente un congiunto non autosufficiente. Nel 2024 la Regione ha stanziato circa 2,1 milioni di euro per tali bonus.",
+      "benefit": {
+        "periodicita": "una_tantum",
+        "importo_min": 1000,
+        "importo_max": 1000,
+        "equivalente_mensile": 0,
+        "note": "Importo indicativo per nucleo: �1.000 una tantum (l�importo effettivo pu� variare leggermente in base al numero di domande ammesse e alle risorse per ciascun Comune). Il bonus viene corrisposto una volta sola al caregiver avente diritto."
+      },
+      "requisiti": {
+        "target": [
+          "Caregiver familiare (convivente o legame di parentela) che presta assistenza a tempo pieno a un disabile grave/gravissimo residente in Sicilia"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 25000,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Certificazione dello stato di disabilit� grave o gravissima della persona assistita",
+          "Dichiarazione sostitutiva sul ruolo di caregiver e sull�assenza di ricoveri in strutture residenziali"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "Avviso pubblico comunale (istanza presso Ufficio Servizi Sociali)"
+        ],
+        "documenti_chiave": [
+          "Modulo di domanda bonus caregiver (del Comune)",
+          "Attestazione ISEE del nucleo familiare",
+          "Verbale L.104/92 art.3 c.3 o certificazione disabilit� gravissima dell�assistito",
+          "Documento d�identit� del caregiver richiedente"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Caregiver nazionale",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "D.A. n.106/2023 Assessorato Famiglia (riparto fondo caregiver ai Comuni)",
+            "url": ""
+          },
+          {
+            "atto": "Avvisi comunali 2023-24 bonus caregiver (es. Determina n.X Comune di ...)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2023-12-20",
+        "scadenza": "2024-01-31"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ogni Comune pubblica il proprio avviso e gestisce graduatoria e pagamento. I criteri base (chi � caregiver, a chi spetta in base a gravit� assistito e ISEE) sono uniformati da linee regionali, ma dettagli come scadenze e modulistica variano localmente."
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Informati presso il tuo Comune sulla disponibilit� del bonus caregiver: i bandi escono periodicamente. Puoi fare domanda presso i Servizi Sociali allegando la documentazione richiesta: se rientri nei requisiti, riceverai il contributo secondo le modalit� indicate dal Comune (es. bonifico)."
+      }
+    },
+    {
+      "prestazione_id": "SIC-dopo-noi-v2025",
+      "nome_ufficiale": "Interventi Dopo di Noi (Legge 112/2016)",
+      "alias": [
+        "progetti Dopo di Noi Sicilia"
+      ],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "PS-DopoNoi",
+      "famiglie_normative_ids": [
+        "FN-L112"
+      ],
+      "descrizione_breve": "La Regione Siciliana utilizza il Fondo �Dopo di Noi� per finanziare progetti a favore di disabili gravi senza supporto familiare. Gli Ambiti territoriali (Distretti socio-sanitari) individuano i beneficiari e attuano interventi quali: inserimenti in soluzioni abitative innovative (gruppi appartamento, cohousing), percorsi per lo sviluppo dell�autonomia personale, sostegno gestionale per la vita quotidiana fuori dalla famiglia di origine, e eventuali contributi per adeguare l�abitazione o sostenere spese abitative.",
+      "benefit": {
+        "periodicita": "progetto (fino a 12 mesi)",
+        "importo_min": 0,
+        "importo_max": 0,
+        "equivalente_mensile": 0,
+        "note": "Il supporto economico varia in base al progetto individuale: ad esempio, pu� coprire il costo di un educatore domiciliare per alcune ore settimanali, contributi per l�affitto di un appartamento condiviso, o voucher per frequentare laboratori di autonomia. Non � prevista erogazione di somme dirette all�utente se non finalizzate a specifiche spese del progetto."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave (art.3 c.3 L.104) di et� compresa preferibilmente tra 18 e 64 anni, prive di supporto familiare sufficiente (genitori deceduti o molto anziani)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 30000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione multidisciplinare dei servizi sociali e sanitari distrettuali per definire il progetto individuale",
+          "Rispondenza del caso ai criteri nazionali Dopo di Noi (DM 23/11/2016), ad es. esclusione di persone gi� in strutture residenziali"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Distretto socio-sanitario (Ambito)"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "Avviso pubblico del Distretto socio-sanitario (di solito emanato dal Comune capofila)"
+        ],
+        "documenti_chiave": [
+          "Domanda di accesso al programma Dopo di Noi (modello distrettuale)",
+          "Attestazione ISEE ordinario o sociosanitario",
+          "Verbale L.104/92 art.3 c.3",
+          "Certificati dei genitori (es. stato di famiglia, eventuali certificati di invalidit� dei genitori se in vita)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Nazionale Dopo di Noi"
+        ],
+        "normativa": [
+          {
+            "atto": "D.D.G. 3397 del 18/09/2024 (Avviso pubblico Dopo di Noi Sicilia 2024)",
+            "url": ""
+          },
+          {
+            "atto": "Linee Guida nazionali D.M. 23/11/2016",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-09-18",
+        "scadenza": "2024-11-30"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ogni Distretto (che comprende pi� Comuni) gestisce il proprio avviso e seleziona i beneficiari secondo le risorse assegnate dal Fondo. Possono esserci priorit� locali (es. situazioni di particolare urgenza) e partnership con enti del terzo settore per l�attuazione pratica dei progetti."
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Per sapere come accedere agli interventi 'Dopo di Noi' in Sicilia, contatta i Servizi Sociali del tuo Comune o direttamente il Distretto socio-sanitario di appartenenza. Sarai guidato nella presentazione della domanda e, in caso di ammissione, nella co-progettazione del percorso verso l�autonomia abitativa."
+      }
+    },
+    {
+      "prestazione_id": "SIC-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [
+        "ADI ASP Sicilia cure domiciliari"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-ADI",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio di cure domiciliari integrato offerto dalle ASP provinciali: team sanitari e socio-sanitari che prestano assistenza a domicilio a pazienti non deambulanti o con bisogni assistenziali complessi. In Sicilia l�ADI � attivata dal PUA e include interventi sanitari (infermieristici, riabilitativi, medici di controllo) e coordinamento con l�assistenza sociale comunale per eventuali necessit� sociali collegate.",
+      "benefit": {
+        "periodicita": "continuativa (secondo PAI)",
+        "importo_min": 0,
+        "importo_max": 0,
+        "equivalente_mensile": 0,
+        "note": "Servizio gratuito, erogato come insieme di prestazioni a domicilio. Frequenza e tipologia (es. 3 accessi infermiere a settimana, fisioterapia 2 volte/settimana, visita geriatrica mensile) sono stabilite dal Piano di Assistenza Individuale. Non comporta esborso per l�utente."
+      },
+      "requisiti": {
+        "target": [
+          "Persone non autosufficienti per motivi sanitari: es. malati cronici, pazienti post-acuti dimessi dall�ospedale, malati terminali, che possano essere gestiti al domicilio con supporto sanitario"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": 0,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione integrata del PUA/UVMD dell�ASP con definizione di PAI (livello ADI 1, 2 o 3)",
+          "Richiesta del MMG o segnalazione da ospedale di dimissione protetta"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASP"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Punto Unico di Accesso dell�ASP (istanza su modulistica dedicata)",
+          "Segnalazione diretta da parte del medico di base all�UVMD"
+        ],
+        "documenti_chiave": [
+          "Richiesta del medico di famiglia (o lettera di dimissione ospedaliera) indicante necessit� ADI",
+          "Documento d�identit� e tessera sanitaria",
+          "Referti medici rilevanti"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR"
+        ],
+        "normativa": [
+          {
+            "atto": "Piano Sanitario Regionale Sicilia (indirizzi ADI)",
+            "url": ""
+          },
+          {
+            "atto": "LEA DPCM 2017 (Assistenza Domiciliare)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "",
+        "scadenza": ""
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Le ASP siciliane seguono linee guida regionali uniformi per l�ADI; eventuali differenze riguardano l�organizzazione interna (es. alcune ASP hanno le Unit� di Cure Domiciliari dedicate)."
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Per attivare le cure domiciliari in Sicilia, rivolgiti al tuo medico di base o al PUA del distretto sanitario. Ti sar� fissata una valutazione a domicilio per definire il piano di assistenza. Una volta attivata, l�ADI ti garantir� visite regolari degli operatori sanitari a casa."
+      }
+    },
+    {
+      "prestazione_id": "SIC-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [
+        "assistenza domiciliare sociale comune"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-SAD",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Servizio comunale che offre aiuto domiciliare per attivit� quotidiane e cura della persona a soggetti fragili (anziani, disabili) ancora al domicilio. In Sicilia, l�attivazione del SAD pu� avvenire su richiesta dell�interessato ai Servizi Sociali. Spesso integrato all�ADI (per la parte sociale) o in attesa di ricovero in struttura. Interventi tipici: pulizia della casa, igiene personale, preparazione pasti, spesa, compagnia.",
+      "benefit": {
+        "periodicita": "continuativa (settimanalmente)",
+        "importo_min": 0,
+        "importo_max": 0,
+        "equivalente_mensile": 0,
+        "note": "Il SAD viene erogato in ore di servizio a domicilio. Alcuni Comuni lo offrono gratuitamente ai cittadini con ISEE sotto una soglia, altri prevedono una compartecipazione oraria (es. �3/ora simbolici). L�intensit� varia: da 2-3 ore settimanali per supporto leggero fino a 1-2 ore giornaliere per i casi pi� gravi, compatibilmente con le risorse."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani ultra65enni in difficolt� nelle attivit� quotidiane e privi di supporto adeguato",
+          "Persone con disabilit� (anche minori in alcuni casi) che necessitano di piccolo supporto a casa"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 0,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione da parte dell�assistente sociale comunale (anche su segnalazione UVMD) che stabilisce necessit� e numero di ore di SAD",
+          "Residenza nel Comune e iscrizione al servizio sociale comunale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Servizi Sociali del Comune",
+          "Sportello PUA del Distretto sanitario (per segnalazioni integrate)"
+        ],
+        "documenti_chiave": [
+          "Attestazione ISEE",
+          "Certificato medico di base sulle condizioni di non autosufficienza (se richiesto)",
+          "Documento d�identit� del richiedente/beneficiario"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Comuni",
+          "Regione (quota FNA ripartita)"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. 22/1986 Sicilia (ordinamento servizi assistenziali)",
+            "url": ""
+          },
+          {
+            "atto": "Piani di Zona Distrettuali (azioni SAD)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "",
+        "scadenza": ""
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ogni Comune o Distretto socio-sanitario definisce il proprio regolamento per l�assistenza domiciliare: ad esempio soglie ISEE sotto cui il servizio � gratuito, priorit� di accesso (ultra75enni soli, ecc.) e orari del servizio. Tuttavia, la tipologia di prestazioni offerte � simile su tutto il territorio regionale."
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Fai domanda di SAD presso il tuo Comune: un assistente sociale verr� a domicilio per valutare di quali aiuti hai bisogno (ad esempio igiene, pulizie). Se il servizio � attivabile, un operatore verr� a casa tua con la frequenza concordata. Chiedi al Comune se cՏ una lista d�attesa e se devi contribuire ai costi in base al tuo ISEE."
+      }
+    },
+    {
+      "prestazione_id": "SIC-RSA-v2025",
+      "nome_ufficiale": "Ricovero in RSA o Comunit� Alloggio (convenzionato)",
+      "alias": [
+        "posto letto convenzionato per non autosufficienti"
+      ],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SR-RSA",
+      "famiglie_normative_ids": [
+        "FN-LEA",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Inserimento in una struttura residenziale socio-sanitaria accreditata (RSA per anziani non autosufficienti o Comunit� alloggio/Case protette per disabili adulti) con retta in parte a carico della Regione. In Sicilia, l�ASP paga la quota sanitaria mentre la quota alberghiera � a carico dell�utente e/o Comune. L�accesso � regolato da valutazione UVMD e graduatorie distrettuali.",
+      "benefit": {
+        "periodicita": "residenziale continuativo",
+        "importo_min": 0,
+        "importo_max": 0,
+        "equivalente_mensile": 0,
+        "note": "Retta giornaliera indicativa: �90. La Regione (ASP) copre circa �45/g (prestazioni sanitarie e sociosanitarie). L�utente deve pagare l�altro 50% circa per vitto, alloggio, servizi alberghieri; se non autosufficiente economicamente pu� chiedere l�integrazione al Comune (previa analisi reddituale anche dei familiari obbligati agli alimenti)."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti per i quali � impossibile la permanenza a domicilio nonostante gli interventi domiciliari",
+          "Persone con disabilit� grave (anche under65 in strutture dedicate) prive di adeguata assistenza domiciliare, che necessitano di supporto H24"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 0,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione UVMD del Distretto sanitario che attesti il bisogno di ricovero in struttura (profilo di cure a media/alta intensit� assistenziale)",
+          "Inserimento in lista d�attesa distrettuale per posti convenzionati; priorit� in base a punteggio UVMD e situazione socio-familiare"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASP",
+          "Comune"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "UVMD del Distretto ASP (attivata tramite PUA o richiesta MMG)",
+          "Servizio Sociale comunale per pratica di integrazione retta se necessario"
+        ],
+        "documenti_chiave": [
+          "Verbale UVMD con indicazione di struttura idonea",
+          "Attestazione ISEE sociosanitario - residenze",
+          "Documento di identit�"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Comuni",
+          "Utenti"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. 22/1986 e succ. mod. (riordino IPAB e strutture assistenziali in Sicilia)",
+            "url": ""
+          },
+          {
+            "atto": "Decreti Assessore Salute su accreditamento RSA",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "",
+        "scadenza": ""
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le ASP gestiscono le graduatorie e convenzioni con le strutture; i criteri di valutazione UVMD sono uniformi, ma la disponibilit� di posti varia per provincia (lista d�attesa pu� essere pi� lunga in certi territori). I Comuni applicano propri regolamenti per valutare se e quanto contribuire alla retta dell�ospite in base al reddito suo e dei familiari."
+      },
+      "ux": {
+        "priorita_contatto": 0.65,
+        "messaggio_consulenza": "Per richiedere il ricovero convenzionato, rivolgiti al PUA del tuo Distretto sanitario o parla con l�assistente sociale: farai una valutazione UVMD. Una volta ottenuto il punteggio e se cՏ posto disponibile ti verr� proposto l�ingresso in struttura. Se la tua famiglia non riesce a sostenere il costo della retta, fai domanda in Comune per l�integrazione economica."
+      }
+    }
+  ]
+}

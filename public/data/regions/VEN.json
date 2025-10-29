@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "nome_regione": "Veneto",
+    "codice_regione": "VEN",
+    "ultimo_aggiornamento": "2024-04-04",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://www.aisla.it/veneto-programmazione-fna-2022-2024/",
+      "http://bur.regione.veneto.it/BurvServices/Pubblica/DettaglioDgr.aspx?id=495402",
+      "http://bur.regione.veneto.it/BurvServices/Pubblica/DettaglioDgr.aspx?id=512559"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "VEN-ICD-domiciliare-v2025",
+      "nome_ufficiale": "Impegnative di Cura Domiciliare (ICD) per persone non autosufficienti",
+      "alias": [
+        "ICD disabilit� gravissima e grave",
+        "Buono domiciliare Veneto"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-DO",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Le **ICD** sono contributi periodici erogati dalla Regione Veneto per supportare l�assistenza a domicilio di persone non autosufficienti, integrando gli interventi dell'ULSS:contentReference[oaicite:132]{index=132}. Si distinguono varie tipologie: *ICD per disabilit� **gravissima*** (es. persone con dipendenza vitale/ventilazione assistita), *ICD-SLA* per persone con Sclerosi Laterale Amiotrofica, *ICDm* per pazienti con demenza grave e disturbi comportamentali, *ICDp* per disabilit� psichica/intellettiva 3-64 anni, *ICDf* per disabilit� fisica/motoria 18-64 anni:contentReference[oaicite:133]{index=133}:contentReference[oaicite:134]{index=134}. Ogni impegnativa prevede un **assegno mensile** il cui importo dipende dalla gravit� e dall'ISEE dell�assistito: ad esempio, l�*ICD-SLA* varia da **400 �** fino a **2.000 �** al mese, con ISEE < 60.000 � e importi modulati secondo la condizione economica e lo stadio della malattia:contentReference[oaicite:135]{index=135}:contentReference[oaicite:136]{index=136}. Le ICD gravissime e demenze sono analogamente modulabili, con importi decrescenti all'aumentare dell'ISEE (beneficio azzerato oltre ~60.000 �). Le *ICDp* e *ICDf* sono finalizzate a progetti di supporto educativo e assistenziale personalizzati per favorire l'autonomia e la permanenza in famiglia:contentReference[oaicite:137]{index=137}:contentReference[oaicite:138]{index=138}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 400,
+        "importo_max": 2000,
+        "equivalente_mensile": 2000,
+        "note": "Importo massimo per ICD-SLA 2.000 �/mese (condizioni pi� gravi, ISEE molto basso), minimo 400 �/mese (condizioni meno impegnative o ISEE vicino al tetto di 60.000 �):contentReference[oaicite:139]{index=139}. Altre ICD gravissime seguono range simili (es. ICD demenze e altre dipendenze vitali). Le ICD per disabilit� psichica/fisica hanno importi calibrati su progetti (es. intensit� di assistenza) e anch'esse soglie ISEE per l�accesso."
+      },
+      "requisiti": {
+        "target": [
+          "Residenti in Veneto non autosufficienti assistiti al domicilio: includendo persone con gravissima disabilit� (ventilati, nutrizione artificiale, coma, SLA), persone con demenze gravi, persone con disabilit� intellettiva o autismo gravi (3-64 anni), persone con disabilit� motorie gravi (18-64 anni):contentReference[oaicite:140]{index=140}:contentReference[oaicite:141]{index=141}"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 60000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione UVMD distrettuale con scale regionali (SVaMA per anziani/disabili fisici, SVaMDi per disabilit� intellettive) per attribuire punteggio di bisogno e idoneit� alla specifica ICD. Necessario riconoscimento L.104 art.3 c.3 per ICDp/ICDf:contentReference[oaicite:142]{index=142}:contentReference[oaicite:143]{index=143}; certificazione di malattia rara per ICD-SLA:contentReference[oaicite:144]{index=144}."
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Aziende ULSS (distretti sociosanitari)"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "Avvisi pubblici annuali emanati dalle ULSS su indirizzi regionali (Piani di Zona)",
+          "Sportelli amministrativi distrettuali (Ufficio Impegnative)"
+        ],
+        "documenti_chiave": [
+          "Modulo di domanda ICD",
+          "Attestazione ISEE socio-sanitario",
+          "Verbale UVMD/SVAMA o certificazioni specialistiche (es. attestazione malattia rara SLA)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA nazionale ripartito (annualit� 2022-2024 ~126 mln � totali per Veneto)",
+          "Bilancio regionale"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Veneto 1338/2022 (nuova disciplina ICD)",
+            "url": ""
+          },
+          {
+            "atto": "DGR Veneto 349/2024 (indirizzi programmazione FNA 2023)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2023-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le ULSS gestiscono operativamente le graduatorie e l'erogazione delle ICD; le risorse sono allocate per Ambito territoriale e possono esserci differenze nel numero di beneficiari ammessi per ULSS in base al fabbisogno locale."
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "In Veneto l�accesso alle ICD avviene tramite il distretto sociosanitario: rivolgiti all�assistente sociale o all�ufficio protesi/invalidi della tua ULSS per informazioni sul bando ICD e la compilazione della scheda di valutazione SVaMA o SVaMDi necessaria."
+      }
+    },
+    {
+      "prestazione_id": "VEN-ADI-RSA-v2025",
+      "nome_ufficiale": "Assistenza domiciliare integrata (ADI) e Impegnativa di Residenzialit� (RSA)",
+      "alias": [
+        "Servizi domiciliari e residenziali Veneto"
+      ],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "SR-RSA",
+      "famiglie_normative_ids": [
+        "FN-LEA",
+        "FN-SSR"
+      ],
+      "descrizione_breve": "Il sistema veneto integra contributi economici (ICD) con servizi pubblici: l�**ADI** (Assistenza Domiciliare Integrata) garantisce prestazioni sanitarie domiciliari (infermieristiche, riabilitative, mediche) tramite l�ULSS a tutti i non autosufficienti in base ai LEA, senza costo per l�utente. Per l�accoglienza in **Residenza Sanitaria Assistita (RSA)** o Centri di Servizio per anziani, la Regione adotta il meccanismo dell�**Impegnativa di Residenzialit�**: a ogni anziano/non autosufficiente ammesso in struttura viene assegnata un'impegnativa che copre la quota sanitaria della retta (circa il 50% del costo, variabile secondo il livello assistenziale):contentReference[oaicite:145]{index=145}:contentReference[oaicite:146]{index=146}. La quota rimanente (quota alberghiera) � a carico dell'utente e pu� essere integrata dal Comune di residenza in caso di indigienza. Le impegnative sono gestite tramite graduatorie distrettuali: l�UVMD attribuisce un punteggio di priorit� (es. punteggio SVaMA) e l�anziano viene inserito in lista d�attesa unificata. In media la quota alberghiera a carico dell�utente in Veneto � attorno a **50-55 � al giorno** (cifra aggiornata dopo anni di blocco delle tariffe):contentReference[oaicite:147]{index=147}. Esistono anche i **Centri Diurni** per anziani e disabili, la cui frequenza � sostenuta in parte da contributi regionali (impegnative di frequenza) e in parte con ticket a carico dell�utente, facilitando sollievo alle famiglie.",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "ADI: gratuito (erogato dal SSN). RSA: costo totale ~100-120 �/die, di cui ~50% coperto da Regione via impegnativa, utente paga ~50 �/die (~1.500 �/mese):contentReference[oaicite:148]{index=148}:contentReference[oaicite:149]{index=149}; Comuni attivano integrazione se l�utente non riesce a sostenere la quota."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti con elevato bisogno sanitario e socio-assistenziale",
+          "Persone con disabilit� gravemente non autosufficienti che necessitano di strutture residenziali"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione UVMD con scheda SVaMA (anziani/disabili adulti) o SSV (minori) per definire il punteggio e livello assistenziale. Necessario punteggio minimo per ammissione a RSA (criteri stabiliti dalla Regione e ULSS)."
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Aziende ULSS (UVMD)",
+          "Enti Gestori RSA accreditate"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Sportello Punto Unico di Accesso (PUA) del Distretto per attivazione valutazione RSA",
+          "Medico di base (segnalazione ADI)"
+        ],
+        "documenti_chiave": [
+          "Scheda SVaMA compilata",
+          "Attestazione ISEE (per determinare eventuale retta agevolata)",
+          "Certificato medico curante"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Sanitario Regionale (quota sanitaria RSA, ADI)",
+          "Bilanci comunali (integrazione rette RSA se occorre)"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Veneto 4148/2009 (sistema impegnative residenzialit�)",
+            "url": ""
+          },
+          {
+            "atto": "DGR Veneto 1338/2013 (modelli organizzativi ADI)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le ULSS possono definire protocolli organizzativi specifici per ADI (es. intensit� assistenziale) e accordi con le RSA del territorio per il numero di impegnative disponibili. Le tariffe alberghiere RSA possono variare leggermente per struttura, ma l'importo impegnativa � standard regionale in base al profilo assistenziale dell'ospite."
+      },
+      "ux": {
+        "priorita_contatto": 0.95,
+        "messaggio_consulenza": "Per assistenza a casa, parlane con il tuo medico di base o l�assistente sociale dell�ULSS; per ingresso in RSA, fai richiesta al PUA del tuo Distretto per essere valutato e inserito in graduatoria per l�impegnativa di residenzialit�."
+      }
+    }
+  ]
+}

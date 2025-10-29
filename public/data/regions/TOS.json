@@ -1,0 +1,409 @@
+{
+  "metadata": {
+    "nome_regione": "Toscana",
+    "codice_regione": "TOS",
+    "ultimo_aggiornamento": "2025-08-01",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://toscana-accessibile.it/-/gravissime-disabilita-sostegno-alla-domiciliarita",
+      "https://informareunh.it/toscana-rinnovati-anche-per-il-2024-i-contributi-per-i-caregiver-di-familiari-con-disabilita"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "TOS-sostegno-domiciliarita-gravissimi-v2025",
+      "nome_ufficiale": "Contributo per la domiciliarit� delle persone con disabilit� gravissima",
+      "alias": [
+        "Assegno di cura disabilit� gravissima"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-DO",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Contributo economico mensile finalizzato a evitare o posticipare l'istituzionalizzazione delle persone con disabilit� gravissima, attraverso l'assunzione di un assistente personale a domicilio:contentReference[oaicite:2]{index=2}. L'importo varia da **900** a **1.200 �** mensili (per adulti, con contratto regolare all'assistente) e da **800** a **1.100 �** mensili per minori con disabilit� gravissima assistiti da un genitore:contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}. L'intervento � aggiuntivo rispetto ai Livelli Essenziali di Assistenza, volto a migliorare la qualit� di vita della persona gravemente disabile.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 800,
+        "importo_max": 1200,
+        "equivalente_mensile": 1200,
+        "note": "Importo massimo 1.200 �/mese per assistente personale assunto, ridotto a 1.100 � per minori con genitore caregiver:contentReference[oaicite:5]{index=5}:contentReference[oaicite:6]{index=6}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� gravissima ai sensi del DM 26/09/2016 (non autosufficienti con bisogno di assistenza continua)"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD (Unit� di Valutazione Multidisciplinare Disabilit�) per definizione del progetto di vita e certificazione disabilit� gravissima"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Societ� della Salute/Zona-Distretto (ASL)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Punto Unico di Accesso (PUA) sociosanitario",
+          "Medico di base",
+          "Servizi sociali comunali"
+        ],
+        "documenti_chiave": [
+          "Certificazione disabilit� gravissima (es. verbale L.104 art.3 c.3)",
+          "Documento d'identit�",
+          "Eventuale contratto assistente personale"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione",
+          "FNA (Fondo Non Autosufficienze)"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Toscana 1071/2023",
+            "url": "https://www.regione.toscana.it/documents/10180/32040880/Delibera+1071_2023.pdf"
+          },
+          {
+            "atto": "Linee di indirizzo FNA disabilit� gravissime (modifica DGR 680/2022)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2023-09-11",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Misura omogenea su tutto il territorio regionale; attuata dalle Societ� della Salute/Zona-Distretto competenti"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Per attivare il contributo, contatta il Punto Unico di Accesso sociosanitario della tua Zona-Distretto per una valutazione UVMD:contentReference[oaicite:7]{index=7}."
+      }
+    },
+    {
+      "prestazione_id": "TOS-contributo-caregiver-v2025",
+      "nome_ufficiale": "Contributo regionale a sostegno del caregiver familiare",
+      "alias": [
+        "Assegno di cura per caregiver"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-CA",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-CAREGIVER"
+      ],
+      "descrizione_breve": "Contributo economico mensile di **400 �** rivolto ai caregiver familiari che assistono in casa persone con disabilit� grave o gravissima, per dare sollievo e riconoscimento al ruolo di cura:contentReference[oaicite:8]{index=8}. Ha carattere complementare agli altri servizi domiciliari (ADI, OSS, centri diurni) e viene assegnato prioritariamente a caregiver di persone in condizioni di disabilit� gravissima o coinvolte in programmi di deistituzionalizzazione:contentReference[oaicite:9]{index=9}:contentReference[oaicite:10]{index=10}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 400,
+        "importo_max": 400,
+        "equivalente_mensile": 400,
+        "note": "Importo fisso di 400 �/mese finanziato dal Fondo regionale per il sostegno del ruolo di cura del caregiver:contentReference[oaicite:11]{index=11}"
+      },
+      "requisiti": {
+        "target": [
+          "Caregiver familiare ai sensi Legge 205/2017 art.1 c.255 (che assiste e si prende cura del coniuge/unito civilmente/convivente di fatto, o familiare entro il 2� grado � eccezionalmente 3� grado se art.33 c.3 L.104/92 � non autosufficiente)"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione multidimensionale della persona assistita da parte UVMD per attestare il bisogno assistenziale e il carico del caregiver:contentReference[oaicite:12]{index=12}"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Societ� della Salute/Zona-Distretto (ASL)",
+          "Comune"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Servizi sociali ASL/Comune",
+          "PUA territoriale"
+        ],
+        "documenti_chiave": [
+          "Modulo di richiesta di presa in carico",
+          "Documento d'identit�",
+          "Certificazione L.104/1992 art.3 c.3 della persona assistita (se disponibile)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo regionale caregiver (derivato da Legge 205/2017)"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Toscana 126/2024",
+            "url": ""
+          },
+          {
+            "atto": "Linee di indirizzo caregiver (Allegato A DGR 717/2022)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-02-12",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Misura uniforme a livello regionale; gestione attraverso servizi sociosanitari territoriali"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Rivolgiti al servizio sociale della ASL o del Comune per richiedere la valutazione e l�attivazione del contributo caregiver:contentReference[oaicite:13]{index=13}."
+      }
+    },
+    {
+      "prestazione_id": "TOS-vita-indipendente-v2025",
+      "nome_ufficiale": "Progetti di Vita Indipendente e inclusione per persone con disabilit�",
+      "alias": [
+        "Programma Vita Indipendente Toscana"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-VI",
+      "famiglie_normative_ids": [
+        "FN-FSE+",
+        "FN-REG",
+        "FN-L112"
+      ],
+      "descrizione_breve": "Programma personalizzato che finanzia progetti per la vita indipendente delle persone con disabilit� grave, al fine di favorirne l'autonomia abitativa, lavorativa e sociale:contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}. I destinatari sono adulti (>18 anni) con riconoscimento di gravit� (L.104/92 art.3 c.3) in grado, anche con supporto, di autodeterminarsi:contentReference[oaicite:16]{index=16}. Ogni progetto, valutato dall�UVMD, pu� prevedere un contributo mensile fino a **2.000 �** per coprire costi di assistenza personale e altri supporti necessari:contentReference[oaicite:17]{index=17}. L'accesso avviene tramite avvisi pubblici delle Zone Distretto/SdS, con graduatorie e finestre annuali e possibilit� di domanda continua dal 2025:contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}.",
+      "benefit": {
+        "periodicita": "mensile (con progetto triennale)",
+        "importo_min": 0,
+        "importo_max": 2000,
+        "equivalente_mensile": 2000,
+        "note": "Contributo modulato sul progetto individuale, fino a un massimo di 2.000 � al mese:contentReference[oaicite:20]{index=20}. Nessuna soglia ISEE prevista attualmente:contentReference[oaicite:21]{index=21}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave (art.3 c.3 L.104/92) di et� > 18 anni, capaci di esprimere la propria volont� e intenzionate a vivere in modo autonomo:contentReference[oaicite:22]{index=22}"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD per valutazione multidimensionale del progetto di vita indipendente:contentReference[oaicite:23]{index=23}"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Societ� della Salute/Zona-Distretto (ASL)"
+        ],
+        "modalita": "bando_triennale",
+        "canali": [
+          "Portale regionale dedicato (avvisi FSE+)",
+          "Sportello SDS/Distretto"
+        ],
+        "documenti_chiave": [
+          "Certificazione L.104/92 art.3 c.3",
+          "Progetto di vita indipendente (modulo domanda)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FSE+ 2021-2027 (46 milioni � per 2024-26):contentReference[oaicite:24]{index=24}",
+          "Bilancio regionale"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Toscana 753/2024",
+            "url": ""
+          },
+          {
+            "atto": "Decreto Dirigenziale 17020/22-7-2024 (Allegato A)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-07-25",
+        "scadenza": "2027-05-31"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le Societ� della Salute/Zona Distretto pubblicano avvisi e gestiscono le domande; il programma � regionale ma l�attuazione � locale secondo i criteri unificati:contentReference[oaicite:25]{index=25}."
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Contatta la Societ� della Salute o l�ASL di zona per conoscere i bandi attivi e il supporto nella predisposizione del tuo progetto di vita indipendente."
+      }
+    },
+    {
+      "prestazione_id": "TOS-durante-dopo-noi-v2025",
+      "nome_ufficiale": "Interventi \"Durante e Dopo di Noi\" per persone con disabilit� grave prive del sostegno familiare",
+      "alias": [
+        "Progetti Dopo di Noi (L.112/2016)"
+      ],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SC-DOPO",
+      "famiglie_normative_ids": [
+        "FN-L112",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Programma regionale per garantire alle persone con disabilit� grave, senza supporto familiare, soluzioni di vita alternative alla famiglia d'origine:contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}. Attraverso progetti triennali co-progettati da enti pubblici e privato sociale, vengono realizzati percorsi personalizzati di accompagnamento all'uscita dal nucleo familiare, co-housing, gruppi appartamento e sviluppo di autonomie personali:contentReference[oaicite:28]{index=28}:contentReference[oaicite:29]{index=29}. Tutte le Zone-distretto toscane hanno attivato progetti \"Dopo di Noi\", coinvolgendo circa 1450 persone sul territorio regionale:contentReference[oaicite:30]{index=30}. L'accesso avviene tramite i servizi territoriali (Societ� della Salute) che individuano i beneficiari e attuano gli interventi in rete con associazioni e famiglie.",
+      "benefit": {
+        "periodicita": "progetto triennale",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "I progetti prevedono azioni integrate (abitare, supporto domiciliare, sviluppo competenze) finanziate con fondi nazionali L.112/2016 e cofinanziamento locale:contentReference[oaicite:31]{index=31}:contentReference[oaicite:32]{index=32}. Non � previsto un trasferimento monetario diretto all�individuo, ma servizi e sostegni personalizzati."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave (art.3 c.3 L.104/92) prive del sostegno familiare (senza genitori o con genitori non pi� in grado di fornire assistenza)"
+        ],
+        "isee": {
+          "richiesto": null,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Progetto personalizzato concordato con i servizi sociali; valutazione multidisciplinare UVMD per approvazione inserimento in progetto �Dopo di Noi�:contentReference[oaicite:33]{index=33}:contentReference[oaicite:34]{index=34}"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Societ� della Salute/Zona-Distretto"
+        ],
+        "modalita": "manifestazione_interesse",
+        "canali": [
+          "Segnalazione tramite servizi sociali territoriali",
+          "Avvisi pubblici riservati agli enti gestori (SdS/Aziende USL)"
+        ],
+        "documenti_chiave": [
+          "Progetto di vita personalizzato",
+          "Certificato di disabilit� grave senza sostegno familiare"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo nazionale 'Dopo di Noi' (annualit� dal 2017)",
+          "Cofinanziamento enti territoriali"
+        ],
+        "normativa": [
+          {
+            "atto": "L. 112/2016",
+            "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2016-06-22;112!vig="
+          },
+          {
+            "atto": "DGR Toscana 753/2017",
+            "url": "https://www.regione.toscana.it/documents/10180/13320220/Delibera+Giunta+Regionale+753_2017.pdf"
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2017-07-10",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "I progetti sono attuati dalle Societ� della Salute/Zone Distretto attraverso co-progettazione con il terzo settore:contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}; contenuti e modalit� possono variare secondo le esigenze territoriali, pur rispettando le linee guida regionali."
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Contatta i servizi sociali della tua ASL di zona o Societ� della Salute per informazioni sui percorsi �Durante e Dopo di Noi� attivi e su come aderire."
+      }
+    },
+    {
+      "prestazione_id": "TOS-ADI-SAD-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI) e Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [
+        "ADI (cure domiciliari sanitarie)",
+        "Servizio domiciliare socio-assistenziale"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-AD",
+      "famiglie_normative_ids": [
+        "FN-LEA",
+        "FN-SSR",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Servizi domiciliari sanitari e socio-assistenziali erogati per favorire la permanenza a casa di anziani non autosufficienti e persone con disabilit�. L�**ADI** (livello essenziale sanitario) fornisce gratuitamente prestazioni infermieristiche, riabilitative e di cura personale a domicilio, in base a un piano assistenziale definito dall'UVMD:contentReference[oaicite:37]{index=37}. Il **SAD** (servizio sociale domiciliare) offre aiuto per attivit� quotidiane (cura della persona, pulizie, pasti) attraverso operatori socio-sanitari, spesso in coordinamento con l'ADI. L�ADI � garantita dalla ASL, mentre il SAD � gestito dai Comuni singoli o associati (Societ� della Salute) con eventuale partecipazione alla spesa in base all'ISEE.",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "ADI erogata a carico del SSN senza costi per l�utente; SAD eventualmente con tariffa oraria modulata sull�ISEE dal Comune."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti",
+          "Persone con disabilit� o malattie cronico-degenerative che richiedono assistenza domiciliare"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione multidisciplinare (UVMD) per ADI; valutazione sociale per SAD; eventuale scheda VALERI/SVAMA per livello di non autosufficienza"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (ADI)",
+          "Comuni/SdS (SAD)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Richiesta del Medico di Medicina Generale (per ADI)",
+          "Servizi Sociali comunali (per SAD)"
+        ],
+        "documenti_chiave": [
+          "Impegnativa del medico (per ADI)",
+          "Attestazione ISEE (per SAD)",
+          "Documento d'identit�"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Servizio Sanitario Regionale (per ADI)",
+          "Fondo Sociale Regionale e bilanci comunali (per SAD)"
+        ],
+        "normativa": [
+          {
+            "atto": "DPCM 12/01/2017 (LEA domiciliari)",
+            "url": ""
+          },
+          {
+            "atto": "L.R. Toscana 66/2008",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Le Societ� della Salute (consorzi fra Comuni e ASL) definiscono l'organizzazione territoriale dei servizi domiciliari; criteri di compartecipazione SAD variabili secondo regolamenti comunali."
+      },
+      "ux": {
+        "priorita_contatto": 0.95,
+        "messaggio_consulenza": "Parla con il tuo medico di base per l�attivazione dell�ADI, o contatta l�Assistente Sociale del tuo Comune/SdS per richiedere assistenza domiciliare socio-assistenziale."
+      }
+    }
+  ]
+}

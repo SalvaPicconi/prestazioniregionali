@@ -1,0 +1,474 @@
+{
+  "metadata": {
+    "nome_regione": "Molise",
+    "codice_regione": "MOL",
+    "ultimo_aggiornamento": "2025-10-29",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "DGR Molise n.414/2023 e n.139/2024 (Programma regionale Non Autosufficienza)",
+      "Bollettino Ufficiale Regione Molise n.12/2024",
+      "Conferenza stampa Regione Molise 16/01/2024 (Ambiti Sociali Molise)"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "MOL-assegno-cura-v2025",
+      "nome_ufficiale": "Assegno di cura domiciliare FNA Molise",
+      "alias": [
+        "contributo sollievo"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-ASCU",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Contributo mensile per favorire la permanenza a domicilio di anziani non autosufficienti con alto bisogno assistenziale e di persone con disabilit� gravissima (assistite da caregiver familiare).",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 500,
+        "importo_max": 500,
+        "equivalente_mensile": 500,
+        "note": "Importo fisso di �500 al mese per 12 mesi, destinato al rimborso di spese di assistenza domiciliare."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti (alto bisogno)",
+          "Persone con disabilit� gravissima <65 anni"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVM socio-sanitaria (UVMD) con punteggio elevato",
+          "Certificazione L.104/92 art.3 c.3",
+          "Criteri D.M. 26/09/2016 (disabilit� gravissima)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito/PLUS"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello presso Ambito",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "Attestazione ISEE",
+          "Verbale commissione disabilit� (art.3 c.3)",
+          "Documento di identit�"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 414/28-12-2023 (Prog. Non Autosufficienza)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 139/12-03-2024 (Fondo caregiver 2023)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-01-16",
+        "scadenza": "2024-02-14"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Criteri uniformi regionali (importo e soglia ISEE fissi); gestione operativa tramite Ambiti Territoriali Sociali."
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Per richiedere l�assegno di cura rivolgiti al tuo Ambito Territoriale Sociale di residenza durante il periodo di apertura del bando."
+      }
+    },
+    {
+      "prestazione_id": "MOL-voucher-domiciliare-v2025",
+      "nome_ufficiale": "Voucher per assistenza domiciliare integrata",
+      "alias": [
+        "buoni servizio autonomia"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-VOUCH",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Buoni economici da utilizzare per acquistare servizi di assistenza domiciliare da enti accreditati, a supporto di persone con disabilit� grave non autosufficienti.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 500,
+        "importo_max": 500,
+        "equivalente_mensile": 500,
+        "note": "Valore equivalente a �500/mese in servizi domiciliari (es. ore di assistenza qualificata) erogati da provider accreditati."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave (non gravissima) residenti a domicilio"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVM integrata (sociale+sanitaria)",
+          "Certificazione L.104/92 art.3 c.3 (handicap grave)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito/PLUS"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello presso Ambito",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "Attestazione ISEE",
+          "Verbale L.104/92 art.3 c.3",
+          "Scheda di valutazione UVM"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 414/2023 (Prog. Non Autosufficienza)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-01-16",
+        "scadenza": "2024-02-14"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Misura definita a livello regionale; ciascun Ambito Territoriale cura l�erogazione dei voucher secondo le linee guida uniformi."
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Puoi presentare domanda di voucher presso il tuo Ambito Territoriale Sociale; verifica sul sito del tuo Ambito i termini e le modalit�."
+      }
+    },
+    {
+      "prestazione_id": "MOL-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [
+        "cure domiciliari integrate"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-ADI",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio domiciliare socio-sanitario che offre interventi infermieristici, riabilitativi e di assistenza alla persona non autosufficiente direttamente a casa, in modo integrato con il servizio sanitario regionale.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": 0,
+        "importo_max": 0,
+        "equivalente_mensile": 0,
+        "note": "Prestazioni erogate dall�ASReM senza costi diretti per l�utente (salvo eventuali ticket), secondo un piano di cure domiciliari personalizzato."
+      },
+      "requisiti": {
+        "target": [
+          "Persone non autosufficienti con bisogni sanitari assistenziali a domicilio"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": 0,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione UVM socio-sanitaria (UVG/UVMD) per accesso ADI",
+          "Prescrizione del Medico di Medicina Generale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "PUA (Punto Unico di Accesso) ASReM",
+          "Richiesta MMG"
+        ],
+        "documenti_chiave": [
+          "Impegnativa del medico curante",
+          "Scheda di valutazione UVM",
+          "Documento d�identit�"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR"
+        ],
+        "normativa": [
+          {
+            "atto": "DPCM 12/01/2017 (LEA � ADI)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "",
+        "scadenza": ""
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Servizio garantito uniformemente dall�Azienda Sanitaria Regionale del Molise secondo i livelli essenziali di assistenza."
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Per attivare l�ADI, rivolgiti al tuo medico di base o al Punto Unico di Accesso (PUA) della tua ASL per richiedere la valutazione e l�attivazione del servizio."
+      }
+    },
+    {
+      "prestazione_id": "MOL-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [
+        "assistenza domiciliare sociale"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-SAD",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Servizio gestito dai Comuni/Ambiti che fornisce assistenza a domicilio per attivit� quotidiane (igiene personale, governo della casa, pasti) ad anziani e disabili con limitata autonomia, integrando l�eventuale apporto familiare.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": 0,
+        "importo_max": 0,
+        "equivalente_mensile": 0,
+        "note": "Il servizio offre un monte ore di assistenza domiciliare personalizzato; l�eventuale contributo economico richiesto all�utente dipende dal reddito (tariffa oraria agevolata in base all�ISEE)."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti",
+          "Persone con disabilit� parziale o totale che necessitano aiuto a domicilio"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 0,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione sociale del bisogno da parte del Comune/Ambito"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito/PLUS",
+          "Comune"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Servizi Sociali Comunali",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "Attestazione ISEE",
+          "Certificato di invalidit� o relazione sociale",
+          "Documento d�identit�"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Comuni",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. Molise 13/2014 (sistema integrato interventi sociali)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "",
+        "scadenza": ""
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Il servizio SAD � organizzato dagli Ambiti territoriali: criteri di accesso e contributo utente possono variare (in base a regolamenti locali), pur nei principi regionali."
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Contatta i Servizi Sociali del tuo Comune/Ambito per richiedere l�attivazione dell�assistenza domiciliare; un assistente sociale valuter� i bisogni e concorder� gli interventi."
+      }
+    },
+    {
+      "prestazione_id": "MOL-RSA-v2025",
+      "nome_ufficiale": "Residenza Sanitaria Assistenziale (RSA)",
+      "alias": [
+        "struttura residenziale per non autosufficienti"
+      ],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SR-RSA",
+      "famiglie_normative_ids": [
+        "FN-LEA",
+        "FN-REG"
+      ],
+      "descrizione_breve": "Struttura residenziale socio-sanitaria che accoglie anziani non autosufficienti (o persone con disabilit�) garantendo assistenza continuativa, cure mediche di base, nursing infermieristico e attivit� riabilitative in regime di lungodegenza.",
+      "benefit": {
+        "periodicita": "residenziale continuativo",
+        "importo_min": 0,
+        "importo_max": 0,
+        "equivalente_mensile": 0,
+        "note": "La retta � composta da una quota sanitaria (a carico del SSR) e una quota sociale-alberghiera a carico dell�utente (eventualmente integrata dal Comune in base all�ISEE familiare)."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti senza adeguato supporto domiciliare",
+          "Persone con grave disabilit� che richiedono assistenza residenziale"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 0,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione geriatrica UVG (o UVM) che attesti la necessit� di ricovero in RSA",
+          "Prescrizione/Nulla osta ASL per inserimento in struttura accreditata"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "ASL (UVG/PUA)",
+          "Servizi Sociali Comunali"
+        ],
+        "documenti_chiave": [
+          "Scheda di valutazione UVG/UVMD",
+          "Attestazione ISEE per retta",
+          "Documento d�identit�"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Comuni",
+          "Utenti"
+        ],
+        "normativa": [
+          {
+            "atto": "Accordo Stato-Regioni 04/02/2001 (Requisiti RSA)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 60/2017 Molise (accreditamento RSA)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "",
+        "scadenza": ""
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Posti e tariffe RSA regolati da DGR regionali; modalit� di compartecipazione alla retta possono differire in base ai regolamenti comunali (sostegno economico ai meno abbienti)."
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Per informazioni sull�inserimento in RSA, contatta l�Assistente Sociale del tuo Comune o l�ASL di competenza; sar� necessaria una valutazione geriatrica per l�ammissione."
+      }
+    },
+    {
+      "prestazione_id": "MOL-dopo-noi-v2025",
+      "nome_ufficiale": "Programma regionale �Dopo di Noi�",
+      "alias": [
+        "interventi L.112/2016 Molise"
+      ],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "PS-DopoNoi",
+      "famiglie_normative_ids": [
+        "FN-L112"
+      ],
+      "descrizione_breve": "Iniziative a sostegno di persone con disabilit� grave prive del sostegno familiare, mirate a creare soluzioni abitative protette e percorsi di autonomia dopo la perdita dei caregiver principali.",
+      "benefit": {
+        "periodicita": "progetto",
+        "importo_min": 0,
+        "importo_max": 0,
+        "equivalente_mensile": 0,
+        "note": "Supporto personalizzato: ad esempio, contributi per la coabitazione in gruppi-appartamento, servizi educativi domiciliari, etc. (non erogazione monetaria diretta, ma finanziamento di progetti)."
+      },
+      "requisiti": {
+        "target": [
+          "Disabili gravi (L.104/92 art.3 c.3) tra i 18 e i 64 anni senza genitori o con genitori non pi� in grado di occuparsi di loro"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 25000,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Progetto personalizzato validato dall�Ambito Sociale",
+          "Verifica requisiti secondo Linee Guida nazionali D.M. 23/11/2016"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito/PLUS"
+        ],
+        "modalita": "bando_periodico",
+        "canali": [
+          "sportello presso Ambito",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "Progetto di vita (scheda progettuale)",
+          "Attestazione ISEE",
+          "Certificazione L.104/92 art.3 c.3"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Nazionale Dopo di Noi"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 215/2017 Molise (Programma Attuativo Dopo di Noi)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-04-15",
+        "scadenza": "2024-10-31"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Gli Ambiti Sociali attuano gli interventi con modalit� specifiche (ad esempio bandi o avvisi territoriali), in coerenza con le linee regionali."
+      },
+      "ux": {
+        "priorita_contatto": 0.5,
+        "messaggio_consulenza": "Per conoscere le opportunit� �Dopo di Noi� nella tua zona, contatta il tuo Ambito Territoriale Sociale: potrai presentare un progetto personalizzato per la vita autonoma con il supporto dei servizi sociali."
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "nome_regione": "Trento (P.A.)",
+    "codice_regione": "TRE",
+    "ultimo_aggiornamento": "2023-12-31",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://www.provincia.tn.it/Servizi/Domanda-per-la-concessione-dell-assegno-di-cura",
+      "https://www.provincia.tn.it/Amministrazione/Progetti/Percorsi-di-autonomia-per-persone-con-disabilita"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "TRE-assegno-cura-v2025",
+      "nome_ufficiale": "Assegno di cura per persone non autosufficienti",
+      "alias": [
+        "Assegno di cura provinciale Trento"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-AC",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Intervento economico integrativo dell'indennit� di accompagnamento, erogato per favorire la permanenza a domicilio di anziani e disabili non autosufficienti e sostenere le loro famiglie nel carico di cura:contentReference[oaicite:40]{index=40}:contentReference[oaicite:41]{index=41}. L'importo mensile � graduato in base al **livello di gravit�** (4 livelli) e alla condizione economica familiare (indice ICEF), con valori attuali da **100 �** (minimo per gravit� lieve) fino a **1.100 �** mensili (massimo per gravit� molto elevata):contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}. Ad esempio, per il livello di gravit� pi� alto (livello 4) si pu� ottenere un assegno pieno di 1.100 � al mese (ridotto a 500 � al mese per nuclei con reddito prossimo alla soglia ICEF):contentReference[oaicite:44]{index=44}. L'assegno � finalizzato all'acquisizione di servizi assistenziali, riabilitativi domiciliari o semi-residenziali: pu� essere utilizzato per retribuire **assistenti familiari** regolarmente assunti, enti accreditati, familiari caregiver (parenti fino al 3� grado) che prestano assistenza, o per contribuire ai costi di servizi pubblici di supporto alla domiciliarit�:contentReference[oaicite:45]{index=45}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 100,
+        "importo_max": 1100,
+        "equivalente_mensile": 1100,
+        "note": "Importi variabili per 4 livelli di non autosufficienza: es. livello 4 (massima gravit�) 1.100 � mese (pieno) o 500 � (ridotto), livello 3: 600 � (pieno) o 300 � (ridotto), livello 2: 300 � (pieno) o 150 � (ridotto), livello 1: 100 �:contentReference[oaicite:46]{index=46}. La riduzione dipende dal parametro economico ICEF (indice <=0,32 per accesso):contentReference[oaicite:47]{index=47}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone di qualsiasi et� in condizione di non autosufficienza certificata (fisica, psichica o sensoriale) che necessitano assistenza continuativa:contentReference[oaicite:48]{index=48}"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Accertamento multidisciplinare da parte dell'Unit� Valutativa Multidisciplinare (UVM) del Distretto sanitario, integrata da medico legale, per certificare la non autosufficienza e ne redigere il Piano Assistenziale Individualizzato:contentReference[oaicite:49]{index=49}:contentReference[oaicite:50]{index=50}. Richiesto possesso o domanda di Indennit� di accompagnamento provinciale (L.P. 7/1998):contentReference[oaicite:51]{index=51}."
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "APSS Trento (Azienda sanitaria provinciale)",
+          "Servizi Sociali delle Comunit� di Valle"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Istituti di Patronato convenzionati:contentReference[oaicite:52]{index=52}",
+          "Sportelli periferici della Provincia:contentReference[oaicite:53]{index=53}"
+        ],
+        "documenti_chiave": [
+          "Modulo di domanda assegno di cura",
+          "Certificato medico di non autosufficienza (verbale UVM)",
+          "Attestazione ICEF <= 0.32",
+          "Documento identit�"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Bilancio provinciale (Fondo Non Autosufficienza PAT)"
+        ],
+        "normativa": [
+          {
+            "atto": "L.P. Trento 24/07/2012 n.15",
+            "url": "http://www.consiglio.provincia.tn.it/leggi-e-archivi/codice-provinciale/archivio/Pages/Legge provinciale n_ 15 del 24 luglio 2012.aspx"
+          },
+          {
+            "atto": "Delib.G.P. Trento n. 205/2023 (criteri aggiornamento assegno di cura)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Intervento regolato a livello provinciale uniformemente; l'erogazione e la gestione delle domande coinvolge i servizi sociali locali (Comunit� di Valle) per la presa in carico, ma criteri e importi sono definiti a livello provinciale."
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Puoi presentare la domanda in qualsiasi momento dell'anno tramite un patronato o presso gli sportelli periferici della Provincia. Per informazioni rivolgiti anche all'assistente sociale del tuo Distretto sanitario."
+      }
+    },
+    {
+      "prestazione_id": "TRE-pnrr-autonomia-v2025",
+      "nome_ufficiale": "Percorsi di autonomia per persone con disabilit� (Progetto PNRR \"Dopo di Noi\")",
+      "alias": [
+        "Interventi di de-istituzionalizzazione PNRR M5C2-1.2"
+      ],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SC-DOPO",
+      "famiglie_normative_ids": [
+        "FN-L112",
+        "FN-PNRR"
+      ],
+      "descrizione_breve": "Progetto finanziato nell'ambito del PNRR per potenziare le esperienze di vita indipendente in Trentino, in un'ottica di 'Durante e Dopo di Noi'. Sono stati attivati **6 progetti territoriali (2022-2025)** coinvolgendo tutte le Comunit� di Valle e i Comuni di Trento e Rovereto:contentReference[oaicite:54]{index=54}:contentReference[oaicite:55]{index=55}. Gli interventi prevedono: adeguamento di appartamenti (domotica, eliminazione barriere) per soluzioni di co-housing; potenziamento dell'�quipe multidisciplinare sociali e sanitarie per individuare beneficiari e costruire percorsi personalizzati; formazione all'autonomia (inclusa alfabetizzazione digitale) e inserimento socio-lavorativo:contentReference[oaicite:56]{index=56}:contentReference[oaicite:57]{index=57}. Obiettivo � accompagnare gradualmente circa **47 persone** verso una maggiore autonomia abitativa e minor dipendenza dalla famiglia:contentReference[oaicite:58]{index=58}. L�accesso � riservato a utenti individuati dai servizi sociali territoriali in collaborazione con le associazioni, secondo criteri progettuali approvati a livello provinciale.",
+      "benefit": {
+        "periodicita": "progetto una tantum (investimento 2022-2025)",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "I progetti non erogano sussidi diretti continuativi, ma prevedono interventi personalizzati (ristrutturazioni, dotazioni tecnologiche, servizi educativi) finanziati dal PNRR e cofinanziati localmente:contentReference[oaicite:59]{index=59}:contentReference[oaicite:60]{index=60}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� che possono trarre beneficio da percorsi di vita autonoma, prioritariamente adulti non autosufficienti che vivono con genitori anziani (nell�ottica del �Dopo di noi�)."
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione multidisciplinare da parte dellՎquipe distrettuale (sociale e sanitaria) per definire il progetto individuale di autonomia:contentReference[oaicite:61]{index=61}:contentReference[oaicite:62]{index=62}."
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Provincia Autonoma di Trento (coordinamento)",
+          "Comunit� di Valle/Comuni (attuazione locale)"
+        ],
+        "modalita": "manifestazione_interesse",
+        "canali": [
+          "Segnalazione interna dai servizi sociali territoriali",
+          "Coinvolgimento su invito delle famiglie/utenti idonei"
+        ],
+        "documenti_chiave": [
+          "Progetto di vita indipendente concordato",
+          "Scheda UVMD/SVaMA di valutazione autonomia"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "PNRR (Missione 5 Componente 2 Investimento 1.2)",
+          "Bilancio provinciale",
+          "Risorse dei Comuni/Comunit� (cofinanziamento)"
+        ],
+        "normativa": [
+          {
+            "atto": "D.G.P. Trento n.1746/2022 e n.710/2023 (attuazione PNRR disabilit�)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2022-11-16",
+        "scadenza": "2025-12-31"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ogni progetto coinvolge specifici territori (aggregazioni di Comunit� di Valle) con adattamenti secondo le esigenze locali, nell'ambito dei parametri generali del PNRR."
+      },
+      "ux": {
+        "priorita_contatto": 0.5,
+        "messaggio_consulenza": "Informati presso il tuo Comune o Comunit� di Valle se esistono progetti di autonomia abitativa per disabili attivi e come potresti esserne coinvolto."
+      }
+    },
+    {
+      "prestazione_id": "TRE-ADI-RSA-v2025",
+      "nome_ufficiale": "Servizi socio-sanitari integrati: Assistenza domiciliare (ADI) e inserimento in RSA",
+      "alias": [
+        "ADI Trentino",
+        "Impegnativa di residenzialit� RSA"
+      ],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "SD-AD",
+      "famiglie_normative_ids": [
+        "FN-LEA",
+        "FN-SSR"
+      ],
+      "descrizione_breve": "In Trentino l�**Assistenza Domiciliare Integrata (ADI)** � garantita dall'Azienda sanitaria provinciale: un'�quipe multidisciplinare (medici, infermieri, fisioterapisti, OSS) fornisce a domicilio cure sanitarie, riabilitative e socio-assistenziali secondo il Piano assistenziale UVM, senza oneri per l'utente. Per i casi non gestibili a domicilio, l'inserimento in **RSA (Residenza Sanitaria Assistenziale)** avviene tramite valutazione UVM e assegnazione di un posto convenzionato (\"quota sanitario-assistenziale\" a carico del Servizio Sanitario Provinciale). L�utente contribuisce solo alla **retta alberghiera** (costi di vitto/alloggio) con tariffe standardizzate (~50 � al giorno nel 2024):contentReference[oaicite:63]{index=63}:contentReference[oaicite:64]{index=64}, eventualmente integrate dal Comune se l'anziano non ha mezzi sufficienti. L'accesso alle RSA � regolato da graduatorie gestite dall'APSS tramite l'UVMD distrettuale:contentReference[oaicite:65]{index=65}. Il sistema garantisce continuit� assistenziale: l'ADI viene sospesa in caso di ricovero prolungato (>30 giorni) o ingresso stabile in struttura:contentReference[oaicite:66]{index=66}.",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "ADI: servizio gratuito come da LEA; RSA: quota sanitaria ~100 � al giorno coperta da Provincia, quota sociale ~50 � a carico utente (ridotta se l�utente non pu� pagare)."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani e persone con disabilit� non autosufficienti con bisogno di assistenza sanitaria continuativa"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione UVMD distrettuale (schede SVaMA/SVAMDi) per accesso ai servizi domiciliari e residenziali; definizione del punteggio di gravit� per priorit� RSA."
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "APSS Trento (distretti sanitari)",
+          "APSP (RSA pubbliche/accreditate)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Medico di medicina generale (attivazione ADI)",
+          "Assistente sociale del Comune (domanda RSA)"
+        ],
+        "documenti_chiave": [
+          "Richiesta del medico curante (per ADI)",
+          "Valutazione UVMD",
+          "Attestazione ISEE (per eventuale integrazione retta RSA)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Servizio Sanitario Provinciale",
+          "Bilanci comunali (integrazione rette RSA se necessaria)"
+        ],
+        "normativa": [
+          {
+            "atto": "L.P. Trento 23/1992 n.20 (sistema sanitario provinciale)",
+            "url": ""
+          },
+          {
+            "atto": "D.G.P. Trento 2400/2012 (integrazione rette RSA)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Standard assistenziali uniformi provinciali; ogni RSA applica tariffe stabilite da Provincia (con aggiornamenti periodici):contentReference[oaicite:67]{index=67}. Liste d'attesa e priorit� gestite a livello di Distretto sanitario."
+      },
+      "ux": {
+        "priorita_contatto": 0.95,
+        "messaggio_consulenza": "Per attivare l�assistenza domiciliare, rivolgiti al tuo medico di base o al Punto Unico d�Accesso dell�APSS. Per ingresso in RSA, contatta il servizio sociale locale per l�avvio della valutazione UVMD."
+      }
+    }
+  ]
+}

@@ -1,0 +1,690 @@
+{
+  "metadata": {
+    "nome_regione": "Liguria",
+    "codice_regione": "LIG",
+    "ultimo_aggiornamento": "2025-10-28",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://poliss.regione.liguria.it/cittadini/servizi-sociosanitari/servizi-sociosanitari-per-competenza-territoriale/269-misure-per-la-non-autosufficienza",
+      "https://www.asl3.liguria.it/territorio/servizi/disabili/4981-fondo-gravissima-disabilita-sla.html",
+      "https://www.comune.sestri-levante.ge.it/novita/presentazione-domande-per-agevolazione-caregiver-2025/"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "LIG-VITAIND-v2025",
+      "nome_ufficiale": "Progetti di Vita Indipendente",
+      "alias": [],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "SC-DIS-GIOV",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Percorsi personalizzati che permettono a persone con disabilit� di et� 18-65 anni, con gravit� certificata, di vivere in autonomia scegliendo e gestendo i propri supporti assistenziali. Il progetto � finanziato attraverso il Fondo per la Non Autosufficienza:contentReference[oaicite:52]{index=52}.",
+      "benefit": {
+        "periodicita": "annuale",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Contributo economico definito in sede di progetto individuale, finalizzato all�assunzione di assistenti personali o ad altre spese che favoriscano l�indipendenza. L�ISEE sociosanitario deve essere �25.000 �:contentReference[oaicite:53]{index=53}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave 18-65 anni, capaci di esprimere la propria volont�, con certificazione di gravit� (L.104 art.3 c.3)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 25000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Progetto individuale approvato da UVMD"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL e Ambito Territoriale (in integrazione)"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "presentazione progetto tramite il Comune/ASL"
+        ],
+        "documenti_chiave": [
+          "Modulo di adesione progetto Vita Indipendente",
+          "ISEE sociosanitario",
+          "Certificazione disabilit� grave"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 206/2018 Liguria (Vita Indipendente)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2023-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Progetti avviati in via sperimentale in alcune aree (es. Agenzie per la Vita Indipendente) con successiva estensione regionale:contentReference[oaicite:54]{index=54}:contentReference[oaicite:55]{index=55}"
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Contatta i servizi sociali del tuo Comune per sapere come partecipare ai progetti di Vita Indipendente: potrai ottenere un budget per gestire autonomamente la tua assistenza."
+      }
+    },
+    {
+      "prestazione_id": "LIG-Gravissima-v2025",
+      "nome_ufficiale": "Contributo per disabilit� gravissima",
+      "alias": [
+        "Fondo gravissime disabilit� (inclusa SLA)"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-DIS-GRAV",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Misura economica mensile a sostegno della domiciliarit� per persone con disabilit� gravissima, che necessitano di assistenza sociosanitaria continuativa h24. Il contributo mira a finanziare l�assistenza fornita dal caregiver familiare e/o l�acquisto di servizi di cura a domicilio:contentReference[oaicite:56]{index=56}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 600,
+        "importo_max": 1200,
+        "equivalente_mensile": null,
+        "note": "Importo modulare fino a �1.200/mese in base al Piano Assistenziale Individuale: fino a �600 riconosciuti come compensazione del lavoro di cura del familiare (quota non rendicontabile), e ulteriore quota (fino ad altri �600) per spese documentate di assistenza aggiuntiva:contentReference[oaicite:57]{index=57}:contentReference[oaicite:58]{index=58}. Se il beneficiario frequenta un centro diurno 5 gg/sett., l�importo massimo � �600:contentReference[oaicite:59]{index=59}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone (di qualsiasi et�) con disabilit� gravissima e bisogno di assistenza continua al domicilio nelle 24h"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Invalidit� civile 100% + Indennit� di accompagnamento:contentReference[oaicite:60]{index=60}",
+          "Certificazione gravissima (DGR 1289/2016) da UVMD"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (Distretto sociosanitario)"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "presentazione domanda al Distretto ASL"
+        ],
+        "documenti_chiave": [
+          "Certificato invalidit� 100% con indennit� accompagnamento",
+          "Certificato medico specialistico su modello regionale (condizioni DM 2016)",
+          "ISEE sociosanitario �50.000 � (�65.000 � se minore):contentReference[oaicite:61]{index=61}"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 945/2016 Liguria (criteri disabilit� gravissime)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 137/2017 Liguria (misura grave vs gravissima)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Misura coordinata da ALISA (Azienda Ligure Sanitaria); compatibile con centro diurno (riduzione importo) e utilizzabile per compartecipare alla retta di centro diurno:contentReference[oaicite:62]{index=62}:contentReference[oaicite:63]{index=63}. Incompatibile con altri contributi regionali analoghi (es. contributo grave disabilit�):contentReference[oaicite:64]{index=64}."
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Presenta domanda al Distretto ASL entro i termini annuali se assisti a domicilio un familiare con disabilit� gravissima: potrai ricevere fino a �1.200 mensili per supportare le cure:contentReference[oaicite:65]{index=65}."
+      }
+    },
+    {
+      "prestazione_id": "LIG-GraveDis-v2025",
+      "nome_ufficiale": "Contributo per disabilit� grave (Fondo Regionale Non Autosufficienza)",
+      "alias": [
+        "Assegno di mantenimento a domicilio"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-ANZ-DIS",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Misura economica regionale (Fondo Non Autosufficienti Liguria) consistente in un assegno mensile fisso erogato per il mantenimento al domicilio di persone non autosufficienti (anziani o disabili) con bisogni assistenziali elevati ma non rientranti nella gravissima disabilit�:contentReference[oaicite:66]{index=66}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 350,
+        "importo_max": 350,
+        "equivalente_mensile": 350,
+        "note": "Importo standard di �350 al mese per persona non autosufficiente assistita a domicilio:contentReference[oaicite:67]{index=67}. L�assegno � finalizzato a sostenere le famiglie nell�accudimento della persona e prevenirne l�istituzionalizzazione."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani o persone con disabilit� non autosufficienti (grave) mantenute al domicilio"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione UVMD (profilo di non autosufficienza ai sensi DGR 1106/2006)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (Distretto sociosanitario)",
+          "Ambiti Territoriali Sociali"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "domanda presso il Comune/Distretto"
+        ],
+        "documenti_chiave": [
+          "Verbale invalidit� 100%/accompagnamento",
+          "ISEE sociosanitario"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione (FRNA)",
+          "Comuni"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 1106/2006 Liguria (definizione non autosufficienza)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 353/2022 Liguria (fondo regionale non autosuff.)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "La gestione � affidata alle ASL/Ambiti; alcuni parametri (es. soglia ISEE per accesso) possono essere adattati su base territoriale."
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Informati presso il tuo Comune o Distretto ASL sull�assegno regionale da �350 per non autosufficienti: � un aiuto fisso mensile per chi assiste in casa anziani o disabili gravi:contentReference[oaicite:68]{index=68}."
+      }
+    },
+    {
+      "prestazione_id": "LIG-MeglioCasa-v2025",
+      "nome_ufficiale": "Progetto �Meglio a casa� (assistenza post-dimissione protetta)",
+      "alias": [],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SC-SAN-DOM",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Intervento di assistenza tutelare temporanea a domicilio, gratuito per il primo mese, rivolto a pazienti non autosufficienti dimessi dall�ospedale, per garantire la continuit� assistenziale e favorire il recupero al domicilio:contentReference[oaicite:69]{index=69}.",
+      "benefit": {
+        "periodicita": "temporanea",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Servizio di assistente familiare fornito gratuitamente per 1 mese dopo la dimissione ospedaliera; dopo il primo mese, l�utente pu� scegliere se proseguire a proprie spese. Obiettivo: transizione sicura dall�ospedale alla cura a domicilio:contentReference[oaicite:70]{index=70}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone non autosufficienti dimesse dall�ospedale che necessitano di assistenza domiciliare temporanea per il recupero"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Segnalazione reparto ospedaliero / valutazione assistente sociale ospedaliero"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL in collaborazione con ospedale"
+        ],
+        "modalita": "dimissione_protetta",
+        "canali": [
+          "attivazione diretta prima della dimissione"
+        ],
+        "documenti_chiave": [
+          "Piano di dimissione protetta",
+          "Consenso paziente/famiglia"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione",
+          "ASL"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 1037/2017 Liguria (avvio progetto Meglio a Casa)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2018-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Intervento gestito unitariamente a livello regionale in coordinamento tra ospedali e servizi territoriali"
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Se un tuo familiare fragile viene dimesso dall�ospedale in Liguria, chiedi del progetto �Meglio a casa�: avr� diritto a un mese di assistenza domiciliare gratuita per facilitare il rientro a casa."
+      }
+    },
+    {
+      "prestazione_id": "LIG-BonusCaregiver-v2025",
+      "nome_ufficiale": "Bonus caregiver familiare",
+      "alias": [
+        "Contributo di sollievo al caregiver"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-CAREGIVER",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Contributo economico mensile erogato al caregiver familiare di persone non autosufficienti, finalizzato a riconoscere e alleviare il carico assistenziale attraverso un sostegno monetario diretto:contentReference[oaicite:71]{index=71}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 200,
+        "importo_max": 400,
+        "equivalente_mensile": null,
+        "note": "Importo mensile per 12 mesi: �400 se il caregiver ha ISEE �15.000; �200 se ISEE >15.000 (fino a 30.000):contentReference[oaicite:72]{index=72}. Il bonus � destinato ai caregiver di persone: 1) disabili gravissimi, 2) con demenza grave (CDRS 1-3), 3) non autosufficienti ai sensi della DGR 1106/2006:contentReference[oaicite:73]{index=73}."
+      },
+      "requisiti": {
+        "target": [
+          "Caregiver convivente e continuativo di persona con disabilit� gravissima, grave demenza o non autosufficienza grave in assistenza domiciliare:contentReference[oaicite:74]{index=74}"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 30000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Certificazione disabilit� gravissima o profilo regionale non autosufficienza",
+          "Riconoscimento formale caregiver da UVMD"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito/Distretto sociosanitario"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "domanda presso Comune capofila di Distretto"
+        ],
+        "documenti_chiave": [
+          "Modulo domanda bonus caregiver",
+          "ISEE ordinario",
+          "Certificazioni condizione assistito (verbali UVMD, scale CDRS etc.)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione (Fondo Caregiver)"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 751/2024 Liguria (Piano sostegno caregiver 2024-26)",
+            "url": ""
+          },
+          {
+            "atto": "Decreto Dirig. 3220/2025 (bando Bonus Caregiver 2025)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-07-14",
+        "scadenza": "2025-09-15"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Graduatorie stilate per Distretto con priorit� a ISEE pi� basso e a chi non ha mai fruito del bonus:contentReference[oaicite:75]{index=75}:contentReference[oaicite:76]{index=76}; erogazione a cura di FILSE (Finanziaria Ligure) dietro rendicontazione mensile dei beneficiari da parte dei servizi:contentReference[oaicite:77]{index=77}."
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Hai tempo fino al 15 settembre 2025 per presentare la domanda di Bonus Caregiver in Liguria: verifica sul sito del tuo Comune capofila di Distretto i requisiti e compila l�apposito modulo:contentReference[oaicite:78]{index=78}:contentReference[oaicite:79]{index=79}."
+      }
+    },
+    {
+      "prestazione_id": "LIG-DopoNoi-v2025",
+      "nome_ufficiale": "Interventi Dopo di Noi (L.112/2016)",
+      "alias": [],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "SC-DSA",
+      "famiglie_normative_ids": [
+        "FN-L112"
+      ],
+      "descrizione_breve": "Progetti e interventi finanziati con il Fondo �Dopo di Noi� per persone con disabilit� grave prive del sostegno familiare, con l�obiettivo di realizzare soluzioni di residenzialit� alternativa alla famiglia d�origine e percorsi di vita indipendente.",
+      "benefit": {
+        "periodicita": "una_tantum",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Contributi utilizzati per: ristrutturazioni di abitazioni per gruppi di disabili, progetti di cohousing, istituzione di gruppi appartamento con supporto educativo, ecc. Gli importi variano per progetto; parte dei fondi pu� essere destinata a trust o polizze assicurative in favore dei beneficiari."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave (18-64 anni) senza supporto familiare, in condizioni socio-economiche di fragilit�"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 25000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Progetto personalizzato condiviso tra servizi sociali e famiglia (se presente)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambiti Territoriali Sociali (Distretti)"
+        ],
+        "modalita": "bando/manifestazione_interesse",
+        "canali": [
+          "avvisi pubblici degli Ambiti",
+          "segnalazione ai servizi sociali"
+        ],
+        "documenti_chiave": [
+          "Proposta di progetto abitativo",
+          "ISEE",
+          "Documentazione disabilit� grave art.3 c.3 L.104/92"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo statale Dopo di Noi",
+          "Regione",
+          "Co-finanziamenti Enti locali"
+        ],
+        "normativa": [
+          {
+            "atto": "L.112/2016",
+            "url": ""
+          },
+          {
+            "atto": "DGR 589/2023 Liguria (programmazione fondi L.112 2023)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2018-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "La programmazione � triennale; ogni Ambito presenta proposte progettuali alla Regione che ripartisce le risorse. Le modalit� attuative possono differire (alcuni Ambiti erogano voucher abitativi, altri realizzano strutture)."
+      },
+      "ux": {
+        "priorita_contatto": 0.5,
+        "messaggio_consulenza": "Per opportunit� del Dopo di Noi in Liguria, contatta l�Ufficio di Piano del tuo Distretto: potrai inserirti in progetti di co-housing o altre soluzioni abitative protette finanziate dal Fondo Dopo di Noi."
+      }
+    },
+    {
+      "prestazione_id": "LIG-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SC-SAN-DOM",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio di cure domiciliari socio-sanitarie erogato dalla ASL tramite �quipe integrata (medici, infermieri, terapisti, OSS), rivolto a persone non autosufficienti o con necessit� sanitarie a domicilio per evitare ricoveri o istituzionalizzazioni non necessari.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Piani di assistenza individuali che includono visite mediche periodiche, assistenza infermieristica a domicilio, fisioterapia domiciliare, fornitura ausili e monitoraggio dello stato di salute."
+      },
+      "requisiti": {
+        "target": [
+          "Persone di qualsiasi et� non deambulanti o con malattie croniche/disabilit� che richiedono assistenza sanitaria continuativa a casa"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Valutazione UVG (anziani) o UVM Disabili da parte della ASL"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (Distretti sociosanitari)"
+        ],
+        "modalita": "presa_in_carico_sanitaria",
+        "canali": [
+          "richiesta del medico di famiglia",
+          "segnalazione reparto ospedaliero per dimissione protetta"
+        ],
+        "documenti_chiave": [
+          "Impegnativa medica per attivazione ADI",
+          "Scheda di valutazione multidimensionale ASL"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR"
+        ],
+        "normativa": [
+          {
+            "atto": "Piano SocioSanitario Regionale 2020-2022 Liguria (cap. ADI)",
+            "url": ""
+          },
+          {
+            "atto": "LEA DPCM 2017 (Assistenza domiciliare)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Servizio compreso nei LEA; in Liguria vi sono anche ADI specifiche (es. ADI cure palliative, ADI Alzheimer) gestite da ASL/Agenzie dedicate."
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Chiedi al medico curante o all�ASL di attivare l�assistenza domiciliare integrata se tu o un tuo caro avete bisogno di cure sanitarie a domicilio: � un diritto garantito dai LEA."
+      }
+    },
+    {
+      "prestazione_id": "LIG-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [
+        "Assistenza domiciliare sociale comunale"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SC-SOC-DOM",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Servizio erogato dai Comuni (singoli o associati in Distretti Sociali) consistente in interventi di aiuto al domicilio per persone anziane e disabili: igiene personale, consegna pasti, piccole commissioni, pulizia domestica, accompagnamenti. Scopo: evitare l�isolamento e supportare la famiglia nell�assistenza.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Il SAD viene fornito in forma di ore settimanali di assistenza domiciliare da parte di operatori socio-assistenziali. Il numero di ore dipende dai bisogni valutati; l�utente paga una quota oraria in base all�ISEE secondo il regolamento comunale."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti o parzialmente autosufficienti",
+          "Persone con disabilit� a domicilio con necessit� di supporto sociale"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "Valutazione Assistente Sociale comunale (e UVM se integrata con ASL)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comuni / Distretti Sociali (Consorzi)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Ufficio Servizi Sociali del Comune di residenza"
+        ],
+        "documenti_chiave": [
+          "Domanda SAD",
+          "ISEE",
+          "Certificato medico di non autosufficienza (se disponibile)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Sociale Regionale",
+          "Comuni"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. 12/2006 Liguria (Sistema integrato di servizi sociali)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 793/2012 (indirizzi regionali SAD)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "I parametri di erogazione (fasce ISEE, costi orari, priorit�) sono stabiliti a livello di Ambito Territoriale Sociale; ad es., Genova ha il servizio denominato \"ADI socio-assistenziale\" gestito dai Municipi."
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Per ricevere aiuto a domicilio (pulizie, igiene, pasti) in Liguria, fai richiesta al tuo Comune: il servizio di assistenza domiciliare sociale pu� intervenire a casa tua in base ai tuoi bisogni."
+      }
+    },
+    {
+      "prestazione_id": "LIG-RSA-v2025",
+      "nome_ufficiale": "Strutture residenziali socio-sanitarie (RSA, CSS, Comunit�)",
+      "alias": [
+        "Servizi residenziali per non autosufficienti"
+      ],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SC-STR-RES",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Inserimento in strutture residenziali accreditate: RSA per anziani non autosufficienti, RSS/CSS (Comunit� Socio-Sanitarie) per disabili, comunit� protette, che assicurano assistenza continua, riabilitazione e supporto tutelare in un ambiente protetto quando la permanenza a domicilio non � pi� possibile.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Ospitalit� residenziale 7/7 giorni. Il costo � coperto in parte dal SSR (quota sanitaria legata all�intensit� di cura) e in parte dall�utente (quota sociale alberghiera). Se l�utente non pu� contribuire, interviene il Comune. Il posto pu� essere temporaneo (sollievo) o definitivo."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti che necessitano di assistenza residenziale",
+          "Persone con grave disabilit� che richiedono un ambiente residenziale protetto"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "UVMD distrettuale per RSA",
+          "Commissione UVM Disabili per CSS"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (commissione valutazione accessi)",
+          "Ente gestore struttura accreditata"
+        ],
+        "modalita": "lista_d�attesa",
+        "canali": [
+          "Domanda tramite ASL/Comune",
+          "Unit� di Valutazione che propone l�inserimento"
+        ],
+        "documenti_chiave": [
+          "Scheda di valutazione multidimensionale (SVAMA)",
+          "ISEE sociosanitario",
+          "Documenti anagrafici"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Utenti/Comuni"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 814/2011 Liguria (accreditamento strutture anziani)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 206/2015 Liguria (riordino residenze disabili)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "L�accreditamento e le tariffe sono definiti a livello regionale; le ASL gestiscono le graduatorie per l�accesso ai posti convenzionati. Alcune strutture offrono nuclei specializzati (es. Alzheimer) con percorsi dedicati."
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Se stai valutando il ricovero in RSA o comunit� per un tuo caro in Liguria, rivolgiti al servizio sociale o alla ASL: avvieranno la valutazione e ti guideranno nella scelta della struttura e nell�iter per l�ingresso."
+      }
+    }
+  ]
+}

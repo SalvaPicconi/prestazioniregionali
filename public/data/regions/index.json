@@ -1,0 +1,27 @@
+{
+  "generato": "2025-10-29T16:45:31.298Z",
+  "totale_regioni": 20,
+  "totale_prestazioni": 125,
+  "regioni_disponibili": [
+    "ABR",
+    "BAS",
+    "CAL",
+    "CAM",
+    "EMR",
+    "FVG",
+    "LAZ",
+    "LIG",
+    "LOM",
+    "MAR",
+    "MOL",
+    "PIE",
+    "PUG",
+    "SAR",
+    "SIC",
+    "TOS",
+    "TRE",
+    "UMB",
+    "VDA",
+    "VEN"
+  ]
+}

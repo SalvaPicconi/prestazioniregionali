@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "nome_regione": "Abruzzo",
+    "codice_regione": "ABR",
+    "ultimo_aggiornamento": "2025-10-28",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://montagnamarsicana.it/novita/plna-fondo-anno-2023-interventi-regionali-per-lassegno-di-cura-per-la-disabilita-gravissima-e-la-non-autosufficienza/",
+      "https://www.iltrafiletto.it/2024/11/15/assegni-di-cura-per-disabilita-e-non-autosufficienza-pubblicato-lavviso-pubblico/9-8386.html",
+      "https://comune.pettorano.aq.it/notizie/3230404/avviso-presentazione-progetti-vita-indipendente",
+      "https://www.comunetorrevecchiateatina.it/dopo-di-noi-assegnazione-contributi-a-favore-di-persone-con-disabilita-grave-prive-del-sostegno-familiare/"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "ABR-assegno-gravissima-v2025",
+      "nome_ufficiale": "Assegno di cura per disabilit� gravissima",
+      "alias": [
+        "Assegno di cura FNA 2022-2024"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-disabilita-gravissima",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Contributo economico mensile destinato alle persone in condizione di disabilit� gravissima per favorire l�assistenza domiciliare",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 600,
+        "importo_max": 1000,
+        "equivalente_mensile": 600,
+        "note": "Importo base �600/mese, elevabile fino a �1000/mese per condizioni di dipendenza vitale (es. respirazione assistita):contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}"
+      },
+      "requisiti": {
+        "target": [
+          "persone con disabilit� gravissima non autosufficienti"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD",
+          "criteri FNA 2016",
+          "L.104/92 art.3 c.3"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Distrettuale Sociale",
+          "Comune"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "PEC",
+          "sportello comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE sociosanitario",
+          "certificazione disabilit� (art.3 c.3 L.104)",
+          "verbale UVMD"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione",
+          "Comuni"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Abruzzo n.94/2024 � Piano regionale non autosufficienza 2022-2024",
+            "url": ""
+          },
+          {
+            "atto": "Determina DPG023/187 del 19/11/2024 � Ripartizione FNA 2023",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-10-07",
+        "scadenza": "2025-11-07"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Ciascun Ambito Sociale pubblica avvisi e graduatorie annuali"
+      },
+      "ux": {
+        "priorita_contatto": 0.85,
+        "messaggio_consulenza": "Contatta il Segretariato Sociale del tuo Ambito per assistenza nella domanda"
+      }
+    },
+    {
+      "prestazione_id": "ABR-assegno-grave-v2025",
+      "nome_ufficiale": "Assegno di cura per disabilit� grave e anziani non autosufficienti",
+      "alias": [
+        "Assegno di cura FNA (disabilit� grave)"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-disabilita-grave",
+      "famiglie_normative_ids": [
+        "FN-FNA",
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Contributo economico mensile per persone con disabilit� grave o anziani ultrasessantacinquenni non autosufficienti, per supportare la domiciliarit�",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 300,
+        "importo_max": 600,
+        "equivalente_mensile": 400,
+        "note": "Importo modulato in base al bisogno assistenziale; tipicamente circa �400/mese. Richiesto accompagnamento o certificazione di gravit� (L.104 art.3 c.3)"
+      },
+      "requisiti": {
+        "target": [
+          "persone con disabilit� grave",
+          "anziani non autosufficienti (65+ anni)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 50000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD",
+          "L.104/92 art.3 c.3"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Distrettuale Sociale"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE sociosanitario",
+          "certificazione invalidit� con indennit� di accompagnamento"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "FNA",
+          "Regione",
+          "Comuni"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Abruzzo n.149/2023 � Piano non autosufficienza (programmazione FNA)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-11-15",
+        "scadenza": "2024-12-11"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Gli Ambiti territoriali gestiscono graduatorie separate per disabili gravi e anziani"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Verifica presso il tuo Comune se sei stato incluso in graduatoria per l�assegno di cura"
+      }
+    },
+    {
+      "prestazione_id": "ABR-bonus-caregiver-v2025",
+      "nome_ufficiale": "Contributo regionale a sostegno del caregiver familiare",
+      "alias": [
+        "Bonus caregiver familiare Abruzzo"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "CE-caregiver",
+      "famiglie_normative_ids": [
+        "FN-REG",
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Contributo annuale erogato al caregiver familiare che assiste minori con disabilit� gravissima e malattie rare, come riconoscimento del ruolo di cura",
+      "benefit": {
+        "periodicita": "annuale (una tantum)",
+        "importo_min": 5000,
+        "importo_max": 10000,
+        "equivalente_mensile": 833,
+        "note": "Contributo fino a �10.000 per nucleo familiare beneficiario (minore con disabilit� gravissima); +�5.000 per ogni ulteriore figlio minore assistito nelle medesime condizioni"
+      },
+      "requisiti": {
+        "target": [
+          "caregiver di minore con disabilit� gravissima da malattia rara"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "certificazione sanitaria attestante disabilit� gravissima del minore"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Regione",
+          "Ambito Sociale"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "portale regionale",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "stato di famiglia",
+          "certificato medico specialistico",
+          "ISEE"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. Abruzzo 27/12/2016 n.43 � Sostegno del caregiver familiare",
+            "url": ""
+          },
+          {
+            "atto": "DGR Abruzzo n.688/2024 � Criteri per contributi caregiver minori disabili gravi",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-11-01",
+        "scadenza": "2025-12-01"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Contributo assegnato tramite avviso pubblico regionale; istruttoria svolta dagli Ambiti territoriali"
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Utilizza lo Sportello digitale regionale per presentare la domanda di bonus caregiver"
+      }
+    },
+    {
+      "prestazione_id": "ABR-vita-indipendente-v2025",
+      "nome_ufficiale": "Progetti personalizzati per la Vita Indipendente",
+      "alias": [
+        "Contributi L.R. 57/2012 Vita Indipendente"
+      ],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "PS-vita-indipendente",
+      "famiglie_normative_ids": [
+        "FN-REG",
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Finanziamento annuale per progetti di assistenza personale autogestita, finalizzati a garantire il diritto a una vita indipendente per persone con disabilit� grave:contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}",
+      "benefit": {
+        "periodicita": "annuale",
+        "importo_min": 6000,
+        "importo_max": 12000,
+        "equivalente_mensile": null,
+        "note": "Contributo graduato per livello di bisogno assistenziale: da �6.000 (basso) a �12.000 annui per interventi di assistenza personale:contentReference[oaicite:18]{index=18}"
+      },
+      "requisiti": {
+        "target": [
+          "persone con disabilit� grave (art.3 c.3 L.104) dai 18 anni in su"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 20000,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "UVMD",
+          "PAI personalizzato"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Distrettuale Sociale"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello comunale",
+          "raccomandata",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "progetto assistenza",
+          "contratto assistente personale",
+          "ISEE sociosanitario"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. Abruzzo 23/11/2012 n.57 � Interventi per la vita indipendente",
+            "url": ""
+          },
+          {
+            "atto": "L.R. Abruzzo 14/02/2024 n.6 � Modifiche alla L.R.57/2012",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-01-02",
+        "scadenza": "2025-01-31"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Graduatorie e budget gestiti a livello di Ambito; priorit� a ISEE < �20.000 se over 67 anni:contentReference[oaicite:19]{index=19}"
+      },
+      "ux": {
+        "priorita_contatto": 0.75,
+        "messaggio_consulenza": "Contatta l�Ufficio di Piano del tuo Ambito per supporto nella progettazione di Vita Indipendente"
+      }
+    },
+    {
+      "prestazione_id": "ABR-dopo-noi-v2025",
+      "nome_ufficiale": "Programma �Dopo di Noi� (L.112/2016)",
+      "alias": [
+        "Interventi per disabili gravi senza sostegno familiare"
+      ],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "PS-dopo-noi",
+      "famiglie_normative_ids": [
+        "FN-L112",
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Percorsi personalizzati per persone con disabilit� grave prive del sostegno familiare � abitare in autonomia, gruppi appartamento, assistenza domiciliare innovativa � finanziati dal Fondo �Dopo di Noi�:contentReference[oaicite:20]{index=20}",
+      "benefit": {
+        "periodicita": "una tantum/progetto",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Contributi finalizzati a soluzioni alloggiative, percorsi di autonomia e attivazione di supporti personalizzati. Importo variabile a seconda del progetto (es. adeguamento abitazione, inserimento in co-housing, ecc.)"
+      },
+      "requisiti": {
+        "target": [
+          "persone con disabilit� grave (art.3 c.3 L.104) senza supporto familiare"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "progetto personalizzato condiviso con servizi sociali"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambito Distrettuale Sociale"
+        ],
+        "modalita": "bando_progetti",
+        "canali": [
+          "sportello comunale",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "documentazione disabilit� grave",
+          "proposta progetto vita in autonomia"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Stato (Fondo Dopo di Noi)",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR Abruzzo n.687/2022 � Programma attuativo Fondo Dopo di Noi annualit� 2020-2021",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-04-02",
+        "scadenza": "2025-05-30"
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "I progetti e le modalit� attuative variano secondo i Piani di Zona locali; domande valutate dall�Ambito �Val di Foro� e altri competenti:contentReference[oaicite:21]{index=21}:contentReference[oaicite:22]{index=22}"
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Verifica con il tuo Ambito se sono attivi progetti Dopo di Noi e come partecipare"
+      }
+    },
+    {
+      "prestazione_id": "ABR-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [
+        "ADI (cure domiciliari integrate)"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-sociosanitario-domiciliare",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio sociosanitario a domicilio per persone non autosufficienti (prestazioni infermieristiche, riabilitative e socio-assistenziali integrate) erogato dalla ASL di competenza",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Prestazioni erogate gratuitamente (o con ticket) dall�ASL a domicilio secondo il Piano Assistenziale; intensit� variabile in base al bisogno"
+      },
+      "requisiti": {
+        "target": [
+          "persone non autosufficienti (anziani o disabili) con bisogno sanitario e assistenziale"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD",
+          "UVM sanitaria (ASL)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (Distretto sanitario)"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "medico di base",
+          "distretto ASL"
+        ],
+        "documenti_chiave": [
+          "impegnativa medico curante",
+          "valutazione geriatrica/internistica"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR (Servizio Sanitario Regionale)",
+          "FNA (quota sociale)"
+        ],
+        "normativa": [
+          {
+            "atto": "LIVELLI ESSENZIALI DI ASSISTENZA DPCM 12/01/2017 � Assistenza Domiciliare Integrata",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "L�ADI � erogata dalle ASL secondo protocolli regionali e pu� variare nell�organizzazione (ADI 1,2,3 livelli di intensit�)"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Rivolgiti al tuo Medico di Medicina Generale per l�attivazione dell�ADI"
+      }
+    },
+    {
+      "prestazione_id": "ABR-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [
+        "Assistenza domiciliare socio-assistenziale"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SD-assistenza-domiciliare",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Interventi di assistenza domiciliare non sanitaria (cura della persona, aiuto domestico) per anziani e disabili in condizioni di parziale non autosufficienza, gestiti dai Comuni/Ambiti",
+      "benefit": {
+        "periodicita": "continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Servizio erogato in ore settimanali di aiuto a domicilio; eventuale quota di compartecipazione a carico dell�utente in base all�ISEE"
+      },
+      "requisiti": {
+        "target": [
+          "anziani parzialmente non autosufficienti",
+          "persone con disabilit� non totalmente autosufficienti"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "servizio sociale professionale comunale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune",
+          "Ambito/Consorzio"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "ufficio servizi sociali comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE",
+          "scheda sociale di valutazione"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Comuni",
+          "Regione (Fondo Sociale Regionale)",
+          "FNA (integrazione)"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. Abruzzo 22/1998 n.22 � Sistema integrato interventi e servizi sociali",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Standard del servizio (ore/prestazioni) e quote di compartecipazione stabilite nel Regolamento dell�Ambito Sociale"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Richiedi un colloquio con l�assistente sociale del tuo Comune per attivare il SAD"
+      }
+    },
+    {
+      "prestazione_id": "ABR-RSA-v2025",
+      "nome_ufficiale": "Residenze Sanitarie Assistenziali (RSA) e strutture socio-residenziali",
+      "alias": [
+        "RSA per anziani",
+        "strutture residenziali disabili"
+      ],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SR-residenziale",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Accoglienza in strutture residenziali socio-sanitarie per anziani non autosufficienti o persone con disabilit� che necessitano di assistenza continuativa (nursing homes, comunit� socio-riabilitative)",
+      "benefit": {
+        "periodicita": "residenziale continuativo",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Costo retta diviso in quota sanitaria (a carico SSR) e quota sociale (a carico dell�utente/famiglia o Comune se indigente)."
+      },
+      "requisiti": {
+        "target": [
+          "anziani non autosufficienti",
+          "persone con disabilit� grave senza autonomia"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "UVMD",
+          "UVM distrettuale"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL",
+          "Ente gestore RSA accreditata"
+        ],
+        "modalita": "sportello",
+        "canali": [
+          "Unita di valutazione distrettuale",
+          "servizi sociali comunali"
+        ],
+        "documenti_chiave": [
+          "certificato medico",
+          "ISEE socio-sanitario per retta"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Comuni",
+          "utente/famiglia"
+        ],
+        "normativa": [
+          {
+            "atto": "DPCM 14/02/2001 � Requisiti minimi strutture socio-sanitarie",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Regioni e ASL definiscono posti convenzionati e rette standard; liste d�attesa gestite a livello distrettuale socio-sanitario"
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Contatta il PUA (Punto Unico Accesso) della tua ASL per avviare la valutazione per l�ingresso in RSA"
+      }
+    }
+  ]
+}

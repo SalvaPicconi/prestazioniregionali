@@ -1,0 +1,740 @@
+{
+  "metadata": {
+    "nome_regione": "Friuli-Venezia Giulia",
+    "codice_regione": "FVG",
+    "ultimo_aggiornamento": "2025-10-28",
+    "schema_version": "2.0",
+    "taxonomy_version": "2025.1",
+    "fonti": [
+      "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
+      "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
+      "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA34/"
+    ]
+  },
+  "prestazioni": [
+    {
+      "prestazione_id": "FVG-APA-v2025",
+      "nome_ufficiale": "Assegno per l�autonomia (APA)",
+      "alias": [],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-ANZ-DIS",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Contributo economico annuale a favore di persone anziane o con disabilit� in condizione di non autosufficienza, per sostenerne la permanenza al domicilio:contentReference[oaicite:0]{index=0}.",
+      "benefit": {
+        "periodicita": "annuale",
+        "importo_min": 1620,
+        "importo_max": 6204,
+        "equivalente_mensile": null,
+        "note": "Importo variabile in base a gravit� e ISEE (soglia 30.000 �); almeno il 50% dell�importo va rendicontato:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti",
+          "Persone con disabilit� non autosufficienti"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 30000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD (Unit� di Valutazione Multidimensionale)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Servizio Sociale dei Comuni"
+        ],
+        "modalita": "progetto_personalizzato",
+        "canali": [
+          "sportello comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE sociosanitario",
+          "Verbale invalidit� con indennit� di accompagnamento"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione",
+          "FNA"
+        ],
+        "normativa": [
+          {
+            "atto": "DPReg 22/12/2023 n. 214 (Regolamento FAP)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Misura unificata nel Fondo per l�Autonomia Possibile (FAP):contentReference[oaicite:3]{index=3}"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Contatta il Servizio Sociale del tuo Comune per attivare la valutazione multidimensionale e l�eventuale progetto personalizzato."
+      }
+    },
+    {
+      "prestazione_id": "FVG-CAF-v2025",
+      "nome_ufficiale": "Contributo per l�aiuto familiare (CAF)",
+      "alias": [],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-ANZ-DIS",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Beneficio economico per sostenere le famiglie che assumono un assistente familiare (badante) almeno 20 ore a settimana, per l�assistenza a domicilio di persone non autosufficienti:contentReference[oaicite:4]{index=4}.",
+      "benefit": {
+        "periodicita": "annuale",
+        "importo_min": 2892,
+        "importo_max": 12000,
+        "equivalente_mensile": null,
+        "note": "Importo variabile in base a gravit�, ISEE (�30.000 �) e ore di assistenza settimanali; l�intero importo � soggetto a rendicontazione delle spese:contentReference[oaicite:5]{index=5}:contentReference[oaicite:6]{index=6}."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani o disabili non autosufficienti con badante regolarmente contrattualizzato (�20 ore/sett.)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 30000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Servizio Sociale dei Comuni"
+        ],
+        "modalita": "progetto_personalizzato",
+        "canali": [
+          "sportello comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE sociosanitario",
+          "Contratto regolare assistente familiare"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione",
+          "FNA"
+        ],
+        "normativa": [
+          {
+            "atto": "DPReg 22/12/2023 n. 214, art.8",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": ""
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Chiedi al Servizio Sociale comunale informazioni sul contributo per badanti e sulle modalit� di rendicontazione richieste."
+      }
+    },
+    {
+      "prestazione_id": "FVG-SVI-v2025",
+      "nome_ufficiale": "Sostegno alla vita indipendente (SVI)",
+      "alias": [
+        "Progetti di Vita Indipendente"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-DIS-GIOV",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Finanziamento di progetti di vita indipendente per persone con disabilit� grave (18-64 anni) in situazione di non autosufficienza, per favorirne l�autonomia e l�inclusione:contentReference[oaicite:7]{index=7}.",
+      "benefit": {
+        "periodicita": "annuale",
+        "importo_min": 3000,
+        "importo_max": 24000,
+        "equivalente_mensile": null,
+        "note": "L�importo annuo � determinato nel progetto personalizzato (ISEE �60.000 �) e copre azioni/servizi per l�autonomia; almeno il 75% delle spese deve essere rendicontato:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave 18-64 anni non autosufficienti"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 60000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Servizio Sociale dei Comuni"
+        ],
+        "modalita": "progetto_personalizzato",
+        "canali": [
+          "sportello comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE",
+          "Certificazione disabilit� grave (L.104/92 art.3 c.3)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione",
+          "FNA"
+        ],
+        "normativa": [
+          {
+            "atto": "DPReg 22/12/2023 n. 214, art.9",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Progetti personalizzati approvati dallՎquipe integrata socio-sanitaria"
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Rivolgiti al tuo Comune per avviare un progetto di Vita Indipendente su misura delle tue esigenze."
+      }
+    },
+    {
+      "prestazione_id": "FVG-SPM-v2025",
+      "nome_ufficiale": "Sostegno a progetti per minori (SPM)",
+      "alias": [],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-DIS-MIN",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Intervento economico a supporto di nuclei familiari con minori non autosufficienti con grave disabilit� o con patologie oncologiche, per finanziare progetti dedicati di cura e assistenza:contentReference[oaicite:10]{index=10}.",
+      "benefit": {
+        "periodicita": "annuale",
+        "importo_min": 3852,
+        "importo_max": 12000,
+        "equivalente_mensile": null,
+        "note": "Importo variabile in base all�ISEE (�40.000 �) e alle azioni previste nel progetto; almeno il 50% delle spese va rendicontato:contentReference[oaicite:11]{index=11}."
+      },
+      "requisiti": {
+        "target": [
+          "Nuclei familiari con minori gravemente disabili o in cure palliative pediatriche"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 40000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Servizio Sociale dei Comuni"
+        ],
+        "modalita": "progetto_personalizzato",
+        "canali": [
+          "sportello comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE",
+          "Certificazione disabilit� grave del minore"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione",
+          "FNA"
+        ],
+        "normativa": [
+          {
+            "atto": "DPReg 22/12/2023 n. 214, art.10",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": ""
+      },
+      "ux": {
+        "priorita_contatto": 0.6,
+        "messaggio_consulenza": "Contatta l�assistente sociale del tuo Comune per presentare un progetto assistenziale dedicato al minore."
+      }
+    },
+    {
+      "prestazione_id": "FVG-AGD-v2025",
+      "nome_ufficiale": "Assegno per gravissima disabilit� (AGD)",
+      "alias": [
+        "Fondo gravissimi (unificato)"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-DIS-GRAV",
+      "famiglie_normative_ids": [
+        "FN-FNA"
+      ],
+      "descrizione_breve": "Contributo economico destinato alle persone con gravissima disabilit�, inclusi malati di SLA e gravi demenze, per supportarne la permanenza a domicilio con assistenza continuativa:contentReference[oaicite:12]{index=12}.",
+      "benefit": {
+        "periodicita": "annuale",
+        "importo_min": 10704,
+        "importo_max": 24000,
+        "equivalente_mensile": null,
+        "note": "Importo variabile in base all�ISEE (�60.000 �, elevato a 65.000 � per minori); nessun obbligo di rendicontazione delle spese:contentReference[oaicite:13]{index=13}:contentReference[oaicite:14]{index=14}."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� gravissima ad alta intensit� assistenziale (compresa SLA e gravi demenze)"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": 60000,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD",
+          "Criteri DM 26/09/2016 disabilit� gravissime"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Servizio Sociale dei Comuni"
+        ],
+        "modalita": "progetto_personalizzato",
+        "canali": [
+          "sportello comunale"
+        ],
+        "documenti_chiave": [
+          "ISEE",
+          "Certificazione disabilit� gravissima (commissione sanitaria)"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Regione",
+          "FNA"
+        ],
+        "normativa": [
+          {
+            "atto": "DPReg 22/12/2023 n. 214, art.9",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2024-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Misura sostitutiva dei precedenti fondi disabili gravissimi e SLA (unificati dal 2024):contentReference[oaicite:15]{index=15}:contentReference[oaicite:16]{index=16}"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Per richiedere l�assegno gravissimi, rivolgiti al tuo Comune: � necessaria la certificazione di disabilit� gravissima rilasciata dalla Commissione sanitaria provinciale."
+      }
+    },
+    {
+      "prestazione_id": "FVG-Caregiver300-v2025",
+      "nome_ufficiale": "Contributo a favore del caregiver familiare",
+      "alias": [
+        "Fondo Caregiver FVG"
+      ],
+      "macro_categoria_id": "MC-CE",
+      "sotto_categoria_id": "SC-CAREGIVER",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Contributo economico per il caregiver familiare che assiste a domicilio una persona non autosufficiente, finalizzato a finanziare progetti personalizzati di sollievo e supporto al caregiver:contentReference[oaicite:17]{index=17}.",
+      "benefit": {
+        "periodicita": "mensile",
+        "importo_min": 300,
+        "importo_max": 300,
+        "equivalente_mensile": 300,
+        "note": "�300 al mese per un massimo di 12 mesi (importo fisso):contentReference[oaicite:18]{index=18}."
+      },
+      "requisiti": {
+        "target": [
+          "Caregiver familiare che presta assistenza continuativa a un congiunto non autosufficiente"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Definizione di caregiver ex L.205/2017 art.1 c.255"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Ambiti territoriali sociali"
+        ],
+        "modalita": "bando_annuale",
+        "canali": [
+          "sportello",
+          "PEC"
+        ],
+        "documenti_chiave": [
+          "Modulo domanda caregiver",
+          "Documento d�identit�"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo Caregiver (nazionale)",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "DGR 737/2025 (Linee indirizzo Fondo Caregiver 2024)",
+            "url": ""
+          },
+          {
+            "atto": "DPReg 10/07/2024 n.089/Pres (Regolamento attuativo)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2025-07-10",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Risorse ripartite tra Ambiti; priorit� d�accesso definite dal regolamento regionale:contentReference[oaicite:19]{index=19}:contentReference[oaicite:20]{index=20}."
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Verifica presso il tuo Ambito territoriale le scadenze e modalit� per richiedere il bonus caregiver familiare."
+      }
+    },
+    {
+      "prestazione_id": "FVG-DopoNoi-v2025",
+      "nome_ufficiale": "Progetti �Dopo di Noi� (L.112/2016)",
+      "alias": [],
+      "macro_categoria_id": "MC-PS",
+      "sotto_categoria_id": "SC-DSA",
+      "famiglie_normative_ids": [
+        "FN-L112"
+      ],
+      "descrizione_breve": "Finanziamento di progetti a beneficio di persone con disabilit� grave prive del sostegno familiare, per favorirne la permanenza a domicilio o in soluzioni abitative di tipo familiare:contentReference[oaicite:21]{index=21}.",
+      "benefit": {
+        "periodicita": "una_tantum",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Contributi erogati agli Enti gestori per la realizzazione di progetti personalizzati (abitare supportato, gruppi appartamento, ecc.)."
+      },
+      "requisiti": {
+        "target": [
+          "Persone con disabilit� grave senza sostegno familiare (o in procinto di perderlo)"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "Progetto individuale ex L.112/2016"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Enti Gestori servizi disabilit�",
+          "Regione (coordinamento)"
+        ],
+        "modalita": "manifestazione_interesse",
+        "canali": [
+          "progetto tramite Ente gestore"
+        ],
+        "documenti_chiave": [
+          "Progetto individuale L.112/2016",
+          "Scheda di candidatura Ente gestore"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Fondo statale Dopo di Noi",
+          "Regione"
+        ],
+        "normativa": [
+          {
+            "atto": "L. 112/2016 art.3 (Fondo Dopo di Noi)",
+            "url": ""
+          },
+          {
+            "atto": "Decreti attuativi Ministero Lavoro 2016-2017",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": "2017-01-01",
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Progetti attuati dagli Enti gestori dei servizi sociali dei Comuni in collaborazione con ASL e associazioni:contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}."
+      },
+      "ux": {
+        "priorita_contatto": 0.5,
+        "messaggio_consulenza": "Se sei una persona con disabilit� grave senza familiari, rivolgiti ai servizi sociali locali o alle associazioni di categoria per opportunit� legate al Dopo di Noi."
+      }
+    },
+    {
+      "prestazione_id": "FVG-ADI-v2025",
+      "nome_ufficiale": "Assistenza Domiciliare Integrata (ADI)",
+      "alias": [
+        "Cure domiciliari integrate"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SC-SAN-DOM",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Servizio sociosanitario a domicilio che prevede interventi infermieristici, riabilitativi e assistenziali integrati, rivolto a persone non autosufficienti con bisogni sanitari complessi, per evitare ricoveri impropri e favorire la permanenza a casa:contentReference[oaicite:24]{index=24}.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Prestazioni sanitarie e di base al domicilio secondo un Piano Assistenziale Individuale (PAI) definito dallՎquipe medico-infermieristica."
+      },
+      "requisiti": {
+        "target": [
+          "Persone non autosufficienti con bisogni sanitari domiciliari"
+        ],
+        "isee": {
+          "richiesto": false,
+          "soglia": null,
+          "varia_per_ambito": false
+        },
+        "valutazione": [
+          "UVMD (valutazione multidisciplinare ASL)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (Distretto sanitario)"
+        ],
+        "modalita": "presa_in_carico_sanitaria",
+        "canali": [
+          "Punto Unico di Accesso (PUA)",
+          "medico di base"
+        ],
+        "documenti_chiave": [
+          "Impegnativa/richiesta medica",
+          "Valutazione multidimensionale ASL"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR (Servizio Sanitario Regionale)"
+        ],
+        "normativa": [
+          {
+            "atto": "DPCM 12/01/2017 (LEA domiciliari)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Servizio garantito come livello essenziale di assistenza sanitaria domiciliare"
+      },
+      "ux": {
+        "priorita_contatto": 0.9,
+        "messaggio_consulenza": "Chiedi al tuo medico di base o al Punto Unico di Accesso dell�ASL attivazione delle cure domiciliari integrate in caso di bisogno sanitario continuativo a domicilio."
+      }
+    },
+    {
+      "prestazione_id": "FVG-SAD-v2025",
+      "nome_ufficiale": "Servizio di Assistenza Domiciliare (SAD)",
+      "alias": [
+        "Assistenza domiciliare sociale"
+      ],
+      "macro_categoria_id": "MC-SD",
+      "sotto_categoria_id": "SC-SOC-DOM",
+      "famiglie_normative_ids": [
+        "FN-REG"
+      ],
+      "descrizione_breve": "Servizio di assistenza domiciliare di base gestito dai Comuni, che offre aiuto per le attivit� quotidiane (igiene personale, governo della casa, pasti) a persone anziane o disabili non autosufficienti, al fine di mantenerle al proprio domicilio:contentReference[oaicite:25]{index=25}.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Ore di assistenza domiciliare settimanali secondo il Piano Assistenziale Individuale; eventuale compartecipazione alla spesa da parte dell�utente in base all�ISEE."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti",
+          "Persone con disabilit� non autosufficienti"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "UVMD socio-sanitaria"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "Comune/Ambito Territoriale"
+        ],
+        "modalita": "presa_in_carico_sociale",
+        "canali": [
+          "sportello comunale",
+          "PUA"
+        ],
+        "documenti_chiave": [
+          "Domanda SAD",
+          "ISEE"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "Comuni",
+          "Regione (Fondo Sociale)"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. 6/2006 FVG (sistema integrato servizi sociali)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": true,
+        "note": "Standard qualitativi definiti a livello regionale; gestione operativa a livello di Ambito/Comune"
+      },
+      "ux": {
+        "priorita_contatto": 0.8,
+        "messaggio_consulenza": "Rivolgiti ai servizi sociali del tuo Comune per richiedere l�attivazione dell�assistenza domiciliare e conoscere l�eventuale contributo economico richiesto."
+      }
+    },
+    {
+      "prestazione_id": "FVG-RSA-v2025",
+      "nome_ufficiale": "Servizi residenziali per non autosufficienti (RSA/RSD)",
+      "alias": [
+        "Residenze sociosanitarie assistenziali"
+      ],
+      "macro_categoria_id": "MC-SR",
+      "sotto_categoria_id": "SC-STR-RES",
+      "famiglie_normative_ids": [
+        "FN-LEA"
+      ],
+      "descrizione_breve": "Accoglienza in strutture residenziali socio-sanitarie (RSA per anziani, strutture residenziali per disabili) che offrono assistenza tutelare, infermieristica e riabilitativa continuativa a persone non autosufficienti:contentReference[oaicite:26]{index=26}.",
+      "benefit": {
+        "periodicita": "continuativa",
+        "importo_min": null,
+        "importo_max": null,
+        "equivalente_mensile": null,
+        "note": "Ospitalit� a tempo indeterminato (o temporaneo di sollievo) con copertura dei bisogni sanitari (quota sanitaria a carico SSR) e socio-assistenziali (quota sociale a carico dell�utente/famiglia o Comune)."
+      },
+      "requisiti": {
+        "target": [
+          "Anziani non autosufficienti",
+          "Persone con disabilit� grave senza adeguato supporto domiciliare"
+        ],
+        "isee": {
+          "richiesto": true,
+          "soglia": null,
+          "varia_per_ambito": true
+        },
+        "valutazione": [
+          "UVMD (valutazione sociosanitaria per ingresso in struttura)"
+        ]
+      },
+      "accesso": {
+        "ente_gestore": [
+          "ASL (accreditamento posti)",
+          "Enti gestori strutture (erogazione)"
+        ],
+        "modalita": "lista_d�attesa",
+        "canali": [
+          "PUA distrettuale",
+          "sportello sociale del Comune"
+        ],
+        "documenti_chiave": [
+          "Valutazione UVMD per RSA",
+          "ISEE sociosanitario",
+          "Domanda di ingresso in struttura"
+        ]
+      },
+      "governance": {
+        "finanziamento": [
+          "SSR",
+          "Utenti/Comuni"
+        ],
+        "normativa": [
+          {
+            "atto": "L.R. 22/2019 FVG (accreditamento servizi residenziali)",
+            "url": ""
+          },
+          {
+            "atto": "DGR 1988/2015 FVG (standard assistenza RSA)",
+            "url": ""
+          }
+        ]
+      },
+      "stato": {
+        "attiva": true,
+        "apertura": null,
+        "scadenza": null
+      },
+      "regolazione_locale": {
+        "varia_per_ambito": false,
+        "note": "Autorizzazione e accreditamento delle strutture a livello regionale; gestione a cura di enti pubblici o privati convenzionati"
+      },
+      "ux": {
+        "priorita_contatto": 0.7,
+        "messaggio_consulenza": "Per informazioni sull�ingresso in RSA o strutture residenziali, rivolgiti al Punto Unico di Accesso della tua ASL o al servizio sociale comunale."
+      }
+    }
+  ]
+}
