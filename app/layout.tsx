@@ -51,17 +51,10 @@ export default function RootLayout({
                 </p>
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">Contatti</h3>
-                <p className="text-sm text-gray-300">
-                  Facebook: Dott. Picconi - Consulente per la terza età e la non autosufficienza<br />
-                  Gruppo: Home care premium Italia
-                </p>
-              </div>
-              <div>
                 <h3 className="font-bold text-lg mb-2">Info</h3>
                 <p className="text-sm text-gray-300">
-                  IIS Meucci Mattei - Decimomannu<br />
-                  Servizi per la Sanità e l'Assistenza Sociale
+                  Email: <a href="mailto:dott.picconi@gmail.com" className="text-blue-300 hover:text-blue-200">dott.picconi@gmail.com</a><br />
+                  Telefono: <a href="tel:+393401496705" className="text-blue-300 hover:text-blue-200">340 149 6705</a>
                 </p>
               </div>
             </div>
