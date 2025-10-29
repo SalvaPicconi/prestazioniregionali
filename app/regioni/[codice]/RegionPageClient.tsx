@@ -55,6 +55,7 @@ type Props = {
 }
 
 export default function RegionPageClient({ codice }: Props) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ? `/${process.env.NEXT_PUBLIC_BASE_PATH}` : ''
   const [data, setData] = useState<RegioneData | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -68,7 +69,7 @@ export default function RegionPageClient({ codice }: Props) {
     async function loadRegione() {
       try {
         setLoading(true)
-        const response = await fetch(`/data/regions/${normalizedCode}.json`)
+        const response = await fetch(`${basePath}/data/regions/${normalizedCode}.json`)
         if (!response.ok) {
           throw new Error(`Regione non trovata (${normalizedCode})`)
         }
@@ -85,7 +86,7 @@ export default function RegionPageClient({ codice }: Props) {
     if (normalizedCode) {
       loadRegione()
     }
-  }, [normalizedCode])
+  }, [normalizedCode, basePath])
 
   const filteredPrestazioni = useMemo(() => {
     if (!data?.prestazioni) {

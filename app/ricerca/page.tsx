@@ -29,6 +29,7 @@ const MACRO_CATEGORIE: Record<string, { nome: string; colore: string }> = {
 }
 
 export default function RicercaPage() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ? `/${process.env.NEXT_PUBLIC_BASE_PATH}` : ''
   const [prestazioni, setPrestazioni] = useState<Prestazione[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
@@ -42,7 +43,7 @@ export default function RicercaPage() {
 
       for (const code of REGIONI_CODES) {
         try {
-          const response = await fetch(`/data/regions/${code}.json`)
+          const response = await fetch(`${basePath}/data/regions/${code}.json`)
           if (response.ok) {
             const data = await response.json()
             if (data.prestazioni && Array.isArray(data.prestazioni)) {
@@ -64,7 +65,7 @@ export default function RicercaPage() {
     }
 
     loadAllData()
-  }, [])
+  }, [basePath])
 
   const filteredPrestazioni = prestazioni.filter(p => {
     const matchSearch = searchTerm === '' || 
