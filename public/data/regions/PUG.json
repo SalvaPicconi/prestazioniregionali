@@ -14,9 +14,9 @@
   "prestazioni": [
     {
       "prestazione_id": "PUG-patto-cura-v2025",
-      "nome_ufficiale": "Patto di Cura (disabilit� gravissima)",
+      "nome_ufficiale": "Patto di Cura (disabilità gravissima)",
       "alias": [
-        "assegno di cura Puglia 1200�"
+        "assegno di cura Puglia 1200€"
       ],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "CE-PattoCura",
@@ -24,17 +24,17 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Misura di sostegno domiciliare per persone in condizione di disabilit� gravissima: eroga un contributo mensile fino a �1.250 vincolato all�assunzione regolare di un assistente familiare. Durata del beneficio: 16 mesi (es. dal sett. 2025 a dic. 2026).",
+      "descrizione_breve": "Misura di sostegno domiciliare per persone in condizione di disabilità gravissima: eroga un contributo mensile fino a €1.250 vincolato all’assunzione regolare di un assistente familiare. Durata del beneficio: 16 mesi (es. dal sett. 2025 a dic. 2026).",
       "benefit": {
-        "periodicita": "mensile (max 16 mensilit�)",
+        "periodicita": "mensile (max 16 mensilità)",
         "importo_min": 1200,
         "importo_max": 1250,
         "equivalente_mensile": 0,
-        "note": "�1.200/mese in caso di assunzione diretta di badante; �1.250/mese se l�assunzione avviene tramite agenzia accreditata. Importi per edizione 2025-26, erogati dietro presentazione contratto di lavoro assistente."
+        "note": "€1.200/mese in caso di assunzione diretta di badante; €1.250/mese se l’assunzione avviene tramite agenzia accreditata. Importi per edizione 2025-26, erogati dietro presentazione contratto di lavoro assistente."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� gravissima, residenti in Puglia"
+          "Persone con disabilità gravissima, residenti in Puglia"
         ],
         "isee": {
           "richiesto": true,
@@ -42,7 +42,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione di disabilit� gravissima ai sensi del D.M. 2016",
+          "Certificazione di disabilità gravissima ai sensi del D.M. 2016",
           "Attivazione di un contratto di lavoro con una delle figure contrattuali previste (assistente familiare o educativo)"
         ]
       },
@@ -56,9 +56,9 @@
         ],
         "documenti_chiave": [
           "Attestazione ISEE sociosanitario valido",
-          "Verbale di riconoscimento disabilit� gravissima (UVM)",
+          "Verbale di riconoscimento disabilità gravissima (UVM)",
           "Copia contratto di assunzione assistente familiare",
-          "Documento d�identit� richiedente"
+          "Documento d’identità richiedente"
         ]
       },
       "governance": {
@@ -88,14 +88,14 @@
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Puoi presentare domanda di Patto di Cura sul portale PugliaSociale (SPID) durante il periodo di apertura. Assicurati di aver gi� individuato ed eventualmente assunto l�assistente familiare prima di fare domanda."
+        "messaggio_consulenza": "Puoi presentare domanda di Patto di Cura sul portale PugliaSociale (SPID) durante il periodo di apertura. Assicurati di aver già individuato ed eventualmente assunto l’assistente familiare prima di fare domanda."
       }
     },
     {
       "prestazione_id": "PUG-sostegno-familiare-v2025",
       "nome_ufficiale": "Sostegno Familiare per caregiver di disabili gravissimi",
       "alias": [
-        "bonus caregiver 700� mensili"
+        "bonus caregiver 700€ mensili"
       ],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "CE-SostFam",
@@ -103,17 +103,17 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico mensile (�700) per 20 mesi rivolto alle famiglie che assistono a domicilio una persona in condizione di disabilit� gravissima senza ricorrere a personale esterno (caregiver familiare). Alternativo al �Patto di Cura�.",
+      "descrizione_breve": "Contributo economico mensile (€700) per 20 mesi rivolto alle famiglie che assistono a domicilio una persona in condizione di disabilità gravissima senza ricorrere a personale esterno (caregiver familiare). Alternativo al “Patto di Cura”.",
       "benefit": {
-        "periodicita": "mensile (max 20 mensilit�)",
+        "periodicita": "mensile (max 20 mensilità)",
         "importo_min": 700,
         "importo_max": 700,
         "equivalente_mensile": 700,
-        "note": "Importo unico �700 al mese indipendente dal reddito (entro soglia). Durata prevista maggio 2023 - dicembre 2024 (20 mensilit�). Erogazione trimestrale previa verifica permanenza requisiti."
+        "note": "Importo unico €700 al mese indipendente dal reddito (entro soglia). Durata prevista maggio 2023 - dicembre 2024 (20 mensilità). Erogazione trimestrale previa verifica permanenza requisiti."
       },
       "requisiti": {
         "target": [
-          "Caregiver familiare (convivente) di persona con disabilit� gravissima non autosufficiente, residente in Puglia, che fornisce direttamente assistenza continuativa"
+          "Caregiver familiare (convivente) di persona con disabilità gravissima non autosufficiente, residente in Puglia, che fornisce direttamente assistenza continuativa"
         ],
         "isee": {
           "richiesto": true,
@@ -121,7 +121,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione di disabilit� gravissima del assistito (criteri D.M. 2016, indennit� di accompagnamento)",
+          "Certificazione di disabilità gravissima del assistito (criteri D.M. 2016, indennità di accompagnamento)",
           "Dichiarazione di assistenza diretta senza badante esterno"
         ]
       },
@@ -135,8 +135,8 @@
         ],
         "documenti_chiave": [
           "Attestazione ISEE sociosanitario",
-          "Verbale commissione sanitaria disabilit� gravissima",
-          "Documento d�identit� caregiver e assistito",
+          "Verbale commissione sanitaria disabilità gravissima",
+          "Documento d’identità caregiver e assistito",
           "Dichiarazione sostitutiva sul ruolo di cura"
         ]
       },
@@ -163,16 +163,16 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "La misura � definita a livello regionale ma la gestione pratica (raccolta domande, erogazione) pu� essere delegata agli Ambiti territoriali. Non cumulabile con Patto di Cura o altri assegni simili."
+        "note": "La misura è definita a livello regionale ma la gestione pratica (raccolta domande, erogazione) può essere delegata agli Ambiti territoriali. Non cumulabile con Patto di Cura o altri assegni simili."
       },
       "ux": {
         "priorita_contatto": 0.85,
-        "messaggio_consulenza": "La domanda di Sostegno Familiare si presenta online sul portale regionale. Per chiarimenti puoi contattare l�Ufficio di Piano del tuo Ambito territoriale o il numero di assistenza indicato nell�avviso regionale."
+        "messaggio_consulenza": "La domanda di Sostegno Familiare si presenta online sul portale regionale. Per chiarimenti puoi contattare l’Ufficio di Piano del tuo Ambito territoriale o il numero di assistenza indicato nell’avviso regionale."
       }
     },
     {
       "prestazione_id": "PUG-buoni-servizio-v2025",
-      "nome_ufficiale": "Buoni Servizio per anziani e persone con disabilit�",
+      "nome_ufficiale": "Buoni Servizio per anziani e persone con disabilità",
       "alias": [
         "voucher socio-sanitari FSE+"
       ],
@@ -182,18 +182,18 @@
         "FN-FSE",
         "FN-REG"
       ],
-      "descrizione_breve": "Titoli di spesa (voucher) erogati nell�ambito del POR Puglia per coprire parte dei costi di servizi socio-assistenziali: ingressi in centri diurni per disabili o anziani, servizi domiciliari (SAD e ADI livello sociale). Consentono alle famiglie di fruire di tali servizi pagando solo una quota ridotta, in base all�ISEE.",
+      "descrizione_breve": "Titoli di spesa (voucher) erogati nell’ambito del POR Puglia per coprire parte dei costi di servizi socio-assistenziali: ingressi in centri diurni per disabili o anziani, servizi domiciliari (SAD e ADI livello sociale). Consentono alle famiglie di fruire di tali servizi pagando solo una quota ridotta, in base all’ISEE.",
       "benefit": {
-        "periodicita": "annuale (frazionata in mensilit�)",
+        "periodicita": "annuale (frazionata in mensilità)",
         "importo_min": 0,
         "importo_max": 800,
         "equivalente_mensile": 0,
-        "note": "Il valore del buono � determinato in base al servizio scelto e all�ISEE. Esempio: copertura fino a ~�700-800 mensili per un centro diurno intensivo, o tot ore di SAD/ADI sociale. La famiglia paga una compartecipazione ridotta."
+        "note": "Il valore del buono è determinato in base al servizio scelto e all’ISEE. Esempio: copertura fino a ~€700-800 mensili per un centro diurno intensivo, o tot ore di SAD/ADI sociale. La famiglia paga una compartecipazione ridotta."
       },
       "requisiti": {
         "target": [
           "Persone anziane non autosufficienti (over 65)",
-          "Persone con disabilit� riconosciuta di qualsiasi et�, residenti in Puglia, che necessitano di servizi diurni o domiciliari"
+          "Persone con disabilità riconosciuta di qualsiasi età, residenti in Puglia, che necessitano di servizi diurni o domiciliari"
         ],
         "isee": {
           "richiesto": true,
@@ -202,7 +202,7 @@
         },
         "valutazione": [
           "Iscrizione/adesione ad un servizio presente nel Catalogo regionale (centro diurno accreditato o servizio domiciliare accreditato)",
-          "Valutazione sociale dell�Ambito per definire il piano di intervento (es. ore settimanali di SAD)"
+          "Valutazione sociale dell’Ambito per definire il piano di intervento (es. ore settimanali di SAD)"
         ]
       },
       "accesso": {
@@ -216,7 +216,7 @@
         "documenti_chiave": [
           "Attestazione ISEE ordinario o sociosanitario",
           "Scheda di adesione al servizio scelto",
-          "Documento di identit� del richiedente e del beneficiario"
+          "Documento di identità del richiedente e del beneficiario"
         ]
       },
       "governance": {
@@ -242,7 +242,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Programma regionale uniforme: i criteri di accesso e le tipologie di servizi ammessi sono uguali in tutta la regione. Gli Ambiti territoriali gestiscono l�abbinamento utente-servizio e il monitoraggio delle prestazioni erogate."
+        "note": "Programma regionale uniforme: i criteri di accesso e le tipologie di servizi ammessi sono uguali in tutta la regione. Gli Ambiti territoriali gestiscono l’abbinamento utente-servizio e il monitoraggio delle prestazioni erogate."
       },
       "ux": {
         "priorita_contatto": 0.8,
@@ -261,17 +261,17 @@
         "FN-L162",
         "FN-REG"
       ],
-      "descrizione_breve": "Avviso regionale che finanzia progetti presentati da persone con disabilit� per la propria autonomia personale e inclusione socio-lavorativa. I progetti ammissibili possono prevedere sostegni come assistenti personali, percorsi di inserimento lavorativo, abitare in autonomia (es. contributo affitto, domotica) e altre misure volte all�indipendenza dalla famiglia.",
+      "descrizione_breve": "Avviso regionale che finanzia progetti presentati da persone con disabilità per la propria autonomia personale e inclusione socio-lavorativa. I progetti ammissibili possono prevedere sostegni come assistenti personali, percorsi di inserimento lavorativo, abitare in autonomia (es. contributo affitto, domotica) e altre misure volte all’indipendenza dalla famiglia.",
       "benefit": {
         "periodicita": "progetto (18-24 mesi)",
         "importo_min": 0,
         "importo_max": 15000,
         "equivalente_mensile": 0,
-        "note": "Finanziamento modulare: contributo medio ~�10.000 a progetto (suddiviso su base mensile per pagare stipendio assistente personale, tutor del lavoro, ecc.). Il tetto massimo per progetto individuale � ~�15.000 (per i progetti pi� complessi)."
+        "note": "Finanziamento modulare: contributo medio ~€10.000 a progetto (suddiviso su base mensile per pagare stipendio assistente personale, tutor del lavoro, ecc.). Il tetto massimo per progetto individuale è ~€15.000 (per i progetti più complessi)."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� motoria, sensoriale o intellettiva (18-64 anni) in grado di autodeterminarsi, che intendono realizzare un percorso di vita indipendente al di fuori del nucleo familiare originario"
+          "Persone con disabilità motoria, sensoriale o intellettiva (18-64 anni) in grado di autodeterminarsi, che intendono realizzare un percorso di vita indipendente al di fuori del nucleo familiare originario"
         ],
         "isee": {
           "richiesto": true,
@@ -280,7 +280,7 @@
         },
         "valutazione": [
           "Progetto personalizzato elaborato con supporto eventualmente di un ente attuatore, da presentare alla Regione",
-          "Non essere gi� beneficiari di altre misure analoghe regionali (es. Patto di Cura, Sostegno Familiare)"
+          "Non essere già beneficiari di altre misure analoghe regionali (es. Patto di Cura, Sostegno Familiare)"
         ]
       },
       "accesso": {
@@ -295,7 +295,7 @@
           "Progetto di Vita Indipendente (allegato tecnico)",
           "Attestazione ISEE ordinario",
           "Certificazione L.104/92 art.3 c.3",
-          "Documento di identit�"
+          "Documento di identità"
         ]
       },
       "governance": {
@@ -325,12 +325,12 @@
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Se vuoi proporre un PRO.V.I, prepara insieme a un ente di fiducia un progetto di vita indipendente. Consulta il bando sul sito Sistema Puglia per modulistica e scadenze; puoi richiedere chiarimenti all�assessorato regionale al Welfare o agli Sportelli per l�inclusione attivi sul territorio."
+        "messaggio_consulenza": "Se vuoi proporre un PRO.V.I, prepara insieme a un ente di fiducia un progetto di vita indipendente. Consulta il bando sul sito Sistema Puglia per modulistica e scadenze; puoi richiedere chiarimenti all’assessorato regionale al Welfare o agli Sportelli per l’inclusione attivi sul territorio."
       }
     },
     {
       "prestazione_id": "PUG-provi-dopo-noi-v2025",
-      "nome_ufficiale": "Progetti di Vita Indipendente � Dopo di Noi",
+      "nome_ufficiale": "Progetti di Vita Indipendente – Dopo di Noi",
       "alias": [
         "PRO.V.I Dopo di Noi (L.112)"
       ],
@@ -340,17 +340,17 @@
         "FN-L112",
         "FN-REG"
       ],
-      "descrizione_breve": "Sottomisura dedicata a persone con disabilit� grave prive del sostegno familiare, nell�ambito dei Pro.V.I. Finanziata dal Fondo �Dopo di Noi�, supporta progetti di vita in autonomia (ad es. co-housing, gruppi appartamento) con assistenza leggera e percorsi per sviluppare competenze quotidiane, al fine di preparare il �dopo� l�uscita dal nucleo familiare di origine.",
+      "descrizione_breve": "Sottomisura dedicata a persone con disabilità grave prive del sostegno familiare, nell’ambito dei Pro.V.I. Finanziata dal Fondo “Dopo di Noi”, supporta progetti di vita in autonomia (ad es. co-housing, gruppi appartamento) con assistenza leggera e percorsi per sviluppare competenze quotidiane, al fine di preparare il “dopo” l’uscita dal nucleo familiare di origine.",
       "benefit": {
         "periodicita": "progetto (fino a 24 mesi)",
         "importo_min": 0,
         "importo_max": 12000,
         "equivalente_mensile": 0,
-        "note": "Finanziamento fino a circa �10.000-12.000 per progetto personalizzato, da utilizzare per spese di abitazione (affitto, utenze), supporto educativo domiciliare, inserimento in comunit�-alloggio, ecc. secondo il piano approvato."
+        "note": "Finanziamento fino a circa €10.000-12.000 per progetto personalizzato, da utilizzare per spese di abitazione (affitto, utenze), supporto educativo domiciliare, inserimento in comunità-alloggio, ecc. secondo il piano approvato."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave (art.3 c.3 L.104) tra 18 e 64 anni, i cui genitori sono deceduti o molto anziani/non pi� in grado di fornire cura"
+          "Persone con disabilità grave (art.3 c.3 L.104) tra 18 e 64 anni, i cui genitori sono deceduti o molto anziani/non più in grado di fornire cura"
         ],
         "isee": {
           "richiesto": true,
@@ -358,7 +358,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Progetto personalizzato �dopo di noi� presentato ed approvato",
+          "Progetto personalizzato “dopo di noi” presentato ed approvato",
           "Requisiti come da D.M. 23/11/2016 (nessun supporto familiare adeguato)"
         ]
       },
@@ -400,11 +400,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Gestione unificata a livello regionale nell�ambito del programma PRO.V.I; la specificit� �Dopo di Noi� comporta priorit� e criteri aggiuntivi ma la procedura di candidatura � la medesima del Pro.V.I generale."
+        "note": "Gestione unificata a livello regionale nell’ambito del programma PRO.V.I; la specificità “Dopo di Noi” comporta priorità e criteri aggiuntivi ma la procedura di candidatura è la medesima del Pro.V.I generale."
       },
       "ux": {
         "priorita_contatto": 0.55,
-        "messaggio_consulenza": "Se rientri nel target �Dopo di Noi�, evidenzia questa condizione nel tuo progetto di Vita Indipendente. La Regione ha risorse dedicate: contatta i referenti regionali o un ente sociale sul territorio per costruire un percorso adeguato e partecipare all�avviso pubblico."
+        "messaggio_consulenza": "Se rientri nel target “Dopo di Noi”, evidenzia questa condizione nel tuo progetto di Vita Indipendente. La Regione ha risorse dedicate: contatta i referenti regionali o un ente sociale sul territorio per costruire un percorso adeguato e partecipare all’avviso pubblico."
       }
     },
     {
@@ -424,11 +424,11 @@
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Il servizio ADI � gratuito (coperto dal SSR) e prevede visite domiciliari di personale sanitario secondo il PAI. Il paziente non riceve denaro ma prestazioni sanitarie a domicilio senza oneri."
+        "note": "Il servizio ADI è gratuito (coperto dal SSR) e prevede visite domiciliari di personale sanitario secondo il PAI. Il paziente non riceve denaro ma prestazioni sanitarie a domicilio senza oneri."
       },
       "requisiti": {
         "target": [
-          "Persone affette da patologie cronico-degenerative o disabilit� che comportano non autosufficienza, necessitanti di interventi sanitari costanti a casa"
+          "Persone affette da patologie cronico-degenerative o disabilità che comportano non autosufficienza, necessitanti di interventi sanitari costanti a casa"
         ],
         "isee": {
           "richiesto": false,
@@ -436,7 +436,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione UVM/UVG dell�ASL che definisce il bisogno di ADI (livello I, II o cure palliative)",
+          "Valutazione UVM/UVG dell’ASL che definisce il bisogno di ADI (livello I, II o cure palliative)",
           "Prescrizione del Medico di Medicina Generale per attivazione ADI"
         ]
       },
@@ -447,11 +447,11 @@
         "modalita": "sportello",
         "canali": [
           "Punto Unico di Accesso socio-sanitario (dove attivo) o Servizio Assistenza Domiciliare ASL",
-          "Richiesta del Medico di Base all�UVMD"
+          "Richiesta del Medico di Base all’UVMD"
         ],
         "documenti_chiave": [
           "Richiesta del MMG su modello ADI",
-          "Documento d�identit� e tessera sanitaria",
+          "Documento d’identità e tessera sanitaria",
           "Eventuali referti clinici"
         ]
       },
@@ -477,11 +477,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "L�ADI � parte dei LEA e viene erogata secondo linee guida regionali unificate (RIASS); ogni ASL la organizza sul proprio territorio (zone, �quipe) ma standard e criteri di accesso sono uniformi."
+        "note": "L’ADI è parte dei LEA e viene erogata secondo linee guida regionali unificate (RIASS); ogni ASL la organizza sul proprio territorio (zone, équipe) ma standard e criteri di accesso sono uniformi."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Parla con il tuo medico di famiglia se tu o un tuo caro necessitate di assistenza sanitaria domiciliare: il medico attiver� la procedura ADI con l�ASL. In alternativa puoi rivolgerti al PUA della tua ASL per informazioni su come attivare il servizio."
+        "messaggio_consulenza": "Parla con il tuo medico di famiglia se tu o un tuo caro necessitate di assistenza sanitaria domiciliare: il medico attiverà la procedura ADI con l’ASL. In alternativa puoi rivolgerti al PUA della tua ASL per informazioni su come attivare il servizio."
       }
     },
     {
@@ -495,18 +495,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio gestito dagli Ambiti territoriali (Comuni associati) che fornisce interventi di aiuto alla persona e supporto domestico a persone anziane e disabili. Il SAD in Puglia � spesso attivato attraverso i Buoni Servizio regionali, ma rimane la possibilit� di interventi diretti comunali per situazioni particolari (es. emergenze sociali).",
+      "descrizione_breve": "Servizio gestito dagli Ambiti territoriali (Comuni associati) che fornisce interventi di aiuto alla persona e supporto domestico a persone anziane e disabili. Il SAD in Puglia è spesso attivato attraverso i Buoni Servizio regionali, ma rimane la possibilità di interventi diretti comunali per situazioni particolari (es. emergenze sociali).",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Ore settimanali di assistenza domiciliare (OSS) assegnate in base al bisogno. Se finanziato con Buono Servizio, la famiglia paga solo una quota ridotta dell�intervento; altrimenti, potrebbe essere gratuito per casi sociali gravissimi coperti dal Comune."
+        "note": "Ore settimanali di assistenza domiciliare (OSS) assegnate in base al bisogno. Se finanziato con Buono Servizio, la famiglia paga solo una quota ridotta dell’intervento; altrimenti, potrebbe essere gratuito per casi sociali gravissimi coperti dal Comune."
       },
       "requisiti": {
         "target": [
-          "Anziani in parziale o totale non autosufficienza che vivono soli o con familiari impossibilitati a garantire tutta l�assistenza",
-          "Persone con disabilit� (anche minori, per interventi educativi domiciliari) con bisogni assistenziali al domicilio"
+          "Anziani in parziale o totale non autosufficienza che vivono soli o con familiari impossibilitati a garantire tutta l’assistenza",
+          "Persone con disabilità (anche minori, per interventi educativi domiciliari) con bisogni assistenziali al domicilio"
         ],
         "isee": {
           "richiesto": true,
@@ -514,7 +514,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione dei Servizi Sociali professionali dell�Ambito (UVT) che definisce il piano assistenziale domiciliare (ore e prestazioni)"
+          "Valutazione dei Servizi Sociali professionali dell’Ambito (UVT) che definisce il piano assistenziale domiciliare (ore e prestazioni)"
         ]
       },
       "accesso": {
@@ -528,8 +528,8 @@
         ],
         "documenti_chiave": [
           "ISEE ordinario o sociosanitario",
-          "Richiesta/disposizione del servizio da parte dell�assistente sociale",
-          "Documento identit�"
+          "Richiesta/disposizione del servizio da parte dell’assistente sociale",
+          "Documento identità"
         ]
       },
       "governance": {
@@ -555,11 +555,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ciascun Ambito territoriale organizza il SAD secondo il proprio piano di zona: in alcuni territori l�accesso � prevalentemente tramite Buoni Servizio (domanda del cittadino), in altri esistono ancora graduatorie o attivazioni d�ufficio per emergenze sociali."
+        "note": "Ciascun Ambito territoriale organizza il SAD secondo il proprio piano di zona: in alcuni territori l’accesso è prevalentemente tramite Buoni Servizio (domanda del cittadino), in altri esistono ancora graduatorie o attivazioni d’ufficio per emergenze sociali."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Per attivare l�assistenza domiciliare, contatta l�Ufficio di Piano del tuo Ambito territoriale (di solito presso il Comune capofila). Ti guideranno su come richiedere il servizio, eventualmente tramite la domanda di Buono Servizio regionale."
+        "messaggio_consulenza": "Per attivare l’assistenza domiciliare, contatta l’Ufficio di Piano del tuo Ambito territoriale (di solito presso il Comune capofila). Ti guideranno su come richiedere il servizio, eventualmente tramite la domanda di Buono Servizio regionale."
       }
     },
     {
@@ -574,13 +574,13 @@
         "FN-LEA",
         "FN-REG"
       ],
-      "descrizione_breve": "L�accesso ad una RSSA accreditata per anziani non autosufficienti o persone con disabilit� adulti in Puglia avviene tramite l�ASL e i Servizi Sociali. Il posto convenzionato comporta che l�ASL copra la componente sanitaria e l�utente (o il Comune) la componente alberghiera. Il tutto � regolato dal Regolamento regionale n.4/2019 e successive modifiche.",
+      "descrizione_breve": "L’accesso ad una RSSA accreditata per anziani non autosufficienti o persone con disabilità adulti in Puglia avviene tramite l’ASL e i Servizi Sociali. Il posto convenzionato comporta che l’ASL copra la componente sanitaria e l’utente (o il Comune) la componente alberghiera. Il tutto è regolato dal Regolamento regionale n.4/2019 e successive modifiche.",
       "benefit": {
         "periodicita": "residenziale continuativo",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Retta standard in RSSA ~�90-100/die: circa la met� coperta dal SSR (quota sanitaria). L�utente paga la quota sociale restante (~�45-50/die). Se l�utente non pu� permetterselo, interviene il Comune con integrazione retta dopo valutazione economica."
+        "note": "Retta standard in RSSA ~€90-100/die: circa la metà coperta dal SSR (quota sanitaria). L’utente paga la quota sociale restante (~€45-50/die). Se l’utente non può permetterselo, interviene il Comune con integrazione retta dopo valutazione economica."
       },
       "requisiti": {
         "target": [
@@ -593,7 +593,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione multidimensionale (UVM) dell�ASL che certifichi il profilo di cura da RSA (livello III assistenza)",
+          "Valutazione multidimensionale (UVM) dell’ASL che certifichi il profilo di cura da RSA (livello III assistenza)",
           "Presa in carico integrata ASL-Comune, con attribuzione punteggio in graduatoria centralizzata per assegnazione del posto"
         ]
       },
@@ -604,13 +604,13 @@
         ],
         "modalita": "sportello",
         "canali": [
-          "UVMD/UVI presso l�ASL (richiesta tramite distretto sanitario)",
+          "UVMD/UVI presso l’ASL (richiesta tramite distretto sanitario)",
           "Ufficio Servizi Sociali comunale per eventuale istanza di integrazione retta"
         ],
         "documenti_chiave": [
           "Scheda di Valutazione UVM (profilo di bisogno assistenziale)",
           "Attestazione ISEE sociosanitario residenze",
-          "Documento di identit�"
+          "Documento di identità"
         ]
       },
       "governance": {
@@ -637,11 +637,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "L�accesso alle RSSA accreditate � regolato da procedure regionali uniformi e graduatorie per punteggio di bisogno. La gestione economica (integrazione retta) dipende dai singoli Comuni, che possono avere soglie diverse per intervenire."
+        "note": "L’accesso alle RSSA accreditate è regolato da procedure regionali uniformi e graduatorie per punteggio di bisogno. La gestione economica (integrazione retta) dipende dai singoli Comuni, che possono avere soglie diverse per intervenire."
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Per l�ingresso in RSSA rivolgiti al Punto Unico di Accesso della tua ASL o al distretto socio-sanitario: verr� attivata la valutazione UVM. Informati anche presso i Servizi Sociali del Comune sulle eventuali procedure per la compartecipazione economica."
+        "messaggio_consulenza": "Per l’ingresso in RSSA rivolgiti al Punto Unico di Accesso della tua ASL o al distretto socio-sanitario: verrà attivata la valutazione UVM. Informati anche presso i Servizi Sociali del Comune sulle eventuali procedure per la compartecipazione economica."
       }
     }
   ]

@@ -15,26 +15,26 @@
   "prestazioni": [
     {
       "prestazione_id": "BAS-contributo-gravissimi-v2025",
-      "nome_ufficiale": "Contributo economico per l�assistenza a domicilio delle persone con disabilit� gravissima",
+      "nome_ufficiale": "Contributo economico per l’assistenza a domicilio delle persone con disabilità gravissima",
       "alias": [
-        "Assegno di cura disabilit� gravissima Basilicata"
+        "Assegno di cura disabilità gravissima Basilicata"
       ],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "CE-disabilita-gravissima",
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Assegno mensile per sostenere la cura a domicilio di persone non autosufficienti con disabilit� gravissima (art.3 DM 26/09/2016):contentReference[oaicite:23]{index=23}",
+      "descrizione_breve": "Assegno mensile per sostenere la cura a domicilio di persone non autosufficienti con disabilità gravissima (art.3 DM 26/09/2016):contentReference[oaicite:23]{index=23}",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 400,
         "importo_max": 800,
         "equivalente_mensile": 600,
-        "note": "Importo variabile in base all�intensit� assistenziale; contributo non frazionabile per periodi inferiori a 15 giorni:contentReference[oaicite:24]{index=24}"
+        "note": "Importo variabile in base all’intensità assistenziale; contributo non frazionabile per periodi inferiori a 15 giorni:contentReference[oaicite:24]{index=24}"
       },
       "requisiti": {
         "target": [
-          "persone con disabilit� gravissima in assistenza domiciliare continuativa"
+          "persone con disabilità gravissima in assistenza domiciliare continuativa"
         ],
         "isee": {
           "richiesto": true,
@@ -57,7 +57,7 @@
           "sportello sociale comunale"
         ],
         "documenti_chiave": [
-          "certificato invalidit� 100% con indennit� accompagnamento",
+          "certificato invalidità 100% con indennità accompagnamento",
           "ISEE sociosanitario",
           "verbale UVMD"
         ]
@@ -69,11 +69,11 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Basilicata n.654/2024 � Programma regionale Assegni di cura 2022-24",
+            "atto": "DGR Basilicata n.654/2024 – Programma regionale Assegni di cura 2022-24",
             "url": ""
           },
           {
-            "atto": "DGR Basilicata n.229/2024 � Riparto FNA 2023 (Disabilit� gravissima)",
+            "atto": "DGR Basilicata n.229/2024 – Riparto FNA 2023 (Disabilità gravissima)",
             "url": ""
           }
         ]
@@ -89,12 +89,12 @@
       },
       "ux": {
         "priorita_contatto": 0.85,
-        "messaggio_consulenza": "Per informazioni contatta il Numero Verde regionale dedicato al bando disabilit� gravissime"
+        "messaggio_consulenza": "Per informazioni contatta il Numero Verde regionale dedicato al bando disabilità gravissime"
       }
     },
     {
       "prestazione_id": "BAS-assegni-voucher-nonautosuff-v2025",
-      "nome_ufficiale": "Assegni di cura e voucher per anziani non autosufficienti e persone con disabilit� grave",
+      "nome_ufficiale": "Assegni di cura e voucher per anziani non autosufficienti e persone con disabilità grave",
       "alias": [
         "Programma assegni di cura e voucher FNA Basilicata"
       ],
@@ -109,12 +109,12 @@
         "importo_min": 300,
         "importo_max": 600,
         "equivalente_mensile": 500,
-        "note": "Assegno o voucher calibrato al bisogno: entit� definita dall�UVM (es. intensit� �moderata� ~�400/mese; �intensiva� ~�600/mese):contentReference[oaicite:26]{index=26}"
+        "note": "Assegno o voucher calibrato al bisogno: entità definita dall’UVM (es. intensità ‘moderata’ ~€400/mese; ‘intensiva’ ~€600/mese):contentReference[oaicite:26]{index=26}"
       },
       "requisiti": {
         "target": [
           "anziani non autosufficienti",
-          "persone con disabilit� grave"
+          "persone con disabilità grave"
         ],
         "isee": {
           "richiesto": true,
@@ -148,7 +148,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Basilicata n.654/2024 � Regolazione assegni di cura e voucher",
+            "atto": "DGR Basilicata n.654/2024 – Regolazione assegni di cura e voucher",
             "url": ""
           }
         ]
@@ -160,7 +160,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Gli Ambiti ripartiscono le risorse in assegni o voucher a seconda delle preferenze dell�utente e del PAI"
+        "note": "Gli Ambiti ripartiscono le risorse in assegni o voucher a seconda delle preferenze dell’utente e del PAI"
       },
       "ux": {
         "priorita_contatto": 0.8,
@@ -178,17 +178,17 @@
       "famiglie_normative_ids": [
         "FN-FCF"
       ],
-      "descrizione_breve": "Erogazione di un contributo economico una tantum a favore di familiari caregiver di persone con disabilit� grave o gravissima, finanziato con il Fondo nazionale caregiver familiare:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}",
+      "descrizione_breve": "Erogazione di un contributo economico una tantum a favore di familiari caregiver di persone con disabilità grave o gravissima, finanziato con il Fondo nazionale caregiver familiare:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}",
       "benefit": {
         "periodicita": "una tantum",
         "importo_min": 400,
         "importo_max": 500,
         "equivalente_mensile": null,
-        "note": "Importo una tantum: �500 per caregiver di persona con disabilit� gravissima, �400 se disabilit� grave; +50% se assiste due o pi� familiari (es. �750 se due gravissimi):contentReference[oaicite:29]{index=29}:contentReference[oaicite:30]{index=30}"
+        "note": "Importo una tantum: €500 per caregiver di persona con disabilità gravissima, €400 se disabilità grave; +50% se assiste due o più familiari (es. €750 se due gravissimi):contentReference[oaicite:29]{index=29}:contentReference[oaicite:30]{index=30}"
       },
       "requisiti": {
         "target": [
-          "caregiver familiare convivente di persona con disabilit� grave o gravissima"
+          "caregiver familiare convivente di persona con disabilità grave o gravissima"
         ],
         "isee": {
           "richiesto": false,
@@ -196,7 +196,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "certificazione disabilit� assistito (grave/gravissima)",
+          "certificazione disabilità assistito (grave/gravissima)",
           "criteri punteggio sociale per condizioni caregiver"
         ]
       },
@@ -211,7 +211,7 @@
         ],
         "documenti_chiave": [
           "stato di famiglia",
-          "documento identit� caregiver",
+          "documento identità caregiver",
           "certificato L.104 art.3 c.3 assistito"
         ]
       },
@@ -221,7 +221,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Basilicata n.273/2024 � Indirizzi programmazione Fondo Caregiver 2023",
+            "atto": "DGR Basilicata n.273/2024 – Indirizzi programmazione Fondo Caregiver 2023",
             "url": ""
           }
         ]
@@ -237,7 +237,7 @@
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Informati presso il tuo Comune capofila di Ambito sulla disponibilit� di contributi caregiver e sulle scadenze"
+        "messaggio_consulenza": "Informati presso il tuo Comune capofila di Ambito sulla disponibilità di contributi caregiver e sulle scadenze"
       }
     },
     {
@@ -255,7 +255,7 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "L�ADI � fornita dall�ASP (Azienda Sanitaria Provinciale) senza costi per l�utente, secondo un piano personalizzato; intensit� variabile da accessi settimanali fino a assistenza quotidiana"
+        "note": "L’ADI è fornita dall’ASP (Azienda Sanitaria Provinciale) senza costi per l’utente, secondo un piano personalizzato; intensità variabile da accessi settimanali fino a assistenza quotidiana"
       },
       "requisiti": {
         "target": [
@@ -290,7 +290,7 @@
         ],
         "normativa": [
           {
-            "atto": "Programma Attuativo Locale (PAL) Cure Domiciliari � ASP Basilicata",
+            "atto": "Programma Attuativo Locale (PAL) Cure Domiciliari – ASP Basilicata",
             "url": ""
           }
         ]
@@ -302,11 +302,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Le ASP di Potenza e Matera organizzano l�ADI in base ai PAL; tempi di attivazione e disponibilit� possono variare per territorio"
+        "note": "Le ASP di Potenza e Matera organizzano l’ADI in base ai PAL; tempi di attivazione e disponibilità possono variare per territorio"
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Chiedi al medico di base di attivare la valutazione UVM dell�ASP per usufruire dell�ADI"
+        "messaggio_consulenza": "Chiedi al medico di base di attivare la valutazione UVM dell’ASP per usufruire dell’ADI"
       }
     },
     {
@@ -318,18 +318,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio di assistenza domiciliare socio-assistenziale (aiuto per l�igiene personale, governo della casa, pasti) rivolto ad anziani e disabili in condizioni di parziale non autosufficienza",
+      "descrizione_breve": "Servizio di assistenza domiciliare socio-assistenziale (aiuto per l’igiene personale, governo della casa, pasti) rivolto ad anziani e disabili in condizioni di parziale non autosufficienza",
       "benefit": {
         "periodicita": "continuativo",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Erogazione in ore di servizio a domicilio (in genere 2�6 ore/settimana secondo il bisogno); l�utente pu� dover contribuire al costo in base all�ISEE"
+        "note": "Erogazione in ore di servizio a domicilio (in genere 2–6 ore/settimana secondo il bisogno); l’utente può dover contribuire al costo in base all’ISEE"
       },
       "requisiti": {
         "target": [
           "anziani parzialmente non autosufficienti",
-          "persone con disabilit� non totalmente autosufficienti"
+          "persone con disabilità non totalmente autosufficienti"
         ],
         "isee": {
           "richiesto": true,
@@ -373,11 +373,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ogni Ambito ha un proprio regolamento SAD che definisce criteri di accesso, tariffe e priorit�"
+        "note": "Ogni Ambito ha un proprio regolamento SAD che definisce criteri di accesso, tariffe e priorità"
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Contatta l�Assistente Sociale del tuo Comune per richiedere l�attivazione del SAD"
+        "messaggio_consulenza": "Contatta l’Assistente Sociale del tuo Comune per richiedere l’attivazione del SAD"
       }
     },
     {
@@ -395,7 +395,7 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "La retta � coperta in parte dal SSR (quota sanitaria) e in parte dall�utente/Comune (quota sociale). Possibili integrazioni economiche comunali per utenti indigenti"
+        "note": "La retta è coperta in parte dal SSR (quota sanitaria) e in parte dall’utente/Comune (quota sociale). Possibili integrazioni economiche comunali per utenti indigenti"
       },
       "requisiti": {
         "target": [
@@ -435,7 +435,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Basilicata 691/2010 � Requisiti strutture residenziali socio-sanitarie",
+            "atto": "DGR Basilicata 691/2010 – Requisiti strutture residenziali socio-sanitarie",
             "url": ""
           }
         ]
@@ -447,11 +447,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Accreditamento regionale delle RSA; il fabbisogno posti � programmato a livello regionale. Inserimenti autorizzati dall�ASP competente"
+        "note": "Accreditamento regionale delle RSA; il fabbisogno posti è programmato a livello regionale. Inserimenti autorizzati dall’ASP competente"
       },
       "ux": {
         "priorita_contatto": 0.65,
-        "messaggio_consulenza": "Rivolgiti al Punto Unico di Accesso dell�ASP per conoscere le strutture residenziali e sulle procedure di ingresso"
+        "messaggio_consulenza": "Rivolgiti al Punto Unico di Accesso dell’ASP per conoscere le strutture residenziali e sulle procedure di ingresso"
       }
     }
   ]

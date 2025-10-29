@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "nome_regione": "Valle d�Aosta",
+    "nome_regione": "Valle d’Aosta",
     "codice_regione": "VDA",
     "ultimo_aggiornamento": "2025-07-15",
     "schema_version": "2.0",
@@ -14,7 +14,7 @@
   "prestazioni": [
     {
       "prestazione_id": "VDA-assegno-cura-v2025",
-      "nome_ufficiale": "Assegno di cura a sostegno della domiciliarit� delle persone anziane non autosufficienti e disabili gravi",
+      "nome_ufficiale": "Assegno di cura a sostegno della domiciliarità delle persone anziane non autosufficienti e disabili gravi",
       "alias": [
         "Buono domiciliare Valle d'Aosta"
       ],
@@ -23,17 +23,17 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Provvidenza economica mensile rivolta a famiglie che si avvalgono di **assistenza domiciliare privata** per la cura di persone non autosufficienti (anziani �65 anni, o minori con handicap grave art.3 c.3 L.104):contentReference[oaicite:96]{index=96}. L'assegno � condizionato all'impiego di un **assistente personale regolarmente assunto** (badante iscritta all'albo regionale) per un monte ore settimanale minimo concordato (18, 25 o 31+ ore):contentReference[oaicite:97]{index=97}:contentReference[oaicite:98]{index=98}. L'importo mensile viene modulato in base all'**ISEE socio-sanitario** del beneficiario e alle ore di assistenza: ad esempio, con ISEE fino a 6.000 � spettano **800 �** al mese per assistenza �31 ore/settimana (oppure 650 � per 25-30h, 350 � per 18-24h); con ISEE di 15.000 � l'assegno si riduce a 450 � (31h), 350 � (25h), 200 � (18h); oltre 21.000 � di ISEE non � concesso alcun contributo:contentReference[oaicite:99]{index=99}. L'assegno decorre dal mese di acquisizione della domanda e viene liquidato trimestralmente, previa verifica trimestrale della regolare esecuzione del progetto assistenziale (presenze badante, versamenti contributivi):contentReference[oaicite:100]{index=100}:contentReference[oaicite:101]{index=101}.",
+      "descrizione_breve": "Provvidenza economica mensile rivolta a famiglie che si avvalgono di **assistenza domiciliare privata** per la cura di persone non autosufficienti (anziani ≥65 anni, o minori con handicap grave art.3 c.3 L.104):contentReference[oaicite:96]{index=96}. L'assegno è condizionato all'impiego di un **assistente personale regolarmente assunto** (badante iscritta all'albo regionale) per un monte ore settimanale minimo concordato (18, 25 o 31+ ore):contentReference[oaicite:97]{index=97}:contentReference[oaicite:98]{index=98}. L'importo mensile viene modulato in base all'**ISEE socio-sanitario** del beneficiario e alle ore di assistenza: ad esempio, con ISEE fino a 6.000 € spettano **800 €** al mese per assistenza ≥31 ore/settimana (oppure 650 € per 25-30h, 350 € per 18-24h); con ISEE di 15.000 € l'assegno si riduce a 450 € (31h), 350 € (25h), 200 € (18h); oltre 21.000 € di ISEE non è concesso alcun contributo:contentReference[oaicite:99]{index=99}. L'assegno decorre dal mese di acquisizione della domanda e viene liquidato trimestralmente, previa verifica trimestrale della regolare esecuzione del progetto assistenziale (presenze badante, versamenti contributivi):contentReference[oaicite:100]{index=100}:contentReference[oaicite:101]{index=101}.",
       "benefit": {
         "periodicita": "mensile (erogazione trimestrale)",
         "importo_min": 100,
         "importo_max": 800,
         "equivalente_mensile": 800,
-        "note": "Massimo 800 �/mese per ISEE <6.000 � con almeno 31h settimanali di assistenza:contentReference[oaicite:102]{index=102}; importi decrescenti su 5 scaglioni ISEE fino a zero oltre 21.000 �:contentReference[oaicite:103]{index=103}. L'assegno non � cumulabile con altri interventi per le stesse finalit� e non spetta se l'assistente personale � il coniuge o parente entro il 2� grado:contentReference[oaicite:104]{index=104}."
+        "note": "Massimo 800 €/mese per ISEE <6.000 € con almeno 31h settimanali di assistenza:contentReference[oaicite:102]{index=102}; importi decrescenti su 5 scaglioni ISEE fino a zero oltre 21.000 €:contentReference[oaicite:103]{index=103}. L'assegno non è cumulabile con altri interventi per le stesse finalità e non spetta se l'assistente personale è il coniuge o parente entro il 2° grado:contentReference[oaicite:104]{index=104}."
       },
       "requisiti": {
         "target": [
-          "Persone non autosufficienti di et� �65 anni, oppure minori con disabilit� grave (art.3 c.3 L.104/92), residenti in Valle d'Aosta da �2 anni (o con specifici requisiti di residenza pregressa/domicilio):contentReference[oaicite:105]{index=105}, che concordano un progetto di assistenza a domicilio con i servizi competenti e assumono un assistente familiare qualificato"
+          "Persone non autosufficienti di età ≥65 anni, oppure minori con disabilità grave (art.3 c.3 L.104/92), residenti in Valle d'Aosta da ≥2 anni (o con specifici requisiti di residenza pregressa/domicilio):contentReference[oaicite:105]{index=105}, che concordano un progetto di assistenza a domicilio con i servizi competenti e assumono un assistente familiare qualificato"
         ],
         "isee": {
           "richiesto": true,
@@ -41,12 +41,12 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione medica di non autosufficienza rilasciata dal competente servizio dell�Azienda USL, attestante che le condizioni psico-fisiche compromesse rendono necessario il ricorso a assistenza continuativa (o l'inserimento in struttura):contentReference[oaicite:106]{index=106}. Parere positivo dell�UVMD sul progetto assistenziale domiciliare presentato dall�assistente sociale territoriale, con indicazione delle modalit� e ore di assistenza previste:contentReference[oaicite:107]{index=107}."
+          "Certificazione medica di non autosufficienza rilasciata dal competente servizio dell’Azienda USL, attestante che le condizioni psico-fisiche compromesse rendono necessario il ricorso a assistenza continuativa (o l'inserimento in struttura):contentReference[oaicite:106]{index=106}. Parere positivo dell’UVMD sul progetto assistenziale domiciliare presentato dall’assistente sociale territoriale, con indicazione delle modalità e ore di assistenza previste:contentReference[oaicite:107]{index=107}."
         ]
       },
       "accesso": {
         "ente_gestore": [
-          "Regione Valle d'Aosta � Assessorato Sanit� e Politiche Sociali"
+          "Regione Valle d'Aosta – Assessorato Sanità e Politiche Sociali"
         ],
         "modalita": "sportello",
         "canali": [
@@ -56,17 +56,17 @@
         "documenti_chiave": [
           "Domanda online (o modulo cartaceo) compilata",
           "Contratto di lavoro e ricevuta INPS di assunzione dell'assistente familiare:contentReference[oaicite:109]{index=109}:contentReference[oaicite:110]{index=110}",
-          "Attestazione ISEE socio-sanitario in corso di validit�",
+          "Attestazione ISEE socio-sanitario in corso di validità",
           "Certificazione UVMD di non autosufficienza"
         ]
       },
       "governance": {
         "finanziamento": [
-          "Bilancio Regionale Valle d�Aosta (Fondo socio-assistenziale)"
+          "Bilancio Regionale Valle d’Aosta (Fondo socio-assistenziale)"
         ],
         "normativa": [
           {
-            "atto": "L.R. Valle d�Aosta 23/2010 art.18",
+            "atto": "L.R. Valle d’Aosta 23/2010 art.18",
             "url": "https://www.consiglio.vda.it/app/leggieregolamenti/schedatecnica?pk_lr=833&versione=V"
           },
           {
@@ -82,16 +82,16 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Disciplina unica regionale. La misura � stata aggiornata con DGR 1524/2023 e successiva DGR 830/2025 per ampliarne l�accesso; le domande sono accolte su base continua."
+        "note": "Disciplina unica regionale. La misura è stata aggiornata con DGR 1524/2023 e successiva DGR 830/2025 per ampliarne l’accesso; le domande sono accolte su base continua."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Puoi presentare domanda per l'assegno di cura in qualsiasi momento tramite il portale regionale dedicato o con l�aiuto dell�assistente sociale della tua Unit� des Communes. Assicurati di aver gi� assunto o individuato un assistente familiare iscritto all�Elenco regionale."
+        "messaggio_consulenza": "Puoi presentare domanda per l'assegno di cura in qualsiasi momento tramite il portale regionale dedicato o con l’aiuto dell’assistente sociale della tua Unité des Communes. Assicurati di aver già assunto o individuato un assistente familiare iscritto all’Elenco regionale."
       }
     },
     {
       "prestazione_id": "VDA-contributo-gravissimi-v2025",
-      "nome_ufficiale": "Contributi per disabilit� gravissima (inclusa SLA) e Assistenza alla vita indipendente",
+      "nome_ufficiale": "Contributi per disabilità gravissima (inclusa SLA) e Assistenza alla vita indipendente",
       "alias": [
         "Contributo gravissimi VdA",
         "Assistenza vita indipendente VdA"
@@ -103,17 +103,17 @@
         "FN-L112",
         "FN-REG"
       ],
-      "descrizione_breve": "Oltre agli assegni di cura ordinari, la Valle d�Aosta prevede specifici contributi per: **disabilit� gravissima e/o SLA**, destinati a coprire le spese per l'assunzione diretta di uno o pi� assistenti personali a domicilio oppure, in alternativa, ad erogare un contributo mensile se l'assistenza � garantita interamente da un caregiver familiare:contentReference[oaicite:111]{index=111}:contentReference[oaicite:112]{index=112}; **assistenza per la vita indipendente**, consistenti in contributi che coprono il **70%** (per ISEE pi� bassi) o il **50%** (ISEE pi� elevati) del costo di un servizio di assistenza alla vita indipendente attivato dalla persona con disabilit�:contentReference[oaicite:113]{index=113}. Queste misure, introdotte con DGR 1524/2023 (Allegati C e D), mirano a sostenere i casi di bisogno pi� intenso (es. persone in ventilazione assistita, gravi disturbi comportamentali, progetti di deistituzionalizzazione) e a promuovere la domiciliarit� anche attraverso forme innovative di supporto autogestito. I criteri specifici (importi esatti, soglie ISEE) sono definiti nei suddetti allegati e richiedono la presa in carico da parte dei servizi sociali e sanitari, con verifica periodica dei risultati.",
+      "descrizione_breve": "Oltre agli assegni di cura ordinari, la Valle d’Aosta prevede specifici contributi per: **disabilità gravissima e/o SLA**, destinati a coprire le spese per l'assunzione diretta di uno o più assistenti personali a domicilio oppure, in alternativa, ad erogare un contributo mensile se l'assistenza è garantita interamente da un caregiver familiare:contentReference[oaicite:111]{index=111}:contentReference[oaicite:112]{index=112}; **assistenza per la vita indipendente**, consistenti in contributi che coprono il **70%** (per ISEE più bassi) o il **50%** (ISEE più elevati) del costo di un servizio di assistenza alla vita indipendente attivato dalla persona con disabilità:contentReference[oaicite:113]{index=113}. Queste misure, introdotte con DGR 1524/2023 (Allegati C e D), mirano a sostenere i casi di bisogno più intenso (es. persone in ventilazione assistita, gravi disturbi comportamentali, progetti di deistituzionalizzazione) e a promuovere la domiciliarità anche attraverso forme innovative di supporto autogestito. I criteri specifici (importi esatti, soglie ISEE) sono definiti nei suddetti allegati e richiedono la presa in carico da parte dei servizi sociali e sanitari, con verifica periodica dei risultati.",
       "benefit": {
         "periodicita": "mensile (erogazione trimestrale, su rendiconto)",
         "importo_min": 440,
         "importo_max": 2000,
         "equivalente_mensile": 2000,
-        "note": "La gamma di contributi per gravissimi varia in funzione della stadiazione della disabilit� (es. nel caso SLA da circa 440 � fino a 2.000 � mensili, modulati per gravit� e condizione economica, con accesso vincolato a ISEE socio-san < 60.000 �, analogamente all'ICD SLA in altre regioni):contentReference[oaicite:114]{index=114}:contentReference[oaicite:115]{index=115}. L'assistenza vita indipendente � finanziata a percentuale di costo: l�utente paga il 30% o 50% del servizio a seconda dell�ISEE, il resto � coperto dal contributo:contentReference[oaicite:116]{index=116}."
+        "note": "La gamma di contributi per gravissimi varia in funzione della stadiazione della disabilità (es. nel caso SLA da circa 440 € fino a 2.000 € mensili, modulati per gravità e condizione economica, con accesso vincolato a ISEE socio-san < 60.000 €, analogamente all'ICD SLA in altre regioni):contentReference[oaicite:114]{index=114}:contentReference[oaicite:115]{index=115}. L'assistenza vita indipendente è finanziata a percentuale di costo: l’utente paga il 30% o 50% del servizio a seconda dell’ISEE, il resto è coperto dal contributo:contentReference[oaicite:116]{index=116}."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� gravissima ai sensi del FNA (es. dipendenza vitale con necessit� di assistenza 24/7, ventilazione meccanica, nutrizione artificiale) � per contributo gravissimi/SLA; Persone con disabilit� grave che beneficiano di un servizio di assistenza alla vita indipendente � per contributo vita indipendente."
+          "Persone con disabilità gravissima ai sensi del FNA (es. dipendenza vitale con necessità di assistenza 24/7, ventilazione meccanica, nutrizione artificiale) – per contributo gravissimi/SLA; Persone con disabilità grave che beneficiano di un servizio di assistenza alla vita indipendente – per contributo vita indipendente."
         ],
         "isee": {
           "richiesto": true,
@@ -121,7 +121,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione UVMD per attestare la condizione di disabilit� gravissima o l'idoneit� a un progetto di assistenza alla vita indipendente. I progetti sono approvati dall�UVMD e monitorati costantemente dai servizi competenti."
+          "Valutazione UVMD per attestare la condizione di disabilità gravissima o l'idoneità a un progetto di assistenza alla vita indipendente. I progetti sono approvati dall’UVMD e monitorati costantemente dai servizi competenti."
         ]
       },
       "accesso": {
@@ -133,7 +133,7 @@
           "Domanda tramite i servizi sociali e sanitari territoriali, che predispongono il progetto personalizzato da presentare alla Regione"
         ],
         "documenti_chiave": [
-          "Verbale UVMD di disabilit� gravissima (o certificazione medica specialistica per SLA)",
+          "Verbale UVMD di disabilità gravissima (o certificazione medica specialistica per SLA)",
           "Attestazione ISEE",
           "Contratto assistente personale (se assistenza diretta)"
         ]
@@ -144,7 +144,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR n.1524/2023 Allegato C (Disabilit� gravissima, SLA)",
+            "atto": "DGR n.1524/2023 Allegato C (Disabilità gravissima, SLA)",
             "url": ""
           },
           {
@@ -160,11 +160,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Criteri omogenei a livello regionale, gestione centralizzata attraverso la struttura regionale competente, in raccordo con l�azienda USL e gli enti locali."
+        "note": "Criteri omogenei a livello regionale, gestione centralizzata attraverso la struttura regionale competente, in raccordo con l’azienda USL e gli enti locali."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Se in famiglia ci sono situazioni di disabilit� gravissima o progetti di vita indipendente, contatta l�assistente sociale o il distretto socio-sanitario locale: potrai essere indirizzato verso i contributi speciali predisposti dalla Regione Valle d�Aosta."
+        "messaggio_consulenza": "Se in famiglia ci sono situazioni di disabilità gravissima o progetti di vita indipendente, contatta l’assistente sociale o il distretto socio-sanitario locale: potrai essere indirizzato verso i contributi speciali predisposti dalla Regione Valle d’Aosta."
       }
     },
     {
@@ -178,17 +178,17 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "La Regione Valle d'Aosta eroga un contributo economico per sostenere le persone non autosufficienti ricoverate (o da ricoverare) in **strutture residenziali private** socio-assistenziali, sociosanitarie o riabilitative (es. case di riposo private non convenzionate):contentReference[oaicite:117]{index=117}. Il contributo, introdotto dall�art.19 L.R.23/2010 e ridefinito nel 2023, mira a coprire interamente o in parte la **quota di retta a carico dell�utente**, analogamente a quanto avviene nelle strutture pubbliche convenzionate. Viene concesso previo progetto dell'assistente sociale e valutazione UVMD che certifichi la necessit� di inserimento in struttura a causa della totale non autosufficienza dell'assistito:contentReference[oaicite:118]{index=118}:contentReference[oaicite:119]{index=119}. L�importo massimo erogabile � di **80 � al giorno** ed � liquidato direttamente alla struttura ospitante:contentReference[oaicite:120]{index=120}. L�utente conserva un \"minimo vitale\" per i propri bisogni personali, garantito per coniuge e figli a carico:contentReference[oaicite:121]{index=121}. Il contributo � rinnovabile annualmente qualora permanga l�esigenza di proseguire il progetto; l�utente dovr� presentare entro il 31 marzo l'ISEE aggiornato e l'attestazione della quota assistenziale praticata dalla struttura:contentReference[oaicite:122]{index=122}.",
+      "descrizione_breve": "La Regione Valle d'Aosta eroga un contributo economico per sostenere le persone non autosufficienti ricoverate (o da ricoverare) in **strutture residenziali private** socio-assistenziali, sociosanitarie o riabilitative (es. case di riposo private non convenzionate):contentReference[oaicite:117]{index=117}. Il contributo, introdotto dall’art.19 L.R.23/2010 e ridefinito nel 2023, mira a coprire interamente o in parte la **quota di retta a carico dell’utente**, analogamente a quanto avviene nelle strutture pubbliche convenzionate. Viene concesso previo progetto dell'assistente sociale e valutazione UVMD che certifichi la necessità di inserimento in struttura a causa della totale non autosufficienza dell'assistito:contentReference[oaicite:118]{index=118}:contentReference[oaicite:119]{index=119}. L’importo massimo erogabile è di **80 € al giorno** ed è liquidato direttamente alla struttura ospitante:contentReference[oaicite:120]{index=120}. L’utente conserva un \"minimo vitale\" per i propri bisogni personali, garantito per coniuge e figli a carico:contentReference[oaicite:121]{index=121}. Il contributo è rinnovabile annualmente qualora permanga l’esigenza di proseguire il progetto; l’utente dovrà presentare entro il 31 marzo l'ISEE aggiornato e l'attestazione della quota assistenziale praticata dalla struttura:contentReference[oaicite:122]{index=122}.",
       "benefit": {
         "periodicita": "mensile (erogazione alla struttura)",
         "importo_min": null,
         "importo_max": 2400,
         "equivalente_mensile": 2400,
-        "note": "Importo fino a max 80 �/giorno per utente:contentReference[oaicite:123]{index=123}, modulato in base alla retta effettiva e all'ISEE (socio-sanitario residenziale). Il contributo copre la quota assistenziale a carico dell'utente, assicurando che resti a suo favore il minimo vitale per i familiari a carico."
+        "note": "Importo fino a max 80 €/giorno per utente:contentReference[oaicite:123]{index=123}, modulato in base alla retta effettiva e all'ISEE (socio-sanitario residenziale). Il contributo copre la quota assistenziale a carico dell'utente, assicurando che resti a suo favore il minimo vitale per i familiari a carico."
       },
       "requisiti": {
         "target": [
-          "Persone non autosufficienti residenti in Valle d'Aosta da almeno 3 anni:contentReference[oaicite:124]{index=124}, inserite in (o in attesa di) strutture residenziali private. In casi eccezionali, il requisito di residenza pu� essere derogato su proposta motivata del servizio sociale:contentReference[oaicite:125]{index=125}."
+          "Persone non autosufficienti residenti in Valle d'Aosta da almeno 3 anni:contentReference[oaicite:124]{index=124}, inserite in (o in attesa di) strutture residenziali private. In casi eccezionali, il requisito di residenza può essere derogato su proposta motivata del servizio sociale:contentReference[oaicite:125]{index=125}."
         ],
         "isee": {
           "richiesto": true,
@@ -196,12 +196,12 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione medica di non autosufficienza rilasciata dal Servizio competente dell'USL, comprovante la patologia/disabilit� che richiede l'inserimento in struttura:contentReference[oaicite:126]{index=126}. Approvazione del progetto di ricovero da parte dell�UVMD e del servizio sociale territoriale:contentReference[oaicite:127]{index=127}."
+          "Certificazione medica di non autosufficienza rilasciata dal Servizio competente dell'USL, comprovante la patologia/disabilità che richiede l'inserimento in struttura:contentReference[oaicite:126]{index=126}. Approvazione del progetto di ricovero da parte dell’UVMD e del servizio sociale territoriale:contentReference[oaicite:127]{index=127}."
         ]
       },
       "accesso": {
         "ente_gestore": [
-          "Regione Valle d'Aosta � Ufficio politiche sociali"
+          "Regione Valle d'Aosta – Ufficio politiche sociali"
         ],
         "modalita": "sportello",
         "canali": [
@@ -221,7 +221,7 @@
         ],
         "normativa": [
           {
-            "atto": "L.R. Valle d�Aosta 23/2010 art.19",
+            "atto": "L.R. Valle d’Aosta 23/2010 art.19",
             "url": "https://www.consiglio.vda.it/app/leggieregolamenti/schedatecnica?pk_lr=833&versione=V"
           },
           {
@@ -237,11 +237,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "La misura � unica a livello regionale; casi eccezionali di deroga al requisito di residenza possono essere autorizzati su motivata proposta del servizio sociale:contentReference[oaicite:129]{index=129}."
+        "note": "La misura è unica a livello regionale; casi eccezionali di deroga al requisito di residenza possono essere autorizzati su motivata proposta del servizio sociale:contentReference[oaicite:129]{index=129}."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Prima di ricoverare un familiare in una struttura privata, contatta l�assistente sociale dell�USL: potrai presentare il progetto di ricovero e la domanda di contributo regionale sulle rette."
+        "messaggio_consulenza": "Prima di ricoverare un familiare in una struttura privata, contatta l’assistente sociale dell’USL: potrai presentare il progetto di ricovero e la domanda di contributo regionale sulle rette."
       }
     }
   ]

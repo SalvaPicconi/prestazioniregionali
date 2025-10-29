@@ -14,7 +14,7 @@
   "prestazioni": [
     {
       "prestazione_id": "EMR-assegno-cura-disabili-v2025",
-      "nome_ufficiale": "Assegno di cura per persone con disabilit� grave e gravissima",
+      "nome_ufficiale": "Assegno di cura per persone con disabilità grave e gravissima",
       "alias": [
         "Misura B1 e B2 (assegno di cura E-R)"
       ],
@@ -24,18 +24,18 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Sostegno economico mensile erogato dal Fondo regionale per la Non Autosufficienza a favore di persone adulte con disabilit� grave o gravissima che restano al domicilio:contentReference[oaicite:49]{index=49}:contentReference[oaicite:50]{index=50}",
+      "descrizione_breve": "Sostegno economico mensile erogato dal Fondo regionale per la Non Autosufficienza a favore di persone adulte con disabilità grave o gravissima che restano al domicilio:contentReference[oaicite:49]{index=49}:contentReference[oaicite:50]{index=50}",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 310,
         "importo_max": 1350,
         "equivalente_mensile": null,
-        "note": "Importo giornaliero �10,33 (situazione di bisogno medio; ISEE � �34.000) o �15,49 (bisogno elevato; ISEE � �34.000):contentReference[oaicite:51]{index=51}. Per disabilit� gravissima: �23/die (~�700/mese) o �45/die (~�1350/mese), senza soglia ISEE:contentReference[oaicite:52]{index=52}. Durata assegno 6 mesi rinnovabile fino 12 mesi:contentReference[oaicite:53]{index=53}"
+        "note": "Importo giornaliero €10,33 (situazione di bisogno medio; ISEE ≤ €34.000) o €15,49 (bisogno elevato; ISEE ≤ €34.000):contentReference[oaicite:51]{index=51}. Per disabilità gravissima: €23/die (~€700/mese) o €45/die (~€1350/mese), senza soglia ISEE:contentReference[oaicite:52]{index=52}. Durata assegno 6 mesi rinnovabile fino 12 mesi:contentReference[oaicite:53]{index=53}"
       },
       "requisiti": {
         "target": [
-          "persone con disabilit� acquisita grave o gravissima (adulti)",
-          "invalidi con indennit� di accompagnamento"
+          "persone con disabilità acquisita grave o gravissima (adulti)",
+          "invalidi con indennità di accompagnamento"
         ],
         "isee": {
           "richiesto": true,
@@ -69,11 +69,11 @@
         ],
         "normativa": [
           {
-            "atto": "DGR E-R 1045/2025 � Programma e riparto FRNA 2025",
+            "atto": "DGR E-R 1045/2025 – Programma e riparto FRNA 2025",
             "url": ""
           },
           {
-            "atto": "DGR E-R 514/2009 � Aggiornamento assegni di cura disabili",
+            "atto": "DGR E-R 514/2009 – Aggiornamento assegni di cura disabili",
             "url": ""
           }
         ]
@@ -85,11 +85,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Gli importi effettivi sono determinati dall�UVM del Distretto in base a intensit� del bisogno, presenza di altri servizi e reddito; l�assegno � alternativo al ricovero in struttura:contentReference[oaicite:54]{index=54}"
+        "note": "Gli importi effettivi sono determinati dall’UVM del Distretto in base a intensità del bisogno, presenza di altri servizi e reddito; l’assegno è alternativo al ricovero in struttura:contentReference[oaicite:54]{index=54}"
       },
       "ux": {
         "priorita_contatto": 0.85,
-        "messaggio_consulenza": "Rivolgiti allo Sportello Sociale del tuo Comune per avviare la valutazione multidisciplinare necessaria all�accesso all�assegno di cura"
+        "messaggio_consulenza": "Rivolgiti allo Sportello Sociale del tuo Comune per avviare la valutazione multidisciplinare necessaria all’accesso all’assegno di cura"
       }
     },
     {
@@ -102,13 +102,13 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico mensile destinato a anziani gravemente non autosufficienti assistiti al domicilio, in alternativa all�inserimento in RSA:contentReference[oaicite:55]{index=55}",
+      "descrizione_breve": "Contributo economico mensile destinato a anziani gravemente non autosufficienti assistiti al domicilio, in alternativa all’inserimento in RSA:contentReference[oaicite:55]{index=55}",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 310,
         "importo_max": 930,
         "equivalente_mensile": null,
-        "note": "Importi analoghi a quelli per disabili adulti, modulati su 2 livelli di intensit� (es. �10,33/die ~�310/mese, �15,49/die ~�465/mese). In casi di bisogno eccezionale, pu� arrivare fino a �30,98/die (~�930/mese) unendo due quote"
+        "note": "Importi analoghi a quelli per disabili adulti, modulati su 2 livelli di intensità (es. €10,33/die ~€310/mese, €15,49/die ~€465/mese). In casi di bisogno eccezionale, può arrivare fino a €30,98/die (~€930/mese) unendo due quote"
       },
       "requisiti": {
         "target": [
@@ -144,7 +144,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR E-R 1246/2018 � Assegno di cura anziani non autosufficienti",
+            "atto": "DGR E-R 1246/2018 – Assegno di cura anziani non autosufficienti",
             "url": ""
           }
         ]
@@ -156,11 +156,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "I criteri di priorit� (es. anziani soli vs con caregiver) e eventuali liste d�attesa sono gestiti dai Comitati di Distretto socio-sanitario"
+        "note": "I criteri di priorità (es. anziani soli vs con caregiver) e eventuali liste d’attesa sono gestiti dai Comitati di Distretto socio-sanitario"
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Contatta l�ASP o l�assistente sociale del tuo Comune per verificare i requisiti e avviare la richiesta di assegno di cura per anziano non autosufficiente"
+        "messaggio_consulenza": "Contatta l’ASP o l’assistente sociale del tuo Comune per verificare i requisiti e avviare la richiesta di assegno di cura per anziano non autosufficiente"
       }
     },
     {
@@ -181,7 +181,7 @@
         "importo_min": 160,
         "importo_max": 160,
         "equivalente_mensile": 160,
-        "note": "�160 al mese aggiuntivi all�assegno di cura, concessi con impegno assistenziale minimo di ~20 ore settimanali dell�assistente familiare regolarmente assunto:contentReference[oaicite:57]{index=57}. Non previsto tetto ISEE per disabili gravissimi (ISEE <�34.000 per disabili gravi):contentReference[oaicite:58]{index=58}"
+        "note": "€160 al mese aggiuntivi all’assegno di cura, concessi con impegno assistenziale minimo di ~20 ore settimanali dell’assistente familiare regolarmente assunto:contentReference[oaicite:57]{index=57}. Non previsto tetto ISEE per disabili gravissimi (ISEE <€34.000 per disabili gravi):contentReference[oaicite:58]{index=58}"
       },
       "requisiti": {
         "target": [
@@ -216,7 +216,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR E-R 508/2018 � Sostegno alla regolarizzazione lavoro di cura",
+            "atto": "DGR E-R 508/2018 – Sostegno alla regolarizzazione lavoro di cura",
             "url": ""
           }
         ]
@@ -232,7 +232,7 @@
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Informa l�assistente sociale se hai gi� o intendi assumere un/una badante: potresti avere diritto al contributo aggiuntivo per lavoro di cura regolare"
+        "messaggio_consulenza": "Informa l’assistente sociale se hai già o intendi assumere un/una badante: potresti avere diritto al contributo aggiuntivo per lavoro di cura regolare"
       }
     },
     {
@@ -251,11 +251,11 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Grazie a 5,3 milioni di euro (3M regionali, 2,3M nazionali):contentReference[oaicite:61]{index=61}:contentReference[oaicite:62]{index=62}, nel 2025 vengono potenziati: assegni di cura (gi� elencati), servizi di sollievo (es. 4-8 ore/settimana di assistenza domiciliare aggiuntiva; ricoveri di sollievo in strutture), interventi di emergenza in caso di indisponibilit� improvvisa del caregiver, consulenza e supporto psicologico individuale e di gruppo, gruppi di auto-mutuo aiuto e formazione per caregiver:contentReference[oaicite:63]{index=63}:contentReference[oaicite:64]{index=64}"
+        "note": "Grazie a 5,3 milioni di euro (3M regionali, 2,3M nazionali):contentReference[oaicite:61]{index=61}:contentReference[oaicite:62]{index=62}, nel 2025 vengono potenziati: assegni di cura (già elencati), servizi di sollievo (es. 4-8 ore/settimana di assistenza domiciliare aggiuntiva; ricoveri di sollievo in strutture), interventi di emergenza in caso di indisponibilità improvvisa del caregiver, consulenza e supporto psicologico individuale e di gruppo, gruppi di auto-mutuo aiuto e formazione per caregiver:contentReference[oaicite:63]{index=63}:contentReference[oaicite:64]{index=64}"
       },
       "requisiti": {
         "target": [
-          "caregiver di persone non autosufficienti (priorit� a casi di disabilit� gravissima o rischio istituzionalizzazione)"
+          "caregiver di persone non autosufficienti (priorità a casi di disabilità gravissima o rischio istituzionalizzazione)"
         ],
         "isee": {
           "richiesto": false,
@@ -287,11 +287,11 @@
         ],
         "normativa": [
           {
-            "atto": "L.R. E-R 2/2014 � Riconoscimento e sostegno del caregiver familiare",
+            "atto": "L.R. E-R 2/2014 – Riconoscimento e sostegno del caregiver familiare",
             "url": ""
           },
           {
-            "atto": "DGR E-R 1110/2025 � Programma 2025 Fondo Caregiver",
+            "atto": "DGR E-R 1110/2025 – Programma 2025 Fondo Caregiver",
             "url": ""
           }
         ]
@@ -303,11 +303,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Le risorse del programma caregiver 2025 sono suddivise tra tutte le AUSL in base alla popolazione; ogni Distretto ne definisce l�utilizzo concreto (es. potenziare ADI, attivare sportelli di supporto, etc.):contentReference[oaicite:65]{index=65}:contentReference[oaicite:66]{index=66}"
+        "note": "Le risorse del programma caregiver 2025 sono suddivise tra tutte le AUSL in base alla popolazione; ogni Distretto ne definisce l’utilizzo concreto (es. potenziare ADI, attivare sportelli di supporto, etc.):contentReference[oaicite:65]{index=65}:contentReference[oaicite:66]{index=66}"
       },
       "ux": {
         "priorita_contatto": 0.5,
-        "messaggio_consulenza": "Informati presso l�URP o lo Sportello sociale della tua AUSL sulle opportunit� specifiche attivate in favore dei caregiver (ad esempio, ore di assistenza gratuite o counseling)"
+        "messaggio_consulenza": "Informati presso l’URP o lo Sportello sociale della tua AUSL sulle opportunità specifiche attivate in favore dei caregiver (ad esempio, ore di assistenza gratuite o counseling)"
       }
     },
     {
@@ -321,13 +321,13 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Servizio pubblico di cure domiciliari rivolto a persone non autosufficienti o con patologie complesse, comprendente prestazioni sanitarie (mediche, infermieristiche, riabilitative) integrate con l�assistenza sociale",
+      "descrizione_breve": "Servizio pubblico di cure domiciliari rivolto a persone non autosufficienti o con patologie complesse, comprendente prestazioni sanitarie (mediche, infermieristiche, riabilitative) integrate con l’assistenza sociale",
       "benefit": {
         "periodicita": "continuativo",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "L�ADI in E-R � un LEA garantito: team multiprofessionale dell�AUSL fornisce a casa visite e terapie secondo il PAI. Nessun costo a carico utente; modulazione in ADI di base, ADI intensiva, ADI cure palliative"
+        "note": "L’ADI in E-R è un LEA garantito: team multiprofessionale dell’AUSL fornisce a casa visite e terapie secondo il PAI. Nessun costo a carico utente; modulazione in ADI di base, ADI intensiva, ADI cure palliative"
       },
       "requisiti": {
         "target": [
@@ -375,7 +375,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ciascuna AUSL organizza l�ADI: esistono differenze nelle �quipe e nei tempi di erogazione (ad es. presenza di ADI infermieristica h24 in alcune aree pilota)"
+        "note": "Ciascuna AUSL organizza l’ADI: esistono differenze nelle équipe e nei tempi di erogazione (ad es. presenza di ADI infermieristica h24 in alcune aree pilota)"
       },
       "ux": {
         "priorita_contatto": 0.95,
@@ -399,7 +399,7 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Gli ASP gestiscono il SAD nell�ambito dei Piani di Zona: intensit� flessibile (da 2 ore/sett a pi� volte al giorno se integrato in PAC). Tariffa utente calcolata in base all�ISEE, con esenzioni per fasce deboli"
+        "note": "Gli ASP gestiscono il SAD nell’ambito dei Piani di Zona: intensità flessibile (da 2 ore/sett a più volte al giorno se integrato in PAC). Tariffa utente calcolata in base all’ISEE, con esenzioni per fasce deboli"
       },
       "requisiti": {
         "target": [
@@ -435,7 +435,7 @@
         ],
         "normativa": [
           {
-            "atto": "L.R. E-R 5/1994 � Disciplina servizi domiciliari integrati",
+            "atto": "L.R. E-R 5/1994 – Disciplina servizi domiciliari integrati",
             "url": ""
           }
         ]
@@ -447,11 +447,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Le ASP dei distretti definiscono standard di intervento (ad es. la durata massima per visita, eventuali servizi aggiuntivi come telesoccorso) e compartecipazione; uniformit� su base distrettuale"
+        "note": "Le ASP dei distretti definiscono standard di intervento (ad es. la durata massima per visita, eventuali servizi aggiuntivi come telesoccorso) e compartecipazione; uniformità su base distrettuale"
       },
       "ux": {
         "priorita_contatto": 0.85,
-        "messaggio_consulenza": "Puoi rivolgerti allo Sportello sociale del tuo Comune/Unione per richiedere l�attivazione del SAD; verr� valutato il tuo bisogno assistenziale per definire un piano di intervento"
+        "messaggio_consulenza": "Puoi rivolgerti allo Sportello sociale del tuo Comune/Unione per richiedere l’attivazione del SAD; verrà valutato il tuo bisogno assistenziale per definire un piano di intervento"
       }
     },
     {
@@ -466,18 +466,18 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Rete di strutture residenziali accreditate che offrono assistenza continuativa: Case Residenza Anziani per non autosufficienti, e strutture socio-riabilitative per persone con disabilit� grave",
+      "descrizione_breve": "Rete di strutture residenziali accreditate che offrono assistenza continuativa: Case Residenza Anziani per non autosufficienti, e strutture socio-riabilitative per persone con disabilità grave",
       "benefit": {
         "periodicita": "residenziale continuativo",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Retta media ~�100-120/giorno, di cui circa met� a carico SSR (quota sanitaria) e met� quota sociale. L�utente paga in base all�ISEE; il Comune integra se insufficiente. GARANTITI livelli essenziali: min. 0,7 posti RSA per 100 anziani 75+ in E-R"
+        "note": "Retta media ~€100-120/giorno, di cui circa metà a carico SSR (quota sanitaria) e metà quota sociale. L’utente paga in base all’ISEE; il Comune integra se insufficiente. GARANTITI livelli essenziali: min. 0,7 posti RSA per 100 anziani 75+ in E-R"
       },
       "requisiti": {
         "target": [
           "anziani non autosufficienti gravi",
-          "disabili adulti con necessit� assistive h24"
+          "disabili adulti con necessità assistive h24"
         ],
         "isee": {
           "richiesto": true,
@@ -511,11 +511,11 @@
         ],
         "normativa": [
           {
-            "atto": "DGR E-R 514/2009 � Requisiti Case Residenza Anziani (CRA)",
+            "atto": "DGR E-R 514/2009 – Requisiti Case Residenza Anziani (CRA)",
             "url": ""
           },
           {
-            "atto": "DGR E-R 2040/2015 � Accreditamento strutture per disabili",
+            "atto": "DGR E-R 2040/2015 – Accreditamento strutture per disabili",
             "url": ""
           }
         ]
@@ -527,11 +527,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "La programmazione regionale definisce standard uniformi di copertura e requisiti di qualit�; i Distretti gestiscono le graduatorie di ingresso uniche per CRA e per strutture disabili"
+        "note": "La programmazione regionale definisce standard uniformi di copertura e requisiti di qualità; i Distretti gestiscono le graduatorie di ingresso uniche per CRA e per strutture disabili"
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Per attivare un ricovero in CRA o struttura per disabili contatta l�Assistente Sociale del tuo Distretto; dopo la valutazione UVMD sarai inserito in graduatoria distrettuale per il primo posto disponibile"
+        "messaggio_consulenza": "Per attivare un ricovero in CRA o struttura per disabili contatta l’Assistente Sociale del tuo Distretto; dopo la valutazione UVMD sarai inserito in graduatoria distrettuale per il primo posto disponibile"
       }
     }
   ]

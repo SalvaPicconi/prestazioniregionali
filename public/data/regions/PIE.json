@@ -6,17 +6,17 @@
     "schema_version": "2.0",
     "taxonomy_version": "2025.1",
     "fonti": [
-      "Sito Regione Piemonte - Schede Misura Scelta Sociale (Buono Domiciliarit� e Residenzialit�, agg. 07/2024)",
+      "Sito Regione Piemonte - Schede Misura Scelta Sociale (Buono Domiciliarità e Residenzialità, agg. 07/2024)",
       "DGR Piemonte n. 11-8258/2024 (Fondo Caregiver)",
-      "Determinazione Dir. 1416/2023 (Graduatorie Buono Domiciliarit�)"
+      "Determinazione Dir. 1416/2023 (Graduatorie Buono Domiciliarità)"
     ]
   },
   "prestazioni": [
     {
       "prestazione_id": "PIE-buono-domiciliarita-v2025",
-      "nome_ufficiale": "Buono per la Domiciliarit� �Scelta Sociale�",
+      "nome_ufficiale": "Buono per la Domiciliarità “Scelta Sociale”",
       "alias": [
-        "voucher domiciliare 600�"
+        "voucher domiciliare 600€"
       ],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "CE-BDomic",
@@ -24,18 +24,18 @@
         "FN-FSE",
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo mensile di �600 (per max 24 mesi) finanziato dal FSE+, utilizzabile per remunerare un assistente familiare o educativo a domicilio. Destinato a persone non autosufficienti (anziani o disabili) per supportare la cura a casa.",
+      "descrizione_breve": "Contributo mensile di €600 (per max 24 mesi) finanziato dal FSE+, utilizzabile per remunerare un assistente familiare o educativo a domicilio. Destinato a persone non autosufficienti (anziani o disabili) per supportare la cura a casa.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 600,
         "importo_max": 600,
         "equivalente_mensile": 600,
-        "note": "Buono vincolato all�acquisto di servizi di assistenza domiciliare (minimo 16 ore/settimanali di assistenza regolare). Erogazione trimestrale previa rendicontazione delle spese sostenute."
+        "note": "Buono vincolato all’acquisto di servizi di assistenza domiciliare (minimo 16 ore/settimanali di assistenza regolare). Erogazione trimestrale previa rendicontazione delle spese sostenute."
       },
       "requisiti": {
         "target": [
           "Persone ultrasessantacinquenni non autosufficienti",
-          "Persone con disabilit� non autosufficienti (di qualsiasi et�)"
+          "Persone con disabilità non autosufficienti (di qualsiasi età)"
         ],
         "isee": {
           "richiesto": true,
@@ -43,7 +43,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione multidimensionale UVG/UVM con punteggio sociale �7",
+          "Valutazione multidimensionale UVG/UVM con punteggio sociale ≥7",
           "Residenza in Piemonte"
         ]
       },
@@ -58,7 +58,7 @@
         "documenti_chiave": [
           "Attestazione ISEE sociosanitario",
           "Esito valutazione UVG/UMVD con punteggio",
-          "Documenti d�identit� richiedente e beneficiario"
+          "Documenti d’identità richiedente e beneficiario"
         ]
       },
       "governance": {
@@ -88,14 +88,14 @@
       },
       "ux": {
         "priorita_contatto": 0.85,
-        "messaggio_consulenza": "Quando il bando � aperto, puoi presentare domanda online sulla piattaforma regionale �Scelta Sociale�. Per assistenza puoi rivolgerti ai servizi sociali o al numero verde regionale."
+        "messaggio_consulenza": "Quando il bando è aperto, puoi presentare domanda online sulla piattaforma regionale “Scelta Sociale”. Per assistenza puoi rivolgerti ai servizi sociali o al numero verde regionale."
       }
     },
     {
       "prestazione_id": "PIE-buono-residenzialita-v2025",
-      "nome_ufficiale": "Buono per la Residenzialit� �Scelta Sociale�",
+      "nome_ufficiale": "Buono per la Residenzialità “Scelta Sociale”",
       "alias": [
-        "voucher residenziale 600�"
+        "voucher residenziale 600€"
       ],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "CE-BRes",
@@ -103,7 +103,7 @@
         "FN-FSE",
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo mensile di �600 (per max 24 mesi) per sostenere i costi di assistenza presso strutture residenziali private per persone non autosufficienti (anziani o disabili) ospiti permanenti. La struttura deve aderire al programma regionale.",
+      "descrizione_breve": "Contributo mensile di €600 (per max 24 mesi) per sostenere i costi di assistenza presso strutture residenziali private per persone non autosufficienti (anziani o disabili) ospiti permanenti. La struttura deve aderire al programma regionale.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 600,
@@ -121,7 +121,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione UVG/UMVD con punteggio sociale �7",
+          "Valutazione UVG/UMVD con punteggio sociale ≥7",
           "Struttura ospitante accreditata e aderente al programma"
         ]
       },
@@ -136,7 +136,7 @@
         "documenti_chiave": [
           "Attestazione ISEE sociosanitario",
           "Lettera punteggio UVMD",
-          "Documenti identit� richiedente/beneficiario",
+          "Documenti identità richiedente/beneficiario",
           "Dati struttura (adesione al programma)"
         ]
       },
@@ -163,11 +163,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Programma a regia regionale; le graduatorie e l�assegnazione dei buoni avvengono a livello centrale, con scorrimenti per includere ulteriori beneficiari man mano che si liberano risorse."
+        "note": "Programma a regia regionale; le graduatorie e l’assegnazione dei buoni avvengono a livello centrale, con scorrimenti per includere ulteriori beneficiari man mano che si liberano risorse."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Puoi fare domanda di Buono Residenzialit� sul portale regionale quando lo sportello � aperto; assicurati che la struttura in cui risiedi aderisca al programma e richiedi alla struttura supporto per la domanda se necessario."
+        "messaggio_consulenza": "Puoi fare domanda di Buono Residenzialità sul portale regionale quando lo sportello è aperto; assicurati che la struttura in cui risiedi aderisca al programma e richiedi alla struttura supporto per la domanda se necessario."
       }
     },
     {
@@ -181,18 +181,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico temporaneo (erogato per 7 mesi) in favore dei caregiver che assistono in casa una persona non autosufficiente in attesa di intervento domiciliare o residenziale. Importo variabile mensile (400�-600�) in base all�ISEE.",
+      "descrizione_breve": "Contributo economico temporaneo (erogato per 7 mesi) in favore dei caregiver che assistono in casa una persona non autosufficiente in attesa di intervento domiciliare o residenziale. Importo variabile mensile (400€-600€) in base all’ISEE.",
       "benefit": {
-        "periodicita": "mensile (per 7 mensilit�)",
+        "periodicita": "mensile (per 7 mensilità)",
         "importo_min": 400,
         "importo_max": 600,
         "equivalente_mensile": 0,
-        "note": "600�/mese con ISEE �10.000; 500�/mese con ISEE 10.000-30.000; 400�/mese con ISEE 30.000-50.000; erogato per 7 mesi complessivi. Importi confermati per bando 2024."
+        "note": "600€/mese con ISEE ≤10.000; 500€/mese con ISEE 10.000-30.000; 400€/mese con ISEE 30.000-50.000; erogato per 7 mesi complessivi. Importi confermati per bando 2024."
       },
       "requisiti": {
         "target": [
           "Caregiver familiare di persona non autosufficiente (disabile grave o anziano) residente in Piemonte",
-          "Assistito valutato da UVG/UMVD e in lista d�attesa per servizio domiciliare o residenziale (o in struttura ma con progetto di rientro a domicilio)"
+          "Assistito valutato da UVG/UMVD e in lista d’attesa per servizio domiciliare o residenziale (o in struttura ma con progetto di rientro a domicilio)"
         ],
         "isee": {
           "richiesto": true,
@@ -200,8 +200,8 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione L.104/92 art.3 c.3 o indennit� di accompagnamento della persona assistita",
-          "Valutazione multidimensionale (UVG/UMVD) e riconoscimento condizione di disabilit� gravissima prioritaria"
+          "Certificazione L.104/92 art.3 c.3 o indennità di accompagnamento della persona assistita",
+          "Valutazione multidimensionale (UVG/UMVD) e riconoscimento condizione di disabilità gravissima prioritaria"
         ]
       },
       "accesso": {
@@ -216,7 +216,7 @@
           "Modulo di domanda (online)",
           "ISEE sociosanitario del disabile",
           "Verbale UVG/UMVD della persona assistita",
-          "Documento d�identit� caregiver e assistito",
+          "Documento d’identità caregiver e assistito",
           "IBAN per accredito"
         ]
       },
@@ -242,7 +242,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "La misura � finanziata e regolata dalla Regione ma gestita tramite gli Enti Gestori socio-assistenziali locali (Consorzi/ASL). Ogni ambito ha pubblicato il proprio avviso in base ai criteri regionali."
+        "note": "La misura è finanziata e regolata dalla Regione ma gestita tramite gli Enti Gestori socio-assistenziali locali (Consorzi/ASL). Ogni ambito ha pubblicato il proprio avviso in base ai criteri regionali."
       },
       "ux": {
         "priorita_contatto": 0.75,
@@ -261,17 +261,17 @@
         "FN-L162",
         "FN-REG"
       ],
-      "descrizione_breve": "Programma regionale che finanzia progetti personalizzati presentati da persone con disabilit� per vivere in modo indipendente. I progetti possono prevedere l�assunzione diretta di assistenti personali, soluzioni abitative autonome e percorsi di inclusione socio-lavorativa.",
+      "descrizione_breve": "Programma regionale che finanzia progetti personalizzati presentati da persone con disabilità per vivere in modo indipendente. I progetti possono prevedere l’assunzione diretta di assistenti personali, soluzioni abitative autonome e percorsi di inclusione socio-lavorativa.",
       "benefit": {
         "periodicita": "personalizzato (durata progetto ~12 mesi rinnovabile)",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Finanziamento annuale fino a un massimo definito dal bando (es. circa �8000-12.000/anno) per ciascun progetto, proporzionato agli obiettivi (es. ore assistente personale, formazione, etc.)."
+        "note": "Finanziamento annuale fino a un massimo definito dal bando (es. circa €8000-12.000/anno) per ciascun progetto, proporzionato agli obiettivi (es. ore assistente personale, formazione, etc.)."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave (18-64 anni) con capacit� di autodeterminazione, motivate a gestire in autonomia la propria vita al di fuori del nucleo familiare originario"
+          "Persone con disabilità grave (18-64 anni) con capacità di autodeterminazione, motivate a gestire in autonomia la propria vita al di fuori del nucleo familiare originario"
         ],
         "isee": {
           "richiesto": true,
@@ -279,8 +279,8 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Progetto presentato dal disabile e approvato dall�Ente Gestore socio-assistenziale",
-          "Certificazione L.104/92 art.3 c.3 e invalidit� civile �67%"
+          "Progetto presentato dal disabile e approvato dall’Ente Gestore socio-assistenziale",
+          "Certificazione L.104/92 art.3 c.3 e invalidità civile ≥67%"
         ]
       },
       "accesso": {
@@ -294,8 +294,8 @@
         "documenti_chiave": [
           "Modulo di progetto di vita",
           "Attestazione ISEE",
-          "Certificato di disabilit� (art.3 c.3)",
-          "Documento d�identit�"
+          "Certificato di disabilità (art.3 c.3)",
+          "Documento d’identità"
         ]
       },
       "governance": {
@@ -338,17 +338,17 @@
       "famiglie_normative_ids": [
         "FN-L112"
       ],
-      "descrizione_breve": "Iniziative finanziate dal Fondo Nazionale �Dopo di Noi� per sostenere percorsi di vita autonoma di persone con disabilit� grave prive del sostegno familiare. Include soluzioni alloggiative (gruppi-appartamento, cohousing), tirocini per l�autonomia, e supporto educativo per la gestione quotidiana senza la famiglia.",
+      "descrizione_breve": "Iniziative finanziate dal Fondo Nazionale “Dopo di Noi” per sostenere percorsi di vita autonoma di persone con disabilità grave prive del sostegno familiare. Include soluzioni alloggiative (gruppi-appartamento, cohousing), tirocini per l’autonomia, e supporto educativo per la gestione quotidiana senza la famiglia.",
       "benefit": {
         "periodicita": "progetto",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Finanziamento di servizi e spese legate al progetto: es. contributo affitto, adattamento casa, assistenza domiciliare leggera. Non � previsto un assegno diretto, ma copertura costi in base al progetto individuale approvato."
+        "note": "Finanziamento di servizi e spese legate al progetto: es. contributo affitto, adattamento casa, assistenza domiciliare leggera. Non è previsto un assegno diretto, ma copertura costi in base al progetto individuale approvato."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave (L.104 art.3 c.3) 18-64 anni, prive di sostegno familiare (genitori deceduti o non in grado di fornire supporto)"
+          "Persone con disabilità grave (L.104 art.3 c.3) 18-64 anni, prive di sostegno familiare (genitori deceduti o non in grado di fornire supporto)"
         ],
         "isee": {
           "richiesto": true,
@@ -356,8 +356,8 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Progetto personalizzato validato dall�Ente Gestore socio-assistenziale",
-          "Conformit� alle linee di indirizzo nazionali (DM 23/11/2016)"
+          "Progetto personalizzato validato dall’Ente Gestore socio-assistenziale",
+          "Conformità alle linee di indirizzo nazionali (DM 23/11/2016)"
         ]
       },
       "accesso": {
@@ -396,11 +396,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ciascun Consorzio socio-assistenziale riceve fondi in base al riparto regionale e pubblica bandi per il proprio territorio. I progetti ammessi e finanziati dipendono dalla disponibilit� locale ma seguono criteri comuni."
+        "note": "Ciascun Consorzio socio-assistenziale riceve fondi in base al riparto regionale e pubblica bandi per il proprio territorio. I progetti ammessi e finanziati dipendono dalla disponibilità locale ma seguono criteri comuni."
       },
       "ux": {
         "priorita_contatto": 0.5,
-        "messaggio_consulenza": "Rivolgiti al tuo Consorzio/Ambito per conoscere le opportunit� del \"Dopo di Noi\" nella tua zona. Potrai presentare un progetto personalizzato per avviare un percorso di vita autonoma con il supporto dei servizi sociali."
+        "messaggio_consulenza": "Rivolgiti al tuo Consorzio/Ambito per conoscere le opportunità del \"Dopo di Noi\" nella tua zona. Potrai presentare un progetto personalizzato per avviare un percorso di vita autonoma con il supporto dei servizi sociali."
       }
     },
     {
@@ -414,17 +414,17 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Servizio di assistenza sanitaria e riabilitativa a domicilio per persone non autosufficienti, erogato dall�ASL in integrazione con i servizi sociali. Comprende prestazioni infermieristiche, fisioterapiche e aiuto alla persona direttamente a casa, secondo un Piano Assistenziale Individuale (PAI).",
+      "descrizione_breve": "Servizio di assistenza sanitaria e riabilitativa a domicilio per persone non autosufficienti, erogato dall’ASL in integrazione con i servizi sociali. Comprende prestazioni infermieristiche, fisioterapiche e aiuto alla persona direttamente a casa, secondo un Piano Assistenziale Individuale (PAI).",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Le prestazioni ADI rientrano nei LEA e sono fornite gratuitamente (o con ticket se previsto) dall�ASL. Il PAI stabilisce frequenza e tipologia degli interventi domiciliari."
+        "note": "Le prestazioni ADI rientrano nei LEA e sono fornite gratuitamente (o con ticket se previsto) dall’ASL. Il PAI stabilisce frequenza e tipologia degli interventi domiciliari."
       },
       "requisiti": {
         "target": [
-          "Persone in condizioni di non autosufficienza o grave fragilit� che necessitano di assistenza sanitaria domiciliare continuativa a domicilio"
+          "Persone in condizioni di non autosufficienza o grave fragilità che necessitano di assistenza sanitaria domiciliare continuativa a domicilio"
         ],
         "isee": {
           "richiesto": false,
@@ -432,7 +432,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione multidisciplinare da parte dell�Unit� di Valutazione Geriatrica (UVG) o simile, con definizione del PAI",
+          "Valutazione multidisciplinare da parte dell’Unità di Valutazione Geriatrica (UVG) o simile, con definizione del PAI",
           "Proposta del Medico di Medicina Generale"
         ]
       },
@@ -447,7 +447,7 @@
         ],
         "documenti_chiave": [
           "Richiesta/Piano ADI (modulo ASL) firmato dal medico",
-          "Documento d�identit� e tessera sanitaria",
+          "Documento d’identità e tessera sanitaria",
           "Eventuali referti clinici"
         ]
       },
@@ -469,11 +469,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Servizio LEA garantito in modo uniforme su tutto il territorio regionale tramite le ASL; i tempi di attivazione e l�organizzazione possono variare leggermente tra ASL."
+        "note": "Servizio LEA garantito in modo uniforme su tutto il territorio regionale tramite le ASL; i tempi di attivazione e l’organizzazione possono variare leggermente tra ASL."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Per attivare l�ADI in Piemonte, parla con il tuo medico di base o contatta il servizio ADI della tua ASL: verr� avviata la valutazione multidimensionale per definire gli interventi a domicilio di cui hai bisogno."
+        "messaggio_consulenza": "Per attivare l’ADI in Piemonte, parla con il tuo medico di base o contatta il servizio ADI della tua ASL: verrà avviata la valutazione multidimensionale per definire gli interventi a domicilio di cui hai bisogno."
       }
     },
     {
@@ -487,18 +487,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Interventi di aiuto domestico e personale erogati dal personale socio-assistenziale (OSS) del Consorzio/Comune per supportare a domicilio anziani e disabili non autosufficienti. Include aiuto per igiene personale, aiuto in casa, accompagnamento e piccole commissioni, in base alle necessit� individuate dal servizio sociale.",
+      "descrizione_breve": "Interventi di aiuto domestico e personale erogati dal personale socio-assistenziale (OSS) del Consorzio/Comune per supportare a domicilio anziani e disabili non autosufficienti. Include aiuto per igiene personale, aiuto in casa, accompagnamento e piccole commissioni, in base alle necessità individuate dal servizio sociale.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Il servizio � erogato in forma di ore di assistenza settimanali. Pu� essere previsto il pagamento di una tariffa oraria da parte dell�utente, calcolata in base all�ISEE secondo il regolamento dell�ente gestore."
+        "note": "Il servizio è erogato in forma di ore di assistenza settimanali. Può essere previsto il pagamento di una tariffa oraria da parte dell’utente, calcolata in base all’ISEE secondo il regolamento dell’ente gestore."
       },
       "requisiti": {
         "target": [
-          "Anziani in parziale o totale non autosufficienza che vivono soli o con familiari impossibilitati a garantire tutta l�assistenza",
-          "Persone con disabilit� che necessitano di supporto per attivit� quotidiane a casa"
+          "Anziani in parziale o totale non autosufficienza che vivono soli o con familiari impossibilitati a garantire tutta l’assistenza",
+          "Persone con disabilità che necessitano di supporto per attività quotidiane a casa"
         ],
         "isee": {
           "richiesto": true,
@@ -506,7 +506,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione sociale professionale dell�Assistente Sociale di riferimento (eventuale UVM se integrato con sanitario)"
+          "Valutazione sociale professionale dell’Assistente Sociale di riferimento (eventuale UVM se integrato con sanitario)"
         ]
       },
       "accesso": {
@@ -521,7 +521,7 @@
         ],
         "documenti_chiave": [
           "Attestazione ISEE ordinario o sociosanitario",
-          "Certificato medico/verbale invalidit� (se disponibile)",
+          "Certificato medico/verbale invalidità (se disponibile)",
           "Modulo di richiesta SAD"
         ]
       },
@@ -548,11 +548,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "I Consorzi socio-assistenziali definiscono modalit� operative e quote di compartecipazione utente. La disponibilit� di ore di SAD pu� differire tra territori in base alle risorse di ciascun Piano di Zona."
+        "note": "I Consorzi socio-assistenziali definiscono modalità operative e quote di compartecipazione utente. La disponibilità di ore di SAD può differire tra territori in base alle risorse di ciascun Piano di Zona."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Per attivare il SAD, contatta i Servizi Sociali del tuo Comune o Consorzio: un Assistente Sociale valuter� i tuoi bisogni e concorder� il numero di ore di assistenza domiciliare adeguate."
+        "messaggio_consulenza": "Per attivare il SAD, contatta i Servizi Sociali del tuo Comune o Consorzio: un Assistente Sociale valuterà i tuoi bisogni e concorderà il numero di ore di assistenza domiciliare adeguate."
       }
     },
     {
@@ -567,18 +567,18 @@
         "FN-LEA",
         "FN-REG"
       ],
-      "descrizione_breve": "Inserimento in struttura residenziale accreditata per anziani non autosufficienti (o adulti con disabilit� non gestibili a domicilio) con assistenza sanitaria e tutelare h24. La retta � in parte a carico del Servizio Sanitario Regionale e in parte a carico dell�utente/Comune.",
+      "descrizione_breve": "Inserimento in struttura residenziale accreditata per anziani non autosufficienti (o adulti con disabilità non gestibili a domicilio) con assistenza sanitaria e tutelare h24. La retta è in parte a carico del Servizio Sanitario Regionale e in parte a carico dell’utente/Comune.",
       "benefit": {
         "periodicita": "residenziale continuativo",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Il SSR Piemonte copre la quota sanitaria della retta (circa 50% del costo standard), mentre la quota alberghiera � pagata dall�ospite (integralmente o con integrazione economica comunale se l�ISEE dell�ospite � basso)."
+        "note": "Il SSR Piemonte copre la quota sanitaria della retta (circa 50% del costo standard), mentre la quota alberghiera è pagata dall’ospite (integralmente o con integrazione economica comunale se l’ISEE dell’ospite è basso)."
       },
       "requisiti": {
         "target": [
-          "Anziani ultra65enni non autosufficienti senza possibilit� di adeguata assistenza domiciliare",
-          "Persone con disabilit� grave che necessitano di assistenza residenziale"
+          "Anziani ultra65enni non autosufficienti senza possibilità di adeguata assistenza domiciliare",
+          "Persone con disabilità grave che necessitano di assistenza residenziale"
         ],
         "isee": {
           "richiesto": true,
@@ -586,8 +586,8 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione UVG (Unit� di Valutazione Geriatrica) dell�ASL che certifica il bisogno di RSA (livello di non autosufficienza elevato)",
-          "Disponibilit� di posto in RSA accreditata idonea (residenza per anziani o comunit� integrata per disabili)"
+          "Valutazione UVG (Unità di Valutazione Geriatrica) dell’ASL che certifica il bisogno di RSA (livello di non autosufficienza elevato)",
+          "Disponibilità di posto in RSA accreditata idonea (residenza per anziani o comunità integrata per disabili)"
         ]
       },
       "accesso": {
@@ -602,7 +602,7 @@
         "documenti_chiave": [
           "Scheda di valutazione UVG/UVH",
           "Attestazione ISEE sociosanitario - residenze",
-          "Documento di identit�"
+          "Documento di identità"
         ]
       },
       "governance": {
@@ -613,7 +613,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR 45-4248/2012 Piemonte (modalit� inserimento RSA)",
+            "atto": "DGR 45-4248/2012 Piemonte (modalità inserimento RSA)",
             "url": ""
           },
           {
@@ -629,11 +629,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "L�ASL gestisce le liste di accesso alle RSA convenzionate. Le modalit� di integrazione retta da parte dei Comuni possono variare (alcuni prevedono soglie ISEE per contributo)."
+        "note": "L’ASL gestisce le liste di accesso alle RSA convenzionate. Le modalità di integrazione retta da parte dei Comuni possono variare (alcuni prevedono soglie ISEE per contributo)."
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Per richiedere l�inserimento in RSA convenzionata, rivolgiti al servizio UVG dell�ASL (tramite il tuo medico o assistente sociale). Informati presso il Comune se hai bisogno di un aiuto economico per la quota alberghiera."
+        "messaggio_consulenza": "Per richiedere l’inserimento in RSA convenzionata, rivolgiti al servizio UVG dell’ASL (tramite il tuo medico o assistente sociale). Informati presso il Comune se hai bisogno di un aiuto economico per la quota alberghiera."
       }
     }
   ]

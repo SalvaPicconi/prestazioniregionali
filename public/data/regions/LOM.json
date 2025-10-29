@@ -14,24 +14,24 @@
   "prestazioni": [
     {
       "prestazione_id": "LOM-MisuraB1-v2025",
-      "nome_ufficiale": "Misura B1 � Fondo Non Autosufficienze (disabilit� gravissima)",
+      "nome_ufficiale": "Misura B1 – Fondo Non Autosufficienze (disabilità gravissima)",
       "alias": [],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "SC-DIS-GRAV",
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Misura di sostegno regionale rivolta alle persone in condizione di disabilit� gravissima (alto bisogno assistenziale), consistente in un contributo economico mensile (buono) e in eventuali voucher sociosanitari, al fine di garantirne la permanenza a domicilio e la qualit� di vita:contentReference[oaicite:80]{index=80}:contentReference[oaicite:81]{index=81}.",
+      "descrizione_breve": "Misura di sostegno regionale rivolta alle persone in condizione di disabilità gravissima (alto bisogno assistenziale), consistente in un contributo economico mensile (buono) e in eventuali voucher sociosanitari, al fine di garantirne la permanenza a domicilio e la qualità di vita:contentReference[oaicite:80]{index=80}:contentReference[oaicite:81]{index=81}.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 565,
         "importo_max": 1300,
         "equivalente_mensile": null,
-        "note": "Il buono mensile varia in base al bisogno e al tipo di assistenza: da �565 (solo caregiver familiare) fino a �1.300 per situazioni di massima gravit� con assistenza continuativa assicurata anche da personale assunto full-time:contentReference[oaicite:82]{index=82}:contentReference[oaicite:83]{index=83}. Esempi: �900 se presente ventilazione meccanica h24 o coma e caregiver familiare:contentReference[oaicite:84]{index=84}; �1.200 con caregiver e badante a tempo pieno; �1.300 nei casi gravissimi con badante full-time:contentReference[oaicite:85]{index=85}. Previsti inoltre interventi integrativi (es. servizi di sollievo) attivati dagli Ambiti per chi � assistito solo da familiari:contentReference[oaicite:86]{index=86}."
+        "note": "Il buono mensile varia in base al bisogno e al tipo di assistenza: da €565 (solo caregiver familiare) fino a €1.300 per situazioni di massima gravità con assistenza continuativa assicurata anche da personale assunto full-time:contentReference[oaicite:82]{index=82}:contentReference[oaicite:83]{index=83}. Esempi: €900 se presente ventilazione meccanica h24 o coma e caregiver familiare:contentReference[oaicite:84]{index=84}; €1.200 con caregiver e badante a tempo pieno; €1.300 nei casi gravissimi con badante full-time:contentReference[oaicite:85]{index=85}. Previsti inoltre interventi integrativi (es. servizi di sollievo) attivati dagli Ambiti per chi è assistito solo da familiari:contentReference[oaicite:86]{index=86}."
       },
       "requisiti": {
         "target": [
-          "Persone di qualsiasi et� in condizioni di disabilit� gravissima ai sensi del DM 26/09/2016 (coma, stato vegetativo, dipendenza da respiratore, gravi demenze, SLA avanzata, etc.):contentReference[oaicite:87]{index=87}:contentReference[oaicite:88]{index=88}, beneficiarie di indennit� di accompagnamento"
+          "Persone di qualsiasi età in condizioni di disabilità gravissima ai sensi del DM 26/09/2016 (coma, stato vegetativo, dipendenza da respiratore, gravi demenze, SLA avanzata, etc.):contentReference[oaicite:87]{index=87}:contentReference[oaicite:88]{index=88}, beneficiarie di indennità di accompagnamento"
         ],
         "isee": {
           "richiesto": true,
@@ -53,7 +53,7 @@
         ],
         "documenti_chiave": [
           "Domanda Misura B1 (rinnovo entro 28/02 per continuativi):contentReference[oaicite:92]{index=92}",
-          "ISEE sociosanitario �50.000 � (minori: ISEE ordinario �65.000 �):contentReference[oaicite:93]{index=93}",
+          "ISEE sociosanitario ≤50.000 € (minori: ISEE ordinario ≤65.000 €):contentReference[oaicite:93]{index=93}",
           "Certificato medico specialistico con indicazione delle lettere a-i DM 2016"
         ]
       },
@@ -80,16 +80,16 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Gestione tramite ASST/ATS con budget assegnati; domanda aperta tutto l�anno per nuovi ingressi (entro 31/10); benefici continuativi rinnovano annualmente:contentReference[oaicite:94]{index=94}. Voucher aggiuntivi attivabili dall�Ambito in accordo col Progetto Individuale (es. educatore, sollievo):contentReference[oaicite:95]{index=95}."
+        "note": "Gestione tramite ASST/ATS con budget assegnati; domanda aperta tutto l’anno per nuovi ingressi (entro 31/10); benefici continuativi rinnovano annualmente:contentReference[oaicite:94]{index=94}. Voucher aggiuntivi attivabili dall’Ambito in accordo col Progetto Individuale (es. educatore, sollievo):contentReference[oaicite:95]{index=95}."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Se in Lombardia assisti una persona con disabilit� gravissima, richiedi la Misura B1 presso l�ASST di competenza: otterrai un buono mensile modulato in base alla gravit� e aiuti eventuali per sostenere la domiciliarit�."
+        "messaggio_consulenza": "Se in Lombardia assisti una persona con disabilità gravissima, richiedi la Misura B1 presso l’ASST di competenza: otterrai un buono mensile modulato in base alla gravità e aiuti eventuali per sostenere la domiciliarità."
       }
     },
     {
       "prestazione_id": "LOM-MisuraB2-Caregiver-v2025",
-      "nome_ufficiale": "Misura B2 � Buono sociale caregiver familiare",
+      "nome_ufficiale": "Misura B2 – Buono sociale caregiver familiare",
       "alias": [
         "Buono caregiver B2"
       ],
@@ -104,7 +104,7 @@
         "importo_min": 100,
         "importo_max": 100,
         "equivalente_mensile": 100,
-        "note": "Importo fisso di �100 al mese, per 12 mesi, stabilito come valore massimo regionale del buono caregiver nell�annualit� 2024:contentReference[oaicite:97]{index=97}:contentReference[oaicite:98]{index=98}. (In precedenza potevano essere concessi fino a �400 mensili, ridotti a �100 nel 2024 per ampliamento platea):contentReference[oaicite:99]{index=99}."
+        "note": "Importo fisso di €100 al mese, per 12 mesi, stabilito come valore massimo regionale del buono caregiver nell’annualità 2024:contentReference[oaicite:97]{index=97}:contentReference[oaicite:98]{index=98}. (In precedenza potevano essere concessi fino a €400 mensili, ridotti a €100 nel 2024 per ampliamento platea):contentReference[oaicite:99]{index=99}."
       },
       "requisiti": {
         "target": [
@@ -116,7 +116,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione sociale e sanitaria dell�Ambito (scheda B2) che attesti la condizione di non autosufficienza grave e la presenza di solo caregiver familiare"
+          "Valutazione sociale e sanitaria dell’Ambito (scheda B2) che attesti la condizione di non autosufficienza grave e la presenza di solo caregiver familiare"
         ]
       },
       "accesso": {
@@ -129,8 +129,8 @@
         ],
         "documenti_chiave": [
           "Modulo domanda Misura B2",
-          "ISEE sociosanitario �25.000 � (adulto) o ISEE ordinario �40.000 � se minore:contentReference[oaicite:100]{index=100}",
-          "Verbale L.104/92 art.3 c.3 o indennit� di accompagnamento"
+          "ISEE sociosanitario ≤25.000 € (adulto) o ISEE ordinario ≤40.000 € se minore:contentReference[oaicite:100]{index=100}",
+          "Verbale L.104/92 art.3 c.3 o indennità di accompagnamento"
         ]
       },
       "governance": {
@@ -157,16 +157,16 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ogni Ambito definisce criteri dettagliati (punteggi per gravit�, soglie ISEE pi� basse per priorit�, ecc.) e pu� decidere importi differenti entro il massimale regionale:contentReference[oaicite:101]{index=101}. Dal 2024 tuttavia il tetto di �100 � uniformato come valore massimo erogabile per il caregiver in tutta la regione."
+        "note": "Ogni Ambito definisce criteri dettagliati (punteggi per gravità, soglie ISEE più basse per priorità, ecc.) e può decidere importi differenti entro il massimale regionale:contentReference[oaicite:101]{index=101}. Dal 2024 tuttavia il tetto di €100 è uniformato come valore massimo erogabile per il caregiver in tutta la regione."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Controlla il bando Misura B2 del tuo Ambito (di solito in primavera): se assisti un familiare senza aiuti esterni, puoi richiedere il buono caregiver di �100 al mese come riconoscimento del tuo impegno."
+        "messaggio_consulenza": "Controlla il bando Misura B2 del tuo Ambito (di solito in primavera): se assisti un familiare senza aiuti esterni, puoi richiedere il buono caregiver di €100 al mese come riconoscimento del tuo impegno."
       }
     },
     {
       "prestazione_id": "LOM-MisuraB2-Assist-v2025",
-      "nome_ufficiale": "Misura B2 � Buono sociale per assistente personale",
+      "nome_ufficiale": "Misura B2 – Buono sociale per assistente personale",
       "alias": [
         "Voucher personale assistente B2"
       ],
@@ -175,17 +175,17 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo mensile della Misura B2 erogato alle persone non autosufficienti che si avvalgono di uno o pi� assistenti personali regolarmente assunti per la cura al domicilio (badanti), per sostenerne il costo e incentivare la permanenza a casa:contentReference[oaicite:102]{index=102}:contentReference[oaicite:103]{index=103}.",
+      "descrizione_breve": "Contributo mensile della Misura B2 erogato alle persone non autosufficienti che si avvalgono di uno o più assistenti personali regolarmente assunti per la cura al domicilio (badanti), per sostenerne il costo e incentivare la permanenza a casa:contentReference[oaicite:102]{index=102}:contentReference[oaicite:103]{index=103}.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": null,
         "importo_max": 800,
         "equivalente_mensile": null,
-        "note": "Il valore del buono per assistente varia in base all�Ambito: il massimale regionale suggerito � �800 mensili:contentReference[oaicite:104]{index=104} per situazioni con almeno un assistente a tempo pieno. Ambiti con budget ridotti possono modulare importi inferiori o durate minori. Non cumulabile con il buono caregiver sulla stessa persona:contentReference[oaicite:105]{index=105}."
+        "note": "Il valore del buono per assistente varia in base all’Ambito: il massimale regionale suggerito è €800 mensili:contentReference[oaicite:104]{index=104} per situazioni con almeno un assistente a tempo pieno. Ambiti con budget ridotti possono modulare importi inferiori o durate minori. Non cumulabile con il buono caregiver sulla stessa persona:contentReference[oaicite:105]{index=105}."
       },
       "requisiti": {
         "target": [
-          "Persone anziane (basso bisogno assistenziale) o disabili gravi seguite al domicilio con l�aiuto di uno o pi� badanti regolarmente contrattualizzati"
+          "Persone anziane (basso bisogno assistenziale) o disabili gravi seguite al domicilio con l’aiuto di uno o più badanti regolarmente contrattualizzati"
         ],
         "isee": {
           "richiesto": true,
@@ -193,7 +193,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione sociale e sanitaria di Ambito che definisce necessit� di supporto e appropriatezza dell�intervento indiretto"
+          "Valutazione sociale e sanitaria di Ambito che definisce necessità di supporto e appropriatezza dell’intervento indiretto"
         ]
       },
       "accesso": {
@@ -205,9 +205,9 @@
           "domanda su Avviso pubblico comunale"
         ],
         "documenti_chiave": [
-          "Contratto/i di lavoro dell�assistente(i) familiare",
+          "Contratto/i di lavoro dell’assistente(i) familiare",
           "ISEE",
-          "Certificazioni invalidit�/handicap"
+          "Certificazioni invalidità/handicap"
         ]
       },
       "governance": {
@@ -233,33 +233,33 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Gli Ambiti hanno facolt� di ripartire il budget tra buoni caregiver, buoni assistente e altre azioni in base ai bisogni locali:contentReference[oaicite:106]{index=106}. Ad es., alcuni Ambiti erogano �400/mese per badante part-time e �800/mese per full-time, altri applicano importi minori per raggiungere pi� utenti."
+        "note": "Gli Ambiti hanno facoltà di ripartire il budget tra buoni caregiver, buoni assistente e altre azioni in base ai bisogni locali:contentReference[oaicite:106]{index=106}. Ad es., alcuni Ambiti erogano €400/mese per badante part-time e €800/mese per full-time, altri applicano importi minori per raggiungere più utenti."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Se hai assunto una badante per un tuo familiare non autosufficiente in Lombardia, informati presso i Servizi Sociali del Comune sul buono B2: potresti ricevere un contributo mensile (fino ~�800) per sostenere la spesa."
+        "messaggio_consulenza": "Se hai assunto una badante per un tuo familiare non autosufficiente in Lombardia, informati presso i Servizi Sociali del Comune sul buono B2: potresti ricevere un contributo mensile (fino ~€800) per sostenere la spesa."
       }
     },
     {
       "prestazione_id": "LOM-AssegnoAutonomia-v2025",
-      "nome_ufficiale": "Misura B2 � Assegno di autonomia",
+      "nome_ufficiale": "Misura B2 – Assegno di autonomia",
       "alias": [],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "SC-ANZ-DIS",
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Intervento economico una tantum nell�ambito della Misura B2 destinato a sostenere specifiche esigenze della persona non autosufficiente a domicilio, ad esempio per adattamenti domestici minori, acquisto di ausili non sanitari o altre spese volte a favorirne l�autonomia.",
+      "descrizione_breve": "Intervento economico una tantum nell’ambito della Misura B2 destinato a sostenere specifiche esigenze della persona non autosufficiente a domicilio, ad esempio per adattamenti domestici minori, acquisto di ausili non sanitari o altre spese volte a favorirne l’autonomia.",
       "benefit": {
         "periodicita": "una_tantum",
         "importo_min": null,
         "importo_max": 1700,
         "equivalente_mensile": null,
-        "note": "Contributo forfetario definito dall�Ambito, fino a un massimo indicativo regionale di �1.700 per beneficiario:contentReference[oaicite:107]{index=107}. Non � cumulabile con i buoni mensili B2 nello stesso anno. � finalizzato a coprire spese una tantum (es. piccole modifiche abitative, frequenza centri diurni per un periodo limitato, ecc.)."
+        "note": "Contributo forfetario definito dall’Ambito, fino a un massimo indicativo regionale di €1.700 per beneficiario:contentReference[oaicite:107]{index=107}. Non è cumulabile con i buoni mensili B2 nello stesso anno. È finalizzato a coprire spese una tantum (es. piccole modifiche abitative, frequenza centri diurni per un periodo limitato, ecc.)."
       },
       "requisiti": {
         "target": [
-          "Persone non autosufficienti a domicilio con bisogni specifici di sostegno all�autonomia non risolvibili con assistenza continuativa (anziani o disabili)"
+          "Persone non autosufficienti a domicilio con bisogni specifici di sostegno all’autonomia non risolvibili con assistenza continuativa (anziani o disabili)"
         ],
         "isee": {
           "richiesto": true,
@@ -267,7 +267,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Progetto individuale che individua l�intervento da finanziare (validato da servizi sociali)"
+          "Progetto individuale che individua l’intervento da finanziare (validato da servizi sociali)"
         ]
       },
       "accesso": {
@@ -279,9 +279,9 @@
           "domanda su Avviso Ambito"
         ],
         "documenti_chiave": [
-          "Descrizione progetto/necessit� (es. preventivo spesa adattamento)",
+          "Descrizione progetto/necessità (es. preventivo spesa adattamento)",
           "ISEE",
-          "Documentazione disabilit�"
+          "Documentazione disabilità"
         ]
       },
       "governance": {
@@ -307,29 +307,29 @@
       },
       "ux": {
         "priorita_contatto": 0.5,
-        "messaggio_consulenza": "Nel tuo Comune potresti richiedere, in alternativa al buono mensile, un contributo una tantum (assegno di autonomia) per esigenze specifiche: chiedi all�assistente sociale se cՏ questa possibilit� e per quali spese � previsto."
+        "messaggio_consulenza": "Nel tuo Comune potresti richiedere, in alternativa al buono mensile, un contributo una tantum (assegno di autonomia) per esigenze specifiche: chiedi all’assistente sociale se c’è questa possibilità e per quali spese è previsto."
       }
     },
     {
       "prestazione_id": "LOM-DopoNoi-v2025",
-      "nome_ufficiale": "Progetti �Dopo di Noi� (Lombardia)",
+      "nome_ufficiale": "Progetti “Dopo di Noi” (Lombardia)",
       "alias": [],
       "macro_categoria_id": "MC-PS",
       "sotto_categoria_id": "SC-DSA",
       "famiglie_normative_ids": [
         "FN-L112"
       ],
-      "descrizione_breve": "Iniziative finanziate dal Fondo Dopo di Noi in Lombardia per favorire l�autonomia abitativa e la deistituzionalizzazione di persone con disabilit� grave senza sostegno familiare, tramite percorsi di accompagnamento all�uscita dal nucleo familiare d�origine, soluzioni alloggiative innovative e servizi di supporto personalizzati.",
+      "descrizione_breve": "Iniziative finanziate dal Fondo Dopo di Noi in Lombardia per favorire l’autonomia abitativa e la deistituzionalizzazione di persone con disabilità grave senza sostegno familiare, tramite percorsi di accompagnamento all’uscita dal nucleo familiare d’origine, soluzioni alloggiative innovative e servizi di supporto personalizzati.",
       "benefit": {
         "periodicita": "a progetto",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "La Regione finanzia progetti territoriali (presentati dagli Ambiti in partenariato con enti del terzo settore) che prevedono ad es.: appartamenti protetti con supporto di educatori, tirocini per lo sviluppo dell�autonomia, interventi di domotica e adeguamento spazi domestici, ecc. I fondi possono essere usati anche per strumenti giuridici (trust, vincoli) in favore del beneficiario."
+        "note": "La Regione finanzia progetti territoriali (presentati dagli Ambiti in partenariato con enti del terzo settore) che prevedono ad es.: appartamenti protetti con supporto di educatori, tirocini per lo sviluppo dell’autonomia, interventi di domotica e adeguamento spazi domestici, ecc. I fondi possono essere usati anche per strumenti giuridici (trust, vincoli) in favore del beneficiario."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave (certificate ai sensi L.104/92 art.3 c.3) tra 18 e 64 anni, prive di sostegno genitoriale (per assenza o non autosufficienza dei genitori)"
+          "Persone con disabilità grave (certificate ai sensi L.104/92 art.3 c.3) tra 18 e 64 anni, prive di sostegno genitoriale (per assenza o non autosufficienza dei genitori)"
         ],
         "isee": {
           "richiesto": true,
@@ -382,7 +382,7 @@
       },
       "ux": {
         "priorita_contatto": 0.5,
-        "messaggio_consulenza": "In Lombardia rivolgiti al tuo Ambito (Piano di Zona) per conoscere i progetti Dopo di Noi attivi: potresti partecipare a esperienze di vita autonoma in gruppi-appartamento o ottenere aiuti per prepararti al �dopo di noi�."
+        "messaggio_consulenza": "In Lombardia rivolgiti al tuo Ambito (Piano di Zona) per conoscere i progetti Dopo di Noi attivi: potresti partecipare a esperienze di vita autonoma in gruppi-appartamento o ottenere aiuti per prepararti al “dopo di noi”."
       }
     },
     {
@@ -396,13 +396,13 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Servizio del SSR lombardo che garantisce assistenza sanitaria a domicilio ad anziani e disabili non autosufficienti, tramite l�integrazione di medici, infermieri, terapisti della riabilitazione e operatori socio-sanitari. Include anche l�ADI Cure Palliative per pazienti in fase avanzata di malattia.",
+      "descrizione_breve": "Servizio del SSR lombardo che garantisce assistenza sanitaria a domicilio ad anziani e disabili non autosufficienti, tramite l’integrazione di medici, infermieri, terapisti della riabilitazione e operatori socio-sanitari. Include anche l’ADI Cure Palliative per pazienti in fase avanzata di malattia.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Attivando l�ADI, l�ASST fornisce gratuitamente al domicilio: visite mediche periodiche (geriatriche o specialistiche), assistenza infermieristica programmata (es. medicazioni, terapie), fisioterapia domiciliare (per recupero/mantenimento), interventi socio-assistenziali (es. aiuto bagno) in sinergia col SAD comunale. Le Cure Palliative domiciliari prevedono �quipe dedicate (medico palliativista, infermiere) per controllo del dolore e supporto fine vita."
+        "note": "Attivando l’ADI, l’ASST fornisce gratuitamente al domicilio: visite mediche periodiche (geriatriche o specialistiche), assistenza infermieristica programmata (es. medicazioni, terapie), fisioterapia domiciliare (per recupero/mantenimento), interventi socio-assistenziali (es. aiuto bagno) in sinergia col SAD comunale. Le Cure Palliative domiciliari prevedono équipe dedicate (medico palliativista, infermiere) per controllo del dolore e supporto fine vita."
       },
       "requisiti": {
         "target": [
@@ -415,7 +415,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Proposta del Medico di Medicina Generale e valutazione UVI (Unit� di Valutazione Integrata) dell�ASST"
+          "Proposta del Medico di Medicina Generale e valutazione UVI (Unità di Valutazione Integrata) dell’ASST"
         ]
       },
       "accesso": {
@@ -430,7 +430,7 @@
         ],
         "documenti_chiave": [
           "Impegnativa per ADI (MMG)",
-          "Piano Assistenziale stilato dall�UVMD"
+          "Piano Assistenziale stilato dall’UVMD"
         ]
       },
       "governance": {
@@ -455,11 +455,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "In Lombardia l�ADI � erogata da Enti gestori accreditati scelti dall�utente (voucher sociosanitario) secondo il catalogo regionale; le ASST coordinano valutazione e monitoraggio. Standard definiti a livello regionale (es. tempi attivazione entro 72 ore dalla richiesta)."
+        "note": "In Lombardia l’ADI è erogata da Enti gestori accreditati scelti dall’utente (voucher sociosanitario) secondo il catalogo regionale; le ASST coordinano valutazione e monitoraggio. Standard definiti a livello regionale (es. tempi attivazione entro 72 ore dalla richiesta)."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Chiedi al tuo medico di base di attivare l�ADI se hai bisogno di assistenza sanitaria a casa in Lombardia: potrai scegliere l�ente erogatore dal registro regionale e ricevere cure a domicilio senza costi, compresi eventuali interventi palliativi."
+        "messaggio_consulenza": "Chiedi al tuo medico di base di attivare l’ADI se hai bisogno di assistenza sanitaria a casa in Lombardia: potrai scegliere l’ente erogatore dal registro regionale e ricevere cure a domicilio senza costi, compresi eventuali interventi palliativi."
       }
     },
     {
@@ -473,18 +473,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio socio-assistenziale erogato dai Comuni (singoli o negli Ambiti) che fornisce interventi domiciliari di aiuto alla persona e all�abitazione per anziani e disabili. In Lombardia spesso integrato con l�ADI sanitaria (\"ADI sociale\"), � personalizzato in base al PAI definito dall�Assistente Sociale e dall�UVMD.",
+      "descrizione_breve": "Servizio socio-assistenziale erogato dai Comuni (singoli o negli Ambiti) che fornisce interventi domiciliari di aiuto alla persona e all’abitazione per anziani e disabili. In Lombardia spesso integrato con l’ADI sanitaria (\"ADI sociale\"), è personalizzato in base al PAI definito dall’Assistente Sociale e dall’UVMD.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Ore di assistenza domiciliare settimanali (aiuto nell�igiene personale, preparazione pasti, accompagnamento, ecc.) assegnate secondo bisogno. L�utente partecipa al costo in base all�ISEE su una tariffa oraria stabilita dal Comune. Servizio flessibile: modulabile nel tempo o sospendibile se attivato un ricovero o ADI intensiva."
+        "note": "Ore di assistenza domiciliare settimanali (aiuto nell’igiene personale, preparazione pasti, accompagnamento, ecc.) assegnate secondo bisogno. L’utente partecipa al costo in base all’ISEE su una tariffa oraria stabilita dal Comune. Servizio flessibile: modulabile nel tempo o sospendibile se attivato un ricovero o ADI intensiva."
       },
       "requisiti": {
         "target": [
           "Anziani soli o con rete fragile che necessitano di aiuto domestico/di base",
-          "Persone con disabilit� senza assistenza sufficiente da parte della famiglia"
+          "Persone con disabilità senza assistenza sufficiente da parte della famiglia"
         ],
         "isee": {
           "richiesto": true,
@@ -506,7 +506,7 @@
         "documenti_chiave": [
           "Domanda SAD",
           "ISEE",
-          "Eventuale verbale invalidit�/104"
+          "Eventuale verbale invalidità/104"
         ]
       },
       "governance": {
@@ -537,12 +537,12 @@
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Se hai bisogno di aiuto a casa per te o un tuo caro in Lombardia, rivolgiti ai servizi sociali comunali: attiveranno il SAD calibrando gli interventi domestici necessari e indicandoti l�eventuale quota di costo in base all�ISEE."
+        "messaggio_consulenza": "Se hai bisogno di aiuto a casa per te o un tuo caro in Lombardia, rivolgiti ai servizi sociali comunali: attiveranno il SAD calibrando gli interventi domestici necessari e indicandoti l’eventuale quota di costo in base all’ISEE."
       }
     },
     {
       "prestazione_id": "LOM-RSA-v2025",
-      "nome_ufficiale": "Misura RSA e RSD (unit� di offerta residenziali)",
+      "nome_ufficiale": "Misura RSA e RSD (unità di offerta residenziali)",
       "alias": [
         "Accoglienza in RSA/RSD accreditate"
       ],
@@ -551,18 +551,18 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Inserimento in residenze sanitarie assistenziali (RSA) per anziani non autosufficienti o in residenze sanitarie per disabili (RSD) per persone con disabilit� grave, autorizzate e accreditate dalla Regione. Le strutture forniscono assistenza sanitaria, riabilitativa e tutelare continuativa, garantendo anche attivit� sociali e occupazionali per gli ospiti.",
+      "descrizione_breve": "Inserimento in residenze sanitarie assistenziali (RSA) per anziani non autosufficienti o in residenze sanitarie per disabili (RSD) per persone con disabilità grave, autorizzate e accreditate dalla Regione. Le strutture forniscono assistenza sanitaria, riabilitativa e tutelare continuativa, garantendo anche attività sociali e occupazionali per gli ospiti.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Ospitalit� residenziale comprensiva di: alloggio in camera singola o doppia, assistenza medica (geriatra/fisiatra), infermieristica h24, fisioterapia di mantenimento, aiuto nelle attivit� quotidiane, animazione. La retta � composta da una quota sanitaria (a carico ATS, definita da Regione per livello di bisogno) e una quota alberghiera a carico dell�ospite/famiglia. Se l�ospite ha ISEE insufficiente, interviene il Comune con integrazione della retta."
+        "note": "Ospitalità residenziale comprensiva di: alloggio in camera singola o doppia, assistenza medica (geriatra/fisiatra), infermieristica h24, fisioterapia di mantenimento, aiuto nelle attività quotidiane, animazione. La retta è composta da una quota sanitaria (a carico ATS, definita da Regione per livello di bisogno) e una quota alberghiera a carico dell’ospite/famiglia. Se l’ospite ha ISEE insufficiente, interviene il Comune con integrazione della retta."
       },
       "requisiti": {
         "target": [
           "Over-65 non autosufficienti per RSA",
-          "Persone con disabilit� grave anche <65 per RSD o CSS"
+          "Persone con disabilità grave anche <65 per RSD o CSS"
         ],
         "isee": {
           "richiesto": true,
@@ -570,7 +570,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione multidimensionale (scheda SOSIA per RSA) con attribuzione punteggio di intensit� di cura (indice Barthel, Braden, CIRS...)"
+          "Valutazione multidimensionale (scheda SOSIA per RSA) con attribuzione punteggio di intensità di cura (indice Barthel, Braden, CIRS...)"
         ]
       },
       "accesso": {
@@ -578,14 +578,14 @@
           "ATS (per autorizzazione sanitaria)",
           "Ente gestore RSA/RSD (per ammissione)"
         ],
-        "modalita": "lista_d�attesa",
+        "modalita": "lista_d’attesa",
         "canali": [
           "Domanda diretta alla RSA/RSD prescelta con documentazione sanitaria e sociale",
           "Segnalazione tramite servizio sociale/ASST"
         ],
         "documenti_chiave": [
           "Scheda di valutazione geriatrica (UVR) per RSA",
-          "Attestazione di disabilit� e relazione sociale per RSD",
+          "Attestazione di disabilità e relazione sociale per RSD",
           "ISEE sociosanitario per eventuale richiesta integrazione retta"
         ]
       },
@@ -612,11 +612,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Sistema a voucher: l�ATS riconosce alla struttura una quota sanitaria giornaliera in base al profilo assistenziale dell�ospite (ad es. �52/die per profilo alto); la quota sociale � regolata da contratto con l�ente (generalmente ~�40-60/die, varia tra strutture). Liste d�attesa gestite dalle strutture; alcune province hanno coordinamenti per graduatorie uniche RSA."
+        "note": "Sistema a voucher: l’ATS riconosce alla struttura una quota sanitaria giornaliera in base al profilo assistenziale dell’ospite (ad es. €52/die per profilo alto); la quota sociale è regolata da contratto con l’ente (generalmente ~€40-60/die, varia tra strutture). Liste d’attesa gestite dalle strutture; alcune province hanno coordinamenti per graduatorie uniche RSA."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Se stai cercando una RSA o RSD in Lombardia, informati presso l�ASST o il tuo Comune per la lista delle strutture accreditate e le procedure di ingresso. Con un ISEE basso, potrai chiedere al Comune l�integrazione della retta non coperta dall�ATS."
+        "messaggio_consulenza": "Se stai cercando una RSA o RSD in Lombardia, informati presso l’ASST o il tuo Comune per la lista delle strutture accreditate e le procedure di ingresso. Con un ISEE basso, potrai chiedere al Comune l’integrazione della retta non coperta dall’ATS."
       }
     }
   ]

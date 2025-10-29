@@ -15,7 +15,7 @@
   "prestazioni": [
     {
       "prestazione_id": "ABR-assegno-gravissima-v2025",
-      "nome_ufficiale": "Assegno di cura per disabilit� gravissima",
+      "nome_ufficiale": "Assegno di cura per disabilità gravissima",
       "alias": [
         "Assegno di cura FNA 2022-2024"
       ],
@@ -25,17 +25,17 @@
         "FN-FNA",
         "FN-LEA"
       ],
-      "descrizione_breve": "Contributo economico mensile destinato alle persone in condizione di disabilit� gravissima per favorire l�assistenza domiciliare",
+      "descrizione_breve": "Contributo economico mensile destinato alle persone in condizione di disabilità gravissima per favorire l’assistenza domiciliare",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 600,
         "importo_max": 1000,
         "equivalente_mensile": 600,
-        "note": "Importo base �600/mese, elevabile fino a �1000/mese per condizioni di dipendenza vitale (es. respirazione assistita):contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}"
+        "note": "Importo base €600/mese, elevabile fino a €1000/mese per condizioni di dipendenza vitale (es. respirazione assistita):contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}"
       },
       "requisiti": {
         "target": [
-          "persone con disabilit� gravissima non autosufficienti"
+          "persone con disabilità gravissima non autosufficienti"
         ],
         "isee": {
           "richiesto": true,
@@ -60,7 +60,7 @@
         ],
         "documenti_chiave": [
           "ISEE sociosanitario",
-          "certificazione disabilit� (art.3 c.3 L.104)",
+          "certificazione disabilità (art.3 c.3 L.104)",
           "verbale UVMD"
         ]
       },
@@ -72,11 +72,11 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Abruzzo n.94/2024 � Piano regionale non autosufficienza 2022-2024",
+            "atto": "DGR Abruzzo n.94/2024 – Piano regionale non autosufficienza 2022-2024",
             "url": ""
           },
           {
-            "atto": "Determina DPG023/187 del 19/11/2024 � Ripartizione FNA 2023",
+            "atto": "Determina DPG023/187 del 19/11/2024 – Ripartizione FNA 2023",
             "url": ""
           }
         ]
@@ -97,9 +97,9 @@
     },
     {
       "prestazione_id": "ABR-assegno-grave-v2025",
-      "nome_ufficiale": "Assegno di cura per disabilit� grave e anziani non autosufficienti",
+      "nome_ufficiale": "Assegno di cura per disabilità grave e anziani non autosufficienti",
       "alias": [
-        "Assegno di cura FNA (disabilit� grave)"
+        "Assegno di cura FNA (disabilità grave)"
       ],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "CE-disabilita-grave",
@@ -107,17 +107,17 @@
         "FN-FNA",
         "FN-LEA"
       ],
-      "descrizione_breve": "Contributo economico mensile per persone con disabilit� grave o anziani ultrasessantacinquenni non autosufficienti, per supportare la domiciliarit�",
+      "descrizione_breve": "Contributo economico mensile per persone con disabilità grave o anziani ultrasessantacinquenni non autosufficienti, per supportare la domiciliarità",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 300,
         "importo_max": 600,
         "equivalente_mensile": 400,
-        "note": "Importo modulato in base al bisogno assistenziale; tipicamente circa �400/mese. Richiesto accompagnamento o certificazione di gravit� (L.104 art.3 c.3)"
+        "note": "Importo modulato in base al bisogno assistenziale; tipicamente circa €400/mese. Richiesto accompagnamento o certificazione di gravità (L.104 art.3 c.3)"
       },
       "requisiti": {
         "target": [
-          "persone con disabilit� grave",
+          "persone con disabilità grave",
           "anziani non autosufficienti (65+ anni)"
         ],
         "isee": {
@@ -140,7 +140,7 @@
         ],
         "documenti_chiave": [
           "ISEE sociosanitario",
-          "certificazione invalidit� con indennit� di accompagnamento"
+          "certificazione invalidità con indennità di accompagnamento"
         ]
       },
       "governance": {
@@ -151,7 +151,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Abruzzo n.149/2023 � Piano non autosufficienza (programmazione FNA)",
+            "atto": "DGR Abruzzo n.149/2023 – Piano non autosufficienza (programmazione FNA)",
             "url": ""
           }
         ]
@@ -167,7 +167,7 @@
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Verifica presso il tuo Comune se sei stato incluso in graduatoria per l�assegno di cura"
+        "messaggio_consulenza": "Verifica presso il tuo Comune se sei stato incluso in graduatoria per l’assegno di cura"
       }
     },
     {
@@ -182,17 +182,17 @@
         "FN-REG",
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo annuale erogato al caregiver familiare che assiste minori con disabilit� gravissima e malattie rare, come riconoscimento del ruolo di cura",
+      "descrizione_breve": "Contributo annuale erogato al caregiver familiare che assiste minori con disabilità gravissima e malattie rare, come riconoscimento del ruolo di cura",
       "benefit": {
         "periodicita": "annuale (una tantum)",
         "importo_min": 5000,
         "importo_max": 10000,
         "equivalente_mensile": 833,
-        "note": "Contributo fino a �10.000 per nucleo familiare beneficiario (minore con disabilit� gravissima); +�5.000 per ogni ulteriore figlio minore assistito nelle medesime condizioni"
+        "note": "Contributo fino a €10.000 per nucleo familiare beneficiario (minore con disabilità gravissima); +€5.000 per ogni ulteriore figlio minore assistito nelle medesime condizioni"
       },
       "requisiti": {
         "target": [
-          "caregiver di minore con disabilit� gravissima da malattia rara"
+          "caregiver di minore con disabilità gravissima da malattia rara"
         ],
         "isee": {
           "richiesto": true,
@@ -200,7 +200,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "certificazione sanitaria attestante disabilit� gravissima del minore"
+          "certificazione sanitaria attestante disabilità gravissima del minore"
         ]
       },
       "accesso": {
@@ -225,11 +225,11 @@
         ],
         "normativa": [
           {
-            "atto": "L.R. Abruzzo 27/12/2016 n.43 � Sostegno del caregiver familiare",
+            "atto": "L.R. Abruzzo 27/12/2016 n.43 – Sostegno del caregiver familiare",
             "url": ""
           },
           {
-            "atto": "DGR Abruzzo n.688/2024 � Criteri per contributi caregiver minori disabili gravi",
+            "atto": "DGR Abruzzo n.688/2024 – Criteri per contributi caregiver minori disabili gravi",
             "url": ""
           }
         ]
@@ -260,17 +260,17 @@
         "FN-REG",
         "FN-FNA"
       ],
-      "descrizione_breve": "Finanziamento annuale per progetti di assistenza personale autogestita, finalizzati a garantire il diritto a una vita indipendente per persone con disabilit� grave:contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}",
+      "descrizione_breve": "Finanziamento annuale per progetti di assistenza personale autogestita, finalizzati a garantire il diritto a una vita indipendente per persone con disabilità grave:contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 6000,
         "importo_max": 12000,
         "equivalente_mensile": null,
-        "note": "Contributo graduato per livello di bisogno assistenziale: da �6.000 (basso) a �12.000 annui per interventi di assistenza personale:contentReference[oaicite:18]{index=18}"
+        "note": "Contributo graduato per livello di bisogno assistenziale: da €6.000 (basso) a €12.000 annui per interventi di assistenza personale:contentReference[oaicite:18]{index=18}"
       },
       "requisiti": {
         "target": [
-          "persone con disabilit� grave (art.3 c.3 L.104) dai 18 anni in su"
+          "persone con disabilità grave (art.3 c.3 L.104) dai 18 anni in su"
         ],
         "isee": {
           "richiesto": true,
@@ -304,11 +304,11 @@
         ],
         "normativa": [
           {
-            "atto": "L.R. Abruzzo 23/11/2012 n.57 � Interventi per la vita indipendente",
+            "atto": "L.R. Abruzzo 23/11/2012 n.57 – Interventi per la vita indipendente",
             "url": ""
           },
           {
-            "atto": "L.R. Abruzzo 14/02/2024 n.6 � Modifiche alla L.R.57/2012",
+            "atto": "L.R. Abruzzo 14/02/2024 n.6 – Modifiche alla L.R.57/2012",
             "url": ""
           }
         ]
@@ -320,16 +320,16 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Graduatorie e budget gestiti a livello di Ambito; priorit� a ISEE < �20.000 se over 67 anni:contentReference[oaicite:19]{index=19}"
+        "note": "Graduatorie e budget gestiti a livello di Ambito; priorità a ISEE < €20.000 se over 67 anni:contentReference[oaicite:19]{index=19}"
       },
       "ux": {
         "priorita_contatto": 0.75,
-        "messaggio_consulenza": "Contatta l�Ufficio di Piano del tuo Ambito per supporto nella progettazione di Vita Indipendente"
+        "messaggio_consulenza": "Contatta l’Ufficio di Piano del tuo Ambito per supporto nella progettazione di Vita Indipendente"
       }
     },
     {
       "prestazione_id": "ABR-dopo-noi-v2025",
-      "nome_ufficiale": "Programma �Dopo di Noi� (L.112/2016)",
+      "nome_ufficiale": "Programma “Dopo di Noi” (L.112/2016)",
       "alias": [
         "Interventi per disabili gravi senza sostegno familiare"
       ],
@@ -339,7 +339,7 @@
         "FN-L112",
         "FN-FNA"
       ],
-      "descrizione_breve": "Percorsi personalizzati per persone con disabilit� grave prive del sostegno familiare � abitare in autonomia, gruppi appartamento, assistenza domiciliare innovativa � finanziati dal Fondo �Dopo di Noi�:contentReference[oaicite:20]{index=20}",
+      "descrizione_breve": "Percorsi personalizzati per persone con disabilità grave prive del sostegno familiare – abitare in autonomia, gruppi appartamento, assistenza domiciliare innovativa – finanziati dal Fondo “Dopo di Noi”:contentReference[oaicite:20]{index=20}",
       "benefit": {
         "periodicita": "una tantum/progetto",
         "importo_min": null,
@@ -349,7 +349,7 @@
       },
       "requisiti": {
         "target": [
-          "persone con disabilit� grave (art.3 c.3 L.104) senza supporto familiare"
+          "persone con disabilità grave (art.3 c.3 L.104) senza supporto familiare"
         ],
         "isee": {
           "richiesto": true,
@@ -370,7 +370,7 @@
           "PEC"
         ],
         "documenti_chiave": [
-          "documentazione disabilit� grave",
+          "documentazione disabilità grave",
           "proposta progetto vita in autonomia"
         ]
       },
@@ -381,7 +381,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Abruzzo n.687/2022 � Programma attuativo Fondo Dopo di Noi annualit� 2020-2021",
+            "atto": "DGR Abruzzo n.687/2022 – Programma attuativo Fondo Dopo di Noi annualità 2020-2021",
             "url": ""
           }
         ]
@@ -393,7 +393,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "I progetti e le modalit� attuative variano secondo i Piani di Zona locali; domande valutate dall�Ambito �Val di Foro� e altri competenti:contentReference[oaicite:21]{index=21}:contentReference[oaicite:22]{index=22}"
+        "note": "I progetti e le modalità attuative variano secondo i Piani di Zona locali; domande valutate dall’Ambito “Val di Foro” e altri competenti:contentReference[oaicite:21]{index=21}:contentReference[oaicite:22]{index=22}"
       },
       "ux": {
         "priorita_contatto": 0.6,
@@ -417,7 +417,7 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Prestazioni erogate gratuitamente (o con ticket) dall�ASL a domicilio secondo il Piano Assistenziale; intensit� variabile in base al bisogno"
+        "note": "Prestazioni erogate gratuitamente (o con ticket) dall’ASL a domicilio secondo il Piano Assistenziale; intensità variabile in base al bisogno"
       },
       "requisiti": {
         "target": [
@@ -454,7 +454,7 @@
         ],
         "normativa": [
           {
-            "atto": "LIVELLI ESSENZIALI DI ASSISTENZA DPCM 12/01/2017 � Assistenza Domiciliare Integrata",
+            "atto": "LIVELLI ESSENZIALI DI ASSISTENZA DPCM 12/01/2017 – Assistenza Domiciliare Integrata",
             "url": ""
           }
         ]
@@ -466,11 +466,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "L�ADI � erogata dalle ASL secondo protocolli regionali e pu� variare nell�organizzazione (ADI 1,2,3 livelli di intensit�)"
+        "note": "L’ADI è erogata dalle ASL secondo protocolli regionali e può variare nell’organizzazione (ADI 1,2,3 livelli di intensità)"
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Rivolgiti al tuo Medico di Medicina Generale per l�attivazione dell�ADI"
+        "messaggio_consulenza": "Rivolgiti al tuo Medico di Medicina Generale per l’attivazione dell’ADI"
       }
     },
     {
@@ -490,12 +490,12 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Servizio erogato in ore settimanali di aiuto a domicilio; eventuale quota di compartecipazione a carico dell�utente in base all�ISEE"
+        "note": "Servizio erogato in ore settimanali di aiuto a domicilio; eventuale quota di compartecipazione a carico dell’utente in base all’ISEE"
       },
       "requisiti": {
         "target": [
           "anziani parzialmente non autosufficienti",
-          "persone con disabilit� non totalmente autosufficienti"
+          "persone con disabilità non totalmente autosufficienti"
         ],
         "isee": {
           "richiesto": true,
@@ -528,7 +528,7 @@
         ],
         "normativa": [
           {
-            "atto": "L.R. Abruzzo 22/1998 n.22 � Sistema integrato interventi e servizi sociali",
+            "atto": "L.R. Abruzzo 22/1998 n.22 – Sistema integrato interventi e servizi sociali",
             "url": ""
           }
         ]
@@ -540,11 +540,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Standard del servizio (ore/prestazioni) e quote di compartecipazione stabilite nel Regolamento dell�Ambito Sociale"
+        "note": "Standard del servizio (ore/prestazioni) e quote di compartecipazione stabilite nel Regolamento dell’Ambito Sociale"
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Richiedi un colloquio con l�assistente sociale del tuo Comune per attivare il SAD"
+        "messaggio_consulenza": "Richiedi un colloquio con l’assistente sociale del tuo Comune per attivare il SAD"
       }
     },
     {
@@ -559,18 +559,18 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Accoglienza in strutture residenziali socio-sanitarie per anziani non autosufficienti o persone con disabilit� che necessitano di assistenza continuativa (nursing homes, comunit� socio-riabilitative)",
+      "descrizione_breve": "Accoglienza in strutture residenziali socio-sanitarie per anziani non autosufficienti o persone con disabilità che necessitano di assistenza continuativa (nursing homes, comunità socio-riabilitative)",
       "benefit": {
         "periodicita": "residenziale continuativo",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Costo retta diviso in quota sanitaria (a carico SSR) e quota sociale (a carico dell�utente/famiglia o Comune se indigente)."
+        "note": "Costo retta diviso in quota sanitaria (a carico SSR) e quota sociale (a carico dell’utente/famiglia o Comune se indigente)."
       },
       "requisiti": {
         "target": [
           "anziani non autosufficienti",
-          "persone con disabilit� grave senza autonomia"
+          "persone con disabilità grave senza autonomia"
         ],
         "isee": {
           "richiesto": true,
@@ -605,7 +605,7 @@
         ],
         "normativa": [
           {
-            "atto": "DPCM 14/02/2001 � Requisiti minimi strutture socio-sanitarie",
+            "atto": "DPCM 14/02/2001 – Requisiti minimi strutture socio-sanitarie",
             "url": ""
           }
         ]
@@ -617,11 +617,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Regioni e ASL definiscono posti convenzionati e rette standard; liste d�attesa gestite a livello distrettuale socio-sanitario"
+        "note": "Regioni e ASL definiscono posti convenzionati e rette standard; liste d’attesa gestite a livello distrettuale socio-sanitario"
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Contatta il PUA (Punto Unico Accesso) della tua ASL per avviare la valutazione per l�ingresso in RSA"
+        "messaggio_consulenza": "Contatta il PUA (Punto Unico Accesso) della tua ASL per avviare la valutazione per l’ingresso in RSA"
       }
     }
   ]

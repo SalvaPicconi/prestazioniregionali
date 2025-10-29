@@ -14,25 +14,25 @@
   "prestazioni": [
     {
       "prestazione_id": "FVG-APA-v2025",
-      "nome_ufficiale": "Assegno per l�autonomia (APA)",
+      "nome_ufficiale": "Assegno per l’autonomia (APA)",
       "alias": [],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "SC-ANZ-DIS",
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo economico annuale a favore di persone anziane o con disabilit� in condizione di non autosufficienza, per sostenerne la permanenza al domicilio:contentReference[oaicite:0]{index=0}.",
+      "descrizione_breve": "Contributo economico annuale a favore di persone anziane o con disabilità in condizione di non autosufficienza, per sostenerne la permanenza al domicilio:contentReference[oaicite:0]{index=0}.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 1620,
         "importo_max": 6204,
         "equivalente_mensile": null,
-        "note": "Importo variabile in base a gravit� e ISEE (soglia 30.000 �); almeno il 50% dell�importo va rendicontato:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}."
+        "note": "Importo variabile in base a gravità e ISEE (soglia 30.000 €); almeno il 50% dell’importo va rendicontato:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti",
-          "Persone con disabilit� non autosufficienti"
+          "Persone con disabilità non autosufficienti"
         ],
         "isee": {
           "richiesto": true,
@@ -40,7 +40,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "UVMD (Unit� di Valutazione Multidimensionale)"
+          "UVMD (Unità di Valutazione Multidimensionale)"
         ]
       },
       "accesso": {
@@ -53,7 +53,7 @@
         ],
         "documenti_chiave": [
           "ISEE sociosanitario",
-          "Verbale invalidit� con indennit� di accompagnamento"
+          "Verbale invalidità con indennità di accompagnamento"
         ]
       },
       "governance": {
@@ -75,33 +75,33 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Misura unificata nel Fondo per l�Autonomia Possibile (FAP):contentReference[oaicite:3]{index=3}"
+        "note": "Misura unificata nel Fondo per l’Autonomia Possibile (FAP):contentReference[oaicite:3]{index=3}"
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Contatta il Servizio Sociale del tuo Comune per attivare la valutazione multidimensionale e l�eventuale progetto personalizzato."
+        "messaggio_consulenza": "Contatta il Servizio Sociale del tuo Comune per attivare la valutazione multidimensionale e l’eventuale progetto personalizzato."
       }
     },
     {
       "prestazione_id": "FVG-CAF-v2025",
-      "nome_ufficiale": "Contributo per l�aiuto familiare (CAF)",
+      "nome_ufficiale": "Contributo per l’aiuto familiare (CAF)",
       "alias": [],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "SC-ANZ-DIS",
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Beneficio economico per sostenere le famiglie che assumono un assistente familiare (badante) almeno 20 ore a settimana, per l�assistenza a domicilio di persone non autosufficienti:contentReference[oaicite:4]{index=4}.",
+      "descrizione_breve": "Beneficio economico per sostenere le famiglie che assumono un assistente familiare (badante) almeno 20 ore a settimana, per l’assistenza a domicilio di persone non autosufficienti:contentReference[oaicite:4]{index=4}.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 2892,
         "importo_max": 12000,
         "equivalente_mensile": null,
-        "note": "Importo variabile in base a gravit�, ISEE (�30.000 �) e ore di assistenza settimanali; l�intero importo � soggetto a rendicontazione delle spese:contentReference[oaicite:5]{index=5}:contentReference[oaicite:6]{index=6}."
+        "note": "Importo variabile in base a gravità, ISEE (≤30.000 €) e ore di assistenza settimanali; l’intero importo è soggetto a rendicontazione delle spese:contentReference[oaicite:5]{index=5}:contentReference[oaicite:6]{index=6}."
       },
       "requisiti": {
         "target": [
-          "Anziani o disabili non autosufficienti con badante regolarmente contrattualizzato (�20 ore/sett.)"
+          "Anziani o disabili non autosufficienti con badante regolarmente contrattualizzato (≥20 ore/sett.)"
         ],
         "isee": {
           "richiesto": true,
@@ -148,7 +148,7 @@
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Chiedi al Servizio Sociale comunale informazioni sul contributo per badanti e sulle modalit� di rendicontazione richieste."
+        "messaggio_consulenza": "Chiedi al Servizio Sociale comunale informazioni sul contributo per badanti e sulle modalità di rendicontazione richieste."
       }
     },
     {
@@ -162,17 +162,17 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Finanziamento di progetti di vita indipendente per persone con disabilit� grave (18-64 anni) in situazione di non autosufficienza, per favorirne l�autonomia e l�inclusione:contentReference[oaicite:7]{index=7}.",
+      "descrizione_breve": "Finanziamento di progetti di vita indipendente per persone con disabilità grave (18-64 anni) in situazione di non autosufficienza, per favorirne l’autonomia e l’inclusione:contentReference[oaicite:7]{index=7}.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 3000,
         "importo_max": 24000,
         "equivalente_mensile": null,
-        "note": "L�importo annuo � determinato nel progetto personalizzato (ISEE �60.000 �) e copre azioni/servizi per l�autonomia; almeno il 75% delle spese deve essere rendicontato:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+        "note": "L’importo annuo è determinato nel progetto personalizzato (ISEE ≤60.000 €) e copre azioni/servizi per l’autonomia; almeno il 75% delle spese deve essere rendicontato:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave 18-64 anni non autosufficienti"
+          "Persone con disabilità grave 18-64 anni non autosufficienti"
         ],
         "isee": {
           "richiesto": true,
@@ -193,7 +193,7 @@
         ],
         "documenti_chiave": [
           "ISEE",
-          "Certificazione disabilit� grave (L.104/92 art.3 c.3)"
+          "Certificazione disabilità grave (L.104/92 art.3 c.3)"
         ]
       },
       "governance": {
@@ -215,7 +215,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Progetti personalizzati approvati dallՎquipe integrata socio-sanitaria"
+        "note": "Progetti personalizzati approvati dall’équipe integrata socio-sanitaria"
       },
       "ux": {
         "priorita_contatto": 0.6,
@@ -231,13 +231,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Intervento economico a supporto di nuclei familiari con minori non autosufficienti con grave disabilit� o con patologie oncologiche, per finanziare progetti dedicati di cura e assistenza:contentReference[oaicite:10]{index=10}.",
+      "descrizione_breve": "Intervento economico a supporto di nuclei familiari con minori non autosufficienti con grave disabilità o con patologie oncologiche, per finanziare progetti dedicati di cura e assistenza:contentReference[oaicite:10]{index=10}.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 3852,
         "importo_max": 12000,
         "equivalente_mensile": null,
-        "note": "Importo variabile in base all�ISEE (�40.000 �) e alle azioni previste nel progetto; almeno il 50% delle spese va rendicontato:contentReference[oaicite:11]{index=11}."
+        "note": "Importo variabile in base all’ISEE (≤40.000 €) e alle azioni previste nel progetto; almeno il 50% delle spese va rendicontato:contentReference[oaicite:11]{index=11}."
       },
       "requisiti": {
         "target": [
@@ -262,7 +262,7 @@
         ],
         "documenti_chiave": [
           "ISEE",
-          "Certificazione disabilit� grave del minore"
+          "Certificazione disabilità grave del minore"
         ]
       },
       "governance": {
@@ -288,12 +288,12 @@
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Contatta l�assistente sociale del tuo Comune per presentare un progetto assistenziale dedicato al minore."
+        "messaggio_consulenza": "Contatta l’assistente sociale del tuo Comune per presentare un progetto assistenziale dedicato al minore."
       }
     },
     {
       "prestazione_id": "FVG-AGD-v2025",
-      "nome_ufficiale": "Assegno per gravissima disabilit� (AGD)",
+      "nome_ufficiale": "Assegno per gravissima disabilità (AGD)",
       "alias": [
         "Fondo gravissimi (unificato)"
       ],
@@ -302,17 +302,17 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo economico destinato alle persone con gravissima disabilit�, inclusi malati di SLA e gravi demenze, per supportarne la permanenza a domicilio con assistenza continuativa:contentReference[oaicite:12]{index=12}.",
+      "descrizione_breve": "Contributo economico destinato alle persone con gravissima disabilità, inclusi malati di SLA e gravi demenze, per supportarne la permanenza a domicilio con assistenza continuativa:contentReference[oaicite:12]{index=12}.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 10704,
         "importo_max": 24000,
         "equivalente_mensile": null,
-        "note": "Importo variabile in base all�ISEE (�60.000 �, elevato a 65.000 � per minori); nessun obbligo di rendicontazione delle spese:contentReference[oaicite:13]{index=13}:contentReference[oaicite:14]{index=14}."
+        "note": "Importo variabile in base all’ISEE (≤60.000 €, elevato a 65.000 € per minori); nessun obbligo di rendicontazione delle spese:contentReference[oaicite:13]{index=13}:contentReference[oaicite:14]{index=14}."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� gravissima ad alta intensit� assistenziale (compresa SLA e gravi demenze)"
+          "Persone con disabilità gravissima ad alta intensità assistenziale (compresa SLA e gravi demenze)"
         ],
         "isee": {
           "richiesto": true,
@@ -321,7 +321,7 @@
         },
         "valutazione": [
           "UVMD",
-          "Criteri DM 26/09/2016 disabilit� gravissime"
+          "Criteri DM 26/09/2016 disabilità gravissime"
         ]
       },
       "accesso": {
@@ -334,7 +334,7 @@
         ],
         "documenti_chiave": [
           "ISEE",
-          "Certificazione disabilit� gravissima (commissione sanitaria)"
+          "Certificazione disabilità gravissima (commissione sanitaria)"
         ]
       },
       "governance": {
@@ -360,7 +360,7 @@
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Per richiedere l�assegno gravissimi, rivolgiti al tuo Comune: � necessaria la certificazione di disabilit� gravissima rilasciata dalla Commissione sanitaria provinciale."
+        "messaggio_consulenza": "Per richiedere l’assegno gravissimi, rivolgiti al tuo Comune: è necessaria la certificazione di disabilità gravissima rilasciata dalla Commissione sanitaria provinciale."
       }
     },
     {
@@ -380,7 +380,7 @@
         "importo_min": 300,
         "importo_max": 300,
         "equivalente_mensile": 300,
-        "note": "�300 al mese per un massimo di 12 mesi (importo fisso):contentReference[oaicite:18]{index=18}."
+        "note": "€300 al mese per un massimo di 12 mesi (importo fisso):contentReference[oaicite:18]{index=18}."
       },
       "requisiti": {
         "target": [
@@ -406,7 +406,7 @@
         ],
         "documenti_chiave": [
           "Modulo domanda caregiver",
-          "Documento d�identit�"
+          "Documento d’identità"
         ]
       },
       "governance": {
@@ -432,23 +432,23 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Risorse ripartite tra Ambiti; priorit� d�accesso definite dal regolamento regionale:contentReference[oaicite:19]{index=19}:contentReference[oaicite:20]{index=20}."
+        "note": "Risorse ripartite tra Ambiti; priorità d’accesso definite dal regolamento regionale:contentReference[oaicite:19]{index=19}:contentReference[oaicite:20]{index=20}."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Verifica presso il tuo Ambito territoriale le scadenze e modalit� per richiedere il bonus caregiver familiare."
+        "messaggio_consulenza": "Verifica presso il tuo Ambito territoriale le scadenze e modalità per richiedere il bonus caregiver familiare."
       }
     },
     {
       "prestazione_id": "FVG-DopoNoi-v2025",
-      "nome_ufficiale": "Progetti �Dopo di Noi� (L.112/2016)",
+      "nome_ufficiale": "Progetti “Dopo di Noi” (L.112/2016)",
       "alias": [],
       "macro_categoria_id": "MC-PS",
       "sotto_categoria_id": "SC-DSA",
       "famiglie_normative_ids": [
         "FN-L112"
       ],
-      "descrizione_breve": "Finanziamento di progetti a beneficio di persone con disabilit� grave prive del sostegno familiare, per favorirne la permanenza a domicilio o in soluzioni abitative di tipo familiare:contentReference[oaicite:21]{index=21}.",
+      "descrizione_breve": "Finanziamento di progetti a beneficio di persone con disabilità grave prive del sostegno familiare, per favorirne la permanenza a domicilio o in soluzioni abitative di tipo familiare:contentReference[oaicite:21]{index=21}.",
       "benefit": {
         "periodicita": "una_tantum",
         "importo_min": null,
@@ -458,7 +458,7 @@
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave senza sostegno familiare (o in procinto di perderlo)"
+          "Persone con disabilità grave senza sostegno familiare (o in procinto di perderlo)"
         ],
         "isee": {
           "richiesto": false,
@@ -471,7 +471,7 @@
       },
       "accesso": {
         "ente_gestore": [
-          "Enti Gestori servizi disabilit�",
+          "Enti Gestori servizi disabilità",
           "Regione (coordinamento)"
         ],
         "modalita": "manifestazione_interesse",
@@ -510,7 +510,7 @@
       },
       "ux": {
         "priorita_contatto": 0.5,
-        "messaggio_consulenza": "Se sei una persona con disabilit� grave senza familiari, rivolgiti ai servizi sociali locali o alle associazioni di categoria per opportunit� legate al Dopo di Noi."
+        "messaggio_consulenza": "Se sei una persona con disabilità grave senza familiari, rivolgiti ai servizi sociali locali o alle associazioni di categoria per opportunità legate al Dopo di Noi."
       }
     },
     {
@@ -530,7 +530,7 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Prestazioni sanitarie e di base al domicilio secondo un Piano Assistenziale Individuale (PAI) definito dallՎquipe medico-infermieristica."
+        "note": "Prestazioni sanitarie e di base al domicilio secondo un Piano Assistenziale Individuale (PAI) definito dall’équipe medico-infermieristica."
       },
       "requisiti": {
         "target": [
@@ -581,7 +581,7 @@
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Chiedi al tuo medico di base o al Punto Unico di Accesso dell�ASL attivazione delle cure domiciliari integrate in caso di bisogno sanitario continuativo a domicilio."
+        "messaggio_consulenza": "Chiedi al tuo medico di base o al Punto Unico di Accesso dell’ASL attivazione delle cure domiciliari integrate in caso di bisogno sanitario continuativo a domicilio."
       }
     },
     {
@@ -595,18 +595,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio di assistenza domiciliare di base gestito dai Comuni, che offre aiuto per le attivit� quotidiane (igiene personale, governo della casa, pasti) a persone anziane o disabili non autosufficienti, al fine di mantenerle al proprio domicilio:contentReference[oaicite:25]{index=25}.",
+      "descrizione_breve": "Servizio di assistenza domiciliare di base gestito dai Comuni, che offre aiuto per le attività quotidiane (igiene personale, governo della casa, pasti) a persone anziane o disabili non autosufficienti, al fine di mantenerle al proprio domicilio:contentReference[oaicite:25]{index=25}.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Ore di assistenza domiciliare settimanali secondo il Piano Assistenziale Individuale; eventuale compartecipazione alla spesa da parte dell�utente in base all�ISEE."
+        "note": "Ore di assistenza domiciliare settimanali secondo il Piano Assistenziale Individuale; eventuale compartecipazione alla spesa da parte dell’utente in base all’ISEE."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti",
-          "Persone con disabilit� non autosufficienti"
+          "Persone con disabilità non autosufficienti"
         ],
         "isee": {
           "richiesto": true,
@@ -654,7 +654,7 @@
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Rivolgiti ai servizi sociali del tuo Comune per richiedere l�attivazione dell�assistenza domiciliare e conoscere l�eventuale contributo economico richiesto."
+        "messaggio_consulenza": "Rivolgiti ai servizi sociali del tuo Comune per richiedere l’attivazione dell’assistenza domiciliare e conoscere l’eventuale contributo economico richiesto."
       }
     },
     {
@@ -674,12 +674,12 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Ospitalit� a tempo indeterminato (o temporaneo di sollievo) con copertura dei bisogni sanitari (quota sanitaria a carico SSR) e socio-assistenziali (quota sociale a carico dell�utente/famiglia o Comune)."
+        "note": "Ospitalità a tempo indeterminato (o temporaneo di sollievo) con copertura dei bisogni sanitari (quota sanitaria a carico SSR) e socio-assistenziali (quota sociale a carico dell’utente/famiglia o Comune)."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti",
-          "Persone con disabilit� grave senza adeguato supporto domiciliare"
+          "Persone con disabilità grave senza adeguato supporto domiciliare"
         ],
         "isee": {
           "richiesto": true,
@@ -695,7 +695,7 @@
           "ASL (accreditamento posti)",
           "Enti gestori strutture (erogazione)"
         ],
-        "modalita": "lista_d�attesa",
+        "modalita": "lista_d’attesa",
         "canali": [
           "PUA distrettuale",
           "sportello sociale del Comune"
@@ -733,7 +733,7 @@
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Per informazioni sull�ingresso in RSA o strutture residenziali, rivolgiti al Punto Unico di Accesso della tua ASL o al servizio sociale comunale."
+        "messaggio_consulenza": "Per informazioni sull’ingresso in RSA o strutture residenziali, rivolgiti al Punto Unico di Accesso della tua ASL o al servizio sociale comunale."
       }
     }
   ]

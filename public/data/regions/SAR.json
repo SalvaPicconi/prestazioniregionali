@@ -7,8 +7,8 @@
     "taxonomy_version": "2025.1",
     "fonti": [
       "Delib.G.R. Sardegna n.55/2022 (Linee guida programma Ritornare a Casa Plus)",
-      "Delib.G.R. Sardegna n.6/2023 (Piani personalizzati L.162/98 annualit� 2024)",
-      "Portale Sardegna Sociale (SardegnaeWelfare) � sezioni Disabilit� e Non autosufficienza"
+      "Delib.G.R. Sardegna n.6/2023 (Piani personalizzati L.162/98 annualità 2024)",
+      "Portale Sardegna Sociale (SardegnaeWelfare) – sezioni Disabilità e Non autosufficienza"
     ]
   },
   "prestazioni": [
@@ -16,7 +16,7 @@
       "prestazione_id": "SAR-piani-162-v2025",
       "nome_ufficiale": "Piani Personalizzati di Sostegno L.162/1998",
       "alias": [
-        "progetti personalizzati disabilit� grave"
+        "progetti personalizzati disabilità grave"
       ],
       "macro_categoria_id": "MC-PS",
       "sotto_categoria_id": "PS-L162",
@@ -24,17 +24,17 @@
         "FN-L162",
         "FN-REG"
       ],
-      "descrizione_breve": "Intervento cardine in Sardegna per la disabilit� grave: ogni anno la Regione finanzia piani personalizzati per persone con handicap grave (art.3 c.3 L.104). Il piano, concordato con l�assistente sociale e la famiglia, definisce un budget mensile da utilizzare per assistenza domiciliare, servizi educativi, trasporto, attivit� di socializzazione o supporti vari.",
+      "descrizione_breve": "Intervento cardine in Sardegna per la disabilità grave: ogni anno la Regione finanzia piani personalizzati per persone con handicap grave (art.3 c.3 L.104). Il piano, concordato con l’assistente sociale e la famiglia, definisce un budget mensile da utilizzare per assistenza domiciliare, servizi educativi, trasporto, attività di socializzazione o supporti vari.",
       "benefit": {
         "periodicita": "mensile (piano annuale)",
         "importo_min": 200,
         "importo_max": 1200,
         "equivalente_mensile": 0,
-        "note": "L�importo mensile varia in base al punteggio di gravit� (valutazione sanitaria e sociale) e all�ISEE: pu� andare da circa �200 per situazioni meno impegnative fino a oltre �1.000 per disabilit� gravissime con basso reddito. Il contributo � finalizzato al pagamento di operatori (OSS, educatori) o rimborso spese assistenziali."
+        "note": "L’importo mensile varia in base al punteggio di gravità (valutazione sanitaria e sociale) e all’ISEE: può andare da circa €200 per situazioni meno impegnative fino a oltre €1.000 per disabilità gravissime con basso reddito. Il contributo è finalizzato al pagamento di operatori (OSS, educatori) o rimborso spese assistenziali."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� certificata grave (handicap grave art.3 co.3 L.104/92) di qualsiasi et�, residenti in Sardegna"
+          "Persone con disabilità certificata grave (handicap grave art.3 co.3 L.104/92) di qualsiasi età, residenti in Sardegna"
         ],
         "isee": {
           "richiesto": true,
@@ -43,7 +43,7 @@
         },
         "valutazione": [
           "Valutazione multidimensionale sanitaria e sociale (schede salute e sociale) per attribuzione punteggio del bisogno assistenziale",
-          "Presenza di un caregiver familiare o disponibilit� di personale assistenziale da impiegare nel piano"
+          "Presenza di un caregiver familiare o disponibilità di personale assistenziale da impiegare nel piano"
         ]
       },
       "accesso": {
@@ -58,7 +58,7 @@
           "Certificazione L.104 art.3 c.3 (verbale handicap grave)",
           "Attestazione ISEE sociosanitario",
           "Schede progetto (salute e sociale) compilate da medico e assistente sociale",
-          "Documento di identit� del richiedente"
+          "Documento di identità del richiedente"
         ]
       },
       "governance": {
@@ -87,14 +87,14 @@
       },
       "ux": {
         "priorita_contatto": 0.95,
-        "messaggio_consulenza": "Ogni anno (generalmente a inizio anno) presenta al Comune la domanda per il piano L.162/98. Verrai contattato da un assistente sociale per predisporre il progetto di assistenza pi� adatto. Assicurati di avere l�ISEE aggiornato e il verbale di handicap grave in corso di validit�."
+        "messaggio_consulenza": "Ogni anno (generalmente a inizio anno) presenta al Comune la domanda per il piano L.162/98. Verrai contattato da un assistente sociale per predisporre il progetto di assistenza più adatto. Assicurati di avere l’ISEE aggiornato e il verbale di handicap grave in corso di validità."
       }
     },
     {
       "prestazione_id": "SAR-ritornare-casa-v2025",
       "nome_ufficiale": "Programma Ritornare a Casa Plus",
       "alias": [
-        "contributi disabilit� gravissima a domicilio"
+        "contributi disabilità gravissima a domicilio"
       ],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "CE-RitCasa",
@@ -102,17 +102,17 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Sostegno economico destinato a persone con disabilit� gravissima che, attraverso progetti personalizzati, possono permanere o rientrare al proprio domicilio evitando l�istituzionalizzazione. Il programma ha pi� livelli di contributo mensile in base all�intensit� del bisogno assistenziale e tiene conto dell�ISEE. Una quota del contributo pu� essere usata per retribuire un caregiver familiare.",
+      "descrizione_breve": "Sostegno economico destinato a persone con disabilità gravissima che, attraverso progetti personalizzati, possono permanere o rientrare al proprio domicilio evitando l’istituzionalizzazione. Il programma ha più livelli di contributo mensile in base all’intensità del bisogno assistenziale e tiene conto dell’ISEE. Una quota del contributo può essere usata per retribuire un caregiver familiare.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 400,
         "importo_max": 600,
         "equivalente_mensile": 0,
-        "note": "Livello base A: �400/mese; livelli superiori fino a circa �600/mese (in caso di bisogni assistenziali molto elevati). Previsti incrementi aggiuntivi per situazioni particolari (es. persone ventilate, fino ~�800-1000/mese totali). L�importo effettivo � ridotto per ISEE alti secondo fasce (es. riduzione progressiva oltre �30.000)."
+        "note": "Livello base A: €400/mese; livelli superiori fino a circa €600/mese (in caso di bisogni assistenziali molto elevati). Previsti incrementi aggiuntivi per situazioni particolari (es. persone ventilate, fino ~€800-1000/mese totali). L’importo effettivo è ridotto per ISEE alti secondo fasce (es. riduzione progressiva oltre €30.000)."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� gravissima (es. dipendenza vitale da macchinari o assistenza h24) residenti in Sardegna, di qualsiasi et�, che scelgono di essere assistite a domicilio"
+          "Persone con disabilità gravissima (es. dipendenza vitale da macchinari o assistenza h24) residenti in Sardegna, di qualsiasi età, che scelgono di essere assistite a domicilio"
         ],
         "isee": {
           "richiesto": true,
@@ -120,7 +120,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione di disabilit� gravissima ai sensi art.3 DM 26/09/2016 (riconosciuta da Commissione UVM)",
+          "Certificazione di disabilità gravissima ai sensi art.3 DM 26/09/2016 (riconosciuta da Commissione UVM)",
           "Elaborazione di un progetto personalizzato di assistenza domiciliare approvato dal Comune/Ambito (PUA)"
         ]
       },
@@ -135,10 +135,10 @@
           "presa in carico PUA/UVMD locale"
         ],
         "documenti_chiave": [
-          "Certificazione sanitaria disabilit� gravissima (verbale UVM)",
+          "Certificazione sanitaria disabilità gravissima (verbale UVM)",
           "Attestazione ISEE sociosanitario",
           "Scheda progetto Ritornare a Casa (modello regionale)",
-          "Documento identit� del richiedente/caregiver"
+          "Documento identità del richiedente/caregiver"
         ]
       },
       "governance": {
@@ -164,16 +164,16 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Il programma � regionale con criteri unificati. I Comuni/Ambiti territoriali raccolgono le richieste e attuano i progetti, ma l�importo del contributo e i parametri (ISEE, livelli assistenza) sono uguali in tutta la Sardegna."
+        "note": "Il programma è regionale con criteri unificati. I Comuni/Ambiti territoriali raccolgono le richieste e attuano i progetti, ma l’importo del contributo e i parametri (ISEE, livelli assistenza) sono uguali in tutta la Sardegna."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Se in famiglia cՏ una persona con disabilit� gravissima, puoi chiedere informazioni sul programma �Ritornare a casa Plus� presso il Comune o il PUA della tua ASL. Ti aiuteranno a predisporre la domanda e il progetto per ottenere il contributo e organizzare l�assistenza a domicilio."
+        "messaggio_consulenza": "Se in famiglia c’è una persona con disabilità gravissima, puoi chiedere informazioni sul programma “Ritornare a casa Plus” presso il Comune o il PUA della tua ASL. Ti aiuteranno a predisporre la domanda e il progetto per ottenere il contributo e organizzare l’assistenza a domicilio."
       }
     },
     {
       "prestazione_id": "SAR-dopo-noi-v2025",
-      "nome_ufficiale": "Programma �Dopo di Noi� (Sardegna)",
+      "nome_ufficiale": "Programma “Dopo di Noi” (Sardegna)",
       "alias": [
         "interventi Legge 112/2016 regionali"
       ],
@@ -182,17 +182,17 @@
       "famiglie_normative_ids": [
         "FN-L112"
       ],
-      "descrizione_breve": "La Regione Sardegna attua il Fondo �Dopo di Noi� attraverso progetti territoriali volti a creare percorsi di vita indipendente per disabili gravi senza supporto familiare. Sono finanziate soluzioni come: gruppi-appartamento con assistenza domiciliare, programmi di accompagnamento all�autonomia (gestione casa, spesa, etc.), sostegni per la domiciliarit� in caso di perdita dei genitori, e azioni per il �durante e dopo di noi�.",
+      "descrizione_breve": "La Regione Sardegna attua il Fondo “Dopo di Noi” attraverso progetti territoriali volti a creare percorsi di vita indipendente per disabili gravi senza supporto familiare. Sono finanziate soluzioni come: gruppi-appartamento con assistenza domiciliare, programmi di accompagnamento all’autonomia (gestione casa, spesa, etc.), sostegni per la domiciliarità in caso di perdita dei genitori, e azioni per il “durante e dopo di noi”.",
       "benefit": {
         "periodicita": "progetto (max 12-18 mesi rinnovabili)",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Il supporto economico varia in base al progetto individuale: ad esempio, pu� coprire il costo di un educatore domiciliare per alcune ore settimanali, contributi per l�affitto di un appartamento condiviso, o voucher per frequentare laboratori di autonomia. Non � prevista erogazione di somme dirette all�utente se non finalizzate a specifiche spese del progetto."
+        "note": "Il supporto economico varia in base al progetto individuale: ad esempio, può coprire il costo di un educatore domiciliare per alcune ore settimanali, contributi per l’affitto di un appartamento condiviso, o voucher per frequentare laboratori di autonomia. Non è prevista erogazione di somme dirette all’utente se non finalizzate a specifiche spese del progetto."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave (art.3 co.3 L.104) tra i 18 e 64 anni, prive di entrambi i genitori oppure con genitori non in grado di fornire cura (et� avanzata, condizioni di salute compromesse)"
+          "Persone con disabilità grave (art.3 co.3 L.104) tra i 18 e 64 anni, prive di entrambi i genitori oppure con genitori non in grado di fornire cura (età avanzata, condizioni di salute compromesse)"
         ],
         "isee": {
           "richiesto": true,
@@ -201,7 +201,7 @@
         },
         "valutazione": [
           "Valutazione multidisciplinare dei servizi sociali e sanitari distrettuali per definire il progetto individuale",
-          "Rispondenza del caso ai criteri nazionali Dopo di Noi (DM 23/11/2016), ad es. esclusione di persone gi� in strutture residenziali"
+          "Rispondenza del caso ai criteri nazionali Dopo di Noi (DM 23/11/2016), ad es. esclusione di persone già in strutture residenziali"
         ]
       },
       "accesso": {
@@ -241,11 +241,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ogni PLUS (ambito territoriale) pubblica il proprio bando utilizzando i fondi assegnati dalla Regione (riparto Fondo Dopo di Noi). Ci possono essere differenze nelle priorit� locali (ad es. dare precedenza a chi non usufruisce gi� di altri servizi) e nelle modalit� organizzative, fermo restando i criteri generali nazionali e regionali."
+        "note": "Ogni PLUS (ambito territoriale) pubblica il proprio bando utilizzando i fondi assegnati dalla Regione (riparto Fondo Dopo di Noi). Ci possono essere differenze nelle priorità locali (ad es. dare precedenza a chi non usufruisce già di altri servizi) e nelle modalità organizzative, fermo restando i criteri generali nazionali e regionali."
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Contatta i Servizi Sociali del tuo PLUS per sapere se ci sono progetti �Dopo di Noi� attivi. Potrai presentare un�istanza insieme ad un tutor/assistente sociale per progettare il percorso pi� adatto (es. ingresso in una casa condivisa con altri ragazzi e supporto di educatori)."
+        "messaggio_consulenza": "Contatta i Servizi Sociali del tuo PLUS per sapere se ci sono progetti “Dopo di Noi” attivi. Potrai presentare un’istanza insieme ad un tutor/assistente sociale per progettare il percorso più adatto (es. ingresso in una casa condivisa con altri ragazzi e supporto di educatori)."
       }
     },
     {
@@ -259,13 +259,13 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Servizio sanitario a domicilio per persone non autosufficienti, erogato dalle ASL sarde (ATS Sardegna o ASL provinciali) nell�ambito dei LEA. Prevede visite infermieristiche, fisioterapia domiciliare, controllo medico periodico e altre prestazioni sanitarie, coordinate dall�Unit� di Valutazione Territoriale, per evitare ricoveri ospedalieri o istituzionalizzazione.",
+      "descrizione_breve": "Servizio sanitario a domicilio per persone non autosufficienti, erogato dalle ASL sarde (ATS Sardegna o ASL provinciali) nell’ambito dei LEA. Prevede visite infermieristiche, fisioterapia domiciliare, controllo medico periodico e altre prestazioni sanitarie, coordinate dall’Unità di Valutazione Territoriale, per evitare ricoveri ospedalieri o istituzionalizzazione.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "L�ADI � fornita gratuitamente dal Servizio Sanitario Regionale. Il paziente beneficia di prestazioni sanitarie a domicilio (frequenza secondo necessit�: da alcuni accessi a settimana fino a assistenza quotidiana nei casi di cure palliative)."
+        "note": "L’ADI è fornita gratuitamente dal Servizio Sanitario Regionale. Il paziente beneficia di prestazioni sanitarie a domicilio (frequenza secondo necessità: da alcuni accessi a settimana fino a assistenza quotidiana nei casi di cure palliative)."
       },
       "requisiti": {
         "target": [
@@ -277,7 +277,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione integrata del PUA/UVMD dell�ASP con definizione di PAI (livello ADI 1, 2 o 3)",
+          "Valutazione integrata del PUA/UVMD dell’ASP con definizione di PAI (livello ADI 1, 2 o 3)",
           "Prescrizione del medico curante o specialista richiedente ADI"
         ]
       },
@@ -288,11 +288,11 @@
         "modalita": "sportello",
         "canali": [
           "Punto Unico di Accesso socio-sanitario (dove attivo) o Servizio Assistenza Domiciliare ASL",
-          "Richiesta del Medico di Base all�UVMD"
+          "Richiesta del Medico di Base all’UVMD"
         ],
         "documenti_chiave": [
-          "Richiesta del medico di famiglia (o lettera di dimissione ospedaliera) indicante necessit� ADI",
-          "Documento d�identit� e tessera sanitaria",
+          "Richiesta del medico di famiglia (o lettera di dimissione ospedaliera) indicante necessità ADI",
+          "Documento d’identità e tessera sanitaria",
           "Referti medici rilevanti"
         ]
       },
@@ -318,11 +318,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Linee uniche a livello regionale con ATS/ASL competenti per territorio. In Sardegna il servizio ADI � integrato con la rete delle Cure Primarie e, se necessario, con il programma Ritornare a Casa per la componente sociale."
+        "note": "Linee uniche a livello regionale con ATS/ASL competenti per territorio. In Sardegna il servizio ADI è integrato con la rete delle Cure Primarie e, se necessario, con il programma Ritornare a Casa per la componente sociale."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Se tu o un tuo familiare avete bisogno di assistenza sanitaria domiciliare, chiedi al vostro medico di base di attivare l�ADI presso la vostra ASL. Verr� organizzata una valutazione domiciliare e, se ne avete diritto, inizieranno le visite a casa di infermieri, fisioterapisti e altri operatori sanitari secondo il piano concordato."
+        "messaggio_consulenza": "Se tu o un tuo familiare avete bisogno di assistenza sanitaria domiciliare, chiedi al vostro medico di base di attivare l’ADI presso la vostra ASL. Verrà organizzata una valutazione domiciliare e, se ne avete diritto, inizieranno le visite a casa di infermieri, fisioterapisti e altri operatori sanitari secondo il piano concordato."
       }
     },
     {
@@ -336,18 +336,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio comunale (o gestito in forma associata dai PLUS) che offre assistenza domestica e personale a soggetti fragili al domicilio. Consiste in interventi di operatori socio-sanitari per l�igiene personale, aiuto in casa, accompagnamento, disbrigo pratiche, sostegno relazionale. In Sardegna, molti interventi SAD sono integrati nei piani personalizzati L.162/98 o Ritornare a Casa, ma esiste anche un SAD �ordinario� per chi non rientra in altri programmi.",
+      "descrizione_breve": "Servizio comunale (o gestito in forma associata dai PLUS) che offre assistenza domestica e personale a soggetti fragili al domicilio. Consiste in interventi di operatori socio-sanitari per l’igiene personale, aiuto in casa, accompagnamento, disbrigo pratiche, sostegno relazionale. In Sardegna, molti interventi SAD sono integrati nei piani personalizzati L.162/98 o Ritornare a Casa, ma esiste anche un SAD “ordinario” per chi non rientra in altri programmi.",
       "benefit": {
         "periodicita": "continuativa (a ore)",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Ore settimanali di assistenza assegnate in base al bisogno. Alcuni Comuni lo offrono gratuitamente ai cittadini con ISEE sotto una soglia, altri prevedono una compartecipazione oraria (es. �3/ora simbolici). L�intensit� varia: da 2-3 ore settimanali per supporto leggero fino a 1-2 ore giornaliere per i casi pi� gravi, compatibilmente con le risorse."
+        "note": "Ore settimanali di assistenza assegnate in base al bisogno. Alcuni Comuni lo offrono gratuitamente ai cittadini con ISEE sotto una soglia, altri prevedono una compartecipazione oraria (es. €3/ora simbolici). L’intensità varia: da 2-3 ore settimanali per supporto leggero fino a 1-2 ore giornaliere per i casi più gravi, compatibilmente con le risorse."
       },
       "requisiti": {
         "target": [
           "Anziani con limitata autonomia senza supporto sufficiente dei familiari",
-          "Persone con disabilit� (anche minori in alcuni casi) che necessitano di assistenza non sanitaria al domicilio"
+          "Persone con disabilità (anche minori in alcuni casi) che necessitano di assistenza non sanitaria al domicilio"
         ],
         "isee": {
           "richiesto": true,
@@ -355,7 +355,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione da parte dell�assistente sociale comunale (anche su segnalazione UVMD) che stabilisce necessit� e numero di ore di SAD",
+          "Valutazione da parte dell’assistente sociale comunale (anche su segnalazione UVMD) che stabilisce necessità e numero di ore di SAD",
           "Residenza nel Comune e iscrizione al servizio sociale comunale"
         ]
       },
@@ -398,11 +398,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ciascun Comune/PLUS regola l�accesso al SAD in base al proprio piano di zona: ad esempio soglie ISEE diverse per la gratuit�, priorit� di accesso (ultra75enni soli, ecc.) e orari del servizio. Tuttavia, la tipologia di prestazioni offerte � simile su tutto il territorio regionale."
+        "note": "Ciascun Comune/PLUS regola l’accesso al SAD in base al proprio piano di zona: ad esempio soglie ISEE diverse per la gratuità, priorità di accesso (ultra75enni soli, ecc.) e orari del servizio. Tuttavia, la tipologia di prestazioni offerte è simile su tutto il territorio regionale."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Per attivare l�assistenza domiciliare sociale, contatta l�Ufficio Servizi Sociali del tuo Comune. Un assistente sociale valuter� insieme a te quali attivit� di supporto ti servono e, se il servizio � disponibile, programmer� gli interventi a domicilio (ad esempio l�OSS per l�igiene personale alcune volte a settimana)."
+        "messaggio_consulenza": "Per attivare l’assistenza domiciliare sociale, contatta l’Ufficio Servizi Sociali del tuo Comune. Un assistente sociale valuterà insieme a te quali attività di supporto ti servono e, se il servizio è disponibile, programmerà gli interventi a domicilio (ad esempio l’OSS per l’igiene personale alcune volte a settimana)."
       }
     },
     {
@@ -417,18 +417,18 @@
         "FN-LEA",
         "FN-REG"
       ],
-      "descrizione_breve": "L�accoglienza in strutture residenziali assistenziali in Sardegna (Residenze per Anziani o per Disabili) avviene in convenzione con il SSR: la quota sanitaria � a carico della Regione, mentre la quota sociale � a carico dell�utente o del Comune. L�accesso richiede una valutazione multidimensionale da parte dell�ASL. Le strutture offrono assistenza H24, prestazioni sanitarie di base e riabilitative e attivit� occupazionali.",
+      "descrizione_breve": "L’accoglienza in strutture residenziali assistenziali in Sardegna (Residenze per Anziani o per Disabili) avviene in convenzione con il SSR: la quota sanitaria è a carico della Regione, mentre la quota sociale è a carico dell’utente o del Comune. L’accesso richiede una valutazione multidimensionale da parte dell’ASL. Le strutture offrono assistenza H24, prestazioni sanitarie di base e riabilitative e attività occupazionali.",
       "benefit": {
         "periodicita": "residenziale continuativo",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Retta media ~�100 al giorno: il SSR copre ~50% (quota sanitaria). L�utente paga la parte alberghiera (stimata ~�50/die). Se l�utente non pu� pagare (ISEE basso), il Comune interviene integrando in parte o totalmente la quota sociale."
+        "note": "Retta media ~€100 al giorno: il SSR copre ~50% (quota sanitaria). L’utente paga la parte alberghiera (stimata ~€50/die). Se l’utente non può pagare (ISEE basso), il Comune interviene integrando in parte o totalmente la quota sociale."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti che non possono essere adeguatamente assistiti a domicilio nonostante gli interventi domiciliari",
-          "Persone con disabilit� gravissima senza adeguato supporto familiare, per cui � necessario il ricovero in struttura"
+          "Persone con disabilità gravissima senza adeguato supporto familiare, per cui è necessario il ricovero in struttura"
         ],
         "isee": {
           "richiesto": true,
@@ -436,8 +436,8 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione dell�UVT dell�ASL (Unit� di Valutazione Territoriale) che propone l�inserimento in struttura",
-          "Presenza di posto disponibile in struttura accreditata idonea (residenza per anziani o comunit� integrata per disabili)"
+          "Valutazione dell’UVT dell’ASL (Unità di Valutazione Territoriale) che propone l’inserimento in struttura",
+          "Presenza di posto disponibile in struttura accreditata idonea (residenza per anziani o comunità integrata per disabili)"
         ]
       },
       "accesso": {
@@ -454,7 +454,7 @@
           "Verbale UVT con indicazione di struttura idonea",
           "Attestazione ISEE sociosanitario - residenze",
           "Certificato di residenza e stato di famiglia",
-          "Documento d�identit�"
+          "Documento d’identità"
         ]
       },
       "governance": {
@@ -481,11 +481,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Le procedure di accesso e le convenzioni sono uniformi, ma l�integrazione retta da parte dei Comuni dipende dai regolamenti comunali (ciascun Comune stabilisce se e quanto contribuire in base all�ISEE dell�assistito e dei familiari). Liste d�attesa e tempi di inserimento possono variare tra territori."
+        "note": "Le procedure di accesso e le convenzioni sono uniformi, ma l’integrazione retta da parte dei Comuni dipende dai regolamenti comunali (ciascun Comune stabilisce se e quanto contribuire in base all’ISEE dell’assistito e dei familiari). Liste d’attesa e tempi di inserimento possono variare tra territori."
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Chiedi al tuo medico di base o all�assistente sociale di attivare la valutazione UVT per ingresso in struttura assistenziale. Saranno valutate le tue condizioni e, se appropriate, sarai inserito in graduatoria per un posto convenzionato. Per l�eventuale contributo economico sulla retta, informati presso il tuo Comune."
+        "messaggio_consulenza": "Chiedi al tuo medico di base o all’assistente sociale di attivare la valutazione UVT per ingresso in struttura assistenziale. Saranno valutate le tue condizioni e, se appropriate, sarai inserito in graduatoria per un posto convenzionato. Per l’eventuale contributo economico sulla retta, informati presso il tuo Comune."
       }
     }
   ]

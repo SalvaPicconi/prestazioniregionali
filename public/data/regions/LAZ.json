@@ -14,24 +14,24 @@
   "prestazioni": [
     {
       "prestazione_id": "LAZ-ACgravissimi-v2025",
-      "nome_ufficiale": "Assegno di cura per disabilit� gravissima",
+      "nome_ufficiale": "Assegno di cura per disabilità gravissima",
       "alias": [],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "SC-DIS-GRAV",
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Buono economico mensile destinato alle persone in condizione di disabilit� gravissima per compensare le spese di assistenza a domicilio svolta da personale qualificato assunto privatamente dall�assistito o dalla famiglia:contentReference[oaicite:27]{index=27}.",
+      "descrizione_breve": "Buono economico mensile destinato alle persone in condizione di disabilità gravissima per compensare le spese di assistenza a domicilio svolta da personale qualificato assunto privatamente dall’assistito o dalla famiglia:contentReference[oaicite:27]{index=27}.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 500,
         "importo_max": 800,
         "equivalente_mensile": null,
-        "note": "Importo graduato in base all�ISEE sociosanitario e alla presenza di altri servizi attivi; varia indicativamente da �500 a �800 al mese se l�assistenza � garantita da personale con contratto regolare:contentReference[oaicite:28]{index=28}."
+        "note": "Importo graduato in base all’ISEE sociosanitario e alla presenza di altri servizi attivi; varia indicativamente da €500 a €800 al mese se l’assistenza è garantita da personale con contratto regolare:contentReference[oaicite:28]{index=28}."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� gravissima assistite a domicilio da personale qualificato (badante, OSS)"
+          "Persone con disabilità gravissima assistite a domicilio da personale qualificato (badante, OSS)"
         ],
         "isee": {
           "richiesto": true,
@@ -39,7 +39,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Disabilit� gravissima certificata da UVMD (criteri DM 26/09/2016)"
+          "Disabilità gravissima certificata da UVMD (criteri DM 26/09/2016)"
         ]
       },
       "accesso": {
@@ -51,7 +51,7 @@
           "presentazione domanda al Distretto"
         ],
         "documenti_chiave": [
-          "Certificazione disabilit� gravissima",
+          "Certificazione disabilità gravissima",
           "ISEE sociosanitario",
           "Contratto assistente domiciliare"
         ]
@@ -83,12 +83,12 @@
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Per l�assegno di cura contatta l�Ufficio di Piano del tuo Distretto sociosanitario o il tuo Comune: la domanda � aperta tutto l�anno in modalit� sportello."
+        "messaggio_consulenza": "Per l’assegno di cura contatta l’Ufficio di Piano del tuo Distretto sociosanitario o il tuo Comune: la domanda è aperta tutto l’anno in modalità sportello."
       }
     },
     {
       "prestazione_id": "LAZ-CCgravissimi-v2025",
-      "nome_ufficiale": "Contributo di cura al caregiver familiare (disabilit� gravissima)",
+      "nome_ufficiale": "Contributo di cura al caregiver familiare (disabilità gravissima)",
       "alias": [
         "Buono caregiver familiare gravissimi"
       ],
@@ -97,17 +97,17 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Buono mensile riconosciuto alle persone con disabilit� gravissima assistite dal proprio caregiver familiare, in forma di contributo economico indiretto per il sostegno della cura in ambito domestico:contentReference[oaicite:31]{index=31}.",
+      "descrizione_breve": "Buono mensile riconosciuto alle persone con disabilità gravissima assistite dal proprio caregiver familiare, in forma di contributo economico indiretto per il sostegno della cura in ambito domestico:contentReference[oaicite:31]{index=31}.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 400,
         "importo_max": 700,
         "equivalente_mensile": null,
-        "note": "Importo graduato in base all�ISEE sociosanitario e alla fruizione di altri servizi; varia indicativamente da �400 a �700 al mese se l�assistenza � garantita interamente dal caregiver familiare:contentReference[oaicite:32]{index=32}."
+        "note": "Importo graduato in base all’ISEE sociosanitario e alla fruizione di altri servizi; varia indicativamente da €400 a €700 al mese se l’assistenza è garantita interamente dal caregiver familiare:contentReference[oaicite:32]{index=32}."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� gravissima assistite in via principale da un caregiver familiare convivente"
+          "Persone con disabilità gravissima assistite in via principale da un caregiver familiare convivente"
         ],
         "isee": {
           "richiesto": true,
@@ -115,7 +115,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Disabilit� gravissima certificata (DM 2016)"
+          "Disabilità gravissima certificata (DM 2016)"
         ]
       },
       "accesso": {
@@ -127,7 +127,7 @@
           "presentazione domanda continua"
         ],
         "documenti_chiave": [
-          "Certificazione disabilit� gravissima",
+          "Certificazione disabilità gravissima",
           "ISEE sociosanitario",
           "Dichiarazione caregiver convivente"
         ]
@@ -155,11 +155,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Misura complementare all�assegno di cura; non cumulabile con esso per lo stesso assistito (il Distretto valuta la forma pi� idonea):contentReference[oaicite:33]{index=33}:contentReference[oaicite:34]{index=34}"
+        "note": "Misura complementare all’assegno di cura; non cumulabile con esso per lo stesso assistito (il Distretto valuta la forma più idonea):contentReference[oaicite:33]{index=33}:contentReference[oaicite:34]{index=34}"
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Rivolgiti al tuo Municipio/Comune di residenza per richiedere il contributo caregiver: a Roma, ad esempio, la domanda � sempre aperta presso gli sportelli dedicati."
+        "messaggio_consulenza": "Rivolgiti al tuo Municipio/Comune di residenza per richiedere il contributo caregiver: a Roma, ad esempio, la domanda è sempre aperta presso gli sportelli dedicati."
       }
     },
     {
@@ -179,7 +179,7 @@
         "importo_min": null,
         "importo_max": 700,
         "equivalente_mensile": 700,
-        "note": "Buono servizio del valore massimo di �700 al mese, erogato per un periodo continuativo fino a 12 mesi:contentReference[oaicite:37]{index=37}. I buoni coprono spese per assistenza domiciliare, centro diurno o assistenza da personale qualificato:contentReference[oaicite:38]{index=38}."
+        "note": "Buono servizio del valore massimo di €700 al mese, erogato per un periodo continuativo fino a 12 mesi:contentReference[oaicite:37]{index=37}. I buoni coprono spese per assistenza domiciliare, centro diurno o assistenza da personale qualificato:contentReference[oaicite:38]{index=38}."
       },
       "requisiti": {
         "target": [
@@ -191,7 +191,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione di non autosufficienza (indennit� di accompagnamento o L.104/92 art.3 c.3)"
+          "Certificazione di non autosufficienza (indennità di accompagnamento o L.104/92 art.3 c.3)"
         ]
       },
       "accesso": {
@@ -204,7 +204,7 @@
         ],
         "documenti_chiave": [
           "ISEE",
-          "Certificazione invalidit� 100% con indennit� di accompagnamento"
+          "Certificazione invalidità 100% con indennità di accompagnamento"
         ]
       },
       "governance": {
@@ -230,7 +230,7 @@
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Visita il portale regionale (efamilysg) nelle date di apertura del bando per richiedere i voucher assistenza; se necessiti di aiuto, contatta i patronati o l�AISLA Lazio:contentReference[oaicite:40]{index=40}."
+        "messaggio_consulenza": "Visita il portale regionale (efamilysg) nelle date di apertura del bando per richiedere i voucher assistenza; se necessiti di aiuto, contatta i patronati o l’AISLA Lazio:contentReference[oaicite:40]{index=40}."
       }
     },
     {
@@ -244,7 +244,7 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Interventi domiciliari o residenziali temporanei volti a sostituire il caregiver familiare nell�assistenza quotidiana, permettendogli periodi di riposo. Il servizio pu� essere erogato mediante operatori professionali al domicilio o ricoveri temporanei in strutture socio-sanitarie:contentReference[oaicite:41]{index=41}.",
+      "descrizione_breve": "Interventi domiciliari o residenziali temporanei volti a sostituire il caregiver familiare nell’assistenza quotidiana, permettendogli periodi di riposo. Il servizio può essere erogato mediante operatori professionali al domicilio o ricoveri temporanei in strutture socio-sanitarie:contentReference[oaicite:41]{index=41}.",
       "benefit": {
         "periodicita": "a progetto",
         "importo_min": null,
@@ -254,7 +254,7 @@
       },
       "requisiti": {
         "target": [
-          "Caregiver familiare riconosciuto (con Card Caregiver) che assiste persona non autosufficiente, in situazione di necessit� di sollievo"
+          "Caregiver familiare riconosciuto (con Card Caregiver) che assiste persona non autosufficiente, in situazione di necessità di sollievo"
         ],
         "isee": {
           "richiesto": false,
@@ -300,7 +300,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Servizi attivati dal Distretto su richiesta del caregiver, nei limiti delle risorse disponibili; priorit� ai caregiver mai beneficiari di sostegni e con ISEE pi� basso:contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}."
+        "note": "Servizi attivati dal Distretto su richiesta del caregiver, nei limiti delle risorse disponibili; priorità ai caregiver mai beneficiari di sostegni e con ISEE più basso:contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}."
       },
       "ux": {
         "priorita_contatto": 0.8,
@@ -316,7 +316,7 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico �personal budget� erogato direttamente al caregiver familiare formalmente riconosciuto, per sostenere spese legate al suo benessere personale, al sollievo e alla formazione/aggiornamento:contentReference[oaicite:45]{index=45}.",
+      "descrizione_breve": "Contributo economico “personal budget” erogato direttamente al caregiver familiare formalmente riconosciuto, per sostenere spese legate al suo benessere personale, al sollievo e alla formazione/aggiornamento:contentReference[oaicite:45]{index=45}.",
       "benefit": {
         "periodicita": "una_tantum",
         "importo_min": null,
@@ -372,11 +372,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Fondo limitato (1 milione � per il 2024); entit� del contributo e numero di beneficiari definiti dai Distretti in base alle domande e alle risorse:contentReference[oaicite:47]{index=47}:contentReference[oaicite:48]{index=48}."
+        "note": "Fondo limitato (1 milione € per il 2024); entità del contributo e numero di beneficiari definiti dai Distretti in base alle domande e alle risorse:contentReference[oaicite:47]{index=47}:contentReference[oaicite:48]{index=48}."
       },
       "ux": {
         "priorita_contatto": 0.5,
-        "messaggio_consulenza": "Informa l�assistente sociale del tuo Distretto se, come caregiver riconosciuto, intendi usufruire del budget personale per la tua formazione o benessere: verrai guidato nelle opportunit� disponibili."
+        "messaggio_consulenza": "Informa l’assistente sociale del tuo Distretto se, come caregiver riconosciuto, intendi usufruire del budget personale per la tua formazione o benessere: verrai guidato nelle opportunità disponibili."
       }
     },
     {
@@ -388,7 +388,7 @@
       "famiglie_normative_ids": [
         "FN-L112"
       ],
-      "descrizione_breve": "Programmi e progetti finanziati dal Fondo �Dopo di Noi� per garantire assistenza, soluzioni abitative e percorsi di autonomia alle persone con disabilit� grave prive del sostegno familiare, in attuazione della legge 112/2016:contentReference[oaicite:49]{index=49}.",
+      "descrizione_breve": "Programmi e progetti finanziati dal Fondo “Dopo di Noi” per garantire assistenza, soluzioni abitative e percorsi di autonomia alle persone con disabilità grave prive del sostegno familiare, in attuazione della legge 112/2016:contentReference[oaicite:49]{index=49}.",
       "benefit": {
         "periodicita": "una_tantum",
         "importo_min": null,
@@ -398,7 +398,7 @@
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave (18-64 anni) senza sostegno familiare presente o in vista del venir meno dei genitori/tutori"
+          "Persone con disabilità grave (18-64 anni) senza sostegno familiare presente o in vista del venir meno dei genitori/tutori"
         ],
         "isee": {
           "richiesto": false,
@@ -446,11 +446,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "I progetti sono presentati dagli Ambiti territoriali e co-progettati con ASL e Terzo Settore; la Regione approva il finanziamento e monitora l�attuazione:contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}."
+        "note": "I progetti sono presentati dagli Ambiti territoriali e co-progettati con ASL e Terzo Settore; la Regione approva il finanziamento e monitora l’attuazione:contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}."
       },
       "ux": {
         "priorita_contatto": 0.5,
-        "messaggio_consulenza": "Se sei un potenziale beneficiario del �Dopo di Noi�, contatta il tuo Comune/Ambito o associazioni di disabili: potrai essere inserito in progetti di autonomia abitativa finanziati dal Fondo."
+        "messaggio_consulenza": "Se sei un potenziale beneficiario del “Dopo di Noi”, contatta il tuo Comune/Ambito o associazioni di disabili: potrai essere inserito in progetti di autonomia abitativa finanziati dal Fondo."
       }
     },
     {
@@ -470,7 +470,7 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Prestazioni domiciliari programmate secondo un Piano Assistenziale Individuale (visite infermieristiche, fisioterapia, aiuto nell�igiene personale, consegna presidi, ecc.)."
+        "note": "Prestazioni domiciliari programmate secondo un Piano Assistenziale Individuale (visite infermieristiche, fisioterapia, aiuto nell’igiene personale, consegna presidi, ecc.)."
       },
       "requisiti": {
         "target": [
@@ -482,7 +482,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione geriatrica o specialistica ASL, UVI (Unit� Valutativa Integrata)"
+          "Valutazione geriatrica o specialistica ASL, UVI (Unità Valutativa Integrata)"
         ]
       },
       "accesso": {
@@ -521,11 +521,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Attiva in tutti i Distretti socio-sanitari; livelli di intensit� (ADI I, ADI II, ADI III) in base alla complessit� del caso."
+        "note": "Attiva in tutti i Distretti socio-sanitari; livelli di intensità (ADI I, ADI II, ADI III) in base alla complessità del caso."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Se tu o un tuo caro avete bisogno di assistenza sanitaria a domicilio, contatta il medico di base o il PUA della ASL: potrai accedere all�ADI con un piano personalizzato di cure."
+        "messaggio_consulenza": "Se tu o un tuo caro avete bisogno di assistenza sanitaria a domicilio, contatta il medico di base o il PUA della ASL: potrai accedere all’ADI con un piano personalizzato di cure."
       }
     },
     {
@@ -539,18 +539,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio sociale comunale che fornisce assistenza domiciliare a persone anziane o disabili con limitata autonomia, supportandole nelle attivit� giornaliere (cura della persona, pulizia della casa, pasti, accompagnamento) per prevenire l�istituzionalizzazione.",
+      "descrizione_breve": "Servizio sociale comunale che fornisce assistenza domiciliare a persone anziane o disabili con limitata autonomia, supportandole nelle attività giornaliere (cura della persona, pulizia della casa, pasti, accompagnamento) per prevenire l’istituzionalizzazione.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Interventi domiciliari a ore, secondo un piano settimanale stabilito dall�assistente sociale; eventuale compartecipazione economica dell�utente in base all�ISEE e al regolamento comunale."
+        "note": "Interventi domiciliari a ore, secondo un piano settimanale stabilito dall’assistente sociale; eventuale compartecipazione economica dell’utente in base all’ISEE e al regolamento comunale."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti o parzialmente autosufficienti",
-          "Persone con disabilit� bisognose di aiuto domestico"
+          "Persone con disabilità bisognose di aiuto domestico"
         ],
         "isee": {
           "richiesto": true,
@@ -598,11 +598,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ciascun Distretto/Ambito stabilisce criteri di accesso e quote di compartecipazione; a Roma il SAD � articolato in SAISA (anziani) e SAISH (disabili) gestiti dai Municipi."
+        "note": "Ciascun Distretto/Ambito stabilisce criteri di accesso e quote di compartecipazione; a Roma il SAD è articolato in SAISA (anziani) e SAISH (disabili) gestiti dai Municipi."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Per attivare l�assistenza domiciliare comunale, rivolgiti al tuo Comune (o Municipio): un assistente sociale valuter� i bisogni tuoi o del tuo familiare e definir� un piano di intervento a domicilio."
+        "messaggio_consulenza": "Per attivare l’assistenza domiciliare comunale, rivolgiti al tuo Comune (o Municipio): un assistente sociale valuterà i bisogni tuoi o del tuo familiare e definirà un piano di intervento a domicilio."
       }
     },
     {
@@ -616,18 +616,18 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Ospitalit� in strutture residenziali accreditate (RSA per anziani, strutture per disabili) che garantiscono assistenza medico-infermieristica, riabilitativa e alberghiera h24 a persone non autosufficienti, quando l�assistenza domiciliare non � pi� possibile o adeguata.",
+      "descrizione_breve": "Ospitalità in strutture residenziali accreditate (RSA per anziani, strutture per disabili) che garantiscono assistenza medico-infermieristica, riabilitativa e alberghiera h24 a persone non autosufficienti, quando l’assistenza domiciliare non è più possibile o adeguata.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Posto in RSA con quota sanitaria coperta dal SSR (secondo il minutaggio di assistenza) e quota sociale a carico dell�utente (o del Comune se l�utente non pu� pagare). Possibili ricoveri temporanei di sollievo con oneri a carico SSR per un periodo limitato."
+        "note": "Posto in RSA con quota sanitaria coperta dal SSR (secondo il minutaggio di assistenza) e quota sociale a carico dell’utente (o del Comune se l’utente non può pagare). Possibili ricoveri temporanei di sollievo con oneri a carico SSR per un periodo limitato."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti",
-          "Persone con disabilit� grave senza adeguante supporto a domicilio"
+          "Persone con disabilità grave senza adeguante supporto a domicilio"
         ],
         "isee": {
           "richiesto": true,
@@ -635,7 +635,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "UVMD (Unit� Valutativa Multidimensionale Distrettuale) per ammissione in struttura"
+          "UVMD (Unità Valutativa Multidimensionale Distrettuale) per ammissione in struttura"
         ]
       },
       "accesso": {
@@ -643,13 +643,13 @@
           "ASL (commissione valutazione e autorizzazione)",
           "Ente gestore struttura"
         ],
-        "modalita": "lista_d�attesa",
+        "modalita": "lista_d’attesa",
         "canali": [
           "PUA/ASL di residenza",
           "Servizi Sociali comunali"
         ],
         "documenti_chiave": [
-          "Scheda UVMD con punteggio di gravit�",
+          "Scheda UVMD con punteggio di gravità",
           "Domanda di ingresso in RSA",
           "ISEE sociosanitario"
         ]
@@ -677,11 +677,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "La Regione definisce requisiti e tariffe standard; le ASL gestiscono le graduatorie e l�assegnazione dei posti RSA sul territorio."
+        "note": "La Regione definisce requisiti e tariffe standard; le ASL gestiscono le graduatorie e l’assegnazione dei posti RSA sul territorio."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Se necessiti di ricovero in RSA, fatti valutare dall�UVMD tramite la ASL: ti verr� attribuito un punteggio in base al quale potrai accedere a una struttura convenzionata. Informati anche presso il tuo Comune sui contributi per la retta."
+        "messaggio_consulenza": "Se necessiti di ricovero in RSA, fatti valutare dall’UVMD tramite la ASL: ti verrà attribuito un punteggio in base al quale potrai accedere a una struttura convenzionata. Informati anche presso il tuo Comune sui contributi per la retta."
       }
     }
   ]

@@ -24,18 +24,18 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo mensile per favorire la permanenza a domicilio di anziani non autosufficienti con alto bisogno assistenziale e di persone con disabilit� gravissima (assistite da caregiver familiare).",
+      "descrizione_breve": "Contributo mensile per favorire la permanenza a domicilio di anziani non autosufficienti con alto bisogno assistenziale e di persone con disabilità gravissima (assistite da caregiver familiare).",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 500,
         "importo_max": 500,
         "equivalente_mensile": 500,
-        "note": "Importo fisso di �500 al mese per 12 mesi, destinato al rimborso di spese di assistenza domiciliare."
+        "note": "Importo fisso di €500 al mese per 12 mesi, destinato al rimborso di spese di assistenza domiciliare."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti (alto bisogno)",
-          "Persone con disabilit� gravissima <65 anni"
+          "Persone con disabilità gravissima <65 anni"
         ],
         "isee": {
           "richiesto": true,
@@ -45,7 +45,7 @@
         "valutazione": [
           "UVM socio-sanitaria (UVMD) con punteggio elevato",
           "Certificazione L.104/92 art.3 c.3",
-          "Criteri D.M. 26/09/2016 (disabilit� gravissima)"
+          "Criteri D.M. 26/09/2016 (disabilità gravissima)"
         ]
       },
       "accesso": {
@@ -59,8 +59,8 @@
         ],
         "documenti_chiave": [
           "Attestazione ISEE",
-          "Verbale commissione disabilit� (art.3 c.3)",
-          "Documento di identit�"
+          "Verbale commissione disabilità (art.3 c.3)",
+          "Documento di identità"
         ]
       },
       "governance": {
@@ -90,7 +90,7 @@
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Per richiedere l�assegno di cura rivolgiti al tuo Ambito Territoriale Sociale di residenza durante il periodo di apertura del bando."
+        "messaggio_consulenza": "Per richiedere l’assegno di cura rivolgiti al tuo Ambito Territoriale Sociale di residenza durante il periodo di apertura del bando."
       }
     },
     {
@@ -105,17 +105,17 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Buoni economici da utilizzare per acquistare servizi di assistenza domiciliare da enti accreditati, a supporto di persone con disabilit� grave non autosufficienti.",
+      "descrizione_breve": "Buoni economici da utilizzare per acquistare servizi di assistenza domiciliare da enti accreditati, a supporto di persone con disabilità grave non autosufficienti.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 500,
         "importo_max": 500,
         "equivalente_mensile": 500,
-        "note": "Valore equivalente a �500/mese in servizi domiciliari (es. ore di assistenza qualificata) erogati da provider accreditati."
+        "note": "Valore equivalente a €500/mese in servizi domiciliari (es. ore di assistenza qualificata) erogati da provider accreditati."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilit� grave (non gravissima) residenti a domicilio"
+          "Persone con disabilità grave (non gravissima) residenti a domicilio"
         ],
         "isee": {
           "richiesto": true,
@@ -161,11 +161,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Misura definita a livello regionale; ciascun Ambito Territoriale cura l�erogazione dei voucher secondo le linee guida uniformi."
+        "note": "Misura definita a livello regionale; ciascun Ambito Territoriale cura l’erogazione dei voucher secondo le linee guida uniformi."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Puoi presentare domanda di voucher presso il tuo Ambito Territoriale Sociale; verifica sul sito del tuo Ambito i termini e le modalit�."
+        "messaggio_consulenza": "Puoi presentare domanda di voucher presso il tuo Ambito Territoriale Sociale; verifica sul sito del tuo Ambito i termini e le modalità."
       }
     },
     {
@@ -185,7 +185,7 @@
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Prestazioni erogate dall�ASReM senza costi diretti per l�utente (salvo eventuali ticket), secondo un piano di cure domiciliari personalizzato."
+        "note": "Prestazioni erogate dall’ASReM senza costi diretti per l’utente (salvo eventuali ticket), secondo un piano di cure domiciliari personalizzato."
       },
       "requisiti": {
         "target": [
@@ -213,7 +213,7 @@
         "documenti_chiave": [
           "Impegnativa del medico curante",
           "Scheda di valutazione UVM",
-          "Documento d�identit�"
+          "Documento d’identità"
         ]
       },
       "governance": {
@@ -222,7 +222,7 @@
         ],
         "normativa": [
           {
-            "atto": "DPCM 12/01/2017 (LEA � ADI)",
+            "atto": "DPCM 12/01/2017 (LEA – ADI)",
             "url": ""
           }
         ]
@@ -234,11 +234,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Servizio garantito uniformemente dall�Azienda Sanitaria Regionale del Molise secondo i livelli essenziali di assistenza."
+        "note": "Servizio garantito uniformemente dall’Azienda Sanitaria Regionale del Molise secondo i livelli essenziali di assistenza."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Per attivare l�ADI, rivolgiti al tuo medico di base o al Punto Unico di Accesso (PUA) della tua ASL per richiedere la valutazione e l�attivazione del servizio."
+        "messaggio_consulenza": "Per attivare l’ADI, rivolgiti al tuo medico di base o al Punto Unico di Accesso (PUA) della tua ASL per richiedere la valutazione e l’attivazione del servizio."
       }
     },
     {
@@ -252,18 +252,18 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio gestito dai Comuni/Ambiti che fornisce assistenza a domicilio per attivit� quotidiane (igiene personale, governo della casa, pasti) ad anziani e disabili con limitata autonomia, integrando l�eventuale apporto familiare.",
+      "descrizione_breve": "Servizio gestito dai Comuni/Ambiti che fornisce assistenza a domicilio per attività quotidiane (igiene personale, governo della casa, pasti) ad anziani e disabili con limitata autonomia, integrando l’eventuale apporto familiare.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "Il servizio offre un monte ore di assistenza domiciliare personalizzato; l�eventuale contributo economico richiesto all�utente dipende dal reddito (tariffa oraria agevolata in base all�ISEE)."
+        "note": "Il servizio offre un monte ore di assistenza domiciliare personalizzato; l’eventuale contributo economico richiesto all’utente dipende dal reddito (tariffa oraria agevolata in base all’ISEE)."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti",
-          "Persone con disabilit� parziale o totale che necessitano aiuto a domicilio"
+          "Persone con disabilità parziale o totale che necessitano aiuto a domicilio"
         ],
         "isee": {
           "richiesto": true,
@@ -286,8 +286,8 @@
         ],
         "documenti_chiave": [
           "Attestazione ISEE",
-          "Certificato di invalidit� o relazione sociale",
-          "Documento d�identit�"
+          "Certificato di invalidità o relazione sociale",
+          "Documento d’identità"
         ]
       },
       "governance": {
@@ -309,11 +309,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Il servizio SAD � organizzato dagli Ambiti territoriali: criteri di accesso e contributo utente possono variare (in base a regolamenti locali), pur nei principi regionali."
+        "note": "Il servizio SAD è organizzato dagli Ambiti territoriali: criteri di accesso e contributo utente possono variare (in base a regolamenti locali), pur nei principi regionali."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Contatta i Servizi Sociali del tuo Comune/Ambito per richiedere l�attivazione dell�assistenza domiciliare; un assistente sociale valuter� i bisogni e concorder� gli interventi."
+        "messaggio_consulenza": "Contatta i Servizi Sociali del tuo Comune/Ambito per richiedere l’attivazione dell’assistenza domiciliare; un assistente sociale valuterà i bisogni e concorderà gli interventi."
       }
     },
     {
@@ -328,18 +328,18 @@
         "FN-LEA",
         "FN-REG"
       ],
-      "descrizione_breve": "Struttura residenziale socio-sanitaria che accoglie anziani non autosufficienti (o persone con disabilit�) garantendo assistenza continuativa, cure mediche di base, nursing infermieristico e attivit� riabilitative in regime di lungodegenza.",
+      "descrizione_breve": "Struttura residenziale socio-sanitaria che accoglie anziani non autosufficienti (o persone con disabilità) garantendo assistenza continuativa, cure mediche di base, nursing infermieristico e attività riabilitative in regime di lungodegenza.",
       "benefit": {
         "periodicita": "residenziale continuativo",
         "importo_min": 0,
         "importo_max": 0,
         "equivalente_mensile": 0,
-        "note": "La retta � composta da una quota sanitaria (a carico del SSR) e una quota sociale-alberghiera a carico dell�utente (eventualmente integrata dal Comune in base all�ISEE familiare)."
+        "note": "La retta è composta da una quota sanitaria (a carico del SSR) e una quota sociale-alberghiera a carico dell’utente (eventualmente integrata dal Comune in base all’ISEE familiare)."
       },
       "requisiti": {
         "target": [
           "Anziani non autosufficienti senza adeguato supporto domiciliare",
-          "Persone con grave disabilit� che richiedono assistenza residenziale"
+          "Persone con grave disabilità che richiedono assistenza residenziale"
         ],
         "isee": {
           "richiesto": true,
@@ -347,7 +347,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Valutazione geriatrica UVG (o UVM) che attesti la necessit� di ricovero in RSA",
+          "Valutazione geriatrica UVG (o UVM) che attesti la necessità di ricovero in RSA",
           "Prescrizione/Nulla osta ASL per inserimento in struttura accreditata"
         ]
       },
@@ -363,7 +363,7 @@
         "documenti_chiave": [
           "Scheda di valutazione UVG/UVMD",
           "Attestazione ISEE per retta",
-          "Documento d�identit�"
+          "Documento d’identità"
         ]
       },
       "governance": {
@@ -390,16 +390,16 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Posti e tariffe RSA regolati da DGR regionali; modalit� di compartecipazione alla retta possono differire in base ai regolamenti comunali (sostegno economico ai meno abbienti)."
+        "note": "Posti e tariffe RSA regolati da DGR regionali; modalità di compartecipazione alla retta possono differire in base ai regolamenti comunali (sostegno economico ai meno abbienti)."
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Per informazioni sull�inserimento in RSA, contatta l�Assistente Sociale del tuo Comune o l�ASL di competenza; sar� necessaria una valutazione geriatrica per l�ammissione."
+        "messaggio_consulenza": "Per informazioni sull’inserimento in RSA, contatta l’Assistente Sociale del tuo Comune o l’ASL di competenza; sarà necessaria una valutazione geriatrica per l’ammissione."
       }
     },
     {
       "prestazione_id": "MOL-dopo-noi-v2025",
-      "nome_ufficiale": "Programma regionale �Dopo di Noi�",
+      "nome_ufficiale": "Programma regionale “Dopo di Noi”",
       "alias": [
         "interventi L.112/2016 Molise"
       ],
@@ -408,7 +408,7 @@
       "famiglie_normative_ids": [
         "FN-L112"
       ],
-      "descrizione_breve": "Iniziative a sostegno di persone con disabilit� grave prive del sostegno familiare, mirate a creare soluzioni abitative protette e percorsi di autonomia dopo la perdita dei caregiver principali.",
+      "descrizione_breve": "Iniziative a sostegno di persone con disabilità grave prive del sostegno familiare, mirate a creare soluzioni abitative protette e percorsi di autonomia dopo la perdita dei caregiver principali.",
       "benefit": {
         "periodicita": "progetto",
         "importo_min": 0,
@@ -418,7 +418,7 @@
       },
       "requisiti": {
         "target": [
-          "Disabili gravi (L.104/92 art.3 c.3) tra i 18 e i 64 anni senza genitori o con genitori non pi� in grado di occuparsi di loro"
+          "Disabili gravi (L.104/92 art.3 c.3) tra i 18 e i 64 anni senza genitori o con genitori non più in grado di occuparsi di loro"
         ],
         "isee": {
           "richiesto": true,
@@ -426,7 +426,7 @@
           "varia_per_ambito": true
         },
         "valutazione": [
-          "Progetto personalizzato validato dall�Ambito Sociale",
+          "Progetto personalizzato validato dall’Ambito Sociale",
           "Verifica requisiti secondo Linee Guida nazionali D.M. 23/11/2016"
         ]
       },
@@ -463,11 +463,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Gli Ambiti Sociali attuano gli interventi con modalit� specifiche (ad esempio bandi o avvisi territoriali), in coerenza con le linee regionali."
+        "note": "Gli Ambiti Sociali attuano gli interventi con modalità specifiche (ad esempio bandi o avvisi territoriali), in coerenza con le linee regionali."
       },
       "ux": {
         "priorita_contatto": 0.5,
-        "messaggio_consulenza": "Per conoscere le opportunit� �Dopo di Noi� nella tua zona, contatta il tuo Ambito Territoriale Sociale: potrai presentare un progetto personalizzato per la vita autonoma con il supporto dei servizi sociali."
+        "messaggio_consulenza": "Per conoscere le opportunità “Dopo di Noi” nella tua zona, contatta il tuo Ambito Territoriale Sociale: potrai presentare un progetto personalizzato per la vita autonoma con il supporto dei servizi sociali."
       }
     }
   ]

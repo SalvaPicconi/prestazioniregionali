@@ -14,24 +14,24 @@
   "prestazioni": [
     {
       "prestazione_id": "CAL-assegno-gravissima-v2025",
-      "nome_ufficiale": "Assegno di cura per disabilit� gravissima",
+      "nome_ufficiale": "Assegno di cura per disabilità gravissima",
       "alias": [],
       "macro_categoria_id": "MC-CE",
       "sotto_categoria_id": "CE-disabilita-gravissima",
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo economico mensile per persone con disabilit� gravissima che necessitano di assistenza 24/7, erogato per favorire la permanenza al domicilio:contentReference[oaicite:34]{index=34}",
+      "descrizione_breve": "Contributo economico mensile per persone con disabilità gravissima che necessitano di assistenza 24/7, erogato per favorire la permanenza al domicilio:contentReference[oaicite:34]{index=34}",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 600,
         "importo_max": 1000,
         "equivalente_mensile": 600,
-        "note": "�1000/mese per persone in dipendenza vitale (es. ventilazione meccanica), �600/mese per altri casi di disabilit� gravissima:contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}"
+        "note": "€1000/mese per persone in dipendenza vitale (es. ventilazione meccanica), €600/mese per altri casi di disabilità gravissima:contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}"
       },
       "requisiti": {
         "target": [
-          "persone con disabilit� gravissima (DM 26/09/2016)"
+          "persone con disabilità gravissima (DM 26/09/2016)"
         ],
         "isee": {
           "richiesto": true,
@@ -65,7 +65,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Calabria n.590/2022 � Piano regionale non autosufficienza 2022-24",
+            "atto": "DGR Calabria n.590/2022 – Piano regionale non autosufficienza 2022-24",
             "url": ""
           }
         ]
@@ -77,11 +77,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Le ASP provinciali pubblicano bandi e graduatorie; l�importo pu� variare in base ai fondi disponibili per ciascuna ASP"
+        "note": "Le ASP provinciali pubblicano bandi e graduatorie; l’importo può variare in base ai fondi disponibili per ciascuna ASP"
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Contatta l�ASP di residenza (Ufficio Piano Non Autosufficienza) per presentare domanda di assegno di cura"
+        "messaggio_consulenza": "Contatta l’ASP di residenza (Ufficio Piano Non Autosufficienza) per presentare domanda di assegno di cura"
       }
     },
     {
@@ -101,11 +101,11 @@
         "importo_min": 500,
         "importo_max": 1000,
         "equivalente_mensile": null,
-        "note": "Previsti contributi economici una tantum (in media �600) per riconoscere il lavoro di cura, e servizi gratuiti di sollievo (ore di assistenza domiciliare aggiuntive, ricoveri temporanei) come supporto al caregiver"
+        "note": "Previsti contributi economici una tantum (in media €600) per riconoscere il lavoro di cura, e servizi gratuiti di sollievo (ore di assistenza domiciliare aggiuntive, ricoveri temporanei) come supporto al caregiver"
       },
       "requisiti": {
         "target": [
-          "caregiver di persone con disabilit� gravissima"
+          "caregiver di persone con disabilità gravissima"
         ],
         "isee": {
           "richiesto": false,
@@ -113,8 +113,8 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "valutazione sociale dell�Ambito",
-          "certificazione disabilit� assistito"
+          "valutazione sociale dell’Ambito",
+          "certificazione disabilità assistito"
         ]
       },
       "accesso": {
@@ -128,8 +128,8 @@
           "PEC Comune capofila"
         ],
         "documenti_chiave": [
-          "dichiarazione attivit� di cura",
-          "documenti assistito (verbali invalidit�)"
+          "dichiarazione attività di cura",
+          "documenti assistito (verbali invalidità)"
         ]
       },
       "governance": {
@@ -138,7 +138,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Calabria n.425/2025 � Linee guida UVMD e PUA (include caregiver)",
+            "atto": "DGR Calabria n.425/2025 – Linee guida UVMD e PUA (include caregiver)",
             "url": ""
           }
         ]
@@ -172,7 +172,7 @@
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Servizio gratuito erogato dall�ASP: include visite infermieristiche, fisioterapia, aiuto ADL, secondo un piano definito dall�UVMD; intensit� variabile (ADI di base o ADI intensiva) in base ai bisogni"
+        "note": "Servizio gratuito erogato dall’ASP: include visite infermieristiche, fisioterapia, aiuto ADL, secondo un piano definito dall’UVMD; intensità variabile (ADI di base o ADI intensiva) in base ai bisogni"
       },
       "requisiti": {
         "target": [
@@ -184,7 +184,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "UVMD dell�ASP"
+          "UVMD dell’ASP"
         ]
       },
       "accesso": {
@@ -207,7 +207,7 @@
         ],
         "normativa": [
           {
-            "atto": "Piano sanitario regionale Calabria 2022-2024 � sviluppo ADI",
+            "atto": "Piano sanitario regionale Calabria 2022-2024 – sviluppo ADI",
             "url": ""
           }
         ]
@@ -219,11 +219,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "L�offerta ADI pu� differire tra ASP (es. percentuale di popolazione servita, servizi esternalizzati a cooperative accreditate)"
+        "note": "L’offerta ADI può differire tra ASP (es. percentuale di popolazione servita, servizi esternalizzati a cooperative accreditate)"
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Rivolgiti al tuo medico di famiglia per attivare la procedura di valutazione per l�ADI"
+        "messaggio_consulenza": "Rivolgiti al tuo medico di famiglia per attivare la procedura di valutazione per l’ADI"
       }
     },
     {
@@ -235,13 +235,13 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio di assistenza domiciliare gestito dai Comuni, rivolto ad anziani e disabili per aiuto nelle attivit� quotidiane (igiene personale, pulizia della casa, pasti)",
+      "descrizione_breve": "Servizio di assistenza domiciliare gestito dai Comuni, rivolto ad anziani e disabili per aiuto nelle attività quotidiane (igiene personale, pulizia della casa, pasti)",
       "benefit": {
         "periodicita": "continuativo",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Erogazione di prestazioni domiciliari tramite operatori socio-assistenziali. Possibile compartecipazione economica in base all�ISEE dell�assistito"
+        "note": "Erogazione di prestazioni domiciliari tramite operatori socio-assistenziali. Possibile compartecipazione economica in base all’ISEE dell’assistito"
       },
       "requisiti": {
         "target": [
@@ -277,7 +277,7 @@
         ],
         "normativa": [
           {
-            "atto": "L.R. Calabria 23/2003 n.11 � Sistema integrato interventi e servizi sociali",
+            "atto": "L.R. Calabria 23/2003 n.11 – Sistema integrato interventi e servizi sociali",
             "url": ""
           }
         ]
@@ -289,11 +289,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Disponibilit� e intensit� del SAD variano a seconda delle risorse di bilancio dei Comuni; zone interne possono avere minore copertura"
+        "note": "Disponibilità e intensità del SAD variano a seconda delle risorse di bilancio dei Comuni; zone interne possono avere minore copertura"
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Contatta i servizi sociali del tuo Comune per richiedere il SAD; potresti essere inserito in lista d�attesa data l�elevata domanda"
+        "messaggio_consulenza": "Contatta i servizi sociali del tuo Comune per richiedere il SAD; potresti essere inserito in lista d’attesa data l’elevata domanda"
       }
     },
     {
@@ -305,13 +305,13 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Ospitalit� in strutture residenziali accreditate per persone non autosufficienti (anziani in RSA; persone con disabilit� in RSSD) con assistenza continua e prestazioni sanitarie di base",
+      "descrizione_breve": "Ospitalità in strutture residenziali accreditate per persone non autosufficienti (anziani in RSA; persone con disabilità in RSSD) con assistenza continua e prestazioni sanitarie di base",
       "benefit": {
         "periodicita": "residenziale continuativo",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "La retta giornaliera viene coperta per una quota sanitaria (circa 50%) dal SSR e per la quota sociale dall�utente (in base all�ISEE) o dal Comune. L�inserimento richiede autorizzazione dell�ASL (UVI)"
+        "note": "La retta giornaliera viene coperta per una quota sanitaria (circa 50%) dal SSR e per la quota sociale dall’utente (in base all’ISEE) o dal Comune. L’inserimento richiede autorizzazione dell’ASL (UVI)"
       },
       "requisiti": {
         "target": [
@@ -352,7 +352,7 @@
         ],
         "normativa": [
           {
-            "atto": "DGR Calabria n. 464/2017 � Requisiti autorizzativi strutture socio-sanitarie",
+            "atto": "DGR Calabria n. 464/2017 – Requisiti autorizzativi strutture socio-sanitarie",
             "url": ""
           }
         ]
@@ -364,11 +364,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Capacit� ricettiva RSA insufficiente rispetto domanda: presenti liste d�attesa; la Commissione UVMD valuta priorit� d�ingresso in base a gravit� e condizioni familiari"
+        "note": "Capacità ricettiva RSA insufficiente rispetto domanda: presenti liste d’attesa; la Commissione UVMD valuta priorità d’ingresso in base a gravità e condizioni familiari"
       },
       "ux": {
         "priorita_contatto": 0.6,
-        "messaggio_consulenza": "Rivolgiti al PUA della tua ASP per conoscere le strutture disponibili e avviare l�iter per l�ingresso in RSA o struttura per disabili"
+        "messaggio_consulenza": "Rivolgiti al PUA della tua ASP per conoscere le strutture disponibili e avviare l’iter per l’ingresso in RSA o struttura per disabili"
       }
     }
   ]
