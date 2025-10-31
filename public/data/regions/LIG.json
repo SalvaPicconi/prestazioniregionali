@@ -21,13 +21,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Percorsi personalizzati che permettono a persone con disabilità di età 18-65 anni, con gravità certificata, di vivere in autonomia scegliendo e gestendo i propri supporti assistenziali. Il progetto è finanziato attraverso il Fondo per la Non Autosufficienza:contentReference[oaicite:52]{index=52}.",
+      "descrizione_breve": "Percorsi personalizzati che permettono a persone con disabilità di età 18-65 anni, con gravità certificata, di vivere in autonomia scegliendo e gestendo i propri supporti assistenziali. Il progetto è finanziato attraverso il Fondo per la Non Autosufficienza.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Contributo economico definito in sede di progetto individuale, finalizzato all’assunzione di assistenti personali o ad altre spese che favoriscano l’indipendenza. L’ISEE sociosanitario deve essere ≤25.000 €:contentReference[oaicite:53]{index=53}."
+        "note": "Contributo economico definito in sede di progetto individuale, finalizzato all’assunzione di assistenti personali o ad altre spese che favoriscano l’indipendenza. L’ISEE sociosanitario deve essere ≤25.000 €."
       },
       "requisiti": {
         "target": [
@@ -75,7 +75,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Progetti avviati in via sperimentale in alcune aree (es. Agenzie per la Vita Indipendente) con successiva estensione regionale:contentReference[oaicite:54]{index=54}:contentReference[oaicite:55]{index=55}"
+        "note": "Progetti avviati in via sperimentale in alcune aree (es. Agenzie per la Vita Indipendente) con successiva estensione regionale"
       },
       "ux": {
         "priorita_contatto": 0.6,
@@ -93,13 +93,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Misura economica mensile a sostegno della domiciliarità per persone con disabilità gravissima, che necessitano di assistenza sociosanitaria continuativa h24. Il contributo mira a finanziare l’assistenza fornita dal caregiver familiare e/o l’acquisto di servizi di cura a domicilio:contentReference[oaicite:56]{index=56}.",
+      "descrizione_breve": "Misura economica mensile a sostegno della domiciliarità per persone con disabilità gravissima, che necessitano di assistenza sociosanitaria continuativa h24. Il contributo mira a finanziare l’assistenza fornita dal caregiver familiare e/o l’acquisto di servizi di cura a domicilio.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 600,
         "importo_max": 1200,
         "equivalente_mensile": null,
-        "note": "Importo modulare fino a €1.200/mese in base al Piano Assistenziale Individuale: fino a €600 riconosciuti come compensazione del lavoro di cura del familiare (quota non rendicontabile), e ulteriore quota (fino ad altri €600) per spese documentate di assistenza aggiuntiva:contentReference[oaicite:57]{index=57}:contentReference[oaicite:58]{index=58}. Se il beneficiario frequenta un centro diurno 5 gg/sett., l’importo massimo è €600:contentReference[oaicite:59]{index=59}."
+        "note": "Importo modulare fino a €1.200/mese in base al Piano Assistenziale Individuale: fino a €600 riconosciuti come compensazione del lavoro di cura del familiare (quota non rendicontabile), e ulteriore quota (fino ad altri €600) per spese documentate di assistenza aggiuntiva. Se il beneficiario frequenta un centro diurno 5 gg/sett., l’importo massimo è €600."
       },
       "requisiti": {
         "target": [
@@ -111,7 +111,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Invalidità civile 100% + Indennità di accompagnamento:contentReference[oaicite:60]{index=60}",
+          "Invalidità civile 100% + Indennità di accompagnamento",
           "Certificazione gravissima (DGR 1289/2016) da UVMD"
         ]
       },
@@ -126,7 +126,7 @@
         "documenti_chiave": [
           "Certificato invalidità 100% con indennità accompagnamento",
           "Certificato medico specialistico su modello regionale (condizioni DM 2016)",
-          "ISEE sociosanitario ≤50.000 € (≤65.000 € se minore):contentReference[oaicite:61]{index=61}"
+          "ISEE sociosanitario ≤50.000 € (≤65.000 € se minore)"
         ]
       },
       "governance": {
@@ -152,11 +152,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Misura coordinata da ALISA (Azienda Ligure Sanitaria); compatibile con centro diurno (riduzione importo) e utilizzabile per compartecipare alla retta di centro diurno:contentReference[oaicite:62]{index=62}:contentReference[oaicite:63]{index=63}. Incompatibile con altri contributi regionali analoghi (es. contributo grave disabilità):contentReference[oaicite:64]{index=64}."
+        "note": "Misura coordinata da ALISA (Azienda Ligure Sanitaria); compatibile con centro diurno (riduzione importo) e utilizzabile per compartecipare alla retta di centro diurno. Incompatibile con altri contributi regionali analoghi (es. contributo grave disabilità)."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Presenta domanda al Distretto ASL entro i termini annuali se assisti a domicilio un familiare con disabilità gravissima: potrai ricevere fino a €1.200 mensili per supportare le cure:contentReference[oaicite:65]{index=65}."
+        "messaggio_consulenza": "Presenta domanda al Distretto ASL entro i termini annuali se assisti a domicilio un familiare con disabilità gravissima: potrai ricevere fino a €1.200 mensili per supportare le cure."
       }
     },
     {
@@ -170,13 +170,13 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Misura economica regionale (Fondo Non Autosufficienti Liguria) consistente in un assegno mensile fisso erogato per il mantenimento al domicilio di persone non autosufficienti (anziani o disabili) con bisogni assistenziali elevati ma non rientranti nella gravissima disabilità:contentReference[oaicite:66]{index=66}.",
+      "descrizione_breve": "Misura economica regionale (Fondo Non Autosufficienti Liguria) consistente in un assegno mensile fisso erogato per il mantenimento al domicilio di persone non autosufficienti (anziani o disabili) con bisogni assistenziali elevati ma non rientranti nella gravissima disabilità.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 350,
         "importo_max": 350,
         "equivalente_mensile": 350,
-        "note": "Importo standard di €350 al mese per persona non autosufficiente assistita a domicilio:contentReference[oaicite:67]{index=67}. L’assegno è finalizzato a sostenere le famiglie nell’accudimento della persona e prevenirne l’istituzionalizzazione."
+        "note": "Importo standard di €350 al mese per persona non autosufficiente assistita a domicilio. L’assegno è finalizzato a sostenere le famiglie nell’accudimento della persona e prevenirne l’istituzionalizzazione."
       },
       "requisiti": {
         "target": [
@@ -232,7 +232,7 @@
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Informati presso il tuo Comune o Distretto ASL sull’assegno regionale da €350 per non autosufficienti: è un aiuto fisso mensile per chi assiste in casa anziani o disabili gravi:contentReference[oaicite:68]{index=68}."
+        "messaggio_consulenza": "Informati presso il tuo Comune o Distretto ASL sull’assegno regionale da €350 per non autosufficienti: è un aiuto fisso mensile per chi assiste in casa anziani o disabili gravi."
       }
     },
     {
@@ -244,13 +244,13 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Intervento di assistenza tutelare temporanea a domicilio, gratuito per il primo mese, rivolto a pazienti non autosufficienti dimessi dall’ospedale, per garantire la continuità assistenziale e favorire il recupero al domicilio:contentReference[oaicite:69]{index=69}.",
+      "descrizione_breve": "Intervento di assistenza tutelare temporanea a domicilio, gratuito per il primo mese, rivolto a pazienti non autosufficienti dimessi dall’ospedale, per garantire la continuità assistenziale e favorire il recupero al domicilio.",
       "benefit": {
         "periodicita": "temporanea",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Servizio di assistente familiare fornito gratuitamente per 1 mese dopo la dimissione ospedaliera; dopo il primo mese, l’utente può scegliere se proseguire a proprie spese. Obiettivo: transizione sicura dall’ospedale alla cura a domicilio:contentReference[oaicite:70]{index=70}."
+        "note": "Servizio di assistente familiare fornito gratuitamente per 1 mese dopo la dimissione ospedaliera; dopo il primo mese, l’utente può scegliere se proseguire a proprie spese. Obiettivo: transizione sicura dall’ospedale alla cura a domicilio."
       },
       "requisiti": {
         "target": [
@@ -315,17 +315,17 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico mensile erogato al caregiver familiare di persone non autosufficienti, finalizzato a riconoscere e alleviare il carico assistenziale attraverso un sostegno monetario diretto:contentReference[oaicite:71]{index=71}.",
+      "descrizione_breve": "Contributo economico mensile erogato al caregiver familiare di persone non autosufficienti, finalizzato a riconoscere e alleviare il carico assistenziale attraverso un sostegno monetario diretto.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 200,
         "importo_max": 400,
         "equivalente_mensile": null,
-        "note": "Importo mensile per 12 mesi: €400 se il caregiver ha ISEE ≤15.000; €200 se ISEE >15.000 (fino a 30.000):contentReference[oaicite:72]{index=72}. Il bonus è destinato ai caregiver di persone: 1) disabili gravissimi, 2) con demenza grave (CDRS 1-3), 3) non autosufficienti ai sensi della DGR 1106/2006:contentReference[oaicite:73]{index=73}."
+        "note": "Importo mensile per 12 mesi: €400 se il caregiver ha ISEE ≤15.000; €200 se ISEE >15.000 (fino a 30.000). Il bonus è destinato ai caregiver di persone: 1) disabili gravissimi, 2) con demenza grave (CDRS 1-3), 3) non autosufficienti ai sensi della DGR 1106/2006."
       },
       "requisiti": {
         "target": [
-          "Caregiver convivente e continuativo di persona con disabilità gravissima, grave demenza o non autosufficienza grave in assistenza domiciliare:contentReference[oaicite:74]{index=74}"
+          "Caregiver convivente e continuativo di persona con disabilità gravissima, grave demenza o non autosufficienza grave in assistenza domiciliare"
         ],
         "isee": {
           "richiesto": true,
@@ -373,11 +373,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Graduatorie stilate per Distretto con priorità a ISEE più basso e a chi non ha mai fruito del bonus:contentReference[oaicite:75]{index=75}:contentReference[oaicite:76]{index=76}; erogazione a cura di FILSE (Finanziaria Ligure) dietro rendicontazione mensile dei beneficiari da parte dei servizi:contentReference[oaicite:77]{index=77}."
+        "note": "Graduatorie stilate per Distretto con priorità a ISEE più basso e a chi non ha mai fruito del bonus; erogazione a cura di FILSE (Finanziaria Ligure) dietro rendicontazione mensile dei beneficiari da parte dei servizi."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Hai tempo fino al 15 settembre 2025 per presentare la domanda di Bonus Caregiver in Liguria: verifica sul sito del tuo Comune capofila di Distretto i requisiti e compila l’apposito modulo:contentReference[oaicite:78]{index=78}:contentReference[oaicite:79]{index=79}."
+        "messaggio_consulenza": "Hai tempo fino al 15 settembre 2025 per presentare la domanda di Bonus Caregiver in Liguria: verifica sul sito del tuo Comune capofila di Distretto i requisiti e compila l’apposito modulo."
       }
     },
     {

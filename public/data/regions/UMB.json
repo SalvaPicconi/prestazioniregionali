@@ -23,17 +23,17 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Contributi economici destinati a persone con **disabilità gravissima** assistite a domicilio, introdotti in via sperimentale per sostenere la cura familiare e l'assunzione di assistenti personali:contentReference[oaicite:70]{index=70}. L'Umbria ha riservato importi differenziati in base alla tipologia di condizione: **1.200 €** al mese per persone con gravissima disabilità associata a malattia rara; **800 €** al mese per persone con patologie del motoneurone, in particolare Sclerosi Laterale Amiotrofica (SLA); **600 €** al mese per le altre disabilità gravissime non rare:contentReference[oaicite:71]{index=71}. Possono beneficiarne sia minori che adulti in condizione di dipendenza vitale (es. necessità di ventilazione, nutrizione assistita) o con disturbi cognitivi-comportamentali gravissimi (es. Alzheimer avanzato):contentReference[oaicite:72]{index=72}:contentReference[oaicite:73]{index=73}. È richiesta la residenza in Umbria e la permanenza al domicilio con un piano assistenziale concordato con i servizi; sono esclusi i soggetti ospiti in strutture residenziali:contentReference[oaicite:74]{index=74}.",
+      "descrizione_breve": "Contributi economici destinati a persone con disabilità gravissima assistite a domicilio, introdotti in via sperimentale per sostenere la cura familiare e l'assunzione di assistenti personali. L'Umbria ha riservato importi differenziati in base alla tipologia di condizione: 1.200 € al mese per persone con gravissima disabilità associata a malattia rara; 800 € al mese per persone con patologie del motoneurone, in particolare Sclerosi Laterale Amiotrofica (SLA); 600 € al mese per le altre disabilità gravissime non rare. Possono beneficiarne sia minori che adulti in condizione di dipendenza vitale (es. necessità di ventilazione, nutrizione assistita) o con disturbi cognitivi-comportamentali gravissimi (es. Alzheimer avanzato). È richiesta la residenza in Umbria e la permanenza al domicilio con un piano assistenziale concordato con i servizi; sono esclusi i soggetti ospiti in strutture residenziali.",
       "benefit": {
         "periodicita": "mensile (con verifiche periodiche)",
         "importo_min": 600,
         "importo_max": 1200,
         "equivalente_mensile": 1200,
-        "note": "Soglia ISEE **50.000 €** (adulti/anziani) o **65.000 €** (minori) per l’accesso al contributo:contentReference[oaicite:75]{index=75}. Entro tale soglia l'importo è fisso in base alla categoria (600/800/1200 €); nessun contributo oltre ISEE 50k/65k:contentReference[oaicite:76]{index=76}."
+        "note": "Soglia ISEE 50.000 € (adulti/anziani) o 65.000 € (minori) per l’accesso al contributo. Entro tale soglia l'importo è fisso in base alla categoria (600/800/1200 €); nessun contributo oltre ISEE 50k/65k."
       },
       "requisiti": {
         "target": [
-          "Persone con disabilità gravissima (ai sensi del DM 26/09/2016) domiciliate in Umbria, incluse persone affette da Sclerosi Laterale Amiotrofica (SLA) e altre malattie del motoneurone, soggetti con demenza gravissima (es. Alzheimer avanzato), e disabilità gravissime con malattie rare:contentReference[oaicite:77]{index=77}:contentReference[oaicite:78]{index=78}"
+          "Persone con disabilità gravissima (ai sensi del DM 26/09/2016) domiciliate in Umbria, incluse persone affette da Sclerosi Laterale Amiotrofica (SLA) e altre malattie del motoneurone, soggetti con demenza gravissima (es. Alzheimer avanzato), e disabilità gravissime con malattie rare"
         ],
         "isee": {
           "richiesto": true,
@@ -41,7 +41,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione preliminare effettuata dall’Unità multidisciplinare di valutazione (UMV) del Centro di Salute territorialmente competente, con redazione di un progetto assistenziale individualizzato:contentReference[oaicite:79]{index=79}. Necessaria certificazione di handicap grave (L.104/92 art.3 c.3) e – se del caso – certificazione di malattia rara/SLA rilasciata dai centri specialistici."
+          "Valutazione preliminare effettuata dall’Unità multidisciplinare di valutazione (UMV) del Centro di Salute territorialmente competente, con redazione di un progetto assistenziale individualizzato. Necessaria certificazione di handicap grave (L.104/92 art.3 c.3) e – se del caso – certificazione di malattia rara/SLA rilasciata dai centri specialistici."
         ]
       },
       "accesso": {
@@ -62,7 +62,7 @@
       "governance": {
         "finanziamento": [
           "Fondo Nazionale Non Autosufficienza (quota disabili gravissimi)",
-          "Cofinanziamento regionale (Fondo regionale non autosufficienza):contentReference[oaicite:80]{index=80}"
+          "Cofinanziamento regionale (Fondo regionale non autosufficienza)"
         ],
         "normativa": [
           {
@@ -102,17 +102,17 @@
         "FN-REG",
         "FN-FNA"
       ],
-      "descrizione_breve": "A partire dal 2023 la Regione Umbria ha avviato una sperimentazione di **progetti personalizzati** per l’assistenza indiretta a un più ampio numero di disabili gravi, come previsto dal PRINA (Piano regionale Non Autosufficienza). Questo approccio, in linea con il concetto di 'budget di salute', mira a superare la distinzione tra disabilità grave e gravissima garantendo ad ogni persona un **progetto individuale di assistenza** costruito sui propri bisogni, con libertà di scelta tra servizi diretti o contributi economici:contentReference[oaicite:81]{index=81}:contentReference[oaicite:82]{index=82}. Nella bozza di intervento 2024 erano ipotizzati contributi mensili di **500 €** per minori con disabilità e **300 €** per maggiorenni non autosufficienti:contentReference[oaicite:83]{index=83}, come sostegno aggiuntivo alle famiglie oltre i servizi forniti da ASL e cooperative. Tuttavia, l’attuazione completa di questi contributi è stata sospesa nel 2024 in favore della partecipazione dell’Umbria al progetto ministeriale di \"vita indipendente\" (sperimentazione nazionale ex D.Lgs 3/2024):contentReference[oaicite:84]{index=84}:contentReference[oaicite:85]{index=85}. Attualmente, l’Umbria sta riorientando le risorse verso tale sperimentazione, coinvolgendo un tavolo regionale sulla disabilità e selezionando un campione di utenti per l’avvio nel **2025** della nuova gestione dei progetti personalizzati.",
+      "descrizione_breve": "A partire dal 2023 la Regione Umbria ha avviato una sperimentazione di progetti personalizzati per l’assistenza indiretta a un più ampio numero di disabili gravi, come previsto dal PRINA (Piano regionale Non Autosufficienza). Questo approccio, in linea con il concetto di 'budget di salute', mira a superare la distinzione tra disabilità grave e gravissima garantendo ad ogni persona un progetto individuale di assistenza costruito sui propri bisogni, con libertà di scelta tra servizi diretti o contributi economici. Nella bozza di intervento 2024 erano ipotizzati contributi mensili di 500 € per minori con disabilità e 300 € per maggiorenni non autosufficienti, come sostegno aggiuntivo alle famiglie oltre i servizi forniti da ASL e cooperative. Tuttavia, l’attuazione completa di questi contributi è stata sospesa nel 2024 in favore della partecipazione dell’Umbria al progetto ministeriale di \"vita indipendente\" (sperimentazione nazionale ex D.Lgs 3/2024). Attualmente, l’Umbria sta riorientando le risorse verso tale sperimentazione, coinvolgendo un tavolo regionale sulla disabilità e selezionando un campione di utenti per l’avvio nel 2025 della nuova gestione dei progetti personalizzati.",
       "benefit": {
         "periodicita": "mensile (previsto)",
         "importo_min": 300,
         "importo_max": 500,
         "equivalente_mensile": 500,
-        "note": "Importi indicativi discussi nel 2024 (500 €/mese minori, 300 €/mese adulti) non attivati formalmente:contentReference[oaicite:86]{index=86}. Il beneficio è pensato come contributo integrativo e flessibile nell’ambito di un progetto personalizzato, soggetto a rendicontazione delle spese di cura."
+        "note": "Importi indicativi discussi nel 2024 (500 €/mese minori, 300 €/mese adulti) non attivati formalmente. Il beneficio è pensato come contributo integrativo e flessibile nell’ambito di un progetto personalizzato, soggetto a rendicontazione delle spese di cura."
       },
       "requisiti": {
         "target": [
-          "Minori con disabilità grave e adulti/anziani non autosufficienti assistiti al domicilio, attualmente privi di assegno di cura regionale (Umbria era una delle ultime regioni italiane a non erogare tale contributo):contentReference[oaicite:87]{index=87}"
+          "Minori con disabilità grave e adulti/anziani non autosufficienti assistiti al domicilio, attualmente privi di assegno di cura regionale (Umbria era una delle ultime regioni italiane a non erogare tale contributo)"
         ],
         "isee": {
           "richiesto": true,
@@ -138,7 +138,7 @@
       },
       "governance": {
         "finanziamento": [
-          "Risorse FNA regionali 2022-2024 (oltre 4 milioni €) non utilizzate per assegni di cura:contentReference[oaicite:88]{index=88}",
+          "Risorse FNA regionali 2022-2024 (oltre 4 milioni €) non utilizzate per assegni di cura",
           "Finanziamenti sperimentazione Ministero Disabilità 2025"
         ],
         "normativa": [
@@ -159,7 +159,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "In attesa di attuazione uniforme a livello regionale; prevista sperimentazione iniziale in un territorio pilota (es. Perugia) dal 2025:contentReference[oaicite:89]{index=89}:contentReference[oaicite:90]{index=90}."
+        "note": "In attesa di attuazione uniforme a livello regionale; prevista sperimentazione iniziale in un territorio pilota (es. Perugia) dal 2025."
       },
       "ux": {
         "priorita_contatto": 0.3,
@@ -179,7 +179,7 @@
         "FN-LEA",
         "FN-SSR"
       ],
-      "descrizione_breve": "L'Umbria garantisce l'**Assistenza Domiciliare Integrata (ADI)** come livello essenziale: tramite le USL vengono fornite cure domiciliari mediche, infermieristiche e riabilitative ai non autosufficienti, sulla base della valutazione UVM. In parallelo, i Comuni, spesso tramite le Zone Sociali, organizzano servizi di **assistenza domiciliare socio-assistenziale** (SAD) per interventi di sollievo e supporto domestico, con compartecipazione alla spesa modulata per reddito. L'inserimento in **Residenze Protette/RSA** per anziani non autosufficienti e disabili avviene secondo la programmazione territoriale: la Regione Umbria integra le rette di ricovero attraverso il Fondo regionale non autosufficienza, assicurando una compartecipazione sostenibile da parte dell'utente (con ISEE fino ~35.000 € l'anziano paga una quota ridotta, oltre interviene il Comune):contentReference[oaicite:91]{index=91}. Nel 2020 la Regione ha destinato risorse aggiuntive (4,5 milioni) per innalzare i livelli di assistenza domiciliare e residenziale, con particolare attenzione ai malati di SLA (cui si continuano ad applicare contributi dedicati di 800-1200 € mensili a seconda della fase della malattia):contentReference[oaicite:92]{index=92}:contentReference[oaicite:93]{index=93}.",
+      "descrizione_breve": "L'Umbria garantisce l'Assistenza Domiciliare Integrata (ADI) come livello essenziale: tramite le USL vengono fornite cure domiciliari mediche, infermieristiche e riabilitative ai non autosufficienti, sulla base della valutazione UVM. In parallelo, i Comuni, spesso tramite le Zone Sociali, organizzano servizi di assistenza domiciliare socio-assistenziale (SAD) per interventi di sollievo e supporto domestico, con compartecipazione alla spesa modulata per reddito. L'inserimento in Residenze Protette/RSA per anziani non autosufficienti e disabili avviene secondo la programmazione territoriale: la Regione Umbria integra le rette di ricovero attraverso il Fondo regionale non autosufficienza, assicurando una compartecipazione sostenibile da parte dell'utente (con ISEE fino ~35.000 € l'anziano paga una quota ridotta, oltre interviene il Comune). Nel 2020 la Regione ha destinato risorse aggiuntive (4,5 milioni) per innalzare i livelli di assistenza domiciliare e residenziale, con particolare attenzione ai malati di SLA (cui si continuano ad applicare contributi dedicati di 800-1200 € mensili a seconda della fase della malattia).",
       "benefit": {
         "periodicita": "continuativo",
         "importo_min": null,

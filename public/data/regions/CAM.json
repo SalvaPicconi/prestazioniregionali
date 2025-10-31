@@ -21,13 +21,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Misura regionale che prevede l’erogazione di un assegno mensile o voucher servizi alle persone in condizioni di disabilità gravissima, per favorirne l’assistenza domiciliare:contentReference[oaicite:39]{index=39}",
+      "descrizione_breve": "Misura regionale che prevede l’erogazione di un assegno mensile o voucher servizi alle persone in condizioni di disabilità gravissima, per favorirne l’assistenza domiciliare",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 720,
         "importo_max": 1320,
         "equivalente_mensile": 1200,
-        "note": "Importo massimo €1200/mese:contentReference[oaicite:40]{index=40}. Riduzione 40% (a €720) se ISEE > €20.000 (o >€35.000 se minore) o se usufruisce di altri servizi domiciliari:contentReference[oaicite:41]{index=41}. Possibile maggiorazione +10% (fino €1320) per casi di supporto vitale (es. ventilati) senza altri aiuti:contentReference[oaicite:42]{index=42}"
+        "note": "Importo massimo €1200/mese. Riduzione 40% (a €720) se ISEE > €20.000 (o >€35.000 se minore) o se usufruisce di altri servizi domiciliari. Possibile maggiorazione +10% (fino €1320) per casi di supporto vitale (es. ventilati) senza altri aiuti"
       },
       "requisiti": {
         "target": [

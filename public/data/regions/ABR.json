@@ -31,7 +31,7 @@
         "importo_min": 600,
         "importo_max": 1000,
         "equivalente_mensile": 600,
-        "note": "Importo base €600/mese, elevabile fino a €1000/mese per condizioni di dipendenza vitale (es. respirazione assistita):contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}"
+        "note": "Importo base €600/mese, elevabile fino a €1000/mese per condizioni di dipendenza vitale (es. respirazione assistita)"
       },
       "requisiti": {
         "target": [
@@ -260,13 +260,13 @@
         "FN-REG",
         "FN-FNA"
       ],
-      "descrizione_breve": "Finanziamento annuale per progetti di assistenza personale autogestita, finalizzati a garantire il diritto a una vita indipendente per persone con disabilità grave:contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}",
+      "descrizione_breve": "Finanziamento annuale per progetti di assistenza personale autogestita, finalizzati a garantire il diritto a una vita indipendente per persone con disabilità grave",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 6000,
         "importo_max": 12000,
         "equivalente_mensile": null,
-        "note": "Contributo graduato per livello di bisogno assistenziale: da €6.000 (basso) a €12.000 annui per interventi di assistenza personale:contentReference[oaicite:18]{index=18}"
+        "note": "Contributo graduato per livello di bisogno assistenziale: da €6.000 (basso) a €12.000 annui per interventi di assistenza personale"
       },
       "requisiti": {
         "target": [
@@ -320,7 +320,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Graduatorie e budget gestiti a livello di Ambito; priorità a ISEE < €20.000 se over 67 anni:contentReference[oaicite:19]{index=19}"
+        "note": "Graduatorie e budget gestiti a livello di Ambito; priorità a ISEE < €20.000 se over 67 anni"
       },
       "ux": {
         "priorita_contatto": 0.75,
@@ -339,7 +339,7 @@
         "FN-L112",
         "FN-FNA"
       ],
-      "descrizione_breve": "Percorsi personalizzati per persone con disabilità grave prive del sostegno familiare – abitare in autonomia, gruppi appartamento, assistenza domiciliare innovativa – finanziati dal Fondo “Dopo di Noi”:contentReference[oaicite:20]{index=20}",
+      "descrizione_breve": "Percorsi personalizzati per persone con disabilità grave prive del sostegno familiare – abitare in autonomia, gruppi appartamento, assistenza domiciliare innovativa – finanziati dal Fondo “Dopo di Noi”",
       "benefit": {
         "periodicita": "una tantum/progetto",
         "importo_min": null,
@@ -393,7 +393,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "I progetti e le modalità attuative variano secondo i Piani di Zona locali; domande valutate dall’Ambito “Val di Foro” e altri competenti:contentReference[oaicite:21]{index=21}:contentReference[oaicite:22]{index=22}"
+        "note": "I progetti e le modalità attuative variano secondo i Piani di Zona locali; domande valutate dall’Ambito “Val di Foro” e altri competenti"
       },
       "ux": {
         "priorita_contatto": 0.6,

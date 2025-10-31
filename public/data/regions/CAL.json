@@ -21,13 +21,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo economico mensile per persone con disabilità gravissima che necessitano di assistenza 24/7, erogato per favorire la permanenza al domicilio:contentReference[oaicite:34]{index=34}",
+      "descrizione_breve": "Contributo economico mensile per persone con disabilità gravissima che necessitano di assistenza 24/7, erogato per favorire la permanenza al domicilio",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 600,
         "importo_max": 1000,
         "equivalente_mensile": 600,
-        "note": "€1000/mese per persone in dipendenza vitale (es. ventilazione meccanica), €600/mese per altri casi di disabilità gravissima:contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}"
+        "note": "€1000/mese per persone in dipendenza vitale (es. ventilazione meccanica), €600/mese per altri casi di disabilità gravissima"
       },
       "requisiti": {
         "target": [
@@ -95,7 +95,7 @@
       "famiglie_normative_ids": [
         "FN-FCF"
       ],
-      "descrizione_breve": "Iniziative a sostegno dei caregiver (bonus economici, servizi di sollievo a domicilio, assistenza temporanea) finanziate con il Fondo caregiver familiare:contentReference[oaicite:37]{index=37}:contentReference[oaicite:38]{index=38}",
+      "descrizione_breve": "Iniziative a sostegno dei caregiver (bonus economici, servizi di sollievo a domicilio, assistenza temporanea) finanziate con il Fondo caregiver familiare",
       "benefit": {
         "periodicita": "una tantum/progetti",
         "importo_min": 500,

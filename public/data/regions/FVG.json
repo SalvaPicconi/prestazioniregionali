@@ -21,13 +21,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo economico annuale a favore di persone anziane o con disabilità in condizione di non autosufficienza, per sostenerne la permanenza al domicilio:contentReference[oaicite:0]{index=0}.",
+      "descrizione_breve": "Contributo economico annuale a favore di persone anziane o con disabilità in condizione di non autosufficienza, per sostenerne la permanenza al domicilio.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 1620,
         "importo_max": 6204,
         "equivalente_mensile": null,
-        "note": "Importo variabile in base a gravità e ISEE (soglia 30.000 €); almeno il 50% dell’importo va rendicontato:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}."
+        "note": "Importo variabile in base a gravità e ISEE (soglia 30.000 €); almeno il 50% dell’importo va rendicontato."
       },
       "requisiti": {
         "target": [
@@ -75,7 +75,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Misura unificata nel Fondo per l’Autonomia Possibile (FAP):contentReference[oaicite:3]{index=3}"
+        "note": "Misura unificata nel Fondo per l’Autonomia Possibile (FAP)"
       },
       "ux": {
         "priorita_contatto": 0.8,
@@ -91,13 +91,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Beneficio economico per sostenere le famiglie che assumono un assistente familiare (badante) almeno 20 ore a settimana, per l’assistenza a domicilio di persone non autosufficienti:contentReference[oaicite:4]{index=4}.",
+      "descrizione_breve": "Beneficio economico per sostenere le famiglie che assumono un assistente familiare (badante) almeno 20 ore a settimana, per l’assistenza a domicilio di persone non autosufficienti.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 2892,
         "importo_max": 12000,
         "equivalente_mensile": null,
-        "note": "Importo variabile in base a gravità, ISEE (≤30.000 €) e ore di assistenza settimanali; l’intero importo è soggetto a rendicontazione delle spese:contentReference[oaicite:5]{index=5}:contentReference[oaicite:6]{index=6}."
+        "note": "Importo variabile in base a gravità, ISEE (≤30.000 €) e ore di assistenza settimanali; l’intero importo è soggetto a rendicontazione delle spese."
       },
       "requisiti": {
         "target": [
@@ -162,13 +162,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Finanziamento di progetti di vita indipendente per persone con disabilità grave (18-64 anni) in situazione di non autosufficienza, per favorirne l’autonomia e l’inclusione:contentReference[oaicite:7]{index=7}.",
+      "descrizione_breve": "Finanziamento di progetti di vita indipendente per persone con disabilità grave (18-64 anni) in situazione di non autosufficienza, per favorirne l’autonomia e l’inclusione.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 3000,
         "importo_max": 24000,
         "equivalente_mensile": null,
-        "note": "L’importo annuo è determinato nel progetto personalizzato (ISEE ≤60.000 €) e copre azioni/servizi per l’autonomia; almeno il 75% delle spese deve essere rendicontato:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+        "note": "L’importo annuo è determinato nel progetto personalizzato (ISEE ≤60.000 €) e copre azioni/servizi per l’autonomia; almeno il 75% delle spese deve essere rendicontato."
       },
       "requisiti": {
         "target": [
@@ -231,13 +231,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Intervento economico a supporto di nuclei familiari con minori non autosufficienti con grave disabilità o con patologie oncologiche, per finanziare progetti dedicati di cura e assistenza:contentReference[oaicite:10]{index=10}.",
+      "descrizione_breve": "Intervento economico a supporto di nuclei familiari con minori non autosufficienti con grave disabilità o con patologie oncologiche, per finanziare progetti dedicati di cura e assistenza.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 3852,
         "importo_max": 12000,
         "equivalente_mensile": null,
-        "note": "Importo variabile in base all’ISEE (≤40.000 €) e alle azioni previste nel progetto; almeno il 50% delle spese va rendicontato:contentReference[oaicite:11]{index=11}."
+        "note": "Importo variabile in base all’ISEE (≤40.000 €) e alle azioni previste nel progetto; almeno il 50% delle spese va rendicontato."
       },
       "requisiti": {
         "target": [
@@ -302,13 +302,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo economico destinato alle persone con gravissima disabilità, inclusi malati di SLA e gravi demenze, per supportarne la permanenza a domicilio con assistenza continuativa:contentReference[oaicite:12]{index=12}.",
+      "descrizione_breve": "Contributo economico destinato alle persone con gravissima disabilità, inclusi malati di SLA e gravi demenze, per supportarne la permanenza a domicilio con assistenza continuativa.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": 10704,
         "importo_max": 24000,
         "equivalente_mensile": null,
-        "note": "Importo variabile in base all’ISEE (≤60.000 €, elevato a 65.000 € per minori); nessun obbligo di rendicontazione delle spese:contentReference[oaicite:13]{index=13}:contentReference[oaicite:14]{index=14}."
+        "note": "Importo variabile in base all’ISEE (≤60.000 €, elevato a 65.000 € per minori); nessun obbligo di rendicontazione delle spese."
       },
       "requisiti": {
         "target": [
@@ -356,7 +356,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Misura sostitutiva dei precedenti fondi disabili gravissimi e SLA (unificati dal 2024):contentReference[oaicite:15]{index=15}:contentReference[oaicite:16]{index=16}"
+        "note": "Misura sostitutiva dei precedenti fondi disabili gravissimi e SLA (unificati dal 2024)"
       },
       "ux": {
         "priorita_contatto": 0.9,
@@ -374,13 +374,13 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico per il caregiver familiare che assiste a domicilio una persona non autosufficiente, finalizzato a finanziare progetti personalizzati di sollievo e supporto al caregiver:contentReference[oaicite:17]{index=17}.",
+      "descrizione_breve": "Contributo economico per il caregiver familiare che assiste a domicilio una persona non autosufficiente, finalizzato a finanziare progetti personalizzati di sollievo e supporto al caregiver.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 300,
         "importo_max": 300,
         "equivalente_mensile": 300,
-        "note": "€300 al mese per un massimo di 12 mesi (importo fisso):contentReference[oaicite:18]{index=18}."
+        "note": "€300 al mese per un massimo di 12 mesi (importo fisso)."
       },
       "requisiti": {
         "target": [
@@ -432,7 +432,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Risorse ripartite tra Ambiti; priorità d’accesso definite dal regolamento regionale:contentReference[oaicite:19]{index=19}:contentReference[oaicite:20]{index=20}."
+        "note": "Risorse ripartite tra Ambiti; priorità d’accesso definite dal regolamento regionale."
       },
       "ux": {
         "priorita_contatto": 0.7,
@@ -448,7 +448,7 @@
       "famiglie_normative_ids": [
         "FN-L112"
       ],
-      "descrizione_breve": "Finanziamento di progetti a beneficio di persone con disabilità grave prive del sostegno familiare, per favorirne la permanenza a domicilio o in soluzioni abitative di tipo familiare:contentReference[oaicite:21]{index=21}.",
+      "descrizione_breve": "Finanziamento di progetti a beneficio di persone con disabilità grave prive del sostegno familiare, per favorirne la permanenza a domicilio o in soluzioni abitative di tipo familiare.",
       "benefit": {
         "periodicita": "una_tantum",
         "importo_min": null,
@@ -506,7 +506,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Progetti attuati dagli Enti gestori dei servizi sociali dei Comuni in collaborazione con ASL e associazioni:contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}."
+        "note": "Progetti attuati dagli Enti gestori dei servizi sociali dei Comuni in collaborazione con ASL e associazioni."
       },
       "ux": {
         "priorita_contatto": 0.5,
@@ -524,7 +524,7 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Servizio sociosanitario a domicilio che prevede interventi infermieristici, riabilitativi e assistenziali integrati, rivolto a persone non autosufficienti con bisogni sanitari complessi, per evitare ricoveri impropri e favorire la permanenza a casa:contentReference[oaicite:24]{index=24}.",
+      "descrizione_breve": "Servizio sociosanitario a domicilio che prevede interventi infermieristici, riabilitativi e assistenziali integrati, rivolto a persone non autosufficienti con bisogni sanitari complessi, per evitare ricoveri impropri e favorire la permanenza a casa.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,
@@ -595,7 +595,7 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Servizio di assistenza domiciliare di base gestito dai Comuni, che offre aiuto per le attività quotidiane (igiene personale, governo della casa, pasti) a persone anziane o disabili non autosufficienti, al fine di mantenerle al proprio domicilio:contentReference[oaicite:25]{index=25}.",
+      "descrizione_breve": "Servizio di assistenza domiciliare di base gestito dai Comuni, che offre aiuto per le attività quotidiane (igiene personale, governo della casa, pasti) a persone anziane o disabili non autosufficienti, al fine di mantenerle al proprio domicilio.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,
@@ -668,7 +668,7 @@
       "famiglie_normative_ids": [
         "FN-LEA"
       ],
-      "descrizione_breve": "Accoglienza in strutture residenziali socio-sanitarie (RSA per anziani, strutture residenziali per disabili) che offrono assistenza tutelare, infermieristica e riabilitativa continuativa a persone non autosufficienti:contentReference[oaicite:26]{index=26}.",
+      "descrizione_breve": "Accoglienza in strutture residenziali socio-sanitarie (RSA per anziani, strutture residenziali per disabili) che offrono assistenza tutelare, infermieristica e riabilitativa continuativa a persone non autosufficienti.",
       "benefit": {
         "periodicita": "continuativa",
         "importo_min": null,

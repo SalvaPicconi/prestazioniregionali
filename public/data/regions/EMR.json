@@ -24,13 +24,13 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Sostegno economico mensile erogato dal Fondo regionale per la Non Autosufficienza a favore di persone adulte con disabilità grave o gravissima che restano al domicilio:contentReference[oaicite:49]{index=49}:contentReference[oaicite:50]{index=50}",
+      "descrizione_breve": "Sostegno economico mensile erogato dal Fondo regionale per la Non Autosufficienza a favore di persone adulte con disabilità grave o gravissima che restano al domicilio",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 310,
         "importo_max": 1350,
         "equivalente_mensile": null,
-        "note": "Importo giornaliero €10,33 (situazione di bisogno medio; ISEE ≤ €34.000) o €15,49 (bisogno elevato; ISEE ≤ €34.000):contentReference[oaicite:51]{index=51}. Per disabilità gravissima: €23/die (~€700/mese) o €45/die (~€1350/mese), senza soglia ISEE:contentReference[oaicite:52]{index=52}. Durata assegno 6 mesi rinnovabile fino 12 mesi:contentReference[oaicite:53]{index=53}"
+        "note": "Importo giornaliero €10,33 (situazione di bisogno medio; ISEE ≤ €34.000) o €15,49 (bisogno elevato; ISEE ≤ €34.000). Per disabilità gravissima: €23/die (~€700/mese) o €45/die (~€1350/mese), senza soglia ISEE. Durata assegno 6 mesi rinnovabile fino 12 mesi"
       },
       "requisiti": {
         "target": [
@@ -85,7 +85,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Gli importi effettivi sono determinati dall’UVM del Distretto in base a intensità del bisogno, presenza di altri servizi e reddito; l’assegno è alternativo al ricovero in struttura:contentReference[oaicite:54]{index=54}"
+        "note": "Gli importi effettivi sono determinati dall’UVM del Distretto in base a intensità del bisogno, presenza di altri servizi e reddito; l’assegno è alternativo al ricovero in struttura"
       },
       "ux": {
         "priorita_contatto": 0.85,
@@ -102,7 +102,7 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico mensile destinato a anziani gravemente non autosufficienti assistiti al domicilio, in alternativa all’inserimento in RSA:contentReference[oaicite:55]{index=55}",
+      "descrizione_breve": "Contributo economico mensile destinato a anziani gravemente non autosufficienti assistiti al domicilio, in alternativa all’inserimento in RSA",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 310,
@@ -175,13 +175,13 @@
         "FN-FNA",
         "FN-REG"
       ],
-      "descrizione_breve": "Integrazione economica erogata se la famiglia stipula regolare contratto con un assistente familiare (badante) a supporto della persona non autosufficiente:contentReference[oaicite:56]{index=56}",
+      "descrizione_breve": "Integrazione economica erogata se la famiglia stipula regolare contratto con un assistente familiare (badante) a supporto della persona non autosufficiente",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 160,
         "importo_max": 160,
         "equivalente_mensile": 160,
-        "note": "€160 al mese aggiuntivi all’assegno di cura, concessi con impegno assistenziale minimo di ~20 ore settimanali dell’assistente familiare regolarmente assunto:contentReference[oaicite:57]{index=57}. Non previsto tetto ISEE per disabili gravissimi (ISEE <€34.000 per disabili gravi):contentReference[oaicite:58]{index=58}"
+        "note": "€160 al mese aggiuntivi all’assegno di cura, concessi con impegno assistenziale minimo di ~20 ore settimanali dell’assistente familiare regolarmente assunto. Non previsto tetto ISEE per disabili gravissimi (ISEE <€34.000 per disabili gravi)"
       },
       "requisiti": {
         "target": [
@@ -245,13 +245,13 @@
         "FN-FCF",
         "FN-REG"
       ],
-      "descrizione_breve": "Insieme di interventi finanziati per riconoscere e sostenere i caregiver (assegni di cura esistenti, servizi di sollievo domiciliare e residenziale, supporto psicologico, formazione):contentReference[oaicite:59]{index=59}:contentReference[oaicite:60]{index=60}",
+      "descrizione_breve": "Insieme di interventi finanziati per riconoscere e sostenere i caregiver (assegni di cura esistenti, servizi di sollievo domiciliare e residenziale, supporto psicologico, formazione)",
       "benefit": {
         "periodicita": "diversa per intervento",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Grazie a 5,3 milioni di euro (3M regionali, 2,3M nazionali):contentReference[oaicite:61]{index=61}:contentReference[oaicite:62]{index=62}, nel 2025 vengono potenziati: assegni di cura (già elencati), servizi di sollievo (es. 4-8 ore/settimana di assistenza domiciliare aggiuntiva; ricoveri di sollievo in strutture), interventi di emergenza in caso di indisponibilità improvvisa del caregiver, consulenza e supporto psicologico individuale e di gruppo, gruppi di auto-mutuo aiuto e formazione per caregiver:contentReference[oaicite:63]{index=63}:contentReference[oaicite:64]{index=64}"
+        "note": "Grazie a 5,3 milioni di euro (3M regionali, 2,3M nazionali), nel 2025 vengono potenziati: assegni di cura (già elencati), servizi di sollievo (es. 4-8 ore/settimana di assistenza domiciliare aggiuntiva; ricoveri di sollievo in strutture), interventi di emergenza in caso di indisponibilità improvvisa del caregiver, consulenza e supporto psicologico individuale e di gruppo, gruppi di auto-mutuo aiuto e formazione per caregiver"
       },
       "requisiti": {
         "target": [
@@ -303,7 +303,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Le risorse del programma caregiver 2025 sono suddivise tra tutte le AUSL in base alla popolazione; ogni Distretto ne definisce l’utilizzo concreto (es. potenziare ADI, attivare sportelli di supporto, etc.):contentReference[oaicite:65]{index=65}:contentReference[oaicite:66]{index=66}"
+        "note": "Le risorse del programma caregiver 2025 sono suddivise tra tutte le AUSL in base alla popolazione; ogni Distretto ne definisce l’utilizzo concreto (es. potenziare ADI, attivare sportelli di supporto, etc.)"
       },
       "ux": {
         "priorita_contatto": 0.5,

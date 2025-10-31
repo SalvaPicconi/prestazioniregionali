@@ -24,13 +24,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Assegno mensile per sostenere la cura a domicilio di persone non autosufficienti con disabilità gravissima (art.3 DM 26/09/2016):contentReference[oaicite:23]{index=23}",
+      "descrizione_breve": "Assegno mensile per sostenere la cura a domicilio di persone non autosufficienti con disabilità gravissima (art.3 DM 26/09/2016)",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 400,
         "importo_max": 800,
         "equivalente_mensile": 600,
-        "note": "Importo variabile in base all’intensità assistenziale; contributo non frazionabile per periodi inferiori a 15 giorni:contentReference[oaicite:24]{index=24}"
+        "note": "Importo variabile in base all’intensità assistenziale; contributo non frazionabile per periodi inferiori a 15 giorni"
       },
       "requisiti": {
         "target": [
@@ -103,13 +103,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Sistema di sostegni economici o titoli di acquisto servizi rivolto a persone non autosufficienti (anziani e disabili), alternativo al ricovero in strutture:contentReference[oaicite:25]{index=25}",
+      "descrizione_breve": "Sistema di sostegni economici o titoli di acquisto servizi rivolto a persone non autosufficienti (anziani e disabili), alternativo al ricovero in strutture",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 300,
         "importo_max": 600,
         "equivalente_mensile": 500,
-        "note": "Assegno o voucher calibrato al bisogno: entità definita dall’UVM (es. intensità ‘moderata’ ~€400/mese; ‘intensiva’ ~€600/mese):contentReference[oaicite:26]{index=26}"
+        "note": "Assegno o voucher calibrato al bisogno: entità definita dall’UVM (es. intensità ‘moderata’ ~€400/mese; ‘intensiva’ ~€600/mese)"
       },
       "requisiti": {
         "target": [
@@ -178,13 +178,13 @@
       "famiglie_normative_ids": [
         "FN-FCF"
       ],
-      "descrizione_breve": "Erogazione di un contributo economico una tantum a favore di familiari caregiver di persone con disabilità grave o gravissima, finanziato con il Fondo nazionale caregiver familiare:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}",
+      "descrizione_breve": "Erogazione di un contributo economico una tantum a favore di familiari caregiver di persone con disabilità grave o gravissima, finanziato con il Fondo nazionale caregiver familiare",
       "benefit": {
         "periodicita": "una tantum",
         "importo_min": 400,
         "importo_max": 500,
         "equivalente_mensile": null,
-        "note": "Importo una tantum: €500 per caregiver di persona con disabilità gravissima, €400 se disabilità grave; +50% se assiste due o più familiari (es. €750 se due gravissimi):contentReference[oaicite:29]{index=29}:contentReference[oaicite:30]{index=30}"
+        "note": "Importo una tantum: €500 per caregiver di persona con disabilità gravissima, €400 se disabilità grave; +50% se assiste due o più familiari (es. €750 se due gravissimi)"
       },
       "requisiti": {
         "target": [
@@ -233,7 +233,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ogni Ambito territoriale pubblica il proprio avviso; graduatorie stilate in base a punteggi sociali (carico assistenziale, situazione lavorativa, ecc.):contentReference[oaicite:31]{index=31}:contentReference[oaicite:32]{index=32}"
+        "note": "Ogni Ambito territoriale pubblica il proprio avviso; graduatorie stilate in base a punteggi sociali (carico assistenziale, situazione lavorativa, ecc.)"
       },
       "ux": {
         "priorita_contatto": 0.6,

@@ -22,17 +22,17 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Intervento economico integrativo dell'indennità di accompagnamento, erogato per favorire la permanenza a domicilio di anziani e disabili non autosufficienti e sostenere le loro famiglie nel carico di cura:contentReference[oaicite:40]{index=40}:contentReference[oaicite:41]{index=41}. L'importo mensile è graduato in base al **livello di gravità** (4 livelli) e alla condizione economica familiare (indice ICEF), con valori attuali da **100 €** (minimo per gravità lieve) fino a **1.100 €** mensili (massimo per gravità molto elevata):contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}. Ad esempio, per il livello di gravità più alto (livello 4) si può ottenere un assegno pieno di 1.100 € al mese (ridotto a 500 € al mese per nuclei con reddito prossimo alla soglia ICEF):contentReference[oaicite:44]{index=44}. L'assegno è finalizzato all'acquisizione di servizi assistenziali, riabilitativi domiciliari o semi-residenziali: può essere utilizzato per retribuire **assistenti familiari** regolarmente assunti, enti accreditati, familiari caregiver (parenti fino al 3° grado) che prestano assistenza, o per contribuire ai costi di servizi pubblici di supporto alla domiciliarità:contentReference[oaicite:45]{index=45}.",
+      "descrizione_breve": "Intervento economico integrativo dell'indennità di accompagnamento, erogato per favorire la permanenza a domicilio di anziani e disabili non autosufficienti e sostenere le loro famiglie nel carico di cura. L'importo mensile è graduato in base al livello di gravità (4 livelli) e alla condizione economica familiare (indice ICEF), con valori attuali da 100 € (minimo per gravità lieve) fino a 1.100 € mensili (massimo per gravità molto elevata). Ad esempio, per il livello di gravità più alto (livello 4) si può ottenere un assegno pieno di 1.100 € al mese (ridotto a 500 € al mese per nuclei con reddito prossimo alla soglia ICEF). L'assegno è finalizzato all'acquisizione di servizi assistenziali, riabilitativi domiciliari o semi-residenziali: può essere utilizzato per retribuire assistenti familiari regolarmente assunti, enti accreditati, familiari caregiver (parenti fino al 3° grado) che prestano assistenza, o per contribuire ai costi di servizi pubblici di supporto alla domiciliarità.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 100,
         "importo_max": 1100,
         "equivalente_mensile": 1100,
-        "note": "Importi variabili per 4 livelli di non autosufficienza: es. livello 4 (massima gravità) 1.100 € mese (pieno) o 500 € (ridotto), livello 3: 600 € (pieno) o 300 € (ridotto), livello 2: 300 € (pieno) o 150 € (ridotto), livello 1: 100 €:contentReference[oaicite:46]{index=46}. La riduzione dipende dal parametro economico ICEF (indice <=0,32 per accesso):contentReference[oaicite:47]{index=47}."
+        "note": "Importi variabili per 4 livelli di non autosufficienza: es. livello 4 (massima gravità) 1.100 € mese (pieno) o 500 € (ridotto), livello 3: 600 € (pieno) o 300 € (ridotto), livello 2: 300 € (pieno) o 150 € (ridotto), livello 1: 100 €. La riduzione dipende dal parametro economico ICEF (indice <=0,32 per accesso)."
       },
       "requisiti": {
         "target": [
-          "Persone di qualsiasi età in condizione di non autosufficienza certificata (fisica, psichica o sensoriale) che necessitano assistenza continuativa:contentReference[oaicite:48]{index=48}"
+          "Persone di qualsiasi età in condizione di non autosufficienza certificata (fisica, psichica o sensoriale) che necessitano assistenza continuativa"
         ],
         "isee": {
           "richiesto": true,
@@ -40,7 +40,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Accertamento multidisciplinare da parte dell'Unità Valutativa Multidisciplinare (UVM) del Distretto sanitario, integrata da medico legale, per certificare la non autosufficienza e ne redigere il Piano Assistenziale Individualizzato:contentReference[oaicite:49]{index=49}:contentReference[oaicite:50]{index=50}. Richiesto possesso o domanda di Indennità di accompagnamento provinciale (L.P. 7/1998):contentReference[oaicite:51]{index=51}."
+          "Accertamento multidisciplinare da parte dell'Unità Valutativa Multidisciplinare (UVM) del Distretto sanitario, integrata da medico legale, per certificare la non autosufficienza e ne redigere il Piano Assistenziale Individualizzato. Richiesto possesso o domanda di Indennità di accompagnamento provinciale (L.P. 7/1998)."
         ]
       },
       "accesso": {
@@ -50,8 +50,8 @@
         ],
         "modalita": "sportello",
         "canali": [
-          "Istituti di Patronato convenzionati:contentReference[oaicite:52]{index=52}",
-          "Sportelli periferici della Provincia:contentReference[oaicite:53]{index=53}"
+          "Istituti di Patronato convenzionati",
+          "Sportelli periferici della Provincia"
         ],
         "documenti_chiave": [
           "Modulo di domanda assegno di cura",
@@ -101,13 +101,13 @@
         "FN-L112",
         "FN-PNRR"
       ],
-      "descrizione_breve": "Progetto finanziato nell'ambito del PNRR per potenziare le esperienze di vita indipendente in Trentino, in un'ottica di 'Durante e Dopo di Noi'. Sono stati attivati **6 progetti territoriali (2022-2025)** coinvolgendo tutte le Comunità di Valle e i Comuni di Trento e Rovereto:contentReference[oaicite:54]{index=54}:contentReference[oaicite:55]{index=55}. Gli interventi prevedono: adeguamento di appartamenti (domotica, eliminazione barriere) per soluzioni di co-housing; potenziamento dell'équipe multidisciplinare sociali e sanitarie per individuare beneficiari e costruire percorsi personalizzati; formazione all'autonomia (inclusa alfabetizzazione digitale) e inserimento socio-lavorativo:contentReference[oaicite:56]{index=56}:contentReference[oaicite:57]{index=57}. Obiettivo è accompagnare gradualmente circa **47 persone** verso una maggiore autonomia abitativa e minor dipendenza dalla famiglia:contentReference[oaicite:58]{index=58}. L’accesso è riservato a utenti individuati dai servizi sociali territoriali in collaborazione con le associazioni, secondo criteri progettuali approvati a livello provinciale.",
+      "descrizione_breve": "Progetto finanziato nell'ambito del PNRR per potenziare le esperienze di vita indipendente in Trentino, in un'ottica di 'Durante e Dopo di Noi'. Sono stati attivati 6 progetti territoriali (2022-2025) coinvolgendo tutte le Comunità di Valle e i Comuni di Trento e Rovereto. Gli interventi prevedono: adeguamento di appartamenti (domotica, eliminazione barriere) per soluzioni di co-housing; potenziamento dell'équipe multidisciplinare sociali e sanitarie per individuare beneficiari e costruire percorsi personalizzati; formazione all'autonomia (inclusa alfabetizzazione digitale) e inserimento socio-lavorativo. Obiettivo è accompagnare gradualmente circa 47 persone verso una maggiore autonomia abitativa e minor dipendenza dalla famiglia. L’accesso è riservato a utenti individuati dai servizi sociali territoriali in collaborazione con le associazioni, secondo criteri progettuali approvati a livello provinciale.",
       "benefit": {
         "periodicita": "progetto una tantum (investimento 2022-2025)",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "I progetti non erogano sussidi diretti continuativi, ma prevedono interventi personalizzati (ristrutturazioni, dotazioni tecnologiche, servizi educativi) finanziati dal PNRR e cofinanziati localmente:contentReference[oaicite:59]{index=59}:contentReference[oaicite:60]{index=60}."
+        "note": "I progetti non erogano sussidi diretti continuativi, ma prevedono interventi personalizzati (ristrutturazioni, dotazioni tecnologiche, servizi educativi) finanziati dal PNRR e cofinanziati localmente."
       },
       "requisiti": {
         "target": [
@@ -119,7 +119,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Valutazione multidisciplinare da parte dell’équipe distrettuale (sociale e sanitaria) per definire il progetto individuale di autonomia:contentReference[oaicite:61]{index=61}:contentReference[oaicite:62]{index=62}."
+          "Valutazione multidisciplinare da parte dell’équipe distrettuale (sociale e sanitaria) per definire il progetto individuale di autonomia."
         ]
       },
       "accesso": {
@@ -177,7 +177,7 @@
         "FN-LEA",
         "FN-SSR"
       ],
-      "descrizione_breve": "In Trentino l’**Assistenza Domiciliare Integrata (ADI)** è garantita dall'Azienda sanitaria provinciale: un'équipe multidisciplinare (medici, infermieri, fisioterapisti, OSS) fornisce a domicilio cure sanitarie, riabilitative e socio-assistenziali secondo il Piano assistenziale UVM, senza oneri per l'utente. Per i casi non gestibili a domicilio, l'inserimento in **RSA (Residenza Sanitaria Assistenziale)** avviene tramite valutazione UVM e assegnazione di un posto convenzionato (\"quota sanitario-assistenziale\" a carico del Servizio Sanitario Provinciale). L’utente contribuisce solo alla **retta alberghiera** (costi di vitto/alloggio) con tariffe standardizzate (~50 € al giorno nel 2024):contentReference[oaicite:63]{index=63}:contentReference[oaicite:64]{index=64}, eventualmente integrate dal Comune se l'anziano non ha mezzi sufficienti. L'accesso alle RSA è regolato da graduatorie gestite dall'APSS tramite l'UVMD distrettuale:contentReference[oaicite:65]{index=65}. Il sistema garantisce continuità assistenziale: l'ADI viene sospesa in caso di ricovero prolungato (>30 giorni) o ingresso stabile in struttura:contentReference[oaicite:66]{index=66}.",
+      "descrizione_breve": "In Trentino l’Assistenza Domiciliare Integrata (ADI) è garantita dall'Azienda sanitaria provinciale: un'équipe multidisciplinare (medici, infermieri, fisioterapisti, OSS) fornisce a domicilio cure sanitarie, riabilitative e socio-assistenziali secondo il Piano assistenziale UVM, senza oneri per l'utente. Per i casi non gestibili a domicilio, l'inserimento in RSA (Residenza Sanitaria Assistenziale) avviene tramite valutazione UVM e assegnazione di un posto convenzionato (\"quota sanitario-assistenziale\" a carico del Servizio Sanitario Provinciale). L’utente contribuisce solo alla retta alberghiera (costi di vitto/alloggio) con tariffe standardizzate (~50 € al giorno nel 2024), eventualmente integrate dal Comune se l'anziano non ha mezzi sufficienti. L'accesso alle RSA è regolato da graduatorie gestite dall'APSS tramite l'UVMD distrettuale. Il sistema garantisce continuità assistenziale: l'ADI viene sospesa in caso di ricovero prolungato (>30 giorni) o ingresso stabile in struttura.",
       "benefit": {
         "periodicita": "continuativo",
         "importo_min": null,
@@ -237,7 +237,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Standard assistenziali uniformi provinciali; ogni RSA applica tariffe stabilite da Provincia (con aggiornamenti periodici):contentReference[oaicite:67]{index=67}. Liste d'attesa e priorità gestite a livello di Distretto sanitario."
+        "note": "Standard assistenziali uniformi provinciali; ogni RSA applica tariffe stabilite da Provincia (con aggiornamenti periodici). Liste d'attesa e priorità gestite a livello di Distretto sanitario."
       },
       "ux": {
         "priorita_contatto": 0.95,

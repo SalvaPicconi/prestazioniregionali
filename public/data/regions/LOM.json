@@ -21,17 +21,17 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Misura di sostegno regionale rivolta alle persone in condizione di disabilità gravissima (alto bisogno assistenziale), consistente in un contributo economico mensile (buono) e in eventuali voucher sociosanitari, al fine di garantirne la permanenza a domicilio e la qualità di vita:contentReference[oaicite:80]{index=80}:contentReference[oaicite:81]{index=81}.",
+      "descrizione_breve": "Misura di sostegno regionale rivolta alle persone in condizione di disabilità gravissima (alto bisogno assistenziale), consistente in un contributo economico mensile (buono) e in eventuali voucher sociosanitari, al fine di garantirne la permanenza a domicilio e la qualità di vita.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 565,
         "importo_max": 1300,
         "equivalente_mensile": null,
-        "note": "Il buono mensile varia in base al bisogno e al tipo di assistenza: da €565 (solo caregiver familiare) fino a €1.300 per situazioni di massima gravità con assistenza continuativa assicurata anche da personale assunto full-time:contentReference[oaicite:82]{index=82}:contentReference[oaicite:83]{index=83}. Esempi: €900 se presente ventilazione meccanica h24 o coma e caregiver familiare:contentReference[oaicite:84]{index=84}; €1.200 con caregiver e badante a tempo pieno; €1.300 nei casi gravissimi con badante full-time:contentReference[oaicite:85]{index=85}. Previsti inoltre interventi integrativi (es. servizi di sollievo) attivati dagli Ambiti per chi è assistito solo da familiari:contentReference[oaicite:86]{index=86}."
+        "note": "Il buono mensile varia in base al bisogno e al tipo di assistenza: da €565 (solo caregiver familiare) fino a €1.300 per situazioni di massima gravità con assistenza continuativa assicurata anche da personale assunto full-time. Esempi: €900 se presente ventilazione meccanica h24 o coma e caregiver familiare; €1.200 con caregiver e badante a tempo pieno; €1.300 nei casi gravissimi con badante full-time. Previsti inoltre interventi integrativi (es. servizi di sollievo) attivati dagli Ambiti per chi è assistito solo da familiari."
       },
       "requisiti": {
         "target": [
-          "Persone di qualsiasi età in condizioni di disabilità gravissima ai sensi del DM 26/09/2016 (coma, stato vegetativo, dipendenza da respiratore, gravi demenze, SLA avanzata, etc.):contentReference[oaicite:87]{index=87}:contentReference[oaicite:88]{index=88}, beneficiarie di indennità di accompagnamento"
+          "Persone di qualsiasi età in condizioni di disabilità gravissima ai sensi del DM 26/09/2016 (coma, stato vegetativo, dipendenza da respiratore, gravi demenze, SLA avanzata, etc.), beneficiarie di indennità di accompagnamento"
         ],
         "isee": {
           "richiesto": true,
@@ -39,7 +39,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione specialistica della condizione (scale GCS, CDRS, EDSS, etc.):contentReference[oaicite:89]{index=89}:contentReference[oaicite:90]{index=90}",
+          "Certificazione specialistica della condizione (scale GCS, CDRS, EDSS, etc.)",
           "Valutazione multidimensionale ASST (UVMD) e Progetto Individuale"
         ]
       },
@@ -49,11 +49,11 @@
         ],
         "modalita": "sportello",
         "canali": [
-          "presentazione domanda presso ASST di residenza (continua entro 31/10/2025):contentReference[oaicite:91]{index=91}"
+          "presentazione domanda presso ASST di residenza (continua entro 31/10/2025)"
         ],
         "documenti_chiave": [
-          "Domanda Misura B1 (rinnovo entro 28/02 per continuativi):contentReference[oaicite:92]{index=92}",
-          "ISEE sociosanitario ≤50.000 € (minori: ISEE ordinario ≤65.000 €):contentReference[oaicite:93]{index=93}",
+          "Domanda Misura B1 (rinnovo entro 28/02 per continuativi)",
+          "ISEE sociosanitario ≤50.000 € (minori: ISEE ordinario ≤65.000 €)",
           "Certificato medico specialistico con indicazione delle lettere a-i DM 2016"
         ]
       },
@@ -80,7 +80,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Gestione tramite ASST/ATS con budget assegnati; domanda aperta tutto l’anno per nuovi ingressi (entro 31/10); benefici continuativi rinnovano annualmente:contentReference[oaicite:94]{index=94}. Voucher aggiuntivi attivabili dall’Ambito in accordo col Progetto Individuale (es. educatore, sollievo):contentReference[oaicite:95]{index=95}."
+        "note": "Gestione tramite ASST/ATS con budget assegnati; domanda aperta tutto l’anno per nuovi ingressi (entro 31/10); benefici continuativi rinnovano annualmente. Voucher aggiuntivi attivabili dall’Ambito in accordo col Progetto Individuale (es. educatore, sollievo)."
       },
       "ux": {
         "priorita_contatto": 0.9,
@@ -98,13 +98,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo economico mensile previsto dalla Misura B2 (FNA) per compensare il lavoro di cura fornito esclusivamente dal caregiver familiare a favore di una persona non autosufficiente (anziana o disabile) a domicilio:contentReference[oaicite:96]{index=96}.",
+      "descrizione_breve": "Contributo economico mensile previsto dalla Misura B2 (FNA) per compensare il lavoro di cura fornito esclusivamente dal caregiver familiare a favore di una persona non autosufficiente (anziana o disabile) a domicilio.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 100,
         "importo_max": 100,
         "equivalente_mensile": 100,
-        "note": "Importo fisso di €100 al mese, per 12 mesi, stabilito come valore massimo regionale del buono caregiver nell’annualità 2024:contentReference[oaicite:97]{index=97}:contentReference[oaicite:98]{index=98}. (In precedenza potevano essere concessi fino a €400 mensili, ridotti a €100 nel 2024 per ampliamento platea):contentReference[oaicite:99]{index=99}."
+        "note": "Importo fisso di €100 al mese, per 12 mesi, stabilito come valore massimo regionale del buono caregiver nell’annualità 2024. (In precedenza potevano essere concessi fino a €400 mensili, ridotti a €100 nel 2024 per ampliamento platea)."
       },
       "requisiti": {
         "target": [
@@ -129,7 +129,7 @@
         ],
         "documenti_chiave": [
           "Modulo domanda Misura B2",
-          "ISEE sociosanitario ≤25.000 € (adulto) o ISEE ordinario ≤40.000 € se minore:contentReference[oaicite:100]{index=100}",
+          "ISEE sociosanitario ≤25.000 € (adulto) o ISEE ordinario ≤40.000 € se minore",
           "Verbale L.104/92 art.3 c.3 o indennità di accompagnamento"
         ]
       },
@@ -157,7 +157,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ogni Ambito definisce criteri dettagliati (punteggi per gravità, soglie ISEE più basse per priorità, ecc.) e può decidere importi differenti entro il massimale regionale:contentReference[oaicite:101]{index=101}. Dal 2024 tuttavia il tetto di €100 è uniformato come valore massimo erogabile per il caregiver in tutta la regione."
+        "note": "Ogni Ambito definisce criteri dettagliati (punteggi per gravità, soglie ISEE più basse per priorità, ecc.) e può decidere importi differenti entro il massimale regionale. Dal 2024 tuttavia il tetto di €100 è uniformato come valore massimo erogabile per il caregiver in tutta la regione."
       },
       "ux": {
         "priorita_contatto": 0.8,
@@ -175,13 +175,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo mensile della Misura B2 erogato alle persone non autosufficienti che si avvalgono di uno o più assistenti personali regolarmente assunti per la cura al domicilio (badanti), per sostenerne il costo e incentivare la permanenza a casa:contentReference[oaicite:102]{index=102}:contentReference[oaicite:103]{index=103}.",
+      "descrizione_breve": "Contributo mensile della Misura B2 erogato alle persone non autosufficienti che si avvalgono di uno o più assistenti personali regolarmente assunti per la cura al domicilio (badanti), per sostenerne il costo e incentivare la permanenza a casa.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": null,
         "importo_max": 800,
         "equivalente_mensile": null,
-        "note": "Il valore del buono per assistente varia in base all’Ambito: il massimale regionale suggerito è €800 mensili:contentReference[oaicite:104]{index=104} per situazioni con almeno un assistente a tempo pieno. Ambiti con budget ridotti possono modulare importi inferiori o durate minori. Non cumulabile con il buono caregiver sulla stessa persona:contentReference[oaicite:105]{index=105}."
+        "note": "Il valore del buono per assistente varia in base all’Ambito: il massimale regionale suggerito è €800 mensili per situazioni con almeno un assistente a tempo pieno. Ambiti con budget ridotti possono modulare importi inferiori o durate minori. Non cumulabile con il buono caregiver sulla stessa persona."
       },
       "requisiti": {
         "target": [
@@ -233,7 +233,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Gli Ambiti hanno facoltà di ripartire il budget tra buoni caregiver, buoni assistente e altre azioni in base ai bisogni locali:contentReference[oaicite:106]{index=106}. Ad es., alcuni Ambiti erogano €400/mese per badante part-time e €800/mese per full-time, altri applicano importi minori per raggiungere più utenti."
+        "note": "Gli Ambiti hanno facoltà di ripartire il budget tra buoni caregiver, buoni assistente e altre azioni in base ai bisogni locali. Ad es., alcuni Ambiti erogano €400/mese per badante part-time e €800/mese per full-time, altri applicano importi minori per raggiungere più utenti."
       },
       "ux": {
         "priorita_contatto": 0.8,
@@ -255,7 +255,7 @@
         "importo_min": null,
         "importo_max": 1700,
         "equivalente_mensile": null,
-        "note": "Contributo forfetario definito dall’Ambito, fino a un massimo indicativo regionale di €1.700 per beneficiario:contentReference[oaicite:107]{index=107}. Non è cumulabile con i buoni mensili B2 nello stesso anno. È finalizzato a coprire spese una tantum (es. piccole modifiche abitative, frequenza centri diurni per un periodo limitato, ecc.)."
+        "note": "Contributo forfetario definito dall’Ambito, fino a un massimo indicativo regionale di €1.700 per beneficiario. Non è cumulabile con i buoni mensili B2 nello stesso anno. È finalizzato a coprire spese una tantum (es. piccole modifiche abitative, frequenza centri diurni per un periodo limitato, ecc.)."
       },
       "requisiti": {
         "target": [

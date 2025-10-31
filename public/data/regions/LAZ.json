@@ -21,13 +21,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Buono economico mensile destinato alle persone in condizione di disabilità gravissima per compensare le spese di assistenza a domicilio svolta da personale qualificato assunto privatamente dall’assistito o dalla famiglia:contentReference[oaicite:27]{index=27}.",
+      "descrizione_breve": "Buono economico mensile destinato alle persone in condizione di disabilità gravissima per compensare le spese di assistenza a domicilio svolta da personale qualificato assunto privatamente dall’assistito o dalla famiglia.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 500,
         "importo_max": 800,
         "equivalente_mensile": null,
-        "note": "Importo graduato in base all’ISEE sociosanitario e alla presenza di altri servizi attivi; varia indicativamente da €500 a €800 al mese se l’assistenza è garantita da personale con contratto regolare:contentReference[oaicite:28]{index=28}."
+        "note": "Importo graduato in base all’ISEE sociosanitario e alla presenza di altri servizi attivi; varia indicativamente da €500 a €800 al mese se l’assistenza è garantita da personale con contratto regolare."
       },
       "requisiti": {
         "target": [
@@ -79,7 +79,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Misura attuata dai Distretti sociosanitari secondo linee guida regionali uniformi:contentReference[oaicite:29]{index=29}:contentReference[oaicite:30]{index=30}"
+        "note": "Misura attuata dai Distretti sociosanitari secondo linee guida regionali uniformi"
       },
       "ux": {
         "priorita_contatto": 0.9,
@@ -97,13 +97,13 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Buono mensile riconosciuto alle persone con disabilità gravissima assistite dal proprio caregiver familiare, in forma di contributo economico indiretto per il sostegno della cura in ambito domestico:contentReference[oaicite:31]{index=31}.",
+      "descrizione_breve": "Buono mensile riconosciuto alle persone con disabilità gravissima assistite dal proprio caregiver familiare, in forma di contributo economico indiretto per il sostegno della cura in ambito domestico.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 400,
         "importo_max": 700,
         "equivalente_mensile": null,
-        "note": "Importo graduato in base all’ISEE sociosanitario e alla fruizione di altri servizi; varia indicativamente da €400 a €700 al mese se l’assistenza è garantita interamente dal caregiver familiare:contentReference[oaicite:32]{index=32}."
+        "note": "Importo graduato in base all’ISEE sociosanitario e alla fruizione di altri servizi; varia indicativamente da €400 a €700 al mese se l’assistenza è garantita interamente dal caregiver familiare."
       },
       "requisiti": {
         "target": [
@@ -155,7 +155,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Misura complementare all’assegno di cura; non cumulabile con esso per lo stesso assistito (il Distretto valuta la forma più idonea):contentReference[oaicite:33]{index=33}:contentReference[oaicite:34]{index=34}"
+        "note": "Misura complementare all’assegno di cura; non cumulabile con esso per lo stesso assistito (il Distretto valuta la forma più idonea)"
       },
       "ux": {
         "priorita_contatto": 0.9,
@@ -173,13 +173,13 @@
       "famiglie_normative_ids": [
         "FN-FSE"
       ],
-      "descrizione_breve": "Agevolazione economica (voucher) per coprire fino al 100% dei costi di servizi di assistenza socio-sanitaria a favore di persone non autosufficienti, finanziata con risorse europee (FSE+):contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}.",
+      "descrizione_breve": "Agevolazione economica (voucher) per coprire fino al 100% dei costi di servizi di assistenza socio-sanitaria a favore di persone non autosufficienti, finanziata con risorse europee (FSE+).",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": null,
         "importo_max": 700,
         "equivalente_mensile": 700,
-        "note": "Buono servizio del valore massimo di €700 al mese, erogato per un periodo continuativo fino a 12 mesi:contentReference[oaicite:37]{index=37}. I buoni coprono spese per assistenza domiciliare, centro diurno o assistenza da personale qualificato:contentReference[oaicite:38]{index=38}."
+        "note": "Buono servizio del valore massimo di €700 al mese, erogato per un periodo continuativo fino a 12 mesi. I buoni coprono spese per assistenza domiciliare, centro diurno o assistenza da personale qualificato."
       },
       "requisiti": {
         "target": [
@@ -226,11 +226,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Bando regionale unico, gestione domande tramite piattaforma; utilizzo buoni per servizi fruiti dal 1/7/2024 al 12/2025:contentReference[oaicite:39]{index=39}."
+        "note": "Bando regionale unico, gestione domande tramite piattaforma; utilizzo buoni per servizi fruiti dal 1/7/2024 al 12/2025."
       },
       "ux": {
         "priorita_contatto": 0.7,
-        "messaggio_consulenza": "Visita il portale regionale (efamilysg) nelle date di apertura del bando per richiedere i voucher assistenza; se necessiti di aiuto, contatta i patronati o l’AISLA Lazio:contentReference[oaicite:40]{index=40}."
+        "messaggio_consulenza": "Visita il portale regionale (efamilysg) nelle date di apertura del bando per richiedere i voucher assistenza; se necessiti di aiuto, contatta i patronati o l’AISLA Lazio."
       }
     },
     {
@@ -244,7 +244,7 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Interventi domiciliari o residenziali temporanei volti a sostituire il caregiver familiare nell’assistenza quotidiana, permettendogli periodi di riposo. Il servizio può essere erogato mediante operatori professionali al domicilio o ricoveri temporanei in strutture socio-sanitarie:contentReference[oaicite:41]{index=41}.",
+      "descrizione_breve": "Interventi domiciliari o residenziali temporanei volti a sostituire il caregiver familiare nell’assistenza quotidiana, permettendogli periodi di riposo. Il servizio può essere erogato mediante operatori professionali al domicilio o ricoveri temporanei in strutture socio-sanitarie.",
       "benefit": {
         "periodicita": "a progetto",
         "importo_min": null,
@@ -300,11 +300,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Servizi attivati dal Distretto su richiesta del caregiver, nei limiti delle risorse disponibili; priorità ai caregiver mai beneficiari di sostegni e con ISEE più basso:contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}."
+        "note": "Servizi attivati dal Distretto su richiesta del caregiver, nei limiti delle risorse disponibili; priorità ai caregiver mai beneficiari di sostegni e con ISEE più basso."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Una volta ottenuta la Card Caregiver, potrai concordare col tuo Distretto servizi di sollievo (es. badante a domicilio per alcune settimane o degenza temporanea assistita) per avere tempo di riposo:contentReference[oaicite:44]{index=44}."
+        "messaggio_consulenza": "Una volta ottenuta la Card Caregiver, potrai concordare col tuo Distretto servizi di sollievo (es. badante a domicilio per alcune settimane o degenza temporanea assistita) per avere tempo di riposo."
       }
     },
     {
@@ -316,13 +316,13 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico “personal budget” erogato direttamente al caregiver familiare formalmente riconosciuto, per sostenere spese legate al suo benessere personale, al sollievo e alla formazione/aggiornamento:contentReference[oaicite:45]{index=45}.",
+      "descrizione_breve": "Contributo economico “personal budget” erogato direttamente al caregiver familiare formalmente riconosciuto, per sostenere spese legate al suo benessere personale, al sollievo e alla formazione/aggiornamento.",
       "benefit": {
         "periodicita": "una_tantum",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "Importo a fondo perduto determinato dal Distretto (fino a esaurimento del budget regionale); utilizzabile per spese di cura della persona del caregiver, tempo libero, formazione professionale, ecc.:contentReference[oaicite:46]{index=46}."
+        "note": "Importo a fondo perduto determinato dal Distretto (fino a esaurimento del budget regionale); utilizzabile per spese di cura della persona del caregiver, tempo libero, formazione professionale, ecc.."
       },
       "requisiti": {
         "target": [
@@ -372,7 +372,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Fondo limitato (1 milione € per il 2024); entità del contributo e numero di beneficiari definiti dai Distretti in base alle domande e alle risorse:contentReference[oaicite:47]{index=47}:contentReference[oaicite:48]{index=48}."
+        "note": "Fondo limitato (1 milione € per il 2024); entità del contributo e numero di beneficiari definiti dai Distretti in base alle domande e alle risorse."
       },
       "ux": {
         "priorita_contatto": 0.5,
@@ -388,7 +388,7 @@
       "famiglie_normative_ids": [
         "FN-L112"
       ],
-      "descrizione_breve": "Programmi e progetti finanziati dal Fondo “Dopo di Noi” per garantire assistenza, soluzioni abitative e percorsi di autonomia alle persone con disabilità grave prive del sostegno familiare, in attuazione della legge 112/2016:contentReference[oaicite:49]{index=49}.",
+      "descrizione_breve": "Programmi e progetti finanziati dal Fondo “Dopo di Noi” per garantire assistenza, soluzioni abitative e percorsi di autonomia alle persone con disabilità grave prive del sostegno familiare, in attuazione della legge 112/2016.",
       "benefit": {
         "periodicita": "una_tantum",
         "importo_min": null,
@@ -446,7 +446,7 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "I progetti sono presentati dagli Ambiti territoriali e co-progettati con ASL e Terzo Settore; la Regione approva il finanziamento e monitora l’attuazione:contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}."
+        "note": "I progetti sono presentati dagli Ambiti territoriali e co-progettati con ASL e Terzo Settore; la Regione approva il finanziamento e monitora l’attuazione."
       },
       "ux": {
         "priorita_contatto": 0.5,

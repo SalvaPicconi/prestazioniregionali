@@ -21,17 +21,17 @@
       "famiglie_normative_ids": [
         "FN-FNA"
       ],
-      "descrizione_breve": "Contributo economico annuale (derivante dal FNA) destinato alle persone in condizioni di disabilità gravissima che necessitano di assistenza continua 24 ore su 24, per sostenere la famiglia o il caregiver nel garantire la permanenza a domicilio dell’assistito:contentReference[oaicite:108]{index=108}.",
+      "descrizione_breve": "Contributo economico annuale (derivante dal FNA) destinato alle persone in condizioni di disabilità gravissima che necessitano di assistenza continua 24 ore su 24, per sostenere la famiglia o il caregiver nel garantire la permanenza a domicilio dell’assistito.",
       "benefit": {
         "periodicita": "annuale",
         "importo_min": null,
         "importo_max": null,
         "equivalente_mensile": null,
-        "note": "L’importo del contributo per ciascun beneficiario è stabilito annualmente in base alle risorse disponibili e al numero di aventi diritto. Storicamente il contributo pro-capite si è attestato attorno a €800-1000 al mese (circa €10.000 annui). L’erogazione avviene in tranche: ad esempio 70% in acconto entro febbraio e saldo a fine anno:contentReference[oaicite:109]{index=109}:contentReference[oaicite:110]{index=110}."
+        "note": "L’importo del contributo per ciascun beneficiario è stabilito annualmente in base alle risorse disponibili e al numero di aventi diritto. Storicamente il contributo pro-capite si è attestato attorno a €800-1000 al mese (circa €10.000 annui). L’erogazione avviene in tranche: ad esempio 70% in acconto entro febbraio e saldo a fine anno."
       },
       "requisiti": {
         "target": [
-          "Persone (minori o adulti) riconosciute in condizione di disabilità gravissima ai sensi dell’art.3 DM 26/09/2016 (verbale Commissione Sanitaria Provinciale):contentReference[oaicite:111]{index=111}"
+          "Persone (minori o adulti) riconosciute in condizione di disabilità gravissima ai sensi dell’art.3 DM 26/09/2016 (verbale Commissione Sanitaria Provinciale)"
         ],
         "isee": {
           "richiesto": true,
@@ -39,7 +39,7 @@
           "varia_per_ambito": false
         },
         "valutazione": [
-          "Certificazione disabilità gravissima rilasciata dalla Commissione Sanitaria Provinciale competente:contentReference[oaicite:112]{index=112}",
+          "Certificazione disabilità gravissima rilasciata dalla Commissione Sanitaria Provinciale competente",
           "Presenza di indennità di accompagnamento"
         ]
       },
@@ -49,12 +49,12 @@
         ],
         "modalita": "bando_annuale",
         "canali": [
-          "Domanda al Comune di residenza dopo avviso regionale:contentReference[oaicite:113]{index=113}"
+          "Domanda al Comune di residenza dopo avviso regionale"
         ],
         "documenti_chiave": [
-          "Modulo di riconoscimento disabilità gravissima (Allegato B/B1 da inviare alla Commissione entro scadenza):contentReference[oaicite:114]{index=114}",
-          "Verbale Commissione attestante disabilità gravissima (Allegato D):contentReference[oaicite:115]{index=115}",
-          "Domanda di contributo (Allegato E) al Comune:contentReference[oaicite:116]{index=116}"
+          "Modulo di riconoscimento disabilità gravissima (Allegato B/B1 da inviare alla Commissione entro scadenza)",
+          "Verbale Commissione attestante disabilità gravissima (Allegato D)",
+          "Domanda di contributo (Allegato E) al Comune"
         ]
       },
       "governance": {
@@ -68,7 +68,7 @@
             "url": ""
           },
           {
-            "atto": "DGR 592/2024 Marche (riparto FNA gravissimi €11,209 mln):contentReference[oaicite:117]{index=117}",
+            "atto": "DGR 592/2024 Marche (riparto FNA gravissimi €11,209 mln)",
             "url": ""
           }
         ]
@@ -80,11 +80,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": false,
-        "note": "Graduatoria unica regionale formulata in base alle domande ammesse; riparto fondi proporzionale per Ambito in base ai beneficiari. Incompatibile con altri interventi regionali di domiciliarità (es. assegno di cura anziani, progetti Vita Indipendente, contributo SLA):contentReference[oaicite:118]{index=118}."
+        "note": "Graduatoria unica regionale formulata in base alle domande ammesse; riparto fondi proporzionale per Ambito in base ai beneficiari. Incompatibile con altri interventi regionali di domiciliarità (es. assegno di cura anziani, progetti Vita Indipendente, contributo SLA)."
       },
       "ux": {
         "priorita_contatto": 0.9,
-        "messaggio_consulenza": "Se nelle Marche assisti un familiare con disabilità gravissima, fai domanda al tuo Comune entro metà luglio 2025 per ottenere il contributo regionale: prima però assicurati di avere la certificazione di “disabilità gravissima” dalla Commissione sanitaria (da richiedere entro inizio giugno):contentReference[oaicite:119]{index=119}:contentReference[oaicite:120]{index=120}."
+        "messaggio_consulenza": "Se nelle Marche assisti un familiare con disabilità gravissima, fai domanda al tuo Comune entro metà luglio 2025 per ottenere il contributo regionale: prima però assicurati di avere la certificazione di “disabilità gravissima” dalla Commissione sanitaria (da richiedere entro inizio giugno)."
       }
     },
     {
@@ -96,17 +96,17 @@
       "famiglie_normative_ids": [
         "FN-REG"
       ],
-      "descrizione_breve": "Contributo economico regionale, erogato tramite gli Ambiti Territoriali Sociali, a favore di famiglie che accudiscono anziani ultra65enni non autosufficienti al proprio domicilio. L’assegno di cura, pari a €200 mensili, è finalizzato a compensare in parte le spese sostenute per l’assistenza e a evitare il ricovero in struttura:contentReference[oaicite:121]{index=121}:contentReference[oaicite:122]{index=122}.",
+      "descrizione_breve": "Contributo economico regionale, erogato tramite gli Ambiti Territoriali Sociali, a favore di famiglie che accudiscono anziani ultra65enni non autosufficienti al proprio domicilio. L’assegno di cura, pari a €200 mensili, è finalizzato a compensare in parte le spese sostenute per l’assistenza e a evitare il ricovero in struttura.",
       "benefit": {
         "periodicita": "mensile",
         "importo_min": 200,
         "importo_max": 200,
         "equivalente_mensile": 200,
-        "note": "€200 al mese per 12 mesi (rinnovabile):contentReference[oaicite:123]{index=123}. Pagamento bimestrale o trimestrale da parte dell’Ambito. L’assegno è incompatibile con il ricovero permanente in struttura e viene sospeso in caso di ricoveri temporanei prolungati. Può essere cumulabile con indennità di accompagnamento e altre pensioni."
+        "note": "€200 al mese per 12 mesi (rinnovabile). Pagamento bimestrale o trimestrale da parte dell’Ambito. L’assegno è incompatibile con il ricovero permanente in struttura e viene sospeso in caso di ricoveri temporanei prolungati. Può essere cumulabile con indennità di accompagnamento e altre pensioni."
       },
       "requisiti": {
         "target": [
-          "Anziani di età ≥65 anni, non autosufficienti (invalidità 100% e indennità di accompagnamento):contentReference[oaicite:124]{index=124}, assistiti a domicilio dalla famiglia o con badante"
+          "Anziani di età ≥65 anni, non autosufficienti (invalidità 100% e indennità di accompagnamento), assistiti a domicilio dalla famiglia o con badante"
         ],
         "isee": {
           "richiesto": true,
@@ -123,7 +123,7 @@
         ],
         "modalita": "bando_annuale",
         "canali": [
-          "Domanda al protocollo del Comune capofila di Ambito, su avviso pubblico:contentReference[oaicite:125]{index=125}"
+          "Domanda al protocollo del Comune capofila di Ambito, su avviso pubblico"
         ],
         "documenti_chiave": [
           "Modulo di domanda Assegno di cura",
@@ -138,11 +138,11 @@
         ],
         "normativa": [
           {
-            "atto": "DGR 848/2024 Marche (criteri assegni di cura 2025):contentReference[oaicite:126]{index=126}",
+            "atto": "DGR 848/2024 Marche (criteri assegni di cura 2025)",
             "url": ""
           },
           {
-            "atto": "DDS 83/2024 Marche (decreto attuativo assegni di cura):contentReference[oaicite:127]{index=127}",
+            "atto": "DDS 83/2024 Marche (decreto attuativo assegni di cura)",
             "url": ""
           }
         ]
@@ -154,11 +154,11 @@
       },
       "regolazione_locale": {
         "varia_per_ambito": true,
-        "note": "Ogni ATS ha un numero definito di assegni disponibili (es. 110 in ATS XIX:contentReference[oaicite:128]{index=128}) e stila una graduatoria in base a punteggi (condizione economica, presenza caregiver, gravità sanitaria). Graduatorie revisionate annualmente e contributo prorogato in base a verifica requisiti:contentReference[oaicite:129]{index=129}."
+        "note": "Ogni ATS ha un numero definito di assegni disponibili (es. 110 in ATS XIX) e stila una graduatoria in base a punteggi (condizione economica, presenza caregiver, gravità sanitaria). Graduatorie revisionate annualmente e contributo prorogato in base a verifica requisiti."
       },
       "ux": {
         "priorita_contatto": 0.8,
-        "messaggio_consulenza": "Se risiedi nelle Marche e assisti un anziano non autosufficiente a casa, tieni d’occhio il bando annuale del tuo Ambito (di solito a fine estate): potrai richiedere l’assegno di cura da €200/mese allegando ISEE e verbali di invalidità:contentReference[oaicite:130]{index=130}."
+        "messaggio_consulenza": "Se risiedi nelle Marche e assisti un anziano non autosufficiente a casa, tieni d’occhio il bando annuale del tuo Ambito (di solito a fine estate): potrai richiedere l’assegno di cura da €200/mese allegando ISEE e verbali di invalidità."
       }
     },
     {
@@ -198,7 +198,7 @@
         ],
         "modalita": "bando",
         "canali": [
-          "Avviso pubblico regionale annuale (in coordinamento col Ministero):contentReference[oaicite:131]{index=131}"
+          "Avviso pubblico regionale annuale (in coordinamento col Ministero)"
         ],
         "documenti_chiave": [
           "Progetto di vita indipendente (descrizione attività quotidiane da svolgere, obiettivi di autonomia, piano orario assistente)",
@@ -217,7 +217,7 @@
             "url": ""
           },
           {
-            "atto": "DGR 1425/2025 Marche (Criteri progetti Vita Indipendente 2026):contentReference[oaicite:132]{index=132}",
+            "atto": "DGR 1425/2025 Marche (Criteri progetti Vita Indipendente 2026)",
             "url": ""
           }
         ]
